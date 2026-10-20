@@ -9,4 +9,4 @@
 
 经典研究原文：[Card & Krueger（1994）](https://davidcard.berkeley.edu/papers/min-wage-ff-nj.pdf)、[Neumark & Wascher（1992）](https://journals.sagepub.com/doi/10.1177/001979399204600105)。
 
-注意区分求人数、匹配次数与就业人数，不能直接互换。
+PPTX是组员提供的原始补充资料，不与正式slides同步；发表内容以[对应日期的slides.md](../2026-10-21/slides.md)及重新导出的PDF为准。注意区分求人数、匹配次数与就业人数，不能直接互换。
