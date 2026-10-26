@@ -1,3 +1,4 @@
 # Preserve PDFs as binary; Markdown uses two trailing spaces for line breaks.
 *.pdf binary
+*.xlsx binary
 *.md whitespace=-blank-at-eol
