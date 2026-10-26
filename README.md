@@ -6,8 +6,11 @@
 
 - [materials/](materials/README.md)：论文与参考资料。
 - [2026-10-21/](2026-10-21/README.md)：选题发表，含日文 slides、PDF 和 HTML。
+- [data/](data/README.md)：ハローワーク求人数与地域別最低賃金的原始数据。
+- [2026-10-28/](2026-10-28/README.md)：記述統計notebook（日文，可在Colab运行）。
+- [archive/](archive/README.md)：超出当时计划、暂时保留的分析。
 
-以后每次课新建 `YYYY-MM-DD/` 文件夹；共用资料统一放在 `materials/`。
+以后每次课新建 `YYYY-MM-DD/` 文件夹；共用资料统一放在 `materials/`，数据放在 `data/`。
 
 ## 第一次使用
 
