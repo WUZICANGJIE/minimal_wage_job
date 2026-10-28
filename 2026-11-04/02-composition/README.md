@@ -5,6 +5,7 @@
 ## 阅读顺序
 
 - `slides.md` / `slides.pdf` / `slides.html`：同一正式稿，20页（含封面和参考文献）。
+- `video/composition_explainer.mp4`：约11分钟的日语讲解视频（保留公式、逐步展开），字幕、旁白全文与构建脚本见 `video/README.md`。
 - `speaker_notes.md`：从slides内20条隐藏Marp notes生成的逐页日文讲解。
 - 第5–11页逐步解释目标与费用、CES、FOC、相对需求、规模、代替/规模分解与仮定值例；第12–14页连接到求人、指标和实际差分计算。
 - `methods.md` / `sources.md`：完整推导、来源与新增假设；`analysis.py` / `analysis.ipynb` / `results/` 保持原件。
