@@ -1,0 +1,1739 @@
+=== PDF PAGE 1 ===
+ 
+Institute for Economic Studies, Keio University 
+ 
+ 
+Keio-IES Discussion Paper Series 
+ 
+ 
+ 
+ 
+Vacancies, Job Seekers, and Minimum Wages:Evidence from Public 
+Employment Placement Service Data 
+ 
+Souichi Ohta、Kazutomo Komae 
+ 
+ 
+9 March, 2022 
+DP2022-004  
+https://ies.keio.ac.jp/en/publications/18177/  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Institute for Economic Studies, Keio University 
+2-15-45 Mita, Minato-ku, Tokyo 108-8345, Japan 
+ies-office@adst.keio.ac.jp 
+9 March, 2022 
+ 
+
+
+=== PDF PAGE 2 ===
+Vacancies, Job Seekers, and Minimum Wages:Evidence from Public Employment 
+Placement Service Data 
+Souichi Ohta、Kazutomo Komae 
+Keio-IES DP2022-004 
+9 March, 2022 
+JEL Classification: J63, J64, J65 
+Keywords: Minimum Wages;Vacancies;Job Seekers;Labor Market Flows;Search and 
+Matching 
+Abstract 
+This paper investigates the impact of a minimum wage increase on the number of 
+vacancies and job seekers using data from Japan's public employment placement service. 
+The results show that for 2005-2019, a rise in the minimum wage reduced the number 
+of vacancies. On the other hand, it increased the number of job seekers and then 
+decreased the vacancy-job seeker ratio. Some part of this came from the increased job 
+separation into unemployment. The impact of a minimum wage rise is conspicuous 
+during the period of the slack labor market, for prefectures with high Kaitz indices or 
+with a high proportion of small firms, and part-time jobs. 
+ 
+ 
+Souichi Ohta 
+Faculty of Economics, Keio University 
+2-15-45 Mita, Minato-ku, Tokyo 
+ohta@econ.keio.ac.jp 
+ 
+Kazutomo Komae 
+Graduate School of Economics, The University of Tokyo 
+7-3-1, Hongo, Bunkyo-ku, Tokyo 
+kkomae@g.ecc.u-tokyo.ac.jp 
+ 
+ 
+ 
+
+
+=== PDF PAGE 3 ===
+ 
+Vacancies, Job Seekers, and Minimum Wages: 
+Evidence from Public Employment Placement Service Data* 
+ 
+ 
+Souichi Ohta†  
+Faculty of Economics, Keio University 
+ 
+and 
+ 
+Kazutomo Komae‡ 
+Graduate School of Economics, The University of Tokyo  
+and  
+The Ministry of Health, Labour, and Welfare 
+ 
+March 9, 2022 
+ 
+Summary 
+This paper investigates the impact of a minimum wage increase on the number of vacancies and job seekers 
+using data from Japan's public employment placement service. The results show that for 2005-2019, a rise 
+in the minimum wage reduced the number of vacancies. On the other hand, it increased the number of job 
+seekers and then decreased the vacancy-job seeker ratio. Some part of this came from the increased job 
+separation into unemployment. The impact of a minimum wage rise is conspicuous during the period of the 
+slack labor market, for prefectures with high Kaitz indices or with a high proportion of small firms, and for 
+part-time jobs.  
+JEL: E24, J63, J64, J65 
+Key Words: Minimum Wages, Vacancies, Job Seekers, Labor Market Flows, Search and Matching 
+ 
+ 
+ 
+ 
+ 
+* We are grateful to Yuji Genda, Ryo Kambayashi, Daiji Kawaguchi, Atsushi Kawakami, Masayuki 
+Morikawa, Yoko Takahashi, Atsuhiro Yamada, and seminar participants at the workshop held by the 
+Ministry of Health, Labour, and Welfare for their helpful comments and suggestions. The views expressed 
+herein are those of the authors and do not necessarily reflect the views of the Ministry of Health, Labour, 
+and Welfare, Japan. 
+† Corresponding author: 2-15-45 Mita, Minato-ku, Tokyo 108-8345 Japan (ohta@econ.keio.ac.jp) 
+‡ 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8654 Japan (kkomae@g.ecc.u-tokyo.ac.jp) 
+
+
+=== PDF PAGE 4 ===
+2 
+ 
+1. Introduction 
+ 
+This paper estimates the minimum wage elasticities of vacancies and job seekers using 
+monthly prefectural data registered for the public employment placement services in Japan. While 
+numerous previous studies have examined the impact of minimum wages on employment levels, those 
+studied their effect on vacancies and job seekers are relatively scarce. Further analysis is desirable 
+because the number of vacancies and job seekers are the main determinants of the level of employment. 
+Investigating the impact of minimum wages on vacancies and job seekers opens the way for 
+understanding the various routes through which minimum wages affect employment levels. 
+ 
+The concept of labor market flows illustrates the basic idea. Let us consider the labor market 
+as a site where matching takes place between vacancies and job seekers. The number of matched pairs 
+becomes the number of hires, which constitutes the number of flows into employment. On the other 
+hand, the number of separations from firms becomes the number of outflows. The difference between 
+the two flows determines the change in the employment level. The crux here is that the minimum wage 
+can affect these two flows. For example, if a rise in the minimum wage undermines firms’ incentives 
+to hire workers, it could bring about fewer vacancies and hence fewer hires. Firms may also lay off 
+their workers to save labor costs, bringing about more separations. This argument suggests that 
+examining the impact of minimum wages on labor market flows is a promising strategy to unravel the 
+nature of the minimum-wage effect on the level of employment. The basic idea of labor market flows 
+accords well with the model of imperfect labor markets where vacancies and job-seekers coexist due 
+to lack of information or search costs. In this model, and the monopsony model of the labor market as 
+well, an increase in the minimum wage does not always lead to employment reduction (Card and 
+Krueger, 1995; Bhaskar et al.,2002; Flinn, 2006), which is in sharp contrast to the simple neoclassical 
+model where an increase in the minimum wage should reduce employment (Stigler, 1946).  
+Many empirical studies have focused on the effect of minimum wages on the level of 
+employment. The literature, however, has not reached a definite conclusion: Some studies find positive 
+or zero effects (Card and Krueger, 1994), while other studies obtain opposite results (Neumark and 
+Wascher, 2008; Clemens and Wither, 2019). Recent studies show that the minimum wage affects labor 
+market flows while leaving the level of employment unchanged. Dustmann et al. (2021) investigated 
+the effects of the first-time introduction of the nationwide minimum wage in Germany in 2015. 
+According to their results, the minimum wage did not reduce employment even though the wage level 
+had increased. The wage increase took the form of reallocation of low-wage workers from smaller 
+establishments to larger establishments and from lower- to higher-paying (productive) establishments. 
+This observation is consistent with the prediction of search friction models that a higher minimum 
+wage induces the lower productivity jobs to resolve and the dismissed workers move to higher 
+productivity jobs (Mortensen and Pissarides, 1994; Pissarides, 2000). 
+
+
+=== PDF PAGE 5 ===
+3 
+ 
+On the other hand, some studies argue that a rise in the minimum wage reduces labor market 
+flows. Brohu and Green (2013) show that the higher minimum wage did not change the level of 
+employment but reduced separation and hiring rates in Canada between 1979 and 2008. Also, Dube et 
+al. (2016) indicate that the minimum wage change did not affect the employment level of teens and 
+workers who have been in a high-impact industry (restaurants) but reduced the labor market flows in 
+the US between 2000 and 2011. Liu (2021) finds that the rise in minimum wage decreased the 
+occupational mobility of younger and less-educated workers and augmented the mismatch in the US 
+between 2005 and 2016. Both Brochu and Green (2013) and Dube et al. (2016) argue that their 
+extended search friction models can explain why the minimum wage reduces layoffs even under the 
+assumption of search friction. 
+These are valuable studies that focused on the role of labor market flows such as hires and 
+separations when examining the minimum wage effect on employment. However, these labor market 
+flows derive from the matching process of vacancies and job seekers in the labor market, where the 
+latter two indices more directly represent labor demand and supply, respectively. Therefore, the effect 
+of minimum wages on vacancies and job seekers deserves detailed empirical investigation.  
+There are, in fact, a few studies that examine the relationship between minimum wage and 
+vacancy posting. Kudlyak et al. (2020) estimated the minimum wage effect on vacancies in “at-risk 
+occupations” (occupations with a high employment share around the prevailing minimum wage) in 
+the US between 2005 and 2018. The results show that a 10% increase in the minimum wage resulted 
+in a 2.4% reduction of vacancies in “at-risk occupations.” For Japan, Ariga (2007) is the only study 
+that focuses on the relationship between minimum wage and vacancies and finds a negative correlation 
+between these two variables. However, one should note that this study only examined vacancies of 
+new high school graduates treating the minimum wage as one of the many independent variables. 
+Hence, a more detailed analysis using data on vacancies for general workers is necessary. 
+This paper is the first study that examines the impact of minimum wage on vacancies for 
+general workers in Japan. We also investigate its effect on job seekers since a higher minimum wage 
+may induce firms to change the number of their employees and affect the labor market participation 
+from out of the labor force1. This paper also estimates the minimum wage effect on the number of new 
+recipients of unemployment insurance benefits to gain some insight into the relative importance of 
+separations.  
+The remainder of this paper is structured as follows. Section 2 briefly introduces the 
+characteristics of the minimum wage system in Japan. Section 3 discusses the data and estimates the 
+effect of minimum wage changes on the number of vacancies and job seekers. Section 4 is devoted to 
+analyzing differences in minimum wage effects between subperiods, regions, vacancy types, and job 
+ 
+1 Flinn (2006) argues that the minimum wage could encourage people out of the labor force to participate 
+in the job search. 
+
+
+=== PDF PAGE 6 ===
+4 
+ 
+seeker types. Section 5 concludes.   
+ 
+2. Minimum Wage in Japan 
+ 
+This section briefly introduces some characteristics of the minimum wage system in Japan. 
+The Japanese minimum wage system consists of two types of minimum wages: regional and specific 
+minimum wages. The Minimum Wage Act stipulates that “regional minimum wages shall be set in 
+consideration of the living expenses of workers, wages of workers and the ordinary enterprises’ ability 
+to pay the wages in the region” (Article 9, Paragraph 2). The Central Minimum Wage Council which 
+consists of members of the public interest representative, worker representative, and employer 
+representative, provides a guideline of the amount to be raised for each prefecture. After that, the Local 
+Minimum Wage Council in each prefecture consisting of members of the public interest representative, 
+worker representative, and employer representative discusses the amount to be raised considering the 
+guideline, then the minimum wage in that prefecture is determined. 
+ 
+Every year, discussions at the Central Minimum Wage Council start in early summer, and 
+regional minimum wages come into effect around October. The regional minimum wage covers all 
+workers except those in particular industries and acts as a safety net. The specific minimum wages are 
+set based on the offer by labor and management, and their levels should be higher than the regional 
+minimum wage. As of March 2020, the number of workers applied is about 2.9 million, about 5% of 
+the number of workers employed in the same year. The specific minimum wages pertain to the 
+industries and occupations where the labor union organizations have strong bargaining power. Though 
+the law stipulates this type of minimum wage, no legal punishment exists because this system has a 
+strong flavor of labor-management autonomy. In other words, the rationale of the regional minimum 
+wage as a compulsory provision lies in the fact that it covers those who cannot negotiate specific 
+minimum wages. Considering this reason and the wide range of workers applied, this paper focuses 
+on the effect of the regional minimum wages. 
+Some of the characteristics of the Japanese minimum wages are as follows. First, regional 
+minimum wages change every year. There has been no reduction in minimum wages, and even no 
+change (zero increase) has seldom occurred. At the same time, the increase had been modest when the 
+labor market condition was slack. For instance, the rate of change in the national average minimum 
+wage was only 0.17% in 2002, when many prefectures did not raise their minimum wages due to the 
+economic downturn.  
+ 
+Second, although the negotiations at the local level determine the minimum wage change in 
+each region, the guidelines provided by the Central Minimum Wage Committee have a substantial 
+impact on the outcome. The committee divides the whole prefecture into four groups and suggests for 
+each group a guideline amount of increment considering the growth rate of wages, local economic and 
+
+
+=== PDF PAGE 7 ===
+5 
+ 
+labor market conditions, and government policy toward minimum wages. Tamada (2009) shows that 
+the actual minimum wage change in each region follows closely to the guideline to that region with 
+the correlation coefficient of 0.98 for 2001-2009. The committee’s taking into account the regional 
+wage growth in determining minimum wage increase brings about a substantial correlation between 
+the national weighted average of minimum wage increase and the nationwide changes in wages. After 
+2008, however, the government policy to raise minimum wages became pronounced faced with the 
+criticism that minimum wages had been falling behind social welfare, especially in metropolitan areas. 
+In addition, the Abe cabinet announced the target level of average minimum wages (1,000 yen) in 
+2015 to support low-income families, which the subsequent cabinets have been following since then. 
+For these reasons, since 2007, the national minimum wage increase has surpassed the nationwide wage 
+increase by 1-2 percentage points except for 2020 when the covid-19 hit the world economy. 
+ 
+Third, the ratio of the minimum wage to the median wage rate of full-time workers increased 
+from 32% in 2000 to 45% in 2021 owing to this recent effort by the government to raise minimum 
+wages. Despite this increment, the ratio is ranked 27th among 31 OECD countries in 2021.   
+ 
+Some studies have analyzed the minimum-wage impact on employment outcomes in Japan. 
+Among them, two recent papers are particularly noteworthy. Using individual data set on wages, 
+Kambayashi et al. (2013) find that the minimum-wage increase resulted in the compression of the 
+lower tail of the wage distribution among women and that it is only partially attributable to the loss of 
+employment. Kawaguchi and Mori (2021) examine the impacts of the minimum wage on employment 
+using the minimum-wage hike induced by the introduction of the indexation of the local minimum 
+wage to the local cost of living. They find that the minimum-wage hike raised the wages of low-wage 
+workers, but reduced the employment of less-educated young men. 
+ 
+Figure 1 shows the minimum wages by prefecture in 2005 (average from February to 
+December) and 2019 (average from January to December). We choose this period because it 
+corresponds to the sample period for our econometric analysis in the later sections. The rise of 
+minimum wages mainly takes place in October. In constructing a monthly dataset, we assume that the 
+minimum wage is raised in October when the actual day of revision is on or before October 15 and in 
+November if the day of revision is after October 15. This assumption applies to all the analyses in the 
+subsequent sections. From Figure 1, it is evident that the minimum wages are higher in core prefectures 
+of metropolitan areas like Tokyo, Aichi, and Osaka and their neighboring prefectures than other 
+prefectures. We can also observe that the minimum wages have increased in all the prefectures from 
+2005 to 2019, especially those belonging to metropolitan areas. This disparity in the growth rate of 
+minimum wage across regions enables us to identify the minimum-wage impact on the number of 
+vacancies and job seekers.  
+ 
+ 
+
+
+=== PDF PAGE 8 ===
+6 
+ 
+3. Empirical Analysis 
+ 
+3.1 Administrative Data 
+This section examines the impact of the minimum wage on the number of vacancies and job 
+seekers registered for public employment services in Japan. The data of these variables come from the 
+“Report on Employment Service” published monthly by the Ministry of Health, Labour, and Welfare 
+(MHLW). Using more than 500 local agencies, the MHLW is offering the service of job placement, 
+employment security, and guidance towards firms to reinforce employment security. The main targets 
+are job applicants who have difficulty finding employment and small and medium-sized firms with a 
+lower probability of filling vacancies than larger firms. As of 2019, firms posted about 920 thousand 
+jobs, and about 400 thousand new job seekers registered per month, making it the most relevant 
+employment service provider in Japan2. 
+The number of vacancies at a local agency increases when a firm posts more jobs at the 
+agency. Similarly, a person who started a job search by registering at one of the local agencies becomes 
+a job seeker. The “new” vacancies (job seekers) in the statistics represent these newly registered 
+vacancies (job seekers). The MHLW collects these figures from the local agencies and publicizes the 
+summary statistics every month at national and regional levels. We use this highly reliable 
+administrative data to investigate the impact of the minimum wage on the number of vacancies and 
+job seekers. We use the prefectural level data because the regional minimum wages are determined at 
+the prefectural level, as was stated in the previous section. Note here that there are two types of vacancy 
+data at the prefectural level: one based on the location of an establishment where a worker works, and 
+the other based on that of the local agency registered. It is desirable to use the former in our analysis 
+because the minimum wage of each prefecture is applied based on the place where people work. Since 
+the MHLW publicizes this data from February 2005, our data starts from here to December 2019, 
+when COVID-19 has not affected the Japanese labor market. On the other hand, this kind of distinction 
+does not apply to job seekers: Their number is counted based on the place of the local agency registered. 
+Thus far, we explained the measurement of the number of new vacancies and new job 
+seekers, both of which are the “flow” variables. However, many firms with unfilled vacancies and 
+unsuccessful job seekers keep searching next month, which we should consider when measuring the 
+“stock” of vacancies and job seekers. Our data also contains the number of “active” vacancies and 
+“active” job seekers, both of which are the sum of new vacancies (job seekers) registered each month 
+and the vacancies (job seekers) that have been brought forward from the previous month. The ratio of 
+the number of active vacancies to job seekers is one of the most frequently cited indicators of the 
+ 
+2 According to the “Employment Trend Survey” (MHLW), those hired through this public employment 
+service constitute 17.8% of the total hirings in 2019, which is larger than the share of private employment 
+service, 5.1%.  
+
+
+=== PDF PAGE 9 ===
+7 
+ 
+tightness of the labor market in Japan.  
+Figure 2a plots the relationship between the growth rate of minimum wage and the growth 
+rate of the number of new vacancies in each prefecture for the entire sample period. We obtained these 
+variables by first calculating the year average values of the minimum wage and the number of new 
+vacancies for 2005 and 2019, and then calculating their growth rates using these two end-point values. 
+We can observe from the figure that there seems to be a negative relationship between these variables. 
+In Figure 2b, the vertical axis is now the growth rate of the number of new job seekers. In this case, 
+the relationship seems more obscure. We will check these relationships formally in the next section.  
+ 
+3.2 Empirical Strategy 
+Having observed several suggestive relationships between the growth rate of minimum 
+wage and vacancies/job seekers, we go on to look into them more closely by using regression analysis. 
+The baseline model is the one that regresses the log of the number of vacancies/job seekers, both “new” 
+and “active,” of each prefecture on the log minimum wage in the same region, controlling for 
+prefectural specific effects, time-specific effects, and prefectural-specific trends. We check whether 
+the inclusion of the prefectural-specific trends alters the impacts of minimum wage, considering some 
+studies stressing the importance of state-specific trends in identifying the employment effect of the 
+minimum wage (Allegretto, Dube, and Reich 2011).  
+Furthermore, we also examine the specification that includes a proxy for demand shock in 
+each prefecture as an independent variable. We believe this specification is preferable because there 
+may be some demand shock that cannot be captured by the prefecture-specific effect and the 
+prefecture-specific trend. The variable used here is the prefectural GDP obtained from the “Report on 
+Prefectural Accounts” published by the Cabinet Office. Since the recent series based on 2008 SNA is 
+only available from CY 2006 till CY 2018, the sample size becomes smaller than the specification 
+without this variable. This variable is also transformed in logs when included in the estimation 
+equation. Note also that the data of this variable are from the yearly statistic tables, and hence possible 
+monthly variations in the regional demand shock cannot be absorbed by this proxy measure.  
+ 
+The estimation equation is 
+ 
+ln 𝑌𝑖𝑡= 𝛼ln 𝑀𝑊𝑖𝑡+ 𝛽ln 𝐺𝐷𝑃𝑖𝑗+ 𝛾𝑖+ 𝛿𝑡+ 𝜃𝑖∗𝑡𝑟𝑒𝑛𝑑+ 𝜀𝑖𝑡  .   (1) 
+                                      
+The subscripts 𝑖  and 𝑡  denote a prefecture and time (month), respectively. 𝑌𝑖𝑡  is the number of 
+vacancies/job seekers in each prefecture (both fulltime and parttime), 𝑀𝑊𝑖𝑡  is the prefectural 
+minimum wage, and 𝐺𝐷𝑃𝑖𝑗 is the prefectural GDP (million yen). 𝛾𝑖 is a prefectural fixed effect, 𝛿𝑡 is 
+a month fixed effect, and 𝜃𝑖∗𝑡𝑟𝑒𝑛𝑑 is a prefectural specific trend. 𝜀𝑖𝑡 is an error term. We will report 
+cases with or without the prefectural GDP in the regression equation. When 𝑌𝑖𝑡 is the number of 
+
+
+=== PDF PAGE 10 ===
+8 
+ 
+vacancies, the coefficient of the log of the minimum wage, 𝛼, would become negative if a rise in the 
+minimum wage in a prefecture leads to a decrease in labor demand through reduced hiring of workers 
+of the firms in the region. In the same vein, the coefficient would become positive when the dependent 
+variable is the number of job seekers if a higher minimum wage leads to the increased separation of 
+workers or participation from the out of labor force3. The estimation method is the OLS using clustered 
+standard errors at the level of the prefecture4. See Table A-1 for some of the summary statistics.  
+ 
+3.3 Results 
+Panel A of Table 1 presents the estimation results for new vacancies. Columns (1)-(4) show 
+the estimated coefficients when we do not include the prefectural GDP as an independent variable, 
+while (5)-(6) are the cases with that variable. We can observe the strong negative impact of the regional 
+minimum wage variable irrespective of the specification. The results show that a 1% increase in the 
+minimum wage leads to a 1.2-2.4% decrease in new vacancies. Controlling for the prefectural specific 
+trends strengthens the impact of the minimum wage, while the addition of the prefectural GDP reduces 
+the impact only marginally. The prefectural GDP has a significantly positive coefficient, which accords 
+with our prediction stated earlier. Our preferred specifications with prefectural specific trends show 
+that a 1% increase in the minimum wage results in a 2.1-2.4% decrease in the number of new vacancies, 
+which seems large in magnitude. Panel B shows the cases where the dependent variable is the number 
+of new job seekers. We find positive estimated coefficients of the minimum wage variable, while the 
+absolute values of the estimated minimum wage effect are smaller than those of Panel A within the 
+corresponding specification. Again, the coefficients become larger when controlling for the 
+prefectural-specific trends. The estimated coefficient of the prefectural GDP is negative, which is 
+consistent with our prediction. The estimated coefficients of the log minimum wage show that a 1% 
+increase in the minimum wage brings about a 1.8-2.2% increase in job seekers, which may be due to 
+the higher separations resulting from decreased labor demand. Panels C and D are for active vacancies 
+and job seekers, respectively. These panels show that the estimated coefficients of the minimum wage 
+for the active vacancies (job seekers) tend to be larger than those for the new vacancies (job seekers) 
+in absolute value when the prefectural specific trends are absent. The estimated coefficients of the 
+minimum wage of the active vacancies/job seekers are similar to those of the new vacancies/job 
+seekers for the specifications with the prefectural specific trends. In the next section, we will 
+concentrate on new vacancies/job seekers. 
+ 
+3 We will return to this issue in section 4.4, where we examine the impact of the prefectural minimum wage 
+on the number of new recipients of the unemployment insurance benefit in the same prefecture. 
+4 Note here that using the OLS could bias the estimates of the impact of minimum wages if the labor market 
+tightness is a factor to be considered when setting the minimum wage. We do not pursue this issue here 
+because it is hard to cope with this endogeneity problem. However, the direction of the bias is likely toward 
+underestimation, meaning that the OLS coefficient becomes the lower bound of the minimum wage effect. 
+
+
+=== PDF PAGE 11 ===
+9 
+ 
+ 
+4. Further Investigation 
+ 
+4.1 Differences in Minimum Wage Effects between Subperiods 
+Here we investigate whether the impact of the minimum wage differs across different 
+subperiods. It seems reasonable to conjecture that an increase in the minimum wage during a recession 
+is more detrimental to labor demand because firms tend to be more vulnerable to the exogenous 
+increase in labor costs when consumer demand for their products/services is weaker. This conjecture 
+leads to the hypothesis that a rise in the minimum wage decreases labor demand more in the slacker 
+labor market resulting from a recession. We divide the entire sample period into two subperiods, 
+February 2005 to December 2013 and January 2014 to December 2019, and consider the former (latter) 
+as the slack (tight) labor market period. This choice of threshold is natural because average active job 
+openings rates5 in 2014 and after are higher than any year between 2005 and 2013. Moreover, the 
+unemployment rate in 2014 fell below an annual average of 4% for the first time in 17 years since 
+1997.  
+ 
+Figure 3a shows the relationship between the minimum wage growth rates and the new 
+vacancy growth rates during the period of the slack labor market. It seems that a negative relationship 
+exists between these variables. The relationship between minimum wage growth rates and the new job 
+seeker growth rates shown in Figure 3b is unclear. Figures 4a and 4b are similar figures for the tight 
+labor market period. The dots in the figures are more scattered for this period, and there are no apparent 
+relationships. 
+Now we estimate new vacancies/job seekers equations for each subperiod and look at the 
+changes in the estimated impact of the minimum wage. The estimation model is the same as the one 
+used in the previous section. The results are in Table 2. Panel A shows the results for the slack labor 
+market period, and Panel B shows those for the tight labor market period. The difference between the 
+panels is conspicuous. We find a substantial impact of the minimum wage both on new vacancies and 
+job seekers during the first half period, while we find no such effect on those variables during the latter 
+half period except for the cases of new job seekers without prefectural specific trends. For the first 
+subperiod, the estimated minimum wage elasticity is about -4 for vacancies and about 3.5 for job 
+seekers, which are more pronounced than found for the entire sample period in Table 1. The results 
+are consistent with the hypothesis that the negative impact of the minimum wage on labor demand 
+becomes severer when the labor market is loose. One can also see that the minimum wage effects on 
+vacancies/job seekers found in the previous section come almost entirely from the inclusion of this 
+slack labor market period. In addition, Panel A shows that the estimated minimum wage effects during 
+the first half become larger in absolute value when we exclude the data for 2005 from the sample, 
+ 
+5 This index is the ratio of the number of active vacancies to that of active job seekers. 
+
+
+=== PDF PAGE 12 ===
+10 
+ 
+which happened to be caused by the availability of the prefectural GDP data. One possible 
+interpretation is that since the labor market condition in 2005 is comparatively better than the 
+subsequent years in the same subperiod, the property of the slackness of this subperiod was reinforced 
+by dropping the observations that belong to this year. This observation leads to a question: Which part 
+of the first subperiod is responsible for the substantial negative minimum wage effect on labor 
+demand? 
+To answer this question, we perform a rolling regression. Specifically, we repeatedly run a 
+regression while sliding the sample period by one month, keeping constant the length of the sample 
+period (this length is called the “window”). Choosing a window entails a tradeoff. A wide window 
+does not help identify the relevant part within the subperiod. On the other hand, a narrow window can 
+bring about the problem of a small sample size. After some experimental trials, we chose 62 months 
+(6 years) as the window width. The specification of the model is that of (2) and (4) in Tables 1 and 2. 
+Figures 5a and 5b show the results of the rolling regression for new vacancies and job 
+seekers, respectively. The horizontal axis is the stating period of the sample, and the solid line denotes 
+the estimated coefficients of the log minimum wage. The estimated minimum wage elasticity of the 
+new vacancies is positive during the sample periods that start in 2005 but forms a fairly sharp trough 
+in the late 2000s with a bottom figure around -5. Then the estimated elasticity quickly returns to zero 
+for the sample periods starting from 2011 and becomes stable after that (Figure 5a). On the other hand, 
+the estimated minimum wage elasticity of new job seekers is about two at the starting periods and 
+makes a sharp peak near 5 in the late 2000s. After that, the level drops to near zero in 2010 and then 
+slightly moves upward, exceeding 1 in 2013 (Figure 5b). The concurrence of the sharp peak and trough 
+seems to support the view that there is a particular period when the minimum wage affected the labor 
+market. We can now figure out the intersection of the sample periods that bring about substantial 
+estimates in absolute value. If we choose 4 for this threshold, the intersection period is from April or 
+May 2008 to April or May 2012. During this period, the Japanese economy was seriously damaged by 
+the Great Recession of 2008 and the Great East Japan Earthquake of 2011, resulting in the highest 
+unemployment rates among the entire sample period 2005-2019. This finding also supports the 
+hypothesis that the negative impact of minimum wages on labor demand becomes strongest during a 
+slack labor market. 
+ 
+4.2 Differences in Minimum Wage Effects between Regions 
+The effect of minimum wage could vary across regions. The reason is that each has its 
+distinct economic environment such as industry or firm size composition, wage level, labor force 
+composition. Among the various economic variables that characterize regional differences, we focus 
+on two variables: the Kaitz index and the share of small establishments. We examine these in turn 
+below. 
+
+
+=== PDF PAGE 13 ===
+11 
+ 
+The Kaitz index is a frequently used measure of the wage distribution in the literature of 
+minimum wages. Its definition is the ratio of a regional minimum wage of a particular region to the 
+average wage rate of that region multiplied by 100. Figure 6 shows the average Kaitz index calculated 
+using the “Monthly Labor Survey” (MHLW). The prefecture with the highest index is Okinawa, while 
+Tokyo is the prefecture with the lowest index. If this index is high, it suggests the minimum wage is 
+relatively higher than the local wage rate in that region, which may bring about a more detrimental 
+effect of a minimum wage increase on labor demand in that region. To test this hypothesis, we divide 
+the 47 prefectures into two groups: the group with low Kaitz indices and the other with high Kaitz 
+indices. The threshold value of the index is set to 45 so that the number of prefectures is roughly equal 
+across the two groups. We then run regressions explaining the log of new job vacancies and new job 
+seekers for each group using the entire sample period and compare the estimated coefficients of the 
+minimum wage. The specifications used here are those using prefectural specific trends, with and 
+without the regional GDP.  
+Table 3 shows the estimation results. Panel A shows that the estimated coefficients of the 
+minimum wage are negative for all the groups and the specifications. It is interesting to observe that 
+the negative impact of the minimum wage on the number of new vacancies is higher in absolute value 
+for the group with high Kaitz indices than for that with low Kaitz indices. The difference is stark, that 
+is, nearly twice in elasticity. This result is consistent with our hypothesis that the impact of minimum 
+wage is more pronounced in the regions with minimum wage. Panel B of the table shows the estimation 
+results for the number of job seekers. We can see that the coefficients of the minimum wage are 
+positive for both groups irrespective of the specifications. Again, the estimated elasticities for the 
+group with high Kaitz indices are higher than that with low Kaitz indices, supporting our hypothesis.  
+Let us now turn to the case when we group the prefectures according to the size of 
+establishments. It is reasonable to conjecture that small firms are more vulnerable to the rise in the 
+minimum wage. A plausible reason is that since such small firms do not usually have competitiveness 
+of their products like large firms, they face difficulty adding the burden of the minimum wage rise to 
+their product prices. Considering that the minimum wage applies to the establishments in each 
+prefecture, we divide them into two groups according to the share of small establishments. The data 
+source of establishment size is “Economic Census of Business Activities” (Ministry of Internal Affairs 
+and Communications). We use the share of establishments that are less than 30 employees averaged 
+over the survey years 2009, 2011, 2013, and 2016 as a benchmark of establishment size distribution. 
+We calculate this value for each prefecture and divide them into two groups. The threshold value is 
+54.8% to make the number of regions in each group roughly the same. See Table A-2 for the 
+prefectures included in each group.  
+Table 4 shows the estimation results. We can observe that the minimum wage elasticity of 
+new vacancies in absolute value is substantially higher for the group of the higher share of small 
+
+
+=== PDF PAGE 14 ===
+12 
+ 
+establishments (Panel A). The difference is even more conspicuous than when we group the 
+prefectures according to the Kaitz index. The estimated elasticities are not statistically significant for 
+the group with a lower share, while they are smaller than -4 and statistically significant for the group 
+with a higher composition of small firms. We can also see that the impact of the minimum wage on 
+the number of job seekers is higher in the group with a higher share of small firms. The difference is 
+again more conspicuous than when we group the prefectures according to the Kaitz index. 
+In sum, the results in this section show that the minimum wage effect on the number of 
+vacancies and job seekers in a region varies according to the minimum wage level relative to the 
+average wage in that region (Kaitz index) and the share of small establishments: The minimum wage 
+effects is higher in prefectures with higher Kaitz index or higher composition of small establishments. 
+ 
+4.3 Differences in Minimum Wage Effects between Vacancy Types 
+The effect of a rise in minimum wage can be different according to the type of vacancies. 
+Among many possible aspects of them, the distinction between full-time and part-time jobs seems to 
+be intriguing. One can conjecture that the absolute value of minimum wage elasticity of posted 
+vacancies is higher for part-time jobs for two reasons. First, wage rates of part-time jobs are generally 
+lower than those of full-time jobs, resulting in a higher impact of the minimum wage rise on the 
+number of vacancies of part-time jobs. That is because the proportion of vacancies needed to adjust 
+their posted wage rates to the minimum wage increase is likely to be higher for part-time jobs. Second, 
+the elasticity of labor demand for part-time workers tends to be higher than for full-time workers 
+because the former is usually an atypical type of labor with high own wage elasticity of labor demand 
+(Lichter, Peichl, and Siegloch 2015).  
+The full-time and part-time vacancies data are available only for the posted location, rather 
+than the work location as in the previous sections. Therefore, we should first check the extent to which 
+the difference in location treatment brings about the difference in the estimated coefficients by 
+comparing the results for total vacancies in both cases. The estimation specifications are those with 
+the prefecture-specific trend terms with and without the prefectural GDP variable. Table 5 shows the 
+estimation results of the new vacancies. From Panel A columns (1) and (2), we can observe that the 
+estimated minimum wage elasticities for the entire sample period are significantly negative, and 
+contrary to our intuition, their absolute values are higher than those using new vacancies classified by 
+the location of work (cf. Table 1). The results in columns (3)-(6) indicate that the estimated coefficients 
+of the minimum wage are higher for part-time than for full-time jobs. Panels B and C show the 
+estimation results for the two subperiods introduced in Section 4.1. The results for the period of slack 
+labor market do not give us conclusive evidence. On the other hand, we can observe some marginally 
+significant effects only for part-time vacancies during the tight labor market period, contributing to 
+the higher minimum wage elasticities for the entire sample period. 
+
+
+=== PDF PAGE 15 ===
+13 
+ 
+ 
+4.4 Job-to-Unemployment Separation  
+The estimation results obtained up to this point show that a rise in the minimum wage 
+increased the number of job seekers during the slack labor market period. This phenomenon could be 
+due to the increased separation of workers (dismissals, for example) or participation from out of the 
+labor force. Since our data contains information on the number of new recipients of the unemployment 
+insurance benefit, we can examine whether or not the number of job-to-unemployment separations 
+increases with a rise in the minimum wage. Testing this effect is valuable because confirmation of this 
+point becomes another evidence showing that the labor demand decreases with a minimum wage rise. 
+In addition to analysis on the entire sample period, we conduct estimation for two subsample periods 
+defined earlier.  
+Table 6 provides estimation results. We can see from Panel A that all the estimated 
+coefficients of the minimum wage for the entire sample period are significantly positive, showing that 
+the job-to-unemployment separation increases with a minimum wage rise. The results for the slack 
+labor market period exhibit a starker minimum wage effect (Panel B). Interestingly, we observe some 
+significant estimated coefficients even for the tight labor market period (Panel C). These results are 
+consistent with the view that a rise in the minimum wage leads to decreased labor demand via 
+increased job separations. 
+ 
+5. Conclusion 
+ 
+The results obtained in this paper show that for 2005-2019, a rise in the minimum wage 
+reduced the number of vacancies. On the other hand, it increased the number of job seekers and then 
+decreased the vacancy-job seeker ratio. Some part of this came from the increased job separation into 
+unemployment. The impact of a minimum wage rise is conspicuous during the period of the slack 
+labor market, for prefectures with high Kaitz indices or with a high proportion of small firms, and for 
+part-time jobs.  
+One should note that the vacancies and job seekers analyzed in this paper are not necessarily 
+representative of those in the Japanese labor market as a whole. Since the main targets of the 
+employment service are job applicants who have difficulty finding employment and small and 
+medium-sized firms with a lower probability of filling vacancies than larger firms, the impact of a 
+minimum wage rise obtained in this paper is likely to be higher than the national average. Also, since 
+we did not have access to the raw data of vacancies and job seekers due to its administrative nature, 
+we could not identify the detailed mechanisms of the impact of a minimum wage rise on the number 
+of vacancies and job seekers. Richer data on vacancies are necessary to examine these issues.
+
+
+=== PDF PAGE 16 ===
+14 
+ 
+References  
+ 
+Allegretto, S. A., A. Dube, and M. Reich (2011) “Do Minimum Wages Really Reduce Teen Employment? 
+Accounting for Heterogeneity and Selectivity in State Panel Data,” Industrial Relations, 50(2): 205-240. 
+ 
+Ariga, K. (2006)"Labor Markets for New Senior High School Graduates," in Fumio Hayashi (ed.), 
+Empirical Analysis and Design of Economic Systems Vol. 1, Keiso Shobo Publishing (in Japanese). 
+ 
+Bhaskar, V., A. Manning, and T. To (2002) “Oligopsony and Monopsonistic Competition in Labor Markets,” 
+Journal of Economic Perspectives, 16(2): 155-174. 
+ 
+Brochu, P. and D. A. Green, (2013) “The Impact of Minimum Wages on Labor Market Transitions,” 
+Economic Journal, 123(12): 1203–35. 
+ 
+Card, D. and A. Krueger (1994) “Minimum Wages and Employment: A Case Study of the Fast-Food 
+Industry in New Jersey and Pennsylvania,” American Economic Review, 84(4): 772-93. 
+ 
+Card, D. and A. Krueger (1995) Myth and measurement: The New Economics of the Minimum Wage, 
+Princeton University Press. 
+ 
+Clemens, J. and M. Wither (2019) “The Minimum Wage and the Great Recession: Evidence of Effects on 
+the Employment and Income Trajectories of Low-Skilled Workers,” Journal of Public Economics, 170(C): 
+53-67. 
+ 
+Dube, A., T. W. Lester, and M. Reich (2016) “Minimum Wage Shocks, Employment Flows, and Labor 
+Market Frictions,” Journal of Labor Economics, 34(3): 663-704. 
+ 
+Dustmann, C., A. Lindner, U. Schonberg, M. Umkehrer, and P. V. Berge (2022) “Reallocation Effect of The 
+Minimum Wage” Quarterly Journal of Economics, 137(1): 267–328. 
+ 
+Flinn, C. J. (2006) “Minimum Wage Effects on Labor Market Outcomes under Search, Matching, and 
+Endogenous Contact Rates,” Econometrica, 74(4): 1013-1062. 
+ 
+Kambayashi, R., D. Kawaguchi, and K. Yamada “Minimum Wage in a Deflationary Economy: The 
+Japanese experience, 1994–2003,” Labour Economics, 24(C): 264-276. 
+ 
+Kawaguchi, D. and Y. Mori (2021) “Estimating the Effects of the Minimum Wage Using the Introduction 
+of Indexation,” Journal of Economic Behavior & Organization, 184(C): 388-408. 
+ 
+Kudlyak, M., M. Tasci, and D. Tüzemen (2019) “Minimum Wage Increases and Vacancies,” Federal 
+Reserve Bank of Cleveland DP, RWP20-22. 
+ 
+Lichter, A., A. Peichl, and S. Siegloch. (2015) “The Own-Wage Elasticity of Labor Demand: A Meta-
+Regression Analysis,” European Economic Review, 80(C): 94-119. 
+ 
+
+
+=== PDF PAGE 17 ===
+15 
+ 
+Liu, A. Y. (2021) “The Minimum Wage and Occupational Mobility” International Economic Review, in 
+Press. 
+ 
+Mortensen, D. and C. Pissarides (1994) “Job Creation and Job Destruction in the Theory of Unemployment,” 
+Review of Economic Studies, 61(3): 397-415. 
+ 
+Neumark, D. and W. L. Wascher (2008) Minimum Wages, The MIT Press. 
+ 
+Pissarides, C. (2004) Equilibrium Unemployment Theory, 2nd Edition: The MIT Press, Cambridge MA. 
+ 
+Stigler, G. (1946) “The Economics of Minimum Wage Legislation,” American Economic Review, 36(3): 
+358-365. 
+ 
+Tamada, K. (2009) “The Determinants of the Minimum Wages in Japan,” Japanese Journal of Labour 
+Studies, No.593: 16-28 (in Japanese). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 18 ===
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Specification
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Period
+Log of minimum wage
+-1.772***
+-2.176***
+-1.251***
+-2.483***
+-1.344***
+-2.442***
+(0.374)
+(0.728)
+(0.373)
+(0.787)
+(0.391)
+(0.749)
+Log of GDP
+0.815***
+0.529**
+(0.303)
+(0.226)
+R-squared
+0.984
+0.989
+0.985
+0.990
+0.986
+0.990
+Log of minimum wage
+0.709*
+1.808***
+0.657*
+2.209***
+0.676*
+2.180***
+(0.371)
+(0.437)
+(0.337)
+(0.522)
+(0.338)
+(0.515)
+Log of GDP
+-0.165
+-0.374**
+(0.136)
+(0.140)
+R-squared
+0.986
+0.989
+0.987
+0.989
+0.987
+0.989
+Log of minimum wage
+-2.014***
+-2.053***
+-1.540***
+-2.459***
+-1.654***
+-2.402***
+(0.450)
+(0.751)
+(0.455)
+(0.810)
+(0.473)
+(0.757)
+Log of GDP
+0.996***
+0.737***
+(0.352)
+(0.224)
+R-squared
+0.985
+0.991
+0.985
+0.992
+0.987
+0.992
+Log of minimum wage
+1.116***
+1.752***
+1.160***
+2.256***
+1.195***
+2.201***
+(0.384)
+(0.427)
+(0.365)
+(0.535)
+(0.376)
+(0.522)
+Log of GDP
+-0.303*
+-0.717***
+(0.153)
+(0.131)
+R-squared
+0.992
+0.995
+0.993
+0.995
+0.993
+0.995
+Number of observations
+8,413
+8,413
+6,768
+6,768
+6,768
+6,768
+Prefectural specific time trends
+NO
+YES
+NO
+YES
+NO
+YES
+Notes: New vacancies (job seekers) stand for those that appear in a particular month, while active vacancies 
+(job seekers) are the ones that exist that month. The prefecture of vacancies pertains to the location of work. 
+The sample period for (3)-(6)  is shorter than (1) and (2) due to the availability of regional GDP data. 
+All specifications include prefecture fixed effects and time fixed effects. 
+Clustered standard errors at the level of the prefecture in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+Table 1 Minimum Wage Effects on Vacancies and Job Seekers (2005-2019)
+Feb. 2005 - Dec. 2019
+Apr. 2006 - Mar. 2018
+A. New vacancies (log)
+B. New job seekers (log)
+C. Active vacancies (log)
+D. Active job seekers (log)
+
+
+=== PDF PAGE 19 ===
+17 
+ 
+ 
+Specification
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+A. Period of slack labor market
+Period
+Log of minimum wage
+-2.557***
+-2.239
+-1.963***
+-4.411***
+-1.999***
+-4.019***
+(0.522)
+(1.406)
+(0.512)
+(1.364)
+(0.500)
+(1.317)
+Log of GDP
+0.746*
+0.697***
+(0.379)
+(0.216)
+R-squared
+0.982
+0.989
+0.983
+0.990
+0.984
+0.990
+Log of minimum wage
+1.407***
+2.703***
+1.328***
+3.827***
+1.340***
+3.502***
+(0.434)
+(0.762)
+(0.419)
+(0.862)
+(0.420)
+(0.797)
+Log of GDP
+-0.241
+-0.577***
+(0.194)
+(0.130)
+R-squared
+0.984
+0.987
+0.985
+0.988
+0.985
+0.988
+Number of observations
+5,029
+5,029
+4,371
+4,371
+4,371
+4,371
+B. Period of tight labor market
+Period
+Log of minimum wage
+0.915
+-0.365
+0.540
+0.0444
+0.469
+0.0446
+(1.011)
+(0.556)
+(0.816)
+(0.444)
+(0.776)
+(0.445)
+Log of GDP
+0.688***
+0.0524
+(0.234)
+(0.166)
+R-squared
+0.994
+0.996
+0.995
+0.997
+0.995
+0.997
+Log of minimum wage
+1.756**
+1.523
+1.890*
+1.808
+1.902*
+1.807
+(0.761)
+(1.167)
+(0.964)
+(1.145)
+(0.949)
+(1.139)
+Log of GDP
+-0.120
+-0.136
+(0.136)
+(0.144)
+R-squared
+0.992
+0.993
+0.992
+0.993
+0.992
+0.993
+Number of observations
+3,384
+3,384
+2,397
+2,397
+2,397
+2,397
+Prefectural specific time trends
+NO
+YES
+NO
+YES
+NO
+YES
+Notes: New vacancies (job seekers) stand for those that appear in a particular month.
+The prefecture of vacancies pertains to the location of work. 
+The sample period for (3)-(6)  is shorter than (1) and (2) due to the availability of regional GDP data. 
+All specifications include prefecture fixed effects and time fixed effects. 
+Clustered standard errors at the level of the prefecture in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+Table 2 Minimum Wage Effects by Subperiod
+Feb. 2005 - Dec. 2013
+Apr. 2006 - Dec. 2013
+Jan. 2014 - Mar. 2018
+New vacancies (log)
+New job seekers (log)
+New vacancies (log)
+New job seekers (log)
+Jan. 2014 - Dec. 2019
+
+
+=== PDF PAGE 20 ===
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Specification
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Region
+Log of minimum wage
+-2.176***
+-2.442***
+-1.541*
+-1.752**
+-3.223*
+-3.529**
+(0.728)
+(0.749)
+(0.780)
+(0.778)
+(1.591)
+(1.607)
+Log of GDP
+0.529**
+0.569
+0.393*
+(0.226)
+(0.344)
+(0.198)
+R-squared
+0.989
+0.990
+0.991
+0.992
+0.986
+0.987
+Log of minimum wage
+1.808***
+2.180***
+1.683***
+1.953***
+2.049**
+2.448**
+(0.437)
+(0.515)
+(0.544)
+(0.601)
+(0.799)
+(1.026)
+Log of GDP
+-0.374**
+-0.480***
+-0.135
+(0.140)
+(0.169)
+(0.182)
+R-squared
+0.989
+0.989
+0.995
+0.995
+0.979
+0.979
+Number of observations
+8,413
+6,768
+4,296
+3,456
+4,117
+3,312
+Prefectural specific time trends
+YES
+YES
+YES
+YES
+YES
+YES
+Notes: New vacancies (job seekers) stand for those that appear in a particular month.
+The prefecture of vacancies pertains to the location of work. 
+All specifications include prefecture fixed effects and time fixed effects. 
+Clustered standard errors at the level of the prefecture in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+Table 3 Minimum Wage Effects by Regional Group (Kaitz Index)
+All
+A. New vacancies (log)
+B. New job seekers (log)
+Kaitz <45
+Kaitz ≥ 45
+Specification
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Region
+Log of minimum wage
+-2.176***
+-2.442***
+-0.491
+-0.729
+-4.240***
+-4.571***
+(0.728)
+(0.749)
+(0.628)
+(0.635)
+(1.379)
+(1.194)
+Log of GDP
+0.529**
+0.183
+0.557***
+(0.226)
+(0.370)
+(0.178)
+R-squared
+0.989
+0.990
+0.987
+0.988
+0.977
+0.977
+Log of minimum wage
+1.808***
+2.180***
+0.856**
+1.007***
+2.794*
+3.656**
+(0.437)
+(0.515)
+(0.334)
+(0.336)
+(1.455)
+(1.409)
+Log of GDP
+-0.374**
+-0.322
+-0.208
+(0.140)
+(0.198)
+(0.159)
+R-squared
+0.989
+0.989
+0.988
+0.989
+0.977
+0.976
+Number of observations
+8,413
+6,768
+4,296
+3,456
+4,117
+3,312
+Prefectural specific time trends
+YES
+YES
+YES
+YES
+YES
+YES
+Notes: New vacancies (job seekers) stand for those that appear in a particular month.
+The prefecture of vacancies pertains to the location of work. 
+All specifications include prefecture fixed effects and time fixed effects. 
+Clustered standard errors at the level of the prefecture in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+A. New vacancies (log)
+B. New job seekers (log)
+Table 4 Minimum Wage Effects by Regional Group (Establishment Size)
+Share of small
+establishments: low
+Share of small
+establishments: high
+All
+
+
+=== PDF PAGE 21 ===
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dependent variable: log of the number of new vacancies
+Specification
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Type of job
+Log of minimum wage
+-2.697***
+-3.157***
+-2.304**
+-2.901***
+-3.090***
+-3.406***
+(0.918)
+(0.857)
+(0.912)
+(0.901)
+(1.029)
+(0.900)
+Log of GDP
+0.545**
+0.641**
+0.334
+(0.226)
+(0.240)
+(0.223)
+R-squared
+0.989
+0.990
+0.987
+0.987
+0.986
+0.986
+Number of observations
+8,413
+6,768
+8,413
+6,768
+8,413
+6,768
+Log of minimum wage
+-2.154
+-4.193***
+-2.170
+-4.942***
+-2.638***
+-3.153***
+(1.444)
+(1.313)
+(1.747)
+(1.588)
+(0.838)
+(0.873)
+Log of GDP
+0.728***
+0.830***
+0.482***
+(0.228)
+(0.270)
+(0.168)
+R-squared
+0.988
+0.989
+0.985
+0.987
+0.986
+0.986
+Number of observations
+5,029
+4,371
+5,029
+4,371
+5,029
+4,371
+Log of minimum wage
+-0.241
+-0.118
+0.198
+0.461
+-0.813
+-0.896*
+(0.615)
+(0.449)
+(0.822)
+(0.564)
+(0.558)
+(0.512)
+Log of GDP
+-0.0343
+-0.0101
+-0.0478
+(0.171)
+(0.183)
+(0.204)
+R-squared
+0.996
+0.996
+0.995
+0.996
+0.991
+0.992
+3,384
+2,397
+3,384
+2,397
+3,384
+2,397
+Prefectural specific time trends
+YES
+YES
+YES
+YES
+YES
+YES
+Notes: New vacancies (job seekers) stand for those that appear in a particular month.
+The prefecture of vacancies pertains to the posted location. 
+Entire period: Feb. 2005 - Dec. 2019 for (1),(3), and (5), Apr. 2006 - Mar. 2018 for (2),(4), and (6)
+Period of slack labor market: Feb. 2005 - Dec. 2013 for (1),(3), and (5), Apr. 2006 - Mar. 2013 for (2),(4), and (6)
+Period of tight labor makert: Apr. 2014 - Dec. 2019 for (1),(3), and (5), Apr. 2014 - Mar. 2018 for (2),(4), and (6)
+All specifications include prefecture fixed effects and time fixed effects. 
+Clustered standard errors at the level of the prefecture in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+C. Period of tight labor market
+Table 5 Minimum Wage Effects by Vacancy Type
+All
+Full-time job
+Part-time job
+A. Entire period
+B. Period of slack labor market
+
+
+=== PDF PAGE 22 ===
+20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dependent variable: log of the number of new recipients of UI benefit
+Specification
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Period
+Log of minimum wage
+0.682**
+2.262***
+0.699**
+2.936***
+0.727**
+2.889***
+(0.266)
+(0.522)
+(0.266)
+(0.638)
+(0.283)
+(0.629)
+Log of GDP
+-0.240*
+-0.612***
+(0.129)
+(0.115)
+R-squared
+0.987
+0.988
+0.987
+0.988
+0.987
+0.988
+Number of observations
+8,413
+6,768
+8,413
+6,768
+8,413
+6,768
+Period
+Log of minimum wage
+1.507***
+4.659***
+1.463***
+6.264***
+1.486***
+5.786***
+(0.394)
+(1.225)
+(0.392)
+(1.388)
+(0.410)
+(1.305)
+Log of GDP
+-0.470**
+-0.848***
+(0.192)
+(0.167)
+R-squared
+0.984
+0.986
+0.983
+0.985
+0.984
+0.986
+Number of observations
+5,029
+4,371
+5,029
+4,371
+5,029
+4,371
+Period
+Log of minimum wage
+0.635
+1.048
+1.372*
+2.051***
+1.378*
+2.051***
+(0.631)
+(0.675)
+(0.699)
+(0.639)
+(0.696)
+(0.634)
+Log of GDP
+-0.0593
+-0.134
+(0.119)
+(0.145)
+R-squared
+0.993
+0.993
+0.993
+0.994
+0.993
+0.994
+3,384
+2,397
+3,384
+2,397
+3,384
+2,397
+Prefectural specific time trends
+NO
+YES
+NO
+YES
+NO
+YES
+Notes: The sample period for (3)-(6)  is shorter than (1) and (2) due to the availability of regional GDP data. 
+All specifications include prefecture fixed effects and time fixed effects. 
+Clustered standard errors at the level of the prefecture in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+Table 6 Minimum Wage Effects on Job-to-Unemployment Separations
+A. Entire period
+Jan. 2014 - Dec. 2019
+Jan. 2014 - Mar. 2018
+B. Period of slack labor market
+C. Period of tight labor market
+Feb. 2005 - Dec. 2019
+Apr. 2006 - Mar. 2018
+Feb. 2005 - Dec. 2013
+Apr. 2006 - Dec. 2013
+
+
+=== PDF PAGE 23 ===
+21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Variable
+Obs
+Mean
+Std. dev.
+Min
+Max
+Raw values
+New vacancies (location of work)
+8,413 16952.74
+15389.2
+2455
+106048
+New vacancies (location of register)
+8,413 16955.47
+18277.6
+2617
+139399
+New vacancies (full time)
+8,413 10588.24 11811.45
+1521
+96115
+New vacancies (part time)
+8,413 6367.223 6666.745
+767
+59212
+New job seekers
+8,413 11191.19 10177.58
+1698
+82505
+Active vacancies (location of work)
+8,413 45833.92 43050.44
+6708
+287644
+Active job seekers
+8,413 46204.98 42816.56
+8378
+299017
+New recipients of UI benefit
+8,413
+3456.67 3436.857
+439
+34447
+Minimum wage
+8,413 707.3459 71.98013
+606
+1013
+Prefectural GDP (one million yen)
+6,768
+1.13E+07
+1.61E+07
+1713879
+1.06E+08
+Log of the variables
+New vacancies (location of work)
+8,413 9.458251 0.707115 7.805882 11.57165
+New vacancies (location of register)
+8,413 9.415816 0.735648 7.869784
+11.8451
+New vacancies (full time)
+8,413 8.923644 0.761001 7.327123
+11.4733
+New vacancies (part time)
+8,413 8.455889 0.712897 6.642487 10.98888
+New job seekers
+8,413 9.040554 0.710088 7.437206 11.32061
+Active vacancies (location of work)
+8,413 10.43095 0.737223 8.811056 12.56948
+Active job seekers
+8,413 10.44742 0.719347 9.033364 12.60826
+New recipients of UI benefit
+8,413 7.807856 0.779392 6.084499 10.44718
+Minimum wage
+8,413 6.556602 0.098009
+6.40688 6.920671
+Prefectural GDP
+6,768 15.78122 0.850634 14.35427
+18.4812
+Table A-1 Summary Statistics (2005-2019)
+proportion of small establishments: low
+Tokyo 
+Aichi
+Kanagawa
+Shiga
+Osaka
+Mie
+Chiba
+Ibaraki
+Hyogo
+Shizuoka
+Tochigi
+Kyoto
+Hiroshima
+Saitama
+Gunma
+Toyama
+Okayama
+Fukuoka
+Miyagi
+Hokkaido
+Yamaguchi
+Fukushima
+Nara
+Ishikawa
+proportion of small establishments: high
+Kochi
+Shimane
+Wakayama
+Aomori
+Miyazaki
+Akita
+Tottori
+Kagoshima
+Tokushima
+Nagasaki
+Gifu
+Yamagata
+Iwate
+Yamanashi
+Ehime
+Okinawa
+Oita
+Kumamoto
+Fukui
+Saga
+Nagano 
+Niigata
+Kagawa
+Table A-2  Classification of Prefectures Based on Establishment Size
+
+
+=== PDF PAGE 24 ===
+22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 25 ===
+23 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 26 ===
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 27 ===
+25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 28 ===
+26 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 29 ===
+27 
+ 
+ 

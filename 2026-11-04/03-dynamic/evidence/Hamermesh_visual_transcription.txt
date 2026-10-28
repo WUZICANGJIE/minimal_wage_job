@@ -1,0 +1,14 @@
+Hamermesh (1993), NBER WP4394, visually checked PDF p.5 / printed p.3:
+Throughout this Section I model labor as a one-dimensional stock of homogeneous workers denoted by L. Implicitly this means that hours of work cannot vary, so that we are deriving the firm's demand for employment.
+Finally, the firm never lays off workers; negative net changes in employment occur through attrition.
+
+PDF p.6 / printed p.4:
+A. A Forward-Looking Model with Quadratic Costs
+The first term in (1) reflects the costs of adjusting the level of employment (net costs), while the second measures the costs of hiring (gross costs).
+Following Sargent (1978) the firm maximizes the stream of expected future profits.
+
+Hamermesh (1990), NBER WP3356, visually checked PDF p.4 / printed p.2:
+In the theoretical derivation I assume that the firm has static expectations about the future paths of product and factor prices.
+Without loss of generality I make the standard assumption that variable costs of adjusting labor are quadratic in the size of the adjustment.
+
+Status: manually transcribed short passages against page images, not full OCR. Original scanned pages are retained alongside this file.

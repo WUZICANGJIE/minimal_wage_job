@@ -1,0 +1,2163 @@
+=== PDF PAGE 1 ===
+DISCUSSION PAPER SERIES
+IZA DP No. 15254
+Marianna Kudlyak
+Murat Tasci
+Didem Tüzemen
+Minimum Wage Increases and Vacancies
+APRIL 2022 (THIS VERSION: JANUARY 2023)
+
+
+=== PDF PAGE 2 ===
+Any opinions expressed in this paper are those of the author(s) and not those of IZA. Research published in this series may 
+include views on policy, but IZA takes no institutional policy positions. The IZA research network is committed to the IZA 
+Guiding Principles of Research Integrity.
+The IZA Institute of Labor Economics is an independent economic research institute that conducts research in labor economics 
+and offers evidence-based policy advice on labor market issues. Supported by the Deutsche Post Foundation, IZA runs the 
+world’s largest network of economists, whose research aims to provide answers to the global labor market challenges of our 
+time. Our key objective is to build bridges between academic research, policymakers and society.
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. Citation of such a paper 
+should account for its provisional character. A revised version may be available directly from the author.
+Schaumburg-Lippe-Straße 5–9
+53113 Bonn, Germany
+Phone: +49-228-3894-0
+Email: publications@iza.org
+www.iza.org
+IZA – Institute of Labor Economics
+DISCUSSION PAPER SERIES
+ISSN: 2365-9793
+IZA DP No. 15254
+Minimum Wage Increases and Vacancies
+APRIL 2022 (THIS VERSION: JANUARY 2023)
+Marianna Kudlyak
+Federal Reserve Bank of San Francisco, 
+Hoover Institution at Stanford University, 
+IZA and CEPR
+Murat Tasci
+Federal Reserve Bank of Cleveland
+Didem Tüzemen
+Federal Reserve Bank of Kansas City
+
+
+=== PDF PAGE 3 ===
+ABSTRACT
+IZA DP No. 15254
+APRIL 2022 (THIS VERSION: JANUARY 2023)
+Minimum Wage Increases and Vacancies*
+Using a unique data set and a novel identification strategy, we estimate the effect of 
+minimum wage increases on job vacancy postings. Using occupation-specific county-
+level vacancy data from the Conference Board’s Help Wanted Online for 2005-2018, we 
+find that state-level minimum wage increases lead to substantial declines in existing and 
+new vacancy postings in occupations with a larger share of workers who earn close to 
+the prevailing minimum wage. We estimate that a 10 percent increase in the state-level 
+effective minimum wage reduces vacancies by 2.4 percent in the same quarter, and the 
+cumulative effect is as large as 4.5 percent a year later, in these occupations relative to 
+the rest. The negative effect on vacancies is more pronounced for occupations where 
+workers typically have lower educational attainment (high school or less) and in counties 
+with higher poverty rates. We argue that our focus on vacancies versus on employment 
+has a distinct advantage of highlighting a mechanism through which minimum wage hikes 
+affect labor markets. Our finding of a negative effect on vacancies is not inconsistent with 
+the wide range of findings in the literature about the effect of minimum wage changes on 
+employment, which is driven by changes in both hiring and separation margins.
+JEL Classification:	
+E24, E32, J30, J41, J63, J64
+Keywords:	
+minimum wage, vacancies, hiring, search and matching
+Corresponding author:
+Murat Tasci
+Federal Reserve Bank of Cleveland
+1455 E 6th St
+Cleveland, OH 44114
+USA
+E-mail: murat.tasci@clev.frb.org
+*	 We thank Bezankeng Njinju, Caitlin Treanor and Thao Tran for outstanding research assistance. We thank Jeffrey 
+Clemens, John Grigsby (discussant) and seminar and conference participants for useful comments and discussions. 
+The views expressed here are the authors’ and do not reflect those of the Federal Reserve Bank of Cleveland, Federal 
+Reserve Bank of Kansas City, Federal Reserve Bank of San Francisco, or the Federal Reserve System.
+
+
+=== PDF PAGE 4 ===
+1
+Introduction
+Despite decades of research, the impact of minimum wage increases on employment remains a
+hotly debated topic among researchers and policymakers. The long expansion after the 2007-
+09 recession led to the lowest unemployment rate in ﬁve decades but wage growth remained
+anemic and labor force participation stayed low, especially among young workers and workers
+with lower educational attainment. Since the last federal minimum wage increase in 2009,
+many states have enacted state-level changes to their minimum wage laws. Most recently,
+on January 1st 2022, twenty states increased their minimum wage, while the US Congress
+debates a similar federal-level increase.1 A broad-based minimum wage increase might appear
+as an attractive labor-market-policy tool to boost wages and lower poverty among low-
+wage earners. However, economic theory predicts that, in a competitive labor market, a
+minimum wage hike might lead to a decline in employment. This issue has motivated a
+long-lasting, at times contentious, debate in the literature on the e↵ect of minimum wage
+increase on employment (see Card and Krueger, 1994, 2000; Dube, Naidu, and Reich, 2007;
+Dube, Lester, and Reich, 2010; Neumark and Wascher, 1992, 2007, 2008; Jha, Neumark, and
+Rodriguez-Lopez, 2022; among many others).
+We study the e↵ect of minimum wage increases on vacancies.
+We combine 2-digit
+occupation-speciﬁc county-level vacancy data from the Conference Board’s Help Wanted
+Online at a quarterly frequency with the data on minimum wage changes at the state level.
+We separately estimate the e↵ect of minimum wage increases on existing vacancies (stock)
+and new vacancies, i.e., less than 30-day old (ﬂow).
+We use a triple-di↵erence identiﬁcation strategy. Our identiﬁcation strategy exploits the
+idea that di↵erent occupations can be di↵erently impacted by minimum wage hikes due to
+di↵erential mass of occupation-speciﬁc wage distributions concentrated around the prevailing
+minimum wage. We formalize this idea by analyzing wage distributions by occupation at the
+state level using micro data from the Current Population Survey (CPS). We identify occupa-
+tions with large shares of employed workers at or near the state-level e↵ective minimum wage
+and we refer to these occupations as “at-risk occupations.” We then estimate vacancy growth
+in at-risk occupations relative to vacancy growth in other occupations around the time when
+minimum wage increase takes place in the state, and relative to growth in vacancies in at-risk
+occupations at the national level.
+We ﬁnd a statistically signiﬁcant and economically sizeable negative e↵ect of the minimum
+wage increase on vacancies. Speciﬁcally, a 10 percent increase in the level of the e↵ective
+1https://edlabor.house.gov/raise-the-wage-act-information
+1
+
+
+=== PDF PAGE 5 ===
+minimum wage reduces the stock of vacancies in at-risk relative to not-at-risk occupations
+by 2.4 percent and reduces the ﬂow of vacancies in at-risk occupations by about 2.2 percent.
+Our estimation strategy yields the relative e↵ect on at-risk occupations compared to not-at-
+risk occupations. In Section 4, we gauge that the total e↵ect is also negative and likely close
+to this estimate.
+Estimating a dynamic speciﬁcation, we ﬁnd that there is a strong preemptive response by
+ﬁrms as well as a long-lasting dynamic response. We ﬁnd that ﬁrms cut vacancies up to three
+quarters in advance of the actual minimum wage increase. This ﬁnding is consistent with
+the ﬁrms’ desire to cut employment and vacancies being a forward-looking tool to achieve it.
+It is also consistent with a typical announcement e↵ect of a policy change. Speciﬁcally, the
+mean announcement of a minimum wage increase is around 3.21 quarters prior to the actual
+implementation (Leung, 2021). Formally testing for the parallel trends assumption in our
+triple-di↵erence identiﬁcation, we ﬁnd that at-risk and not-at-risk occupations do not have
+statistically signiﬁcant di↵erences in their vacancy trends prior to the typical announcement
+period. But the negative e↵ect persists even four quarters after the minimum wage increase.
+The cumulative negative e↵ect of a 10 percent increase in the minimum wage on vacancies
+in at-risk occupations is as large as 4.5 percent a year later.
+The large negative e↵ect from minimum wage increases conceals substantial heterogeneity.
+The level of granularity in our vacancy data allows us to further distinguish occupations by
+skill and occupational task content. We ﬁnd that vacancies in occupations that typically
+employ workers with lower educational attainment (high school or less) are a↵ected more
+negatively than vacancies in other occupations. The negative e↵ect on vacancy posting is
+exacerbated in counties with higher poverty rates, which highlights another trade-o↵that
+policymakers might want to take into account. Lastly, we do not ﬁnd any signiﬁcant evidence
+of a disproportionately more negative e↵ect on routine jobs.
+Our empirical methodology is closely related to the literature that aims to include better
+control groups in empirical speciﬁcations. This literature typically uses neighboring jurisdic-
+tions as controls.2 Instead, our baseline identiﬁcation strategy uses vacancies in occupations
+that are not in the at-risk group as a suitable control group. Since vacancies in at-risk occu-
+pations are more likely to be “treated” with a minimum wage increase, comparing vacancies
+in at-risk occupations to vacancies in other occupations after a minimum wage increase al-
+lows estimating a causal e↵ect of minimum wage increases on vacancies. Our approach of
+identifying at-risk occupations is related to the approach of Cengiz, Dube, Lindner, and
+Zipperer (2019) who study the e↵ect of minimum wage changes on employment at di↵er-
+2See, for example, Card and Krueger (1994), Dube, Lester, and Reich (2010, 2016).
+2
+
+
+=== PDF PAGE 6 ===
+ent points of the wage distribution. As a robustness check, we additionally implement an
+estimation using a contiguous-county sample as in Dube et al. (2010) and obtain results
+similar to our baseline results. In our empirical analysis, we relate county-level outcomes to
+state-level policy changes in order to minimize endogeneity concerns. Speciﬁcally, it is less
+likely to have county-level relative labor demand for di↵erent occupations to inﬂuence state
+level policy changes.
+The focus of our analysis on vacancies versus on employment has a distinct advantage of
+highlighting a mechanism through which minimum wage hikes a↵ect the labor market, and it
+helps sort out the debate on the e↵ect of the minimum wage hikes on employment. Vacancies
+serve as one of the adjustment margins that ﬁrms can use to reach their optimal level
+of employment. In contrast, employment is determined jointly by hiring and separations;
+therefore, changes in employment reﬂect a combination of various margins of adjustment to
+the minimum wage change. As we brieﬂy outline below, under both the standard neoclassical
+and the frictional models of the labor market, minimum wage hikes lead to a decline in
+vacancies but the e↵ect on employment might di↵er.
+In the standard neoclassical models, a higher minimum wage leads to a movement to the
+left and up the labor demand curve (Stigler, 1946), which leads to a decline in employment.
+Adjustment costs might render the transition to a new employment level slow.3 Through the
+lens of these models, vacancy posting costs are an implicit part of these adjustment costs,
+and the estimated negative e↵ect of minimum wage hikes prior to the actual hikes is a part
+of the adjustment process.
+In the frictional models of the labor market, where these adjustment costs are explicit,
+an increase in the minimum wage also leads to a decline in the number of vacancies due to an
+increase in the marginal cost. Our results are consistent with this theory. In contrast to the
+standard neoclassical models, declining vacancies do not necessarily imply lower employment
+in these models. The e↵ect of the minimum wage on hiring is ambiguous because while
+vacancies decline, job seekers’ input increases—either due to the increase in the number of
+job seekers or search eﬃciency.4 Even though on impact one might expect a higher rate
+of separations due to the dissolution of some marginal matches, a higher minimum wage
+forces all new matches to satisfy a higher threshold for productivity. This, in turn, makes
+these new matches more durable relative to an environment with a lower minimum wage.
+One implication of this is that a minimum wage hike might lead to a decline in turnover
+3See, for example, Oi (1962); Hamermesh (1989); Diamond (1981); Acemoglu (2001).
+4See, for example, Gorry (2013); Flinn (2006, 2011);Rocheteau and Tasci (2007, 2008); Sorkin (2015);
+van den Berg and Ridder (1998); Berger, Herkenho↵, and Mongey (2022); Hurst, Kehoe, Pastorino, and
+Winberry (2021).
+3
+
+
+=== PDF PAGE 7 ===
+but possibly no change in the stock variables such as unemployment and employment. This
+interpretation of the labor market can reconcile the negative e↵ects of minimum wage hikes
+on vacancies that we ﬁnd and the relatively small or non-existent e↵ects on employment
+found in the literature (Allegretto, Dube, Reich, and Zipperer, 2017; Card and Krueger,
+1994; and Card and Krueger, 2000). More speciﬁcally, our results corroborate the ﬁndings
+of Dube, Lester, and Reich (2016) who ﬁnd signiﬁcant declines in ﬂows but insigniﬁcant
+e↵ects on stocks of employment. By analyzing vacancy postings, we provide more insight
+into ﬁrms’ behavior as they adjust to minimum wage changes. Understanding these di↵erent
+margins of adjustment may provide more context for policymakers and researchers on the
+contentious debate of the employment e↵ects of minimum wage increases.
+Our paper is related to a large empirical literature on the minimum wage debate (see
+Neumark and Shirley (2022) for a survey).
+In addition to the literature cited above, it
+is related to the literature that addresses the heterogeneous e↵ects of the minimum wage
+policy on di↵erent demographic groups, focusing on worker groups that are most likely to be
+a↵ected, such as teenagers (Currie and Fallick, 1996), and low-wage workers (Clemens and
+Wither, 2019). In contrast to the earlier work by Lordan and Neumark (2018) and Aaronson
+and Phelan (2019), we do not ﬁnd a greater negative impact on vacancies in routine or
+automatable occupations. Relatedly, using the Burning Glass vacancy data, Clemens, Kahn,
+and Meer (2021) study whether minimum wage increases result in substitution from lower-
+skilled to slightly higher-skilled labor and ﬁnd that this is the case.
+Finally, our analysis of the dynamic e↵ects of the minimum wage increases provides
+insights about the ﬁrms’ adjustment process through their vacancy posting behavior. Our
+results show a more complete picture of the labor market adjustment in response to minimum
+wage changes and compliment recent evidence on the dynamics of employment adjustments
+(Cengiz, Dube, Lindner, and Zipperer, 2019; Meer and West, 2016; Leung, 2021).
+The rest of the paper is structured as follows. Section 2 presents our data. Section 3
+discusses the empirical approach. Section 4 presents the main results. Section 5 presents
+additional results focusing on the heterogeneous e↵ects of minimum wage increases. Section
+6 summarizes several robustness exercises. Section 7 concludes.
+2
+Description of the Data
+2.1
+Minimum wage data
+We construct a quarterly data set of state-level e↵ective minimum wages during 2005-2018.
+We start with the state-level mandated minimum wage (if such a state mandate exists), com-
+4
+
+
+=== PDF PAGE 8 ===
+bine this information with the federal minimum wage, and calculate the e↵ective minimum
+wage for each date as the maximum of the two. We rely on the compilation of the e↵ective
+minimum wage data for states and sub-state jurisdictions (such as cities and counties) in
+Vaghul and Zipperer (2016), which covers a period up to mid-2016 in the published version
+and provides an extension to 2021 in the online version.
+For our analysis, we aggregate the e↵ective minimum wage at a daily frequency to a
+quarterly frequency by assigning the highest e↵ective daily minimum wage level during the
+quarter to the entire quarter. In most cases though, minimum wage increases take e↵ect at
+the beginning of a month and often at the beginning of a quarter.
+During 2005-2018, the federal minimum wage rose from $5.15 to $7.25 per hour. The
+ﬁrst hike in the federal minimum wage level during this period, in 2007, was preceded by a
+signiﬁcant increase in the number of states with e↵ective minimum wages above the federal
+level. For example, 14 states in the U.S. had a binding state-level minimum wage, which
+was higher than the federal level, in 2005 (see Figure 1). Within a few years, the number of
+states with a binding minimum wage rose to 33 as more states enacted minimum wage laws,
+bringing their e↵ective minimum wages to levels above the prevailing federal level.
+2007
+2010
+2012
+2015
+2017
+10
+15
+20
+25
+30
+35
+40
+Number of States
+Figure 1: Number of the US States with Binding State-Level Minimum Wages
+Note: The state-level minimum wage is binding if it is higher than the federal minimum wage.
+The federal minimum wage has not changed since 2009, but the dispersion in the e↵ective
+minimum wage across states has increased since then. As Figure 2 shows, the highest binding
+minimum wage at the end of 2018 stood at $13.25 per hour in the District of Columbia, twice
+5
+
+
+=== PDF PAGE 9 ===
+the level of the federal minimum wage.
+2007
+2010
+2012
+2015
+2017
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+$US
+Max binding MW
+Med binding MW
+Federal MW
+Figure 2: Range of E↵ective State-Level Minimum Wages
+There is large variation in the magnitude of the state-level minimum wage increases as
+shown in Figure 3. During 2005-2018, there are 291 minimum wage hikes, ranging from 0.5
+to 34 percent. The median increase is 6.5 percent and the mean increase is 7.9 percent.
+As described below, in our baseline approach, we consider the pool of occupations in which
+many workers earn at or below 110 percent of the prevailing minimum wage as occupations
+potentially vulnerable to a minimum wage increase. Almost 60 percent of all state-level
+minimum wage increases in our sample are below ten percent.5 The substantial variation in
+the binding minimum wage across the US states and the variation in the magnitude of the
+e↵ective minimum wage changes allow us to identify the impact of minimum wage increases
+on vacancies.
+5In our analysis, we do not consider changes in the minimum wage that are set by law to adjust to the
+CPI. Such changes are predictable (and small during the sample period) and, therefore, should not impact
+hiring decisions. Currently, the minimum wage is indexed to inﬂation in 19 states and DC. Only a handful
+of states in this group started indexation prior to 2018 (see Economic Policy Institute’s Minimum Wage
+Tracker https://www.epi.org/minimum-wage-tracker/#/min wage/). Most states which started indexation
+earlier in our sample period were small, such as Vermont and Montana, and ignoring these changes do not
+change our results in any material way.
+6
+
+
+=== PDF PAGE 10 ===
+Figure 3: Distribution of State-Level Minimum Wage Increases, 2005-2018
+2.2
+At-risk occupations
+Our identiﬁcation strategy relies on an assumption that some occupations are more exposed
+to minimum wage increases than others. We designate an occupation as an “at-risk occupa-
+tion” if a large share of workers in the occupation earn at or close to the e↵ective minimum
+wage.
+To identify at-risk occupations, we construct hourly wage distributions of the occupations
+at the two-digit level by state using micro-level data from the CPS.6 To construct these
+distributions, we use hourly wage information (from the fourth and eighth months interviews
+in the CPS). When hourly wage data are not available, we use weekly hours worked and
+weekly earnings to compute an hourly wage. We restrict our sample to employed individuals
+of age 16 and older, and exclude those who are self-employed or work without pay.
+We then combine the constructed wage distributions by occupation at the state level
+with the data on the state-level e↵ective minimum wage and classify each occupation in the
+state as “at risk” or “not-at-risk” using the following two threshold rules. First, we designate
+workers who earn at or below 110 percent of the e↵ective state-level minimum wage as those
+who earn close to the minimum wage. The 110 percent threshold is partly informed by
+the distribution of the minimum wage increases shown in Figure 3. Second, we consider
+6As we describe below, the vacancy data available to us are at the 2-digit-leveloccupational deﬁnitions.
+We note, however, that constructing representative state-speciﬁc wage distributions for ﬁner occupational
+groups becomes harder given the CPS sample size for many states.
+7
+
+
+=== PDF PAGE 11 ===
+an occupation to be in the at-risk group, if during the entire sample period, the fraction of
+workers earning at or below 110 percent of the e↵ective minimum wage is at least 5 percent.
+In Section 6, we show that our results are robust to variations in these two threshold levels.
+First, note that our designation of an occupation as being “at-risk” does not change
+over time; that is, an occupation is at-risk or not-at-risk through the entire sample period.
+Second, analysing at-risk occupations across states, we ﬁnd that the same occupations are
+designated as at-risk in all states. Therefore, our designation of an occupation as at-risk is
+not locality-speciﬁc.
+We choose the ﬁve percent threshold examining the occupational wage distributions.
+Table 1 shows employment shares of workers in di↵erent occupations for a given year who
+earn at or below 110 percent of the prevailing state-level minimum wage, averaged across
+states. The average share across all years is about 4.5 percent, whereas the median share is
+2.8 percent.
+Using this approach, we identify six at-risk occupations: (1) food preparation and serving-
+related occupations (SOC-35), (2) building, grounds cleaning and maintenance occupations
+(SOC-37), (3) personal care and service occupations (SOC-39), (4) sales and related oc-
+cupations (SOC-41), (5) oﬃce and administrative support occupations (SOC-43), and (6)
+transportation and materials moving occupations (SOC-53).
+Most of the occupations in the at-risk group are low-wage service-sector jobs.
+Food
+preparation and serving-related occupations have the largest share in the at-risk pool, on
+average about 21 percent, followed by sales and related occupations (at 14.2 percent) and
+oﬃce and administrative support occupations (at 7.9 percent). Despite some variation over
+the years in terms of employment shares, the 5 percent rule is remarkably robust over time.
+None of the occupations in our at-risk group has an employment share that falls below 5
+percent during the sample period. The only other occupation that satisﬁes this threshold
+in some years in our sample is production occupations (SOC-51). Our estimation results
+are identical when we include production occupations in our at-risk group.7 The share of
+employment in the at-risk occupations constitutes about 42 percent of aggregate employment
+in the U.S. in our sample.
+7These results are available upon request.
+8
+
+
+=== PDF PAGE 12 ===
+SOC
+Occupation
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+11
+Management
+2.3
+2.8
+2.1
+2.4
+2.2
+2.0
+2.5
+2.3
+2.3
+2.4
+2.3
+2.2
+2.6
+2.6
+13
+Business and Financial Operations
+2.1
+2.0
+1.8
+1.7
+1.6
+1.4
+1.6
+1.5
+1.4
+1.5
+1.7
+2.1
+1.6
+1.8
+15
+Computer and Mathematical
+1.5
+1.8
+1.6
+1.4
+1.3
+1.2
+1.3
+1.5
+1.4
+1.6
+1.2
+1.7
+1.4
+1.3
+17
+Architecture and Engineering
+1.8
+1.6
+1.2
+1.3
+1.2
+0.9
+1.3
+1.3
+1.2
+1.3
+1.6
+1.6
+1.3
+1.7
+19
+Life, Physical, and Social Science Occupations
+2.1
+1.9
+1.2
+1.3
+1.2
+0.8
+1.1
+1.5
+1.7
+0.9
+1.6
+1.4
+1.4
+1.0
+21
+Community and Social Service
+1.9
+1.7
+1.5
+1.6
+1.4
+1.6
+1.1
+1.3
+1.4
+1.4
+1.4
+1.5
+1.6
+1.7
+23
+Legal
+2.0
+1.2
+1.5
+1.1
+1.0
+1.1
+1.2
+1.4
+1.2
+1.4
+1.3
+1.1
+1.1
+1.3
+25
+Education, Training, and Library
+3.2
+2.9
+3.1
+3.2
+3.4
+3.2
+3.0
+3.3
+3.2
+3.0
+3.1
+3.1
+3.4
+3.5
+27
+Arts, Design, Entertainment, Sports, Media
+1.8
+2.0
+1.5
+1.7
+1.7
+1.5
+1.5
+1.6
+1.7
+1.7
+1.8
+2.1
+2.0
+1.9
+29
+Healthcare Practitioners and Technical
+1.9
+2.2
+1.8
+1.8
+1.4
+1.7
+1.8
+1.9
+1.8
+1.9
+2.0
+2.3
+2.3
+2.4
+31
+Healthcare Support
+3.2
+3.5
+3.6
+3.5
+3.1
+3.2
+2.9
+3.4
+3.2
+3.6
+3.8
+3.4
+4.0
+4.5
+33
+Protective Service
+2.2
+2.4
+2.3
+2.3
+2.7
+2.9
+2.7
+2.3
+2.8
+2.4
+2.6
+2.8
+2.9
+3.0
+35
+Food Preparation and Serving Related
+22.7
+20.7
+21.2
+21.6
+22.3
+22.0
+22.1
+21.6
+21.9
+20.9
+20.3
+19.6
+17.9
+17.1
+37
+Building, Grounds Cleaning, and Maintenance
+5.2
+6.3
+6.6
+6.0
+6.2
+6.1
+6.0
+5.9
+5.7
+6.4
+6.6
+6.0
+5.8
+6.5
+39
+Personal Care and Service
+5.5
+5.9
+6.3
+6.4
+7.1
+6.4
+6.4
+6.6
+6.4
+6.5
+6.6
+7.1
+7.3
+7.3
+41
+Sales and Related
+11.3
+11.5
+13.4
+14.7
+15.6
+15.8
+16.0
+15.9
+15.2
+15.6
+14.9
+13.8
+13.0
+12.5
+43
+Oﬃce and Administrative Support
+6.8
+7.3
+8.2
+8.2
+7.5
+8.4
+7.7
+7.5
+7.6
+8.0
+8.5
+8.2
+8.4
+8.5
+45
+Farming, Fishing, and Forestry
+4.6
+4.6
+4.1
+3.5
+3.3
+3.2
+3.7
+3.1
+3.3
+3.2
+3.0
+3.1
+4.3
+3.8
+47
+Construction and Extraction
+4.3
+3.1
+3.3
+2.8
+2.9
+2.9
+2.8
+2.6
+2.8
+2.9
+2.9
+3.1
+3.2
+3.4
+49
+Installation, Maintenance, and Repair
+2.1
+2.2
+1.8
+1.8
+2.0
+2.2
+2.3
+2.4
+2.3
+2.1
+2.0
+2.3
+2.2
+2.5
+51
+Production
+5.7
+6.5
+5.4
+5.2
+4.3
+4.9
+5.1
+4.7
+5.0
+4.7
+4.4
+4.7
+4.9
+4.8
+53
+Transportation and Materials Moving
+5.8
+5.9
+6.6
+6.6
+6.5
+6.7
+6.1
+6.3
+6.4
+6.5
+6.5
+6.7
+7.3
+7.0
+Table 1: Fraction of At-Risk Employment by Occupation, Averaged Across All US States
+Note: Each entry shows the fraction of workers in the occupation who earn at or below 110 percent of the e↵ective state-level minimum
+wage, averaged across all US states. The e↵ective state-level minimum wage level corresponds to the geographical location of the
+household in the CPS. For each year, we average the fraction of employment across states and four quarters. Source: Authors’
+calculations using data from the CPS.
+9
+
+
+=== PDF PAGE 13 ===
+2.3
+Vacancy data
+The vacancy data in our analysis come from the job openings data from the Conference
+Board as a part of its Help Wanted OnLine (HWOL) data series.8 HWOL provides monthly
+data on vacancies at detailed geographical (state, metropolitan statistical area, and county)
+and occupational levels starting from May 2005. The data available to us are at the 2-digit
+occupational level.9
+HWOL covers around 16,000 online job boards, including corporate
+job boards, and aims to measure unique vacancies by using a sophisticated deduplication
+algorithm that identiﬁes unique advertised vacancies based on several ad characteristics such
+as company name, job title/description, city, or state. The Bureau of Labor Statistics (BLS)
+also publishes job openings data, the Job Openings and Labor Turnover Survey (JOLTS),
+which is nationally- representative. However, HWOL’s detailed geographic- and occupation-
+level coverage makes it uniquely attractive for our analysis. JOLTS’ publicly available data
+ﬁles do not provide data disaggregated below census regions and do not contain information
+on occupational characteristics.
+This additional level of granularity in the HWOL data
+provides us with a novel opportunity to implement our identiﬁcation strategy.
+We aggregate monthly data into quarterly series by constructing their quarterly averages.
+HWOL data include the stock of vacancies as well as new job postings (less than 30 days-
+old), allowing us to analyze the e↵ects of minimum wage increases on the stock and ﬂow of
+vacancies separately.
+The main labor market outcome of interest in our analysis is the number of vacancies in
+a 2-digit occupation at the county level. There is very little variation in e↵ective minimum
+wage levels at the jurisdiction level across counties within states. In rare instances where we
+have city level binding minimum wage laws above the state level, it is hard to map that into
+a county, our geographical level of detail. Therefore, we study the e↵ect of the increase in
+the e↵ective state-level minimum wage.
+Table 2 shows some descriptive statistics for the county-level job openings by at-risk
+and not-at-risk occupational groups over time. The table shows the mean and standard
+deviations of the distribution of the natural logarithm of the number of total vacancies in at-
+risk and not-at-risk occupations across counties in each year. To construct the distributions,
+we sum all vacancies in at-risk occupations (SOC-35, SOC-37, SOC-39, SOC-41, SOC-43,
+and SOC-53) and all vacancies in not-at-risk occupations in each county. The table shows
+that at-risk occupations have lower levels of job openings, and a comparable (if only slightly
+8We use the terms “vacancy” and “job opening” interchangeably.
+9For a detailed description of the measurement concepts and data collection methodology, see Con-
+ference Board (2017).
+The Conference Board Help Wanted OnLine® (HWOL) at https://www.
+conferenceboard.org/data/-helpwantedonline.cfm.
+10
+
+
+=== PDF PAGE 14 ===
+larger) dispersion across counties relative to not-at-risk occupations for most of the sample
+period. About 36 percent of all job postings in our sample are in at-risk occupations.
+At-Risk Occupations
+Not-at-Risk Occupations
+Year
+Obs.
+Mean
+Std. Dev.
+Obs.
+Mean
+Std. Dev.
+2005
+8,884
+3.26
+2.17
+9,226
+3.80
+2.08
+2006
+12,063
+3.28
+2.21
+12,340
+3.87
+2.12
+2007
+11,994
+3.29
+2.30
+12,362
+4.01
+2.15
+2008
+11,980
+3.33
+2.28
+12,401
+4.11
+2.10
+2009
+12,044
+3.28
+2.17
+12,419
+4.06
+1.99
+2010
+12,194
+3.46
+2.17
+12,456
+4.20
+2.01
+2011
+12,245
+3.71
+2.16
+12,449
+4.35
+2.01
+2012
+12,370
+4.02
+2.06
+12,488
+4.57
+1.98
+2013
+12,420
+4.22
+2.02
+12,510
+4.63
+1.98
+2014
+12,456
+4.24
+2.08
+12,523
+4.75
+1.95
+2015
+12,521
+4.44
+1.99
+12,516
+4.83
+1.95
+2016
+12,506
+4.40
+1.94
+12,520
+4.78
+1.95
+2017
+12,434
+4.17
+2.03
+12,521
+4.68
+1.99
+2018
+12,458
+4.26
+1.96
+12,519
+4.70
+1.95
+All Years
+168,569
+3.83
+2.16
+171,250
+4.40
+2.04
+Table 2: Distributions of Vacancies in At-Risk and Not-At-Risk Occupations across Counties,
+by Year (Vacancies in Ln)
+Note: The table shows the mean and standard deviations of the distribution of the natural
+logarithm of the number of total vacancies in at-risk and not-at-risk occupations across counties
+in each year. To construct the distributions, for each county, we sum all vacancies in at-risk
+occupations (SOC-35, SOC-37, SOC-39, SOC-41, SOC-43, and SOC-53) and all vacancies in
+not-at-risk occupations.
+3
+Empirical Approach
+3.1
+Identiﬁcation strategy
+Our baseline empirical strategy is a triple-di↵erence regression. We estimate the e↵ect of
+the state-level minimum wage increases on the number of county-level vacancies using the
+following panel regression:
+ln Vi,o,t = ↵i,o + µo,t + γi,t + β ln(MWi,t) ⇤AtRisko + "i,o,t
+(1)
+In this speciﬁcation, the outcome variable, ln Vi,o,t, is the natural logarithm of (the number
+of) vacancies in county i, occupation o, and in quarter t.
+The variable At-Risko is an
+11
+
+
+=== PDF PAGE 15 ===
+indicator function identifying whether occupation o is an at-risk occupation, ↵i,o is a county-
+by-occupation ﬁxed e↵ect, γi,t is a county-by-time ﬁxed e↵ect (measured quarterly), and µo,t
+is an occupation-by-time ﬁxed e↵ect.
+The coeﬃcient of interest, β, is identiﬁed from the growth of vacancies in at-risk occupa-
+tions relative to other occupations in the calendar quarter when the corresponding minimum
+wage changes, and relative to the growth of vacancies in at-risk occupations at the national
+level. The power of the identiﬁcation strategy comes from the ability to control for arbitrary
+trends in posted vacancies in the form of granular ﬁxed e↵ects. Note that ln MWi,t and At-
+Risko are included as an interaction term because the e↵ect of ln MWi,t without interaction
+is absorbed by γi,t and the e↵ect of At-Risko is absorbed by ↵i,o.
+Compare our approach to an alternative setup that consists of identifying a narrowly
+deﬁned group (such as teenagers or restaurant workers) who are more likely to be a↵ected
+by the minimum wage increase and estimating the following two-way ﬁxed-e↵ects regression:
+ln Ei,t = ↵i + γt + β ln MWi,t + "i,t,
+(2)
+where Ei,t stands for employment in county i and at time t.
+Our speciﬁcation in equation (1) has several advantages over the speciﬁcation in equation
+2. First, the speciﬁcation in equation (1) controls for occupation- and county-speciﬁc trends,
+as well as the variation in occupational demand across locations (↵i,o). As we show in Section
+4.1, it is important to control for all of this variation in the vacancy data when estimating
+the causal e↵ect of the minimum wage changes on vacancies. Second, our speciﬁcation is
+equivalent to e↵ectively running a placebo test. Speciﬁcally, there are occupations in which
+only a small fraction of workers are employed at wage levels that are close to a prevailing
+minimum wage. Legal occupations, for instance, are one such example. We ﬁnd that only
+1.3 percent of workers in legal occupations earn at or below 110 percent of the prevailing
+minimum wage throughout the sample. Hence, by essentially comparing the e↵ects of the
+minimum wage increases on vacancies in at-risk occupations relative to other occupations,
+such as legal occupations, our empirical design provides a better identiﬁcation of the causal
+e↵ect of minimum wage increases on vacancies.
+Our estimation relies on the variation in minimum wage across states and its dispro-
+portionate e↵ect on occupations as deﬁned by our at-risk categorization. As we argue in
+Section 2.1, there is a sizeable variation in the binding minimum wage across states. The
+disproportionate impact on di↵erent occupations depends crucially on the size of employ-
+ment around the prevailing minimum wage in di↵erent occupations and di↵erent states. The
+relative e↵ect identiﬁed by β in equation (1) mostly depends on the direct impact on the
+12
+
+
+=== PDF PAGE 16 ===
+at-risk occupations. The binding minimum wage likely does not directly a↵ect the occupa-
+tions outside of our at-risk deﬁnition. We illustrate this with an example in Figure 4, which
+plots the cumulative wage distributions (cdf) in 2013 for two states, California (left panel)
+and Texas (right panel), for two occupations—(1) management and (2) food preparation
+and serving-related occupations. The latter occupation falls into our at-risk group and the
+former is within the not-at-risk occupations that constitute the control group. Compared
+to management occupations, food preparation and serving-related occupations have a much
+larger share of workers earning at or below 110 percent of the state-level binding minimum
+wage in both states. Compared to California, the binding minimum wage is lower in Texas
+in 2013 but a larger fraction of workers in food preparation and serving-related occupations
+earn hourly rates close to the minimum wage. In contrast, the shape of the cdfs and the
+relative size of the workforce susceptible to minimum wage hikes are surprisingly very sim-
+ilar in management occupations in both states. As this example illustrates, the number of
+workers in at-risk occupations can vary greatly across di↵erent states.
+Figure 4: Variations in Wage Distributions in At-Risk and Not-At-Risk Occupations in
+California and Texas, 2013
+Note: The ﬁgure shows the cumulative wage distribution in two di↵erent occupations (Manage-
+ment Occupations, SOC-11, and Food Preparation and Serving Related Occupations, SOC-35)
+in California and Texas in 2013. The e↵ective minimum wage was $8 per hour in California
+and $7.25 per hour in Texas in 2013. The dashed lines correspond to 110 percent of the corre-
+sponding e↵ective minimum wage in each state.
+3.2
+Dynamic speciﬁcation
+In the baseline speciﬁcation, we estimate a contemporaneous e↵ect of minimum wage in-
+creases on vacancies, as is typical in most of the related empirical literature. However, due
+to the forward-looking nature of the variable of interest (vacancies), and the timing of the
+13
+
+
+=== PDF PAGE 17 ===
+announcement of minimum wage legislation both at the federal and state levels, we expect
+that there might be some forward-looking response in ﬁrms’ vacancy postings behavior. To
+analyze this potential dynamic e↵ect, we also estimate a distributed lag speciﬁcation, where
+we introduce dynamic leads and lags of the change in the e↵ective minimum wage into
+equation (1). Speciﬁcally, we estimate the following speciﬁcation:
+ln Vi,o,t = ↵i,o + µo,t + γi,t +
+4
+X
+j=−6
+βj ln(MWi,t+j)AtRisko + "i,o,t,
+(3)
+Equation 3 allows us to analyze the e↵ects of minimum wage hikes up to six quarters
+prior to and four quarters after the change. The cumulative e↵ect of the change at time
+t + m will be the sum of all βj’s up to j = m.
+3.3
+Contiguous-county approach
+Finally, following the inﬂuential work by Dube, Lester, and Reich (2010), we also implement
+a contiguous-county speciﬁcation of our main identiﬁcation strategy. The main idea is to use
+a better control group to capture the true treatment e↵ect of minimum wage increases. The
+assumption is that counties along the state borders might have more similar labor market
+conditions but exogenously di↵erent state-level binding minimum wages. This speciﬁcation
+also allows us to control for arbitrary time-varying unobserved heterogeneity between the
+treatment and control groups on di↵erent sides of the state border.
+Speciﬁcally, in our context, implementing the contiguous-county speciﬁcation implies
+estimating the following regression:
+ln Vi,o,p,t = ↵i,o + µo,t + γo,p,t + β ln(MWi,t) ⇤AtRisko + "i,o,p,t
+(4)
+where p stands for a county-pair. We still include granular ﬁxed e↵ects to control for lo-
+cal labor market conditions when using only contiguous counties along the state borders.
+Speciﬁcally, this sample allows us to include a county-pair-by-time-by-occupation ﬁxed ef-
+fect, γo,p,t.
+4
+Estimates of the E↵ect of Minimum Wage Increases
+on Vacancies
+4.1
+Baseline estimates
+We estimate the speciﬁcation in equation (1) in the panel data that we construct using
+HWOL and the state-level minimum wage data as described in Section 2. In the baseline
+14
+
+
+=== PDF PAGE 18 ===
+speciﬁcation, the unit of observation is an occupation in a county and in a particular quarter.
+Table 3 reports the baseline estimation results. The ﬁve columns in the upper panel report
+the estimated e↵ect of minimum wage increases on total vacancies (stock) and the lower
+panel reports the estimated e↵ect on new vacancies that are less than 30 days old (ﬂow).
+(a) ln (Total Vacancies)
+(1)
+(2)
+(3)
+(4)
+(5)
+ln(MW t)*At-Risk
+-0.241***
+0.642***
+0.226*
+-0.103
+-0.252***
+(0.083)
+(0.073)
+(0.120)
+(0.212)
+(0.086)
+ln(MW t)
+0.154
+(0.163)
+Fixed E↵ects:
+County x Time
+Yes
+Yes
+Yes
+County x Occupation
+Yes
+Yes
+Yes
+Yes
+Occupation x Time
+Yes
+Yes
+Yes
+Yes
+Clusters
+51
+51
+51
+51
+51
+Observations
+2,930,908
+2,930,908
+2,931,708
+2,932,275
+2,932,275
+R-squared
+0.921
+0.913
+0.840
+0.898
+0.898
+(b) ln (New Vacancies)
+(1)
+(2)
+(3)
+(4)
+(5)
+ln(MW t)*At-Risk
+-0.215**
+0.639***
+0.470***
+-0.189
+-0.233***
+(0.080)
+(0.071)
+(0.123)
+(0.204)
+(0.084)
+ln(MW t)
+0.051
+(0.139)
+Fixed E↵ects:
+County x Time
+Yes
+Yes
+Yes
+County x Occupation
+Yes
+Yes
+Yes
+Yes
+Occupation x Time
+Yes
+Yes
+Yes
+Yes
+Clusters
+51
+51
+51
+51
+51
+Observations
+2,752,397
+2,752,397
+2,753,617
+2,754,594
+2,754,594
+R-squared
+0.928
+0.922
+0.857
+0.903
+0.9032
+Table 3: Impact of Minimum Wage Increases on the Stock and Flow of Vacancies
+Note: This table reports estimates from the OLS regressions following the speciﬁcation in
+equation (1). Robust standard errors (in parentheses) are clustered by state. *** p<0.01, **
+p<0.05, * p<0.1.
+We ﬁnd a negative and statistically signiﬁcant e↵ect of minimum wage increases on the
+stock of vacancies as shown in the ﬁrst column of panel (a) in Table 3. Speciﬁcally, a 10
+percent increase in the e↵ective minimum wage reduces the stock of vacancies by about
+2.4 percent for at-risk occupations relative to others.
+To provide some context for this
+magnitude, consider the aggregate decline in vacancies during the 2007-09 recession. From
+December 2007 to June 2009, the average decline of vacancies in a 2-digit occupation was
+15
+
+
+=== PDF PAGE 19 ===
+around 20 percent. Considering that the 2007-09 was one of the largest economic shocks
+that ever hit the U.S. economy, a decline of 2.4 percent in response to a 10 percent increase
+in the minimum wage is economically signiﬁcant.
+Columns (2) through (4) in panel (a) of Table 3 provide estimates of β in the absence of
+the granular ﬁxed e↵ects that we use in the baseline, removing one at a time. Speciﬁcally,
+when we ignore occupational trends (µo,t), the coeﬃcient estimate becomes positive and
+statistically signiﬁcant as shown in Columns (2). This is because, in the sample period,
+vacancies in at-risk occupations have a steeper upward growth trend relative to the control
+group of vacancies in not-at-risk occupations. One way to illustrate this is shown in Figure
+5, which plots vacancy levels in management occupations versus in food preparation and
+servicing-related occupations over the sample period. Ignoring occupational trends biases
+our estimate signiﬁcantly. Hence, controlling for aggregate occupational trends is crucial for
+our identiﬁcation.
+2007
+2010
+2012
+2015
+2017
+Quarters
+100
+150
+200
+250
+300
+350
+Management Occupations
+Food Preparation and Serving
+Figure 5: Trends in Vacancies in Selected At-Risk and Not-At-Risk Occupations
+Note: Vacancy levels are normalized to 100 for 2006.
+Similarly, controlling for long-run di↵erences in county-level demand for speciﬁc occu-
+pations (↵i,o) is important for identifying the true impact of the minimum wage increases
+on vacancies. As Column (3) in the upper panel of Table 3 shows, when we do not con-
+trol for these di↵erences, we obtain a statistically signiﬁcant and positive e↵ect of minimum
+16
+
+
+=== PDF PAGE 20 ===
+wage increases on vacancies for at-risk occupations. On average, there are fewer vacancies
+in at-risk occupations, but county-level dispersion in these vacancies is larger compared to
+vacancies in not-at-risk occupations as shown in Figure 6. In general, we would get this
+bias if counties with more vacancies in at-risk occupations also happen to have minimum
+wage increases and we fail to control for this di↵erence in demand for speciﬁc occupations.
+Consider, for example, Clark County in Nevada, where Las Vegas is located. The average
+number of vacancies in at-risk occupations was 7.3 (in ln), higher than the average number
+of vacancies in not-at-risk occupations, 5.9 (in ln), in our sample period. During this time,
+the e↵ective minimum wage increased from $5.15 to $8.25 an hour in Clark County. If ex-
+amples like Clark County are commonplace in our sample, ignoring county-by-occupation
+ﬁxed e↵ects will bias our estimates as Column (3) shows.
+2007
+2010
+2012
+2015
+2017
+3
+3.5
+4
+4.5
+5
+log(Vacancies)
+Mean
+No-Risk Occupations
+At-Risk Occupations
+2007
+2010
+2012
+2015
+2017
+1.8
+2
+2.2
+2.4
+2.6
+log(Vacancies)
+Standard Deviation
+Figure 6: Mean and Standard Deviation of Vacancies in At-Risk and Not-At-Risk Occupa-
+tions Across Counties, by Year
+Note: The ﬁgure shows the statistics from the distribution of total vacancies across counties.
+Similarly, when we ignore time-varying county-speciﬁc trends as shown in Column (4)
+of the upper panel in Table 3, we obtain a negative but statistically insigniﬁcant coeﬃcient
+estimate . Di↵erent from the earlier studies in the literature, our study is able to use county-
+by-time ﬁxed e↵ects and isolate any time-varying unobserved variation in local vacancies that
+are orthogonal to the time variation in the underlying minimum wage. Speciﬁcations with
+two-way ﬁxed e↵ects as in equation (2) cannot separately identify minimum wage e↵ects and
+17
+
+
+=== PDF PAGE 21 ===
+other time-varying changes at the county level. We demonstrate here that controlling for
+the county-level trends is important. Ignoring these trends would bias the estimate upwards
+as column (4) highlights. In this sense, our results also contribute to the debate between
+Allegretto et al. (2017) and Neumark et al. (2014) on the importance of controlling for local
+trends and preexisting di↵erences between jurisdictions.
+Our identiﬁcation strategy of the causal e↵ect of the minimum wage increases on vacancies
+relies on comparing at-risk occupations to the rest while controlling for granular occupation-
+speciﬁc ﬁxed e↵ects. This strategy yields the relative e↵ect on at-risk occupations compared
+to not-at-risk occupations. To gauge the total e↵ect, consider the following exercise. In
+column (5) of Table 3, we modify our baseline speciﬁcation in 1 and add ln MWi,t, in addition
+to the interaction term of ln MWi,t with AtRisk dummy. Since county-time ﬁxed e↵ects are
+collinear with ln MWi,t, the speciﬁcation in column (5) does not include county-time ﬁxed
+e↵ects. Our estimate in Column (5) shows that the minimum wage e↵ect on the occupations
+that are in the control group, not-at-risk ones, is statistically not di↵erent from zero (the
+coeﬃcient of 0.154 with the standard error of 0.163). The negative and statistically signiﬁcant
+estimate of the relative e↵ect on at-risk occupations from Column (1) along with the similar
+results from Column (5) and the inherent bias introduced by the missing time-county ﬁxed-
+e↵ects suggest that the relative e↵ect that we estimate for at-risk occupations likely represent
+the total decline in the level of vacancies for this group.10
+Finally, we repeat the above estimations for new vacancies (the ﬂow). Similarly, we ﬁnd
+that minimum wage increases lead to statistically signiﬁcant declines in new vacancies in
+at-risk occupations as shown in Column (3) in the lower panel of Table 3. The magnitude
+of the estimate at around -0.22 is similar to the estimated coeﬃcient for total vacancies
+(-0.24). Columns (2) through (4) in the lower panel show that ignoring the granular ﬁxed
+e↵ects in equation (1) introduces similar biases to the estimation results when focusing on
+new vacancies only.
+4.2
+Dynamic e↵ects and preexisting trends
+It is intuitive that vacancy posting behavior by ﬁrms has some forward-looking element.
+Most minimum wage increases are anticipated, and often, a legislative debate at the state
+level precedes the actual implementation by a few quarters.11 For example, Leung (2021)
+10The bias from omitting the county-time ﬁxed e↵ects appears signiﬁcant as one can see comparing column
+(1) to column (4). Note that the coeﬃcient estimates on ln(MWi,t) ⇤AtRisko are not comparable between
+Columns (1) and (5) because of the missing γi,t’s.
+11See the following blogpost on the website of the National Conference of State Legislatures:
+http://www.ncsl.org/blog/2018/08/23/state-minimum-wage-developments.aspx.
+18
+
+
+=== PDF PAGE 22 ===
+reports that the average implementation lag of minimum wages is around 4.13 quarters during
+2007—2009 and 1.80 quarters during 2014—2015, which is important for understanding
+the dynamics of price changes in response to minimum wage hikes. Therefore, we explore
+whether the estimated negative contemporaneous impact of a minimum wage increase is led
+by a preemptive adjustment by ﬁrms before the minimum wage change comes in e↵ect.
+We are also interested in measuring the e↵ect of minimum wage increases beyond the
+contemporaneous e↵ect to examine whether some reverse causality might be at play. As
+Allegretto et al. (2017) point out in their critique of the methodology employed by Neumark
+et al. (2014), high-minimum-wage states are concentrated geographically and are usually
+politically left-leaning with a history of less de-unionization. Thus, if state-level minimum
+wages are correlated with other unobserved fundamentals that may be correlated with the
+evolution of vacancies, a standard two-way ﬁxed e↵ects speciﬁcation will be ill-equipped to
+handle the absence of parallel trends across all states. Focusing on county-level outcomes in
+response to state-level policy changes helps alleviate this concern in our speciﬁcation. We
+also think our triple-di↵erence speciﬁcation is much less susceptible to this concern because
+many of these location-speciﬁc fundamentals are absorbed by the set of ﬁxed e↵ects we use.
+Moreover, we can test for the presence of preexisting parallel trends with a dynamic version
+of our triple-di↵erence speciﬁcation.
+We add dynamic leads and lags to our baseline speciﬁcation and run the speciﬁcation in
+equation 3.12 We plot the cumulative e↵ects in Figure 7 and Figure 8. As in Leung (2021),
+we set our event window between 6 quarters prior to and 4 quarters after a minimum wage
+increase. The cumulative e↵ects correspond to summing up all the coeﬃcients from the six
+quarters prior to the minimum wage increase up to the calendar quarter of interest. The
+shaded areas in the ﬁgures indicate 90 percent conﬁdence intervals.
+Figure 7 shows that the statistically signiﬁcant negative e↵ect on total vacancies starts
+three quarters prior to the implementation of a minimum wage increase. This reﬂects an
+announcement e↵ect, consistent with the ﬁndings in Leung (2021) who report that mean
+announcement of a minimum wage increase is around 3.21 quarters before implementation.
+We do not ﬁnd much impact prior to the three quarters period, which means that the parallel
+trends assumption for our speciﬁcation holds if we take into account the announcement e↵ect
+and the forward-looking nature of the vacancies. The negative e↵ect remains signiﬁcant in
+the quarters following the policy change. As shown in Figure 8, the results are similar for
+the cumulative e↵ects of minimum wage hikes on new vacancies.
+Another way to illustrate whether the parallel trends assumption is a valid one in our
+12Individual parameter estimates are reported in the Appendix.
+19
+
+
+=== PDF PAGE 23 ===
+-0.9
+-0.7
+-0.5
+-0.3
+-0.1
+0.1
+0.3
+0.5
+-0.9
+-0.7
+-0.5
+-0.3
+-0.1
+0.1
+0.3
+0.5
+t-6
+t-5
+t-4
+t-3
+t-2
+t-1
+t
+t+1
+t+2
+t+3
+t+4
+Percent
+Percent
+Quarters
+Figure 7: Estimated Cumulative Dynamic E↵ect of a 1 Percent Minimum Wage Increase in
+Quarter t on Total Vacancies
+Note: The ﬁgure shows the estimated cumulative e↵ect of the minimum wage increase in quarter
+t. The cumulative e↵ects correspond to summing up all the coeﬃcients up to the quarter of
+interest. The shaded areas indicate 90 percent conﬁdence intervals.
+20
+
+
+=== PDF PAGE 24 ===
+-0.9
+-0.7
+-0.5
+-0.3
+-0.1
+0.1
+0.3
+0.5
+0.7
+-0.9
+-0.7
+-0.5
+-0.3
+-0.1
+0.1
+0.3
+0.5
+0.7
+t-6
+t-5
+t-4
+t-3
+t-2
+t-1
+t
+t+1
+t+2
+t+3
+t+4
+Percent
+Percent
+Quarters
+Figure 8: Estimated Cumulative Dynamic E↵ect of a 1 Percent Minimum Wage Increase in
+Quarter t on New Vacancies
+Note: The ﬁgure shows the estimated cumulative e↵ect of the minimum wage increase in quarter
+t. The cumulative e↵ects correspond to summing up all the coeﬃcients up to the quarter of
+interest. The shaded areas indicate 90 percent conﬁdence intervals.
+21
+
+
+=== PDF PAGE 25 ===
+context is by narrowing the focus to a subsample of states. Minimum wage changes happen
+at di↵erent points in time for states with a binding level that is higher than the federal
+level and they may be repeating multiple times in our sample period. However, there is
+essentially one big minimum wage increase legislation at the federal level within our sample.
+The Fair Minimum Wage Act of 2007 increased the federal minimum wage to $5.85 per hour
+in July 2007 from a prior level of $5.15 per hour and put in place two more annual hikes
+scheduled to take e↵ect one and two years after the initial hike.13 Thirteen states never
+had a state-level minimum wage that was binding above the federal level throughout the
+sample period. Figure 9 plots the evolution of the vacancies in these states around the ﬁrst
+minimum wage hike in 2007. We normalize the level of the aggregate vacancies in at-risk
+occupations in 2006 to that of the no-risk occupations for ease of comparison. As the ﬁgure
+shows, vacancies in at-risk occupations start to diverge with the minimum wage increase in
+2007, possibly with a few months’ lead. This is generally consistent with our baseline results
+and conﬁrms that for this subsample, the parallel trends assumption clearly holds between
+2005Q2 and the beginning of 2007, when the early version of the legislation passed in the
+U.S. House of Representatives.
+Figure 9: Parallel Trends in Vacancies by Exposure to Minimum Wage Increases
+Note: The ﬁgure shows total vacancies (by exposure to minimum wage increases) in states
+where the e↵ective minimum wage is the federal minimum wage.
+We conclude that there is some decline in vacancies prior to the quarter when the mini-
+mum wage hike becomes e↵ective due to the nature of adjustments by ﬁrms. However, there
+13The legislation proposed an increase to $6.55 per hour in July 2008 and $7.25 per hour in July 2009.
+22
+
+
+=== PDF PAGE 26 ===
+are no statistically signiﬁcant di↵erences between vacancies in at-risk occupations and the
+control group earlier than three quarters prior to the minimum wage change. This also rules
+out a possible reverse causality argument such that minimum wage increases are happening
+in places where vacancies in at-risk occupations were already declining.14
+4.3
+Contiguous-county sample
+In an inﬂuential study, Dube, Lester, and Reich (2010) propose an empirical speciﬁcation
+to estimate the impact of minimum wage increases on employment using data from counties
+along the state borders. They argue that counties across the border that did not have a
+minimum wage change could be a better control group for those that did have a minimum
+wage increase. The assumption is that the unobserved heterogeneity between adjacent border
+counties will be less pronounced than that in the average county in each state. The authors
+present this approach as a general method that encompasses multiple individual case studies
+that had dominated part of the minimum wage literature at the time, such as Card and
+Krueger (1994, 2000). Motivated by these arguments, we estimate the e↵ects of minimum
+wage changes on vacancies using a similar contiguous-county sample.
+Although our baseline speciﬁcation allows for arbitrary unobserved occupational hetero-
+geneity at the national level, this alternative speciﬁcation allows for more localized unob-
+served shocks to each occupation by restricting attention to contiguous counties along state
+borders.
+Table 4 shows the estimates of equation 4 using the contiguous-county sample, which al-
+lows us to replace the occupation-by-time ﬁxed e↵ect with a county-pair-by-time-by-occupation
+ﬁxed e↵ect. Using this speciﬁcation, we estimate a 2.5 percent decline in vacancies in at-risk
+occupations in response to a 10 percent increase in the e↵ective minimum wage relative to
+other vacancies and compared to their neighbors (almost identical to our baseline results).
+For new vacancies our estimate is still large and negative, albeit with less statistical signif-
+icance. We conclude that our main results are robust to having more local controls and a
+better control group with contiguous counties.
+5
+Heterogeneous E↵ects of Minimum Wage Increases
+In this section, we explore whether the negative e↵ect that we ﬁnd for total vacancies is
+driven by certain characteristics of di↵erent occupations or localities.
+First, we explore
+14Moreover, when legislators debate prospective minimum wage increases, the debate does not usually
+focus on the relative demand in at-risk occupations, per se.
+23
+
+
+=== PDF PAGE 27 ===
+ln (Vacancies)
+ln (New Vacancies)
+(1)
+(2)
+ln(MW t)*At-Risk
+-0.246**
+-0.187
+(0.117)
+(0.122)
+Fixed E↵ects:
+County x Time
+Yes
+Yes
+County x Occupation
+Yes
+Yes
+County-pair x Occupation x Time
+Yes
+Yes
+Clusters
+218
+218
+Observations
+1,948,098
+1,753,006
+R-squared
+0.965
+0.969
+Table 4: Estimated Impact of Minimum Wage Increases on Vacancies, Contiguous-County
+Sample
+Note:
+This table reports coeﬃcients from OLS regressions for the dependent variable
+ln(vacancies) for each occupation o, in county c of county-pair, p, and at time t (quarterly).
+Column (1) displays results for the stock of vacancies and Column (2) reports the regression
+results for new vacancies that have been posted within the past 30 days (the ﬂow). Standard
+errors are clustered at the border level. *** p<0.01, ** p<0.05, * p<0.1.
+the role of the task content of di↵erent occupations to understand if routine jobs were
+disproportionately more negatively a↵ected by minimum wage hikes.
+Second, exploiting
+educational content of the HWOL data, we turn to the educational attainment required
+for di↵erent occupations. Third, we investigate whether high poverty localities are a↵ected
+di↵erently by local minimum wage increases.
+Our results from these three exercises are
+summarized in Table 5.
+5.1
+Routine versus non-routine occupations
+We examine whether the task content of an occupation matters for the vacancies’ response
+to a minimum wage hike. For instance, a ﬁrm posting vacancies for occupations primarily
+involving routine tasks might expect a potential minimum wage increase and reduce vacancy
+posting for these occupations while adopting labor-saving technologies more frequently or
+intensely than its competitor who seeks to hire workers for occupations with primarily non-
+routine tasks (Lordan and Neumark, 2018). We explore what we can learn about this question
+by focusing on detailed 2-digit occupations based on their skill classiﬁcation.
+The routine versus non-routine distinction, and a further classiﬁcation into routine man-
+ual, routine cognitive, non-routine manual, and non-routine cognitive categories follow Jaimovich
+and Siu (2020) and T¨uzemen and Willis (2013). From our list of at-risk occupations, food
+24
+
+
+=== PDF PAGE 28 ===
+ln (Vacancies)
+(1)
+(2)
+(3)
+(4)
+(5)
+ln(MW t)*At-Risk
+-0.321**
+-0.256**
+(0.133)
+(0.105)
+ln(MW t)*At-Risk*RM
+-0.596***
+(0.162)
+ln(MW t)*At-Risk*C
+0.037
+(0.093)
+ln(MW t)*At-Risk*NRM
+-0.321**
+(0.133)
+ln(MW t)*At-Risk*R
+0.149
+-0.284
+(0.139)
+(0.180)
+ln(MW t)*Low Education
+-0.376**
+(0.179)
+ln(MW t)*At-Risk*P06
+-0.016***
+(0.004)
+Fixed E↵ects
+County x Time
+Yes
+Yes
+Yes
+Yes
+Yes
+County x Occupation
+Yes
+Yes
+Yes
+No
+Yes
+Occupation x Time
+Yes
+Yes
+Yes
+No
+Yes
+County x Education
+No
+No
+No
+Yes
+No
+Education x Time
+No
+No
+No
+Yes
+No
+Clusters
+51
+51
+51
+51
+51
+Observations
+2,930,908
+2,930,908
+1,230,872
+1,147,991
+2,360,686
+R-squared
+0.921
+0.921
+0.923
+0.943
+0.916
+Table 5: Heterogeneous E↵ects of Minimum Wage Increases on Vacancies
+Note:
+The table reports estimates from the OLS regressions for the dependent variable
+ln(vacancies) for each occupation o, in county c at time t (quarterly). The interaction term
+Routine (R) indicates whether the occupation is a routine one. RM, RC, and NRM, refer to
+a ﬁner classiﬁcation of 2-digit occupations by task content, where R stands for Routine, M for
+Manual, C for cognitive and NR for Non-Routine. The omitted occupational group in Column
+(1) is the non-routine cognitive group (SOC-11 through SOC-29). Note that this group does
+not include any at-risk occupations. Columns (1) and (2) report the results by task content.
+Column (3) presents the result for educational attainment level by occupation and the last
+column presents our results related to local poverty rate (County level poverty rate in 2006 -
+P06). Robust standard errors are in parentheses. *** p<0.01, ** p<0.05, * p<0.1 .
+25
+
+
+=== PDF PAGE 29 ===
+preparation and servicing-related occupations (SOC-35), building, grounds cleaning and
+maintenance occupations (SOC-37), and personal care and service occupations (SOC-39) are
+considered non-routine manual (NRM) occupations. Sales and related occupations (SOC-41),
+and oﬃce and administrative support occupations (SOC-43) constitute the routine cognitive
+(RC) group. The only at-risk occupation in the routine manual (RM) category is trans-
+portation and materials moving occupations (SOC-53). There is no at-risk occupation in
+the non-routine cognitive (NRC) group. This particular categorization poses an additional
+identiﬁcation issue for us. Since all of the RC occupations and none of the NRC occupations
+are in the at-risk group, when we pool cognitive and manual occupations together, we cannot
+distinguish the minimum wage e↵ects from those that are associated with the routine versus
+non-routine distinction.
+We interpret the regression results shown in Column (1) of Table 5 with this caveat in
+mind. The variable of interest, ln(MW t)*At-Risk*R, captures the additional marginal e↵ect
+of the minimum wage increases on routine jobs. The coeﬃcient estimate we obtain is statis-
+tically insigniﬁcant, suggesting that beyond the ﬁrst-order e↵ects on the at-risk occupations,
+there are no additional negative e↵ects on routine jobs. However, the result still suggests a
+signiﬁcant negative impact on at-risk routine occupations, implying a 1.72 percent decline
+in vacancies in this group in response to a 10 percent rise in the minimum wage.
+5.2
+Manual versus cognitive occupations
+We can further divide the routine and non-routine occupations into manual and cognitive
+categories as we do in Column (2). Note that because of the identiﬁcation issue we explained
+above, we cannot include ln(MW t)*At-Risk*R or the NRC indicator in this speciﬁcation.
+Based on the regression results reported in Column (2) manual occupations seem to be
+disproportionately more negatively a↵ected by the minimum wage increases, not the routine
+jobs, which is in contrast to the results in Lordan and Neumark (2018). However, this is
+misleading, given the perfect correlation between an occupation’s at-risk status and routine
+task content among cognitive occupations. To circumvent this identiﬁcation problem, in
+Column (3) of table 5, we report the regression result for the interaction term ln(MW t)*At-
+Risk*R in the subsample of manual occupations, which identiﬁes the marginal impact of an
+increase in the e↵ective minimum wage on routine jobs among at-risk occupations. As we
+lose a lot of observations by restricting to only manual occupations, the estimated coeﬃcient
+is not as precisely estimated, suggesting a somewhat negative e↵ect on routine jobs (at
+−0.284). Hence, our results are di↵erent from those in (Lordan and Neumark, 2018) and do
+not show more adverse e↵ects of minimum wage increases on vacancies in occupations with
+26
+
+
+=== PDF PAGE 30 ===
+predominantly routine tasks.
+5.3
+Role of education
+Next, we turn to the role of education. The Conference Board’s HWOL data provide us
+with a convenient mapping from a subset of the occupational data into an education code
+that matches with the predominant education level for workers in that occupation. This
+information is not necessarily based on the content of the online posting but is assigned
+using the occupational coding from the BLS.15 The HWOL data aggregates total vacancies
+in each county into eight educational groupings based on this BLS mapping.
+Since the
+educational groupings do not correspond to 2-digit SOC codes, we cannot use at-risk status
+as a source of variation that interacts with education. However, educational codes are bound
+to reﬂect more granular detail at the occupation level. It would be very coarse to assume,
+for instance, that all workers in oﬃce and administrative support services occupations have
+lower educational attainment. The education codes rely on ﬁner SOC level information and
+assign the low-education level to a subset of vacancies for the whole 2-digit sector.
+Given this di↵erence in identifying occupations, we maintain a triple-di↵erence regression
+design by estimating the e↵ect of minimum wage increases on vacancies by required educa-
+tional attainment. More speciﬁcally, we use an indicator function, Low Education, which
+equals 1 if the vacancy is assigned to an education level of high-school or less, and interact
+it with the e↵ective minimum wage.
+Workers who are more susceptible to the adverse e↵ects of minimum wage hikes are nat-
+urally low-wage workers. If low-wage workers are more likely to be employed in occupations
+that do not require high levels of educational attainment, then we might expect to see more
+adverse e↵ects from minimum wage increases on these occupations. In Column (3) of table
+5, we see that this is indeed the case. We ﬁnd that a 10 percent minimum wage increase
+reduces low-education vacancies by about 3.8 percent.16
+5.4
+Local poverty levels
+Finally, we explore whether our estimated elasticity of vacancies with respect to minimum
+wage changes is correlated with poverty at the local level.
+The minimum wage debate
+15The BLS assigns a typical level of education needed for entry into an occupation and has eight di↵erent
+categories; see https://www.bls.gov/emp/documentation/education/tech.htm.
+16Recent literature ﬁnds that minimum wage increases may result in substitution from lower-skilled to
+slightly higher-skilled labor Clemens et al. (2021). Hurst et al. (2021) study the e↵ect of the minimum wage
+in a model that allows for a di↵erent degree of labor substitutability in the short- and long-run.
+27
+
+
+=== PDF PAGE 31 ===
+is often framed by policymakers as a tool to combat poverty and elevate family incomes.
+Recent research shows that minimum wage increases have a signiﬁcant positive e↵ect on the
+non-elderly poverty rate in the United States (Dube, 2019). We ask a di↵erent question: Do
+counties with higher poverty rates su↵er similar declines in job openings relative to places
+with lower poverty rates? We do not want to confound our analysis, so instead, we take the
+poverty rate at the beginning of the sample as given for each county and interact it with the
+elasticity we estimate in the baseline. More formally, we report the coeﬃcient estimate for
+the interaction term ln(MWt)*At-Risk*P06 in the last column of table 5, where P06 stands
+for the county-level poverty rate in 2006.
+We ﬁnd that counties with higher poverty rates experience disproportionately larger
+declines in vacancies. Based on the 2006 poverty rate distribution, the poverty rate in the
+ﬁrst quintile was 10.2 percent and in the fourth it was 19.2 percent. Hence, our estimate from
+Table 5 implies an inter-quintile di↵erence of about a 1.4 percentage point larger decline in
+vacancies in response to a 10 percent increase in the minimum wage. This signiﬁcant result
+suggests another channel through which underlying poverty might be associated with job
+openings in the context of the minimum wage debate. While research shows that higher
+minimum wages reduce non-elderly poverty rates (Dube, 2019), our results imply that this
+might happen at the expense of fewer job opportunities for those locales.
+6
+Robustness
+Our results clearly show that minimum wage increases lead to a large and signiﬁcant decline
+in job openings for at-risk occupations. Our deﬁnition of at-risk occupations relies on two
+thresholds that we chose. Even though we think we have good arguments for the legitimacy
+of the thresholds, we analyze how robust our results are to changes in these thresholds in
+this section. We also examine how a particular measurement issue in the vacancy data may
+a↵ect our results and whether minimum wage changes at the federal level have a di↵erent
+impact relative to state-level changes that bind.
+Since our identiﬁcation strategy is ultimately about the categories of at-risk occupations,
+one simple way to check for the robustness of our results with respect to this deﬁnition is
+to remove occupations in the at-risk group one at a time and rerun our baseline regression.
+Note that this, in a sense, is a test of the robustness of our 5 percent threshold. Dropping
+building, grounds cleaning, and maintenance occupations, for instance, e↵ectively brings the
+threshold to 6.5 percent from 5 percent.
+Figure 10 presents point estimates and the 95 percent conﬁdence intervals around them
+28
+
+
+=== PDF PAGE 32 ===
+as we remove occupations from the at-risk group one at a time. None of these exclusions
+change our baseline result. The smallest elasticity we get falls to -0.17 (when transportation
+and materials moving occupations are excluded) and even then, our baseline estimate of
+-0.24 falls into the conﬁdence band. Hence, we conclude that our baseline results are robust
+to variations in our baseline deﬁnition of the at-risk occupation group.
+None
+SOC-35
+SOC-37
+SOC-39
+SOC-41
+SOC-43
+SOC-53
+Excluded from At-Risk Occupations
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+Parameter Estimate
+-95% CI
+Point Estimate
++95% CI
+Baseline estimate
+Figure 10: Robustness Results I
+Note: The ﬁgure shows the parameter estimates from the baseline speciﬁcation with at-risk
+occupations removed from sample one by one and the 95 percent conﬁdence intervals. Horizontal
+line indicates the baseline estimate with all six occupations in the at-risk deﬁnition.
+Another potentially unique challenge in our analysis is posed by the nature of the HWOL
+data at the granular level that we use. In principle, there may not be any vacancies posted for
+a certain 2-digit occupation category in a sparsely populated county in our sample. In fact,
+this is somewhat common. Since we take the logarithmic transformation of the vacancy data,
+zeros will drop out from the sample. Incidentally, if in the following quarter this is followed
+by one posting, that county-occupation observation will be back in the sample.
+Hence,
+one might worry that we are getting some spurious correlations driven by these somewhat
+arbitrary changes. We can test how robust our results are to this measurement issue with
+two possible alternatives. We present these two alternatives along with the baseline result
+for convenience in Table 6.
+The ﬁrst alternative is to transform the level of vacancies by the inverse hyperbolic-
+sine function. This transformation avoids dropping zero observations from our estimation
+sample. As Column (2) shows, this amounts to an additional 1 million observations, quite a
+29
+
+
+=== PDF PAGE 33 ===
+ln (V)
+ln(V +
+p
+V 2 + 1)
+ln(V+1)
+ln (V)
+(1)
+(2)
+(3)
+(4)
+ln(MW t)*At-Risk
+-0.241***
+-0.250***
+-0.227***
+-0.361***
+(0.083)
+(0.085)
+(0.077)
+(0.103)
+ln(MW t)*At-Risk*FedMW
+-0.022
+(0.017)
+Fixed E↵ects
+County x Time
+Yes
+Yes
+Yes
+Yes
+County x Occupation
+Yes
+Yes
+Yes
+Yes
+Occupation x Time
+Yes
+Yes
+Yes
+Yes
+Clusters
+51
+51
+51
+51
+Observations
+2,930,908
+3,974,630
+3,974,630
+2,930,908
+R-squared
+0.921
+0.941
+0.950
+0.914
+Table 6: Robustness Results II
+Note: The table reports estimates from the OLS regressions for three di↵erent transformations
+of the dependent variable, vacancies for each occupation o, in county c, and at time t (quarterly).
+The ﬁrst column reports the baseline results, the second column shows results when we use a
+transformation with an inverse-hyperbolic sine function, and the last column shows results when
+we re-normalize “zero” observations by adding 1 before logarithmic transformation. Robust
+standard errors are in parentheses. *** p<0.01, ** p<0.05, * p<0.1.
+large increase relative to the baseline. However, it barely a↵ects our baseline result, yielding
+to a very similar estimate of -0.25.
+Another transformation we consider is e↵ectively re
+normalizing the zero observation by using ln(Vi,o,t + 1) for the outcome variable, instead of
+ln(Vi,o,t). This transformation also does not change the main conclusion, as Column (3) of
+Table 6 shows. We conclude that our results are robust to this particular measurement issue
+in the vacancy data.
+The last column in Table 6 addresses a question of whether minimum wage changes have
+a di↵erent e↵ect if the binding minimum wage is due to an increase at the federal level.
+The question arises because there might be some unobserved factors that determine whether
+states choose to have a state-level minimum wage that is binding. In other words, whether or
+not a jurisdiction has a binding level for the minimum wage that di↵ers from the federal one
+may not be random (Allegretto et al., 2017). To address this question within our empirical
+approach, we modify the baseline regression with an additional interaction term, where we
+allow for a di↵erent e↵ect on vacancies if the binding minimum wage was a federal change
+(FedMW dummy in Table 6). The estimates reported in Column (4) show that this was not
+a signiﬁcant channel.
+30
+
+
+=== PDF PAGE 34 ===
+7
+Conclusion
+We use a unique data set and propose a novel identiﬁcation strategy to estimate the impact
+of minimum wage increases on vacancies, a labor market outcome variable that has not been
+studied in the large empirical minimum wage literature.
+Our identiﬁcation strategy builds on the idea that not all occupations are similarly af-
+fected by minimum wage increases. A much larger fraction of workers earn at or near the
+prevailing minimum wage level in some occupations than in others. Intuitively, one would ex-
+pect these occupations to be a↵ected di↵erently by a minimum wage increase. We formalize
+this idea by identifying six 2-digit occupations as potentially at-risk occupations.
+Our results show statistically signiﬁcant and large negative e↵ects of minimum wage
+increases on vacancies in at-risk occupations. More speciﬁcally, vacancies in at-risk occupa-
+tions drop by 2.4 percent in response to a 10 percent rise in the prevailing minimum wage
+relative to other occupations. This baseline result is driven by a strong preemptive response
+by ﬁrms cutting vacancies in advance of the minimum wage change. Furthermore, the decline
+in vacancies is larger for occupations that generally employ workers with lower educational
+attainment and those in counties with higher poverty rates.
+The literature on the employment e↵ect of minimum wage increases has been contentious,
+arguing for di↵erent empirical designs and delivering sometimes starkly di↵erent estimation
+results. On the one hand, studies that use cross-geographical variation with ﬁxed e↵ects
+mostly point to somewhat small but statistically signiﬁcant negative e↵ects (Neumark and
+Wascher, 1992, 2007). On the other hand, event studies involving neighboring jurisdictions
+that focus on individual minimum wage episodes (Card and Krueger, 1994, 2000; Dube
+et al., 2007) or consider a whole set of them (Dube et al., 2010) ﬁnd no signiﬁcant negative
+e↵ects on employment. We show that both methodologies provide consistently negative and
+signiﬁcant e↵ects for the case of vacancies. Either using cross-county variation along with
+occupational heterogeneity in terms of exposure to minimum wage hikes or relying on an
+adjacent-border-county regression speciﬁcation provide us with similar estimation results.
+We argue that our results corroborate those of Dube et al. (2016) and provide estimates
+that are consistent with a frictional view of the labor markets. Speciﬁcally, vacancies drop in
+response to minimum wage increases. At the same time, the e↵ect of minimum wage increases
+on employment (a stock variable) might be insigniﬁcant due to potentially o↵setting e↵ects
+on the hiring and separation margins operating via changes in the proﬁtability of matches.
+31
+
+
+=== PDF PAGE 35 ===
+Appendix A
+Estimates of the Dynamic Speciﬁcation
+ln (Vacancies)
+ln (New Vacancies)
+(1)
+(2)
+βt−6
+-0.007
+0.287**
+(0.157)
+(0.144)
+βt−5
+-0.069
+-0.190*
+(0.126)
+(0.107)
+βt−4
+-0.170**
+-0.019
+(0.084)
+(0.100)
+βt−3
+-0.175
+-0.274
+(0.167)
+(0.183)
+βt−2
+-0.054
+-0.192*
+(0.128)
+(0.112)
+βt−1
+-0.061
+-0.005
+(0.080)
+(0.074)
+βt
+0.041
+0.032
+(0.078)
+(0.070)
+βt+1
+0.097
+0.024
+(0.060)
+(0.065)
+βt+2
+0.028
+0.071
+(0.065)
+(0.095)
+βt+3
+-0.063
+-0.101
+(0.093)
+(0.071)
+βt+4
+-0.014
+0.041
+(0.088)
+(0.083)
+Fixed E↵ects:
+County x Time
+Yes
+Yes
+County x Occupation
+Yes
+Yes
+Occupation x Time
+Yes
+Yes
+Clusters
+51
+218
+Observations
+2,930,908
+2,268,322
+R-squared
+0.921
+0.932
+Table A1: Estimated Dynamic Impact of Min Wage Increases on Total and New Vacancies,
+Speciﬁcation with Dynamic Leads and Lags
+Note: This table reports coeﬃcient estimates for the speciﬁcation in eq. 3. In Column (1) the
+dependent variable is ln(vacancies) in occupation o, in county c, and in quarter t. In Column
+(2) the dependent variable is the (ln of) new vacancies, which are the vacancies posted within
+the past 30 days. Standard errors are clustered at the state level. *** p<0.01, ** p<0.05, *
+p<0.1.
+32
+
+
+=== PDF PAGE 36 ===
+References
+Aaronson, Daniel and Brian J. Phelan (2019).
+“Wage Shocks and the Technological
+Substitution of Low-Wage Jobs.”
+The Economic Journal, 129(617), pp. 1–34.
+doi:
+10.1111/ecoj.12529.
+Acemoglu, Daron (2001). “Good jobs versus bad jobs.” Journal of Labor Economics, 19(1),
+pp. 1–21. doi:10.1086/209978.
+Allegretto, Sylvia, Arindrajit Dube, Michael Reich, and Ben Zipperer (2017). “Credible
+Research designs for minimum wage studies: A response to neumark, salas and wascher.”
+Industrial and Labor Relations Review, 70(3), pp. 559–592. doi:10.1177/0019793917692788.
+Berger, David W, Kyle F Herkenho↵, and Simon Mongey (2022). “Minimum wages, eﬃciency
+and welfare.” Working Paper 29662, National Bureau of Economic Research. URL http:
+//doi.org/10.3386/w29662.
+Card, David and Alan Krueger (1994). “Minimum wages and employment: A case study of
+the fast-food industry in new jersey and pennsylvania.” The American Economic Review,
+84(4), pp. 772–793. URL https://www.jstor.org/stable/2677856.
+Card, David and Alan B. Krueger (2000). “Minimum wages and employment: a case study
+of the fast-food industry in new jersey and pennsylvania: Reply.” The American Economic
+Review, 90(5), pp. 1397–1420. doi:10.1257/aer.90.5.1397.
+Cengiz, Doruk, Arindrajit Dube, Attila Lindner, and Ben Zipperer (2019). “The e↵ect of
+minimum wages on low-wage jobs.” The Quarterly Journal of Economics, 134(3), pp.
+1405–1454. doi:10.1093/qje/qjz014.
+Clemens, Je↵rey, Lisa Kahn, and Jonathan Meer (2021). “Dropouts need not apply? the
+minimum wage and skill upgrading.” Journal of Labor Economics, 39(S1, January 2021),
+pp. 53–67.
+Clemens, Je↵rey and Michael Wither (2019). “The minimum wage and the great recession:
+Evidence of e↵ects on the employment and income trajectories of low-skilled workers.”
+Journal of Public Economics, 170, pp. 53–67. doi:10.1016/j.jpubeco.2019.01.004.
+Conference Board, The (2017). “The conference board help wanted online® HWOL.” URL
+https://www.conference-board.org/data/helpwantedonline.cfm.
+33
+
+
+=== PDF PAGE 37 ===
+Currie, Janet and Bruce Fallick (1996). “The minimum wage and the employment of youth
+evidence from the nlsy.”
+The Journal of Human Resources, 31(2), pp. 404–428.
+doi:
+10.2307/146069.
+Diamond, Peter A. (1981). “Mobility costs, frictional unemployment, and eﬃciency.” Journal
+of Political Economy, 89(4), pp. 798–812. doi:10.1086/26100.
+Dube, Arindrajit (2019). “Minimum wages and the distribution of family incomes.” Ameri-
+can Economic Journal: Applied Economics, 11(4), pp. 268–304. doi:10.1257/app.20170085.
+Dube, Arindrajit, William T. Lester, and Michael Reich (2010). “Minimum wage e↵ects
+across state borders: Estimates using contiguous counties.” The Review of Economics and
+Statistics, 92(4), pp. 945–964. doi:10.1162/REST a 00039.
+Dube, Arindrajit, William T. Lester, and Michael Reich (2016). “Minimum wage shocks,
+employment ﬂows, and labor market frictions.” Journal of Labor Economics, 34(3), pp.
+663–704. doi:10.1086/685449.
+Dube, Arindrajit, Suresh Naidu, and Michael Reich (2007). “The economic e↵ects of a city-
+wide minimum wage.” ILR Review, 60(4), pp. 522–543. doi:10.1177/001979390706000404.
+Flinn, Christopher J. (2006).
+“Minimum wage e↵ects on labor market outcomes under
+search, matching, and endogenous contact rates.” Econometrica, 74(4), pp. 1013–1062.
+doi:10.1111/j.1468-0262.2006.00693.x.
+Flinn, Christopher J. (2011). The minimum wage and labor market outcomes. MIT press.
+306 pages.
+Gorry, Aspen (2013). “Minimum wages and youth unemployment.” European Economic
+Review, 64, pp. 57–75. doi:10.1016/j.euroecorev.2013.08.004.
+Hamermesh, Daniel S. (1989).
+“Labor demand and the structure of adjustment costs.”
+American Economic Review, 79(4), pp. 674–689.
+Hurst, Erik, Patrick J. Kehoe, Elena Pastorino, and Thomas Winberry (2021). “The dis-
+tributional impact of the minimum wage in the short and long run.” Working paper,
+Stanford University. URL https://thomaswinberry.com/research/hurst kehoe pastorino
+winberry 2022.pdf.
+Jaimovich, Nir and Henry E. Siu (2020). “Job polarization and jobless recoveries.” The
+Review of Economics and Statistics, 102(1), p. 129–147. doi:10.3386/w18334.
+34
+
+
+=== PDF PAGE 38 ===
+Jha, Priyaranjan, David Neumark, and Antonio Rodriguez-Lopez (2022). “What’s across
+the border? re-evaluating the cross-border evidence on minimum wage e↵ects.” Working
+Paper 15282, IZA.
+Leung, Justin H. (2021). “Minimum wage and real wage inequality: Evidence from pass-
+through to retail prices.” Review of Economics and Statistics, 103(4), pp. 754–769. doi:
+10.1162/rest a 00915.
+Lordan, Grace and David Neumark (2018). “People versus machines: The impact of mini-
+mum wages on automatable jobs.” Labour Economics, 52, pp. 40–53. doi:10.1016/j.labeco.
+2018.03.006.
+Meer, Jonathan and Jeremy West (2016).
+“E↵ects of the minimum wage on employ-
+ment dynamics.” Journal of Human Resources, 51(2), pp. 500–522. doi:10.3368/jhr.51.2.
+0414-6298R1.
+Neumark, David, Ian JM Salas, and William Wascher (2014). “Revisiting the minimum
+wage—employment debate: Throwing out the baby with the bathwater?” Industrial and
+Labor Relations Review, 67(3 suppl), pp. 608–648. doi:10.1177/00197939140670S307.
+Neumark, David and Peter Shirley (2022). “Myth or measurement: What does the new
+minimum wage research say about minimum wages and job loss in the united states?”
+Working Paper 28388, National Bureau of Economic Research.
+Neumark, David and William Wascher (1992). “Evidence on employment e↵ects of minimum
+and subminimum wages: Panel data on state minimum wage laws.” Industrial and Labor
+Relations Review, 46(1), pp. 55–81. doi:10.2307/252473.
+Neumark, David and William Wascher (2007). “Minimum wages, the earned income tax
+credit, and employment: Evidence from the post-welfare reform era.” Working Paper
+2610, IZA. URL https://www.econstor.eu/handle/10419/34097.
+Neumark, David and William Wascher (2008). Minimum Wages. MIT press. URL https:
+//mitpress.mit.edu/books/minimum-wages, 392 pages.
+Oi, Walter Y. (1962). “Labor as a quasi-ﬁxed factor.” Journal of Political Economy, 70(6),
+pp. 538–555. doi:10.1086/258715.
+Rocheteau, Guillaume and Murat Tasci (2007). “The minimum wage and the labor market.”
+Economic Commentary, (May 1). doi:10.26509/frbc-ec-20070501.
+35
+
+
+=== PDF PAGE 39 ===
+Rocheteau, Guillaume and Murat Tasci (2008).
+“Positive and normative e↵ects of a
+minimum wage.”
+Woking Paper 08-01, Federal Reserve Bank of Cleveland.
+doi:
+10.26509/frbc-wp-200801.
+Sorkin, Isaac (2015). “Are there long-run e↵ects of the minimum wage?” Review of Economic
+Dynamics, 18(2), pp. 306–333. doi:10.1016/j.red.2014.05.003.
+Stigler, George J. (1946). “The economics of minimum wage legislation.” The American
+Economic Review, 36(3), pp. 358–365.
+T¨uzemen, Didem and Jonathan Willis (2013). “The vanishing middle: Job polarization and
+workers’ response to the decline in middle-skill jobs.” Economic Review, Q1, pp. 5–32.
+Vaghul,
+Kavya
+and
+Ben
+Zipperer
+(2016).
+“Historical
+state
+and
+sub-
+state
+minimum
+wage
+data.”
+Woking
+paper,
+Washington
+Center
+for
+Equitable
+Growth.
+URL
+https://equitablegrowth.org/working-papers/
+historical-state-and-sub-state-minimum-wage-data/.
+van den Berg, Gerard J. and Geert Ridder (1998). “An empirical equilibrium search model
+of the labor market.” Econometrica, 66(5), pp. 1183–1221. doi:10.2307/29996348.
+36

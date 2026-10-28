@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040505323&fileKind=0",
+      "title": "一般職業紹介状況 第12表",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "都道府県（受理地）別 雇用形態別 新規求人数（実数）（パートタイムを含む一般）   NaN NaN    NaN   NaN  NaN   NaN   NaN  NaN  NaN   NaN   NaN   NaN   NaN   NaN   NaN    NaN   NaN   NaN  NaN  NaN  NaN  NaN   NaN   NaN   NaN   NaN   NaN  NaN   NaN   NaN   NaN  NaN  NaN  NaN  NaN   NaN   NaN  NaN  NaN  NaN  NaN  NaN   NaN  NaN  NaN   NaN  NaN  NaN   NaN  NaN\n                                     西暦    和暦 NaN     全国   北海道  青森県   岩手県   宮城県  秋田県  山形県   福島県   茨城県   栃木県   群馬県   埼玉県   千葉県    東京都  神奈川県   新潟県  富山県  石川県  福井県  山梨県   長野県   岐阜県   静岡県   愛知県   三重県  滋賀県   京都府   大阪府   兵庫県  奈良県 和歌山県  鳥取県  島根県   岡山県   広島県  山口県  徳島県  香川県  愛媛県  高知県   福岡県  佐賀県  長崎県   熊本県  大分県  宮崎県  鹿児島県  沖縄県\n                                    NaN   NaN NaN      人     人    人     人     人    人    人     人     人     人     人     人     人      人     人     人    人    人    人    人     人     人     人     人     人    人     人     人     人    人    人    人    人     人     人    人    人    人    人    人     人    人    人     人    人    人     人    人\n                                  2013年 平成25年",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.mhlw.go.jp/content/11200000/001756130.xlsx",
+      "title": "地域別最低賃金改定状況",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "年度 平成14年度   NaN 平成15年度   NaN 平成16年度   NaN 平成17年度   NaN 平成18年度   NaN 平成19年度   NaN 平成20年度   NaN 平成21年度   NaN 平成22年度   NaN 平成23年度   NaN 平成24年度   NaN 平成25年度   NaN 平成26年度   NaN 平成27年度   NaN 平成28年度   NaN 平成29年度   NaN 平成30年度   NaN  令和元年度                 NaN  令和２年度                 NaN  令和３年度                 NaN  令和４年度                 NaN  令和５年度                 NaN  令和６年度                 NaN  令和７年度                 NaN  令和８年度                 NaN\n都道府県名 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円) 発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日 改定額(円)               発効年月日\n  北海道    637 37530    637 37530    638 38261    641 38626    644 38991    654 39374    667 39740    678 40096    6",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.nber.org/system/files/working_papers/w4394/w4394.pdf",
+      "title": "Hamermesh 1993 NBER WP4394",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "The first term in (1) reflects the costs of adjusting the level of employment (net costs), while the second measures the costs of hiring (gross costs).",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.nber.org/system/files/working_papers/w3356/w3356.pdf",
+      "title": "Hamermesh 1990 NBER WP3356",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "In the theoretical derivation I assume that the firm has static expectations about the future paths of product and factor prices.",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://docs.iza.org/dp15254.pdf",
+      "title": "Kudlyak Tasci Tuzemen IZA DP15254 Jan2023",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "reports that the average implementation lag of minimum wages is around 4.13 quarters during\n2007—2009 and 1.80 quarters during 2014—2015, which is important for understanding\nthe dynamics of price changes in response to minimum wage hikes. Therefore, we explore\nwhether the estimated negative contemporaneous impact of a minimum wage increase is led\nby a preemptive adjustment by ﬁrms before the minimum wage change comes in e↵ect.\nWe are also interested in measuring the e↵ect of minimum wage increases beyond the\ncontemporaneous e↵ect to examine whether some reverse causality might be at play. As\nAllegretto et al. (2017) point out in their critique of the methodology employed by Neumark\net al. (2014), high-minimum-wage states are concentrated geographically and are usually\npolitically left-leaning with a history of less de-unionization. Thus, if state-level minimum\nwages are correlated with other unobserved fundamentals that may be correlated with the\nevolution of vacancies, a standard two-way ﬁxed e↵ects speciﬁcation will be ill-equipped to\nhandle the absence of parallel trends across all states. Focusing on county-level outcomes in\nresponse to state-level policy changes helps alleviate this concern in our speciﬁcation. We\nalso think our triple-di↵erence speciﬁcation is much less susceptible to this concern because\nmany of these location-speciﬁc fundamentals are absorbed by the set of ﬁxed e↵ects we use.\nMoreover, we can test for the presence of preexisting parallel trends with a dynamic version\nof our triple-di↵erence speciﬁcation.\nWe add dynamic leads and lags to our baseline speciﬁcation and run the speciﬁcation in\nequation 3.12 We plot the cumulative e↵ects in Figure 7 and Figure 8. As in Leung (2021),\nwe set our event window between 6 quarters prior to and 4 quarters after a minimum wage\nincrease. The cumulative e↵ects correspond to summing up all the coeﬃcients from the six\nquarters prior to the minimum wage increase up to the calendar quarter of interest. The\nshaded areas in the ﬁgures indicate 90 percent conﬁdence intervals.\nFigure 7 shows that the statistically signiﬁcant negative e↵ect on total vacancies starts\nthree quarters prior to the implementation of a minimum wage increase. This reﬂects an\nannouncement e↵ect, consistent with the ﬁndings in Leung (2021) who report that mean\nannouncement of a minimum wage increase is around 3.21 quarters before implementation.\nWe do not ﬁnd much impact prior to the three quarters period, which means that the parallel\ntrends assumption for our speciﬁcation holds if we take into account the announcement e↵ect\nand the forward-looking nature of the vacancies. The negative e↵ect remains signiﬁcant in\nthe quarters following the policy change. As shown in Figure 8, the results are similar for\nthe cumulative e↵ects of minimum wage hikes on new vacancies.\nAnother way to illustrate whether the parallel trends assumption is a valid one in our\n12Individual parameter estimates are reported in the Appendix.\n19",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://ies.keio.ac.jp/upload/DPEN_7694_202203091453351.pdf",
+      "title": "Ohta Komae 2022 DP2022-004",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "12 \n \nestablishments (Panel A). The difference is even more conspicuous than when we group the \nprefectures according to the Kaitz index. The estimated elasticities are not statistically significant for \nthe group with a lower share, while they are smaller than -4 and statistically significant for the group \nwith a higher composition of small firms. We can also see that the impact of the minimum wage on \nthe number of job seekers is higher in the group with a higher share of small firms. The difference is \nagain more conspicuous than when we group the prefectures according to the Kaitz index. \nIn sum, the results in this section show that the minimum wage effect on the number of \nvacancies and job seekers in a region varies according to the minimum wage level relative to the \naverage wage in that region (Kaitz index) and the share of small establishments: The minimum wage \neffects is higher in prefectures with higher Kaitz index or higher composition of small establishments. \n \n4.3 Differences in Minimum Wage Effects between Vacancy Types \nThe effect of a rise in minimum wage can be different according to the type of vacancies. \nAmong many possible aspects of them, the distinction between full-time and part-time jobs seems to \nbe intriguing. One can conjecture that the absolute value of minimum wage elasticity of posted \nvacancies is higher for part-time jobs for two reasons. First, wage rates of part-time jobs are generally \nlower than those of full-time jobs, resulting in a higher impact of the minimum wage rise on the \nnumber of vacancies of part-time jobs. That is because the proportion of vacancies needed to adjust \ntheir posted wage rates to the minimum wage increase is likely to be higher for part-time jobs. Second, \nthe elasticity of labor demand for part-time workers tends to be higher than for full-time workers \nbecause the former is usually an atypical type of labor with high own wage elasticity of labor demand \n(Lichter, Peichl, and Siegloch 2015).  \nThe full-time and part-time vacancies data are available only for the posted location, rather \nthan the work location as in the previous sections. Therefore, we should first check the extent to which \nthe difference in location treatment brings about the difference in the estimated coefficients by \ncomparing the results for total vacancies in both cases. The estimation specifications are those with \nthe prefecture-specific trend terms with and without the prefectural GDP variable. Table 5 shows the \nestimation results of the new vacancies. From Panel A columns (1) and (2), we can observe that the \nestimated minimum wage elasticities for the entire sample period are significantly negative, and \ncontrary to our intuition, their absolute values are higher than those using new vacancies classified by \nthe location of work (cf. Table 1). The results in columns (3)-(6) indicate that the estimated coefficients \nof the minimum wage are higher for part-time than for full-time jobs. Panels B and C show the \nestimation results for the two subperiods introduced in Section 4.1. The results for the period of slack \nlabor market do not give us conclusive evidence. On the other hand, we can observe some marginally \nsignificant effects only for part-time vacancies during the tight labor market period, contributing to \nthe higher minimum wage elasticities for the entire sample period.",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00036846.2025.2579945",
+      "title": "Kazekami Abe 2025 published",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "the number of applicants by raising the offered \nwage during an MW change. Azar, Marinescu, \nand Steinbaum (2019) observed that the elasti­\ncity of firm-level job applications was zero up to \nthe 80th percentile population density region – \nmany workers were in a monopolistic market. \nIn the light of these considerations, this study \naims to ascertain whether discrepancies in \nregional labour–market characteristics influence \nthe impact of MWs. As this phenomenon is \nsimilarly observed at the occupational level, the \nanalysis will also be conducted at this level.\nPreliminary estimates suggest that the num­\nber of jobs offering wages above the MWs will \nincrease following a MW change, while that \nbelow the MWs will decline, resulting in an \noverall net increase in job opportunities. \nConcurrently, evidence suggests that increases \nin the MWs result in a concomitant rise in \njobs at higher wage levels. However, this effect \nis mitigated at the higher end of the wage dis­\ntribution. Analysis of samples segmented by \nregion revealed that alterations in MW regula­\ntions tend to reduce employment opportunities \nin regions characterized by intense competition \nfor applicants. Conversely, such changes have \nbeen found to result in an increase in employ­\nment opportunities in areas exhibiting low- \npopulation density and monopsonic characteris­\ntics. Furthermore, an increase in MW can result \nin a decline in the number of job openings in \noccupations that face significant competition for \napplicants. Consequently, our estimates corro­\nborate the theoretical prediction that an increase \nin the MWs leads to a decrease in job openings \nin competitive markets and an increase in job \nopenings in monopsonic markets.\nThe rest of this paper is organized as follows: \nSection II elaborates the details of the data, meth­\nods of analysis, and empirical model. Section III \npresents the results, and Section IV discusses and \nconcludes the study.\nII. Data and empirical models\nData\nIn this study, we utilize job advertisement data pro­\nvided \nby \nJapanese \nCompany \nA. \nThe \njob \nadvertisements published by Company A encompass \npart- and full-time positions; however, the data we \nemploy are exclusively for part-time positions. Most \nextant studies have focused on analysing minimum \nwage-sensitive workers (see Allegretto et al. 2017; \nCard 1992a, 1992b; Card and Krueger, 1994; Dube \net al. 2010; Katz and Krueger 1992; Neumark and \nWascher 1992; Neumark et al. 2014). Our analysis \naligns with their approaches. A secondary rationale \nfor constraining our analysis to part-time employ­\nment is that all recruiters specify the advertised wage \nfor part-time positions as an hourly wage. Moreover, \nthe posted wage is typically implemented at the time \nof hire.\nOur dataset comprises information on approxi­\nmately 28.26 million job advertisements from \nOctober 2018 to February 2024 across the three \nmajor economic zones: the Tokyo, Kansai, and \nChukyo metropolitan areas. Revisions occur each \nOctober, as described in detail in the next section. \nAccordingly, we focus on annual changes in the \nMWs from 2019 to 2023. Notably, during the 2020 \nrevision, when the pandemic was at its peak, there \nwas almost no change in the MWs. The dataset \nincludes the publication date, the location of the \nrecruiting establishment, industry, occupation, and \nthe recruiting wage.\nFigure 1 compares our dataset from Company \nA and the contemporaneous number of new vacan­\ncies of part-time jobs posted on the Public \nEmployment Security Offices across the country. \nThis assesses the data’s alignment with Japanese \nlabour market trends. The trend itself remains rela­\ntively consistent until 2019, although there are \nsome notable discrepancies. Company A’s postings \nwere slightly below public‑agency listings and \nexhibited month‑to‑month volatility. To mitigate \nthis, our empirical analysis compares two‑month \nwindows before and after each MW revision rather \nthan single months. Both sources saw a sharp \ndecline in 2020 because of the COVID-19 pan­\ndemic; however, from 2021 onward, Company A’s \npostings have grown much faster and now exceed \nthose of public agencies. Company A’s data serve as \na reliable proxy for total Japanese job offers and are \nbeing used by the government to publish more \ntimely wage trend statistics (Nikkei Shinbun, \na \nmajor \nJapanese \neconomics \nnewspaper, \n6 April 2021).\nAPPLIED ECONOMICS\n3",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.mhlw.go.jp/stf/newpage_60788.html",
+      "title": "2025-08-04目安公表",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "目安はＡランク63円、Ｂランク63円、Ｃランク64円～\n\n\n\n\n\n\n\n\n　本日開催された第71回中央最低賃金審議会（会長：藤村博之 独立行政法人労働政策研究・研修機構理事長）で、今年度の地域別最低賃金額改定の目安について答申が取りまとめられましたので、公表いたします。\n\n\t\n\n\t【答申のポイント】\n\n\t（ランクごとの目安）\n\n\t各都道府県の引上げ額の目安については、\nＡランク63円\n、\nＢランク63円\n、\nＣランク64円\n。\n\n\t注．都道府県の経済実態に応じ、全都道府県をＡＢＣの３ランクに分けて、引上げ額の目安を提示している。現在、Ａランクで６都府県、Ｂランクで28道府県、Ｃランクで13県となっている。　\n\n\t \n\n\t（参考）各都道府県に適用される目安のランク \n\n\n\n\n\t\n\n\t\t\n\n\t\t\t\nランク\n\n\t\t\t\n都道府県\n\n\t\t\t\n金額\n\n\t\t\n\n\t\t\n\n\t\t\t\nＡ\n\n\t\t\t\n 埼玉、千葉、東京、神奈川、愛知、大阪\n\n\t\t\t\n63円\n\n\t\t\n\n\t\t\n\n\t\t\t\nＢ\n\n\t\t\t\n 北海道、宮城、福島、茨城、栃木、群馬、新潟、富山、石川、福井、山梨、\n\n\t\t\t\t 長野、岐阜、静岡、三重、滋賀、京都、兵庫、奈良、和歌山、島根、岡山、\n\n\t\t\t\t 広島、山口、徳島、香川、愛媛、福岡\n\n\t\t\t\n63円\n\n\t\t\n\n\t\t\n\n\t\t\t\nＣ\n\n\t\t\t\n 青森、岩手、秋田、山形、鳥取、高知、佐賀、長崎、熊本、大分、\n\n\t\t\t\t 宮崎、鹿児島、沖縄\n\n\t\t\t\n64円\n\n\t\t\n\n\t\n\n\n\n\n\n　※ランクごとの加重平均は、Ａランク5.6％、Ｂランク6.3％、Ｃランク6.7％\n\n\t\n\n\t　この答申は、今年の７月11日に開催された第70回中央最低賃金審議会で、厚生労働大臣から今年度の目安についての諮問を受け、同日に「中央最低賃金審議会目安に関する小委員会」を設置し、７回にわたる審議を重ねて取りまとめた「目安に関する公益委員見解」等を、地方最低賃金審議会にお示しするものです。\n\n\t \n\n\t　今後は、各地方最低賃金審議会で、この答申を参考にしつつ、地域における賃金実態調査や参考人の意見等も踏まえた調査審議の上、答申を行い、\n各都道府県労働局長が地域別最低賃金額を決定\nすることとなります。\n\n\t \n\n\t　\n仮に目安どおりに各都道府県で引上げが行われた場合の全国加重平均は1,118円となります。\nこの場合、\n全国加重平均の上昇額は63円（昨年度は51円）\nとなり、\n昭和53年度に目安制度が始まって以降で最高額\nとなります。また、引上げ率に換算すると6.0％（昨年度は5.1％）となります。\n\n\t\n\n\t\n\n\t\n\n\t\nプレスリリース［120KB］\n\n\t\n別添　  令和７年度地域別最低賃金改定の目安について（答申）［158KB］\n\n\t\n別紙1　令和７年度地域別最低賃金額改定の目安に関する公益委員見解・参考資料［42.0MB］\n\n\t\n別紙2　中央最低賃金審議会目安に関する小委員会報告［163KB］\n\n\t\n参考1　最低賃金制度と地域別最低賃金額の改定に係る目安制度の概要［93KB］\n\n\t\n参考2　目安審議及び地域別最低賃金審議の流れ［50KB］\n\n\t\n参考3　地域別最低賃金の全国加重平均と引上げ率の推移［76KB］\n\n\t\n参考4　令和６年度地域別最低賃金額［42KB］\n\n\t\n参考5　中央最低賃金審議会委員名簿［100KB］\n\n\t\n参考6　目安に関する小委員会委員名簿［44KB］\n\n\t\n\n\t\n令和７年度地域別最低賃金額改定の目安について 資料（全体版）［9.4MB］\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n報道・広報\n\n\n\n\n厚生労働省広報基本指針\n\n\n大臣記者会見\n\n\n報道発表資料\n\n\n\n\n広報・出版\n\n\n行事・会議の予定\n\n\n国民参加の場\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nページの先頭へ\n\n\n\n\n\n\n\n\n\n\n\n\n御意見募集やパブリックコメント\n\n\n国民参加の場\n\n\n\n\n\n\n\n\n\n\n\n\nテーマ別に探す\n\n\n\n\n\nテーマ別に探すトップへ\n\n\n健康・医療\n\n\n福祉・介護\n\n\n雇用・労働\n\n\n年金\n\n\n他分野の取り組み\n\n\n\n\n\n\n報道・広報\n\n\n\n\n\n報道・広報トップへ\n\n\n大臣記者会見\n\n\n報道発表資料\n\n\n広報・出版\n\n\n行事・会議の予定\n\n\n国民参加の場\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n政策について\n\n\n\n\n\n政策についてトップへ\n\n\n分野別の政策一覧\n\n\n組織別の政策一覧\n\n\n各種助成金・奨励金等の制度\n\n\n審議会・研究会",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://www.mhlw.go.jp/stf/newpage_63030.html",
+      "title": "2025-09-05答申まとめ（予定）",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "全ての都道府県で地域別最低賃金の答申がなされました\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n令和7年9月5日（金）\n\n\n\n照会先\n\n\n労働基準局賃金課\n\n\n\n課長　　　　　　　　　野澤めぐみ\n\n\n\n副主任中央賃金指導官　上条　訓之\n\n\t（代表） 03-5253-1111（内線5546）\n\n\t \n\n\n\n※各都道府県の決定金額については、都道府県労働局賃金課・室にお問い合わせください。\n\n\t（連絡先については\nコチラ\nをご覧ください。）\n\n\n\n\n\n\n\n\n\n報道関係者　各位\n\n\n\n\n\n\n\n\n全ての都道府県で地域別最低賃金の答申がなされました\n\n\n\n\n\n～答申での全国加重平均額は昨年度から66円引上げの1,121円～\n\n\n\n\n\n\n\n\n　厚生労働省は、都道府県労働局に設置されている地方最低賃金審議会が答申した令和７年度の地域別最低賃金の改定額（以下「改定額」）を取りまとめました。改定額及び発効予定年月日は別紙のとおりです。\n\n\n\n　これは、令和７年８月４日に厚生労働大臣の諮問機関である中央最低賃金審議会が示した「令和７年度地域別最低賃金額改定の目安について」などを参考として、各地方最低賃金審議会が調査・審議して答申した結果を取りまとめたものです。\n\n\n\n　答申された改定額は、都道府県労働局での関係労使からの異議申出に関する手続を経た上で、都道府県労働局長の決定により、令和７年10月１日から令和８年３月31日までの間に順次発効される予定です。\n\n\n\n\n\t\n令和７年度　地方最低賃金審議会の答申のポイント\n\n\t\n\n\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\n47都道府県で、63円～82円の引上げ（引上げ額が82円は１県、81円は１県、80円は１県、79円は１県、78円は３県、77円は２県、76円は１県、74円は１県、73円は２県、71円は４県、70円は１県、69円は２県、66円は２県、65円は８道県、64円は９府県、63円は８都府県）\n\n\t\t\t\t\t\n改定額の全国加重平均額は1,121円（昨年度1,055円）\n\n\t\t\t\t\t\n全国加重平均額66円の引上げは、昭和53年度に目安制度が始まって以降で最高額\n\n\t\t\t\t\t\n最高額（1,226円）に対する最低額（1,023円）の比率は83.4％（昨年度は81.8％。なお、この比率は11年連続の改善）\n\n\t\t\t\t\n\n\t\t\t\n\n\t\t\n\n\t\n\n\n\n\n\n\n\t\n（別紙）令和７年度地域別最低賃金額答申状況［133KB］\n\n\t\n（参考）地域別最低賃金の改正手続の流れ［58KB］\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n報道・広報\n\n\n\n\n大臣記者会見\n\n\n報道発表資料\n\n\n\n\n広報・出版\n\n\n行事・会議の予定\n\n\n国民参加の場\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nページの先頭へ\n\n\n\n\n\n\n\n\n\n\n\n\n御意見募集やパブリックコメント\n\n\n国民参加の場\n\n\n\n\n\n\n\n\n\n\n\n\nテーマ別に探す\n\n\n\n\n\nテーマ別に探すトップへ\n\n\n健康・医療\n\n\n福祉・介護\n\n\n雇用・労働\n\n\n年金\n\n\n他分野の取り組み\n\n\n\n\n\n\n報道・広報\n\n\n\n\n\n報道・広報トップへ\n\n\n大臣記者会見\n\n\n報道発表資料\n\n\n広報・出版\n\n\n行事・会議の予定\n\n\n国民参加の場\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n政策について\n\n\n\n\n\n政策についてトップへ\n\n\n分野別の政策一覧\n\n\n組織別の政策一覧\n\n\n各種助成金・奨励金等の制度\n\n\n審議会・研究会等\n\n\n国会会議録\n\n\n予算および決算・税制の概要\n\n\n政策評価・独法評価\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n厚生労働省について\n\n\n\n\n\n厚生労働省についてトップへ\n\n\n大臣・副大臣・政務官の紹介\n\n\n幹部名簿\n\n\n所在地案内\n\n\n主な仕事（所掌事務）\n\n\n地方厚生（支）局\n\n\n労働局・労働基準監督署・ハローワーク\n\n\n施設等機関\n\n\n中央労働委員会\n\n\n資格・試験情報\n\n\n採用情報\n\n\n\n\n\n\n統計情報・白書\n\n\n\n\n\n統計情報・白書トップへ\n\n\n各種統",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.mhlw.go.jp/content/11201250/001714252.pdf",
+      "title": "2026-06-23発効時期の検討",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "5 \n \n馬県・秋田県の両県において、令和７年度改定後の地域別最低賃金額を下回\nる求人の割合（未達求人割合）は、令和７年７月時点では約６割（群馬県：\n54.0％、秋田県：66.0％）であったところ、同年12月時点で約４割に減少し、\n令和８年１月時点で３割弱、２月時点で約１割となった（参考資料２）。 \n同じ企業を対象に継続して調査したものではないことに留意が必要である\nが、本データを令和７年７月の未達求人割合に対する各月の未達求人割合の\n比率で見ると、群馬県（令和８年３月１日発効）の場合、令和７年12 月で約\n７割（70.7％）、令和８年１月で５割、令和８年２月で１割弱（8.3％）に、秋\n田県（令和８年３月31 日発効）の場合、令和７年12 月で６割強（62.6％）、\n令和８年１月で約４割（40.6％）、令和８年２月で３割弱（28.9％）、令和８年\n３月に５％台（5.6％）となった。なお、本データはハローワークで受理した\n新規求人賃金に関するものであり、求人を出した企業が自社従業員の最低賃\n金近傍労働者の賃上げを行った時期を表したものではないことに留意する必\n要がある。 \n○ 発効日が例年より後ろ倒しされたことの中小企業への影響に関して、独立行\n政法人労働政策研究・研修機構の調査を用いた厚生労働省の集計によると、\n必ずしも地域別最低賃金額の改定による賃上げではない点に留意が必要2 だが、\n令和７年度の地域別最低賃金の発効日が例年より後ろ倒しされ令和７年11 月\nから令和８年３月までの間であった27 府県に本社のある中小企業のうち、約\n８割の企業が「賃金の引上げ時期に影響はない」と回答した一方、約２割の\n企業は「引上げ時期を遅らせた（遅らせる予定である）」と回答し、その割合\nは発効日が遅いほど高くなった。また、発効日が後ろ倒しされたことによる\n企業経営等への様々な影響について、約８割の企業が「特に影響はない」と\n回答した一方、約１割の企業は「賃金引上げに向けて準備期間が確保できた」\nと回答し、同じくその割合は発効日が遅いほど高くなった。（参考資料３） \n○ さらに、令和７年度の地域別最低賃金の発効日が令和８年１月から３月まで\nの間であった６県の労働局において、地域別最低賃金の引上げの影響率が高\nい６業種3 の中小企業・小規模事業者に対し、発効日が後ろ倒しになったこと\nによる賃上げ時期への影響や、その受止め等についてヒアリングを行った。\n発効日の後ろ倒しを踏まえて賃上げ時期を遅らせたか否かについては、いず\nれの県でも、「例年より遅らせた」とする事業者もいれば「例年どおり」とす\nる事業者もいた。「遅らせた」事業者の理由として、「賃上げ原資の確保」等\n \n2 発効日が例年より後ろ倒しされたことの労働者への影響に関する厚生労働省の委託調査についても同様の点に留意が\n必要 \n3 ①製造業②運輸業・郵便業③卸売業・小売業④宿泊業・飲食サービス業⑤生活関連サービス業・娯楽業⑥サービス業\n（他に分類されないもの）",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://www.mhlw.go.jp/content/11302000/001531874.pdf",
+      "title": "2024年度確定一覧",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "=== PDF PAGE 1 ===\n参考４\n令和６年度地域別最低賃金額改定状況\nランク\n都道府県名\n最低賃金時間額（単位：円）\n発効年月日\n東\n京\n1,163\n令和6 年10 月1 日\n神\n奈\n川\n1,162\n令和6 年10 月1 日\n大\n阪\n1,114\n令和6 年10 月1 日\n埼\n玉\n1,078\n令和6 年10 月1 日\n愛\n知\n1,077\n令和6 年10 月1 日\n千\n葉\n1,076\n令和6 年10 月1 日\n京\n都\n1,058\n令和6 年10 月1 日\n兵\n庫\n1,052\n令和6 年10 月1 日\n静\n岡\n1,034\n令和6 年10 月1 日\n三\n重\n1,023\n令和6 年10 月1 日\n広\n島\n1,020\n令和6 年10 月1 日\n滋\n賀\n1,017\n令和6 年10 月1 日\n北\n海\n道\n1,010\n令和6 年10 月1 日\n栃\n木\n1,004\n令和6 年10 月1 日\n茨\n城\n1,005\n令和6 年10 月1 日\n岐\n阜\n1,001\n令和6 年10 月1 日\n富\n山\n998\n令和6 年10 月1 日\n長\n野\n998\n令和6 年10 月1 日\n福\n岡\n992\n令和6 年10 月5 日\n山\n梨\n988\n令和6 年10 月1 日\n奈\n良\n986\n令和6 年10 月1 日\n群\n馬\n985\n令和6 年10 月4 日\n石\n川\n984\n令和6 年10 月5 日\n岡\n山\n982\n令和6 年10 月2 日\n新\n潟\n985\n令和6 年10 月1 日\n福\n井\n984\n令和6 年10 月5 日\n和\n歌\n山\n980\n令和6 年10 月1 日\n山\n口\n979\n令和6 年10 月1 日\n宮\n城\n973\n令和6 年10 月1 日\n香\n川\n970\n令和6 年10 月2 日\n島\n根\n962\n令和6 年10 月12 日\n福\n島\n955\n令和6 年10 月5 日\n愛\n媛\n956\n令和6 年10 月13 日\n徳\n島\n980\n令和6 年11 月1 日\n山\n形\n955\n令和6 年10 月19 日\n鳥\n取\n957\n令和6 年10 月5 日\n佐\n賀\n956\n令和6 年10 月17 日\n大\n分\n954\n令和6 年10 月5 日\n青\n森\n953\n令和6 年10 月5 日\n長\n崎\n953\n令和6 年10 月12 日\n熊\n本\n952\n令和6 年10 月5 日\n秋\n田\n951\n令和6 年10 月1 日\n高\n知\n952\n令和6 年10 月9 日\n宮\n崎\n952\n令和6 年10 月5 日\n鹿\n児\n島\n953\n令和6 年10 月5 日\n沖\n縄\n952\n令和6 年10 月9 日\n岩\n手\n952\n令和6 年10 月27 日\nＡ\nＣ\nＢ",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://nowcast.co.jp/news/20260707",
+      "title": "Nowcast 2026-07-07 最低賃金・募集賃金・求人量",
+      "accessed": "2026-10-28",
+      "quotes": [
+        {
+          "text": "テーマ１　発効日の分散による県レベルでの最低賃金発効前の先取り賃上げの有無】\n2025年度は最低賃金改定の発効日が\n2025年10月〜2026年3月\nに分散したため、隣接する都道府県間で最低賃金発効有無の差が発生する状況となった。これに対し、周辺都道府県での賃上げに反応して未発効の都道府県で「先取り賃上げ」が発生したかを検証した。最も発効日が遅い秋田県が含まれる東北地方では平均募集賃金は\n発効日を迎えてから上昇する\n動きを取り、\n先取り賃上げは観察されなかった\n。最も賃金の上げ幅が大きい熊本県が含まれる九州地方（沖縄を除く）では\n発効日前から賃金が上昇する傾向\nが見られるも\n発効前の県の賃金上昇率は発効後の県の上昇率より抑えられており\n、先取り賃上げが発生したとしても限定的であった。両者の結果から、発効日が遅い県の労働者は、所得改善のタイミングが他県より遅れたと考えられる。\n【テーマ２　最低賃金引き上げ幅の拡大による求人の消滅・減少への影響】\n東京都内の9月時点で最低賃金付近（旧最賃〜+50円）の賃金で募集していた企業のうち、求人を\n減少・消滅させた企業の割合\nは2024年度85.2%→2025年度85.1%と\nほぼ横ばい\nであった。引き上げ幅が2024年度比で+13円と大きい2025年度であっても、短期的な求人退出が急増した形跡は確認できない。最低賃金より高賃金帯（旧最賃+200〜+250円）の企業では同割合は2024年度81.8%→2025年度78.8%で推移し、最低賃金付近のほうが求人退出が起きやすい傾向は両年度で一貫している。\n詳細\n1.　本分析の背景と目的\n政府は2020年代内に全国平均で時給1,500円を達成する目標を掲げており、2025年度の最低賃金改定はその達成に向けた重要な一歩と位置づけられる一方、経済界からは最低賃金引き上げによる中小企業の負担増や人件費の価格転嫁の遅れに対する懸念が引き続き示されている。本分析は、最低賃金の改訂が短期的に企業の募集賃金と求人件数に及ぼす影響を観察することで、最低賃金政策の議論に寄与することを目的としている。\n2025年度の最低賃金改定は、47都道府県のうち相当数で発効日が後ろ倒しされ、2025年10月〜2026年3月にわたって\n発効日が分散\nしたことと、\n引き上げ幅が\n全国平均で+63円（引き上げ率6.0%）と\n過去最大規模\nとなったことの2点で、従来年度と性質を異にする。本分析では、求人ビッグデータを用い、発効日の分散が県レベルの平均募集賃金に与えた影響と、過去最大規模の引き上げ幅が短期的に求人数に与えた影響を検証する。\n具体的には、以下の2点を検証する。\nテーマ１　発効日の分散が発効前の県の平均募集賃金に及ぼす影響\n：東北・九州の県別週次平均募集賃金から、発効日が遅い県で先取り賃上げが発生したかを検証。\nテーマ２　最低賃金引き上げ幅の拡大による求人の消滅・減少への影響\n：引き上げ幅の差が、最低賃金付近企業の求人件数（消滅・減少・維持・増加）にどの程度影響したかを検証。\n2.　データと分析手法について\n分析には求人サイトから収集した募集求人データ（フロッグ社の求人ビッグデータ）を使用した。安定性を確保するため、2025年4月〜2026年1月の\n週次求人数の変動が小さく、求人数の絶対量が大きい上位10サイト\nに分析を限定した。\n3.　テーマ１：発効日の分散が発効前の県の平均募集賃金に及ぼす影響\n●\n調査概要\n最低賃金発効日の分散により、発効日を迎えていないにもかかわらず、隣接県の発効日に影響されて賃上げが実施される「先取り賃上げ」が発生しているかを調査した。最も発効日が遅い秋田県が含まれる東北と、最も賃金の上げ幅が大きい熊本県が含まれる九州（沖縄を除く）を取り上げた。2025年度の東北・九州各県の発効日は【表1】の通りで、東北は10月〜2026年3月、九州は11月〜2026年1月に分散している。12月上旬時点までに発効済みの県を「早期組」それ以降の県を「遅延組」に分類し、改訂の影響が出る前の8月最終週を100とした月末週次平均募集賃金の推移を比較した。\n【表1】東北・九州の各都道府県ごとの発効日と早期組/遅延組の区分\n●\n東北6県の動向\n東北は宮城（2025年10月4日発効）と秋田（2026年3月31日発効）の発効日の差が大きく、最も発効日の分散が大きい地域である。東北6県の2025年8月末を起点とした月末の週次平均募集賃金の推移を表した【図1】によると、早期組・遅延組で発効有無の影響が出うる\n2025年11月末時点\nで\n早期組（宮城・青森・岩手）\nが\n+0.50〜+1.79%\n、\n遅延組（山形・福島・秋田）\nが▲\n0.92〜+0.16%\nとなり、\n発効前の先取り賃上げは概ね観察されなかった。\n遅延組の中で最も賃上げが早い山形県は12月23日に発効であるため、11月末時点で多少の影響が出ていた可能性が指摘できる。なお、青森県はサンプル数が少なく、値の変動が大きくなりやすい傾向がある。\n秋田県は発効前の12月時点でも+1.13%の上昇を示しているが、すでに発効を迎えている早期組でも同様に上昇していることから、発効を先取りした動きというより、\n東北全体の冬季求人の賃金引",
+          "added": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

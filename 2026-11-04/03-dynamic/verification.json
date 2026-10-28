@@ -1,0 +1,305 @@
+{
+  "analysis_run": true,
+  "data": {
+    "checks": {
+      "47_prefectures": true,
+      "monthly_continuity": true,
+      "unique_months": true,
+      "positive_no_missing": true,
+      "national_equals_pref_sum": true,
+      "part_plus_nonpart_equals_total": true,
+      "same_months_all_sheets": true,
+      "policy_exact_pref_join": true,
+      "policy_2025_year": true,
+      "group_counts": true,
+      "analysis_47_by_44_no_missing": true,
+      "official_2024_pdf_47_matches": true
+    },
+    "raw_sha256": {
+      "estat_shokugyo_t12_shinki_kyujin.xlsx": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5",
+      "mhlw_saitei_chingin_kaitei.xlsx": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+    },
+    "raw_months": 164,
+    "raw_start": "2013-01",
+    "raw_end": "2026-08",
+    "analysis_observations": 2068,
+    "policy_columns": {
+      "2023": {
+        "label": "令和５年度",
+        "zero_based_column": 43
+      },
+      "2024": {
+        "label": "令和６年度",
+        "zero_based_column": 45
+      },
+      "2025": {
+        "label": "令和７年度",
+        "zero_based_column": 47
+      }
+    }
+  },
+  "primary": {
+    "month": "2025-11",
+    "pre_end": 9,
+    "n_early": 20,
+    "n_late": 14,
+    "early_pre": -4.181736291088345,
+    "late_pre": -5.803555563011544,
+    "early_post": -11.990391919445086,
+    "late_post": -12.056800739377877,
+    "early_d": -7.808655628356742,
+    "late_d": -6.253245176366328,
+    "estimate": -1.5554104519904133,
+    "se": 3.1001154640938107,
+    "df": 25.49982686308949,
+    "ci_low": -7.933877955930516,
+    "ci_high": 4.823057051949689,
+    "p_two_sided": 0.6201643856457196,
+    "p_negative": 0.3100821928228598
+  },
+  "sensitivity_pre7": {
+    "month": "2025-11",
+    "pre_end": 7,
+    "n_early": 20,
+    "n_late": 14,
+    "early_pre": -3.342510604891686,
+    "late_pre": -5.588740277822877,
+    "early_post": -11.990391919445086,
+    "late_post": -12.056800739377877,
+    "early_d": -8.647881314553402,
+    "late_d": -6.468060461554996,
+    "estimate": -2.1798208529984056,
+    "se": 3.231558563589603,
+    "df": 24.12101820145429,
+    "ci_low": -8.847659583025631,
+    "ci_high": 4.48801787702882,
+    "p_two_sided": 0.5063812534672756,
+    "p_negative": 0.2531906267336378
+  },
+  "controlled_ols_hc3": {
+    "estimate": -1.3595874299989623,
+    "ci_low": -13.697078491129815,
+    "ci_high": 10.977903631131891,
+    "p": 0.8236458063304345,
+    "note": "auxiliary association only; wage-increase control does not solve endogenous timing or overlap"
+  },
+  "prior_year_diagnostic": {
+    "month": "2024-11",
+    "pre_end": 9,
+    "n_early": 20,
+    "n_late": 14,
+    "early_pre": -6.1563380284183555,
+    "late_pre": -10.03395451555698,
+    "early_post": -4.884989285922413,
+    "late_post": -6.933039674994949,
+    "early_d": 1.2713487424959435,
+    "late_d": 3.1009148405620306,
+    "estimate": -1.829566098066087,
+    "se": 2.1476031554791803,
+    "df": 26.729515071701027,
+    "ci_low": -6.238171189253521,
+    "ci_high": 2.579038993121347,
+    "p_two_sided": 0.40183220876194764,
+    "p_negative": 0.20091610438097382,
+    "baseline_year": 2024,
+    "note": "2024 same-cohort calendar diagnostic; 2024 policy is present, not no-policy placebo"
+  },
+  "later_shape_diagnostic": {
+    "contrast": "(early-late Apr-Jun2026 mean y) minus (early-late Nov2025 y)",
+    "estimate": -0.6711878068361248,
+    "ci_low": -6.158002533918838,
+    "ci_high": 4.815626920246588,
+    "p_two_sided": 0.8047871971992092,
+    "not_causal": true
+  },
+  "model": {
+    "seed": 20261104,
+    "draws": 200,
+    "interior_draws": 134,
+    "all_kkt_pass": true,
+    "max_derivative_error": 1.202503652208975e-10,
+    "max_optimizer_objective_error": 9.521272659185342e-13,
+    "zero_kappa_and_zero_persistence_checked": true,
+    "zero_hiring_corner_checked": true
+  },
+  "assumed_parameters": {
+    "a": 10.0,
+    "b": 1.0,
+    "q": 0.8,
+    "r": 0.8,
+    "beta": 0.95,
+    "kappa": 2.0,
+    "c": 0.2,
+    "L0": 3.0
+  },
+  "model_scenarios": [
+    {
+      "scenario": "no_hike",
+      "w1": 4.0,
+      "expected_w2": 4.0,
+      "v1": 1.5660829340822733,
+      "v2": 0.8568808855113166,
+      "L1": 3.652866347265819,
+      "L2": 3.6077977862217088,
+      "parameters": "assumed_not_estimated"
+    },
+    {
+      "scenario": "late_anticipated",
+      "w1": 4.0,
+      "expected_w2": 4.5,
+      "v1": 1.4876094498595736,
+      "v2": 0.720584833966628,
+      "L1": 3.5900875598876594,
+      "L2": 3.4485379150834303,
+      "parameters": "assumed_not_estimated"
+    },
+    {
+      "scenario": "early_anticipated",
+      "w1": 4.5,
+      "expected_w2": 4.5,
+      "v1": 1.3513133983148848,
+      "v2": 0.7470180075995372,
+      "L1": 3.4810507186519084,
+      "L2": 3.382454981001157,
+      "parameters": "assumed_not_estimated"
+    },
+    {
+      "scenario": "larger_future_hike",
+      "w1": 4.0,
+      "expected_w2": 5.0,
+      "v1": 1.409135965636874,
+      "v2": 0.5842887824219394,
+      "L1": 3.5273087725094996,
+      "L2": 3.2892780439451514,
+      "parameters": "assumed_not_estimated"
+    }
+  ],
+  "inference_scope": "Prefecture-independent sampling approximation, not random assignment; no mechanism or model parameters identified.",
+  "delivery": {
+    "checks": {
+      "data_and_model_checks": true,
+      "raw_hashes_unchanged": true,
+      "notebook_all_7_code_cells_executed": true,
+      "notebook_no_errors": true,
+      "notebook_no_control_characters": true,
+      "no_fake_colab_link": true,
+      "citation_mapping_evidence": true,
+      "archived_source_hashes_match": true,
+      "pdf_10_pages": true,
+      "pdf_all_pages_text": true,
+      "pdf_japanese_text": true,
+      "pdf_main_result_present": true,
+      "html_10_sections": true,
+      "html_no_element_overflow": true,
+      "html_all_local_images_loaded": true,
+      "html_local_japanese_font_loaded": true,
+      "source_and_main_model_separated": true
+    },
+    "pdf_pages": 10,
+    "executed_code_cells": 7,
+    "citations": {
+      "slides.md": {
+        "cited_sources": 12,
+        "all_ids_and_urls_match": true,
+        "all_have_evidence": true
+      },
+      "methods.md": {
+        "cited_sources": 12,
+        "all_ids_and_urls_match": true,
+        "all_have_evidence": true
+      },
+      "sources.md": {
+        "cited_sources": 12,
+        "all_ids_and_urls_match": true,
+        "all_have_evidence": true
+      }
+    },
+    "html_geometry": [
+      {
+        "page": 1,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 2,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 3,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 4,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 5,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 6,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 7,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 8,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 9,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      },
+      {
+        "page": 10,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "bad": []
+      }
+    ],
+    "images": [
+      {
+        "src": "figures/model_simulation.png",
+        "loaded": true
+      },
+      {
+        "src": "figures/actual_yoy.png",
+        "loaded": true
+      },
+      {
+        "src": "figures/actual_gap_path.png",
+        "loaded": true
+      }
+    ],
+    "visual_review": "Contact sheet plus pages 3,5,8,9,10 reviewed visually by agent; no overflow/glyph loss observed."
+  }
+}

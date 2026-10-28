@@ -1,0 +1,18 @@
+{
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "openpyxl": "3.1.5",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "pymupdf": "2.0",
+    "playwright": "1.64.1",
+    "pillow": "13.0.0"
+  },
+  "execution_start_utc": "2026-10-28T03:25:15.434175+00:00"
+}

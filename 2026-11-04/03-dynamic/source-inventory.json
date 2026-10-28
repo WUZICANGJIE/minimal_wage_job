@@ -1,0 +1,100 @@
+[
+  {
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040505323&fileKind=0",
+    "title": "一般職業紹介状況 第12表",
+    "file": "Table12.xlsx",
+    "status": "archived original; inspected in this task",
+    "sha256": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5"
+  },
+  {
+    "url": "https://www.mhlw.go.jp/content/11200000/001756130.xlsx",
+    "title": "地域別最低賃金改定状況",
+    "file": "MW.xlsx",
+    "status": "archived original; inspected in this task",
+    "sha256": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+  },
+  {
+    "url": "https://www.nber.org/system/files/working_papers/w4394/w4394.pdf",
+    "title": "Hamermesh 1993 NBER WP4394",
+    "file": "Hamermesh1993.pdf",
+    "status": "archived original; inspected in this task",
+    "sha256": "f1d2f327ec6101248c3589bdcb96be81bdf3ed881a325ab46ed0d7aa379e6236",
+    "physical_pages": 37,
+    "text_characters": 803
+  },
+  {
+    "url": "https://www.nber.org/system/files/working_papers/w3356/w3356.pdf",
+    "title": "Hamermesh 1990 NBER WP3356",
+    "file": "Hamermesh1990.pdf",
+    "status": "archived original; inspected in this task",
+    "sha256": "630e62e1ad2544557dd320938c8e8420513681cc84633706dbbd424f8d1d5658",
+    "physical_pages": 29,
+    "text_characters": 627
+  },
+  {
+    "url": "https://docs.iza.org/dp15254.pdf",
+    "title": "Kudlyak Tasci Tuzemen IZA DP15254 Jan2023",
+    "file": "Kudlyak2023.pdf",
+    "status": "HTTP retrieved in this task",
+    "sha256": "ce45e6647e7742a80cda4d01a89b5f7da41b08dc380150bd6fcb7440f183129d",
+    "physical_pages": 39,
+    "text_characters": 82970
+  },
+  {
+    "url": "https://ies.keio.ac.jp/upload/DPEN_7694_202203091453351.pdf",
+    "title": "Ohta Komae 2022 DP2022-004",
+    "file": "Ohta2022.pdf",
+    "status": "archived original; inspected in this task",
+    "sha256": "93cf035cac06ca257623d27ea831af5b978e9bc5810e16879a45c49871d2a3c7",
+    "physical_pages": 29,
+    "text_characters": 56899
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00036846.2025.2579945",
+    "title": "Kazekami Abe 2025 published",
+    "file": "Kazekami2025.pdf",
+    "status": "archived original; inspected in this task",
+    "sha256": "5ca224cefcb9e5e39e0adf66cf3856f248eb168260976aaf7d08af26d02c7491",
+    "physical_pages": 17,
+    "text_characters": 51066
+  },
+  {
+    "url": "https://www.mhlw.go.jp/stf/newpage_60788.html",
+    "title": "2025-08-04目安公表",
+    "file": "guideline.html",
+    "status": "HTTP retrieved in this task",
+    "sha256": "6ac38b6a01d7405fd236c22d7b14cb62c4ebf53fab829b28b809593d85de4762"
+  },
+  {
+    "url": "https://www.mhlw.go.jp/stf/newpage_63030.html",
+    "title": "2025-09-05答申まとめ（予定）",
+    "file": "recommendations.html",
+    "status": "HTTP retrieved in this task",
+    "sha256": "953d10bd56bd8f3104756deaed86f0f2aab1e665bea340583270d2e86a4d5b18"
+  },
+  {
+    "url": "https://www.mhlw.go.jp/content/11201250/001714252.pdf",
+    "title": "2026-06-23発効時期の検討",
+    "file": "Review2026.pdf",
+    "status": "archived original; inspected in this task",
+    "sha256": "49fa71f0d0fe944a37b563e73ded7da6ce3bfcd25618595202b46dbe822747c7",
+    "physical_pages": 22,
+    "text_characters": 24747
+  },
+  {
+    "url": "https://www.mhlw.go.jp/content/11302000/001531874.pdf",
+    "title": "2024年度確定一覧",
+    "file": "MW2024.pdf",
+    "status": "archived original; inspected in this task",
+    "sha256": "6d7b630c2565e4403a4434d59bfb597de383b7218f22f4df29c59a88b3946343",
+    "physical_pages": 1,
+    "text_characters": 1110
+  },
+  {
+    "url": "https://nowcast.co.jp/news/20260707",
+    "title": "Nowcast 2026-07-07 最低賃金・募集賃金・求人量",
+    "file": "Nowcast2026.html",
+    "status": "archived original; inspected in this task",
+    "sha256": "e23918c85b7b040c442aca4227490aab4303393de395a0f346f9de103194ea35"
+  }
+]

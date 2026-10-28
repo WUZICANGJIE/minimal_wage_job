@@ -1,0 +1,1629 @@
+=== PDF PAGE 1 ===
+Applied Economics
+ISSN: 0003-6846 (Print) 1466-4283 (Online) Journal homepage: www.tandfonline.com/journals/raec20
+Eﬀects of minimum wage changes on labor
+demand: analysis using job postings data
+Sachiko Kazekami & Masahiro Abe
+To cite this article: Sachiko Kazekami & Masahiro Abe (14 Nov 2025): Eﬀects of minimum
+wage changes on labor demand: analysis using job postings data, Applied Economics, DOI:
+10.1080/00036846.2025.2579945
+To link to this article:  https://doi.org/10.1080/00036846.2025.2579945
+© 2025 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group.
+Published online: 14 Nov 2025.
+Submit your article to this journal 
+Article views: 2180
+View related articles 
+View Crossmark data
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=raec20
+
+
+=== PDF PAGE 2 ===
+Effects of minimum wage changes on labor demand: analysis using job postings 
+data
+Sachiko Kazekami
+a and Masahiro Abe
+b
+aFaculty of Business and Commerce, Keio University, Tokyo, Japan; bFaculty of Economics, Chuo University, Tokyo, Japan
+ABSTRACT
+Using job advertisement data in Japan, we examine the effects of minimum wage (MW) changes 
+on labour demand and how regional differences influence the impact of these changes. Previous 
+research has struggled to fully evaluate the consequences of MW changes because of varying local 
+labour–market conditions and methodological challenges. This study focuses on the demand side 
+by analysing changes in job offers, which better reflect firms’ hiring intentions independent of 
+supply shifts. Our findings reveal that MW increases lead to a net increase in job listings, with a rise 
+in jobs above the new MW exceeding the decline in jobs below it, resulting in a total increase of 
+approximately 10–16%. The positive response is more pronounced in low-density, monopsonistic 
+regions, while high-density competitive markets tend to show a reduction in job offers. The 
+negative impacts are particularly noticeable in clerical, manufacturing, logistics, and cleaning 
+jobs, where competition is high. However, professional jobs show a minimal impact. Our results 
+highlight that the effects of MW increases depend on regional labour–market structures and the 
+competitive dynamics of specific occupations – policymakers should explicitly account for such 
+heterogeneity when designing MW policies.
+KEYWORDS 
+Minimum wage; local labour 
+market; job advertisement 
+data; labour demand; 
+monopsonistic markets
+JEL CLASSIFICATION 
+J23; J31; J38; J42; J63
+I. Introduction
+We used unique data from a Japanese job advertising 
+Company A to analyse the impact of minimum wages 
+(MWs) on firms’ job offers. The existing literature has 
+primarily focused on the impact of MWs changes on 
+the number of workers employed by firms. However, 
+we argue that in a labour market such as Japan, where 
+dismissals because of MW increases are not permitted 
+and employment is relatively stable, the impact of 
+MWs manifests more strongly in job offers rather 
+than in employment levels. To the best of our knowl­
+edge, except for Kudlyak, Tasci, and Tüzemen (2022), 
+few studies have examined the effects of MWs on job 
+offers as we have done, and our research contributes 
+to the existing literature in this area. Furthermore, we 
+examine how the effect of MWs on the number of job 
+offers differs depending on the state of competition 
+for applicants, which varies across labour markets.
+The effect of MWs legislation on employment has 
+been the subject of considerable debate in numerous 
+countries – from an academic standpoint and in the 
+context of economic and social policy. Although the 
+MW system is a significant social issue, previous 
+studies have yielded inconclusive results. Some stu­
+dies have indicated a negative impact on employ­
+ment, while others have not found such an effect.
+In a perfectly competitive labour market, an 
+increase in the MWs above the equilibrium wage 
+would result in a decline in labour demand and an 
+increase in labour supply. In this case, an increase in 
+the MWs may result in higher wages for some work­
+ers. Nevertheless, this will not lead to an improve­
+ment in overall welfare because it will also result in 
+job losses. Neumark and Shirley (2022) reported that 
+most (79.2%) of the estimates included in studies 
+that utilized their established criteria indicate 
+a negative value of MW employment elasticity – 
+raising MWs would likely eliminate jobs and reduce 
+economic welfare. Furthermore, roughly half of 
+these estimates were found to be statistically signifi­
+cant. The researchers observed that the influence of 
+MWs on younger workers and those with less edu­
+cation is especially pronounced – an increase in 
+MWs will result in a reduction in their employment.
+CONTACT Sachiko Kazekami 
+sachikok@fbc.keio.ac.jp 
+Faculty of Business and Commerce, Keio University, 2-15-45, Mita, Minato-Ku, Tokyo 108-8345, 
+Japan
+APPLIED ECONOMICS                                      
+https://doi.org/10.1080/00036846.2025.2579945
+© 2025 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group.  
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://creativecommons.org/licenses/by-nc- 
+nd/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built 
+upon in any way. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.
+
+
+=== PDF PAGE 3 ===
+Nevertheless, Manning (2021) highlights that 
+the conclusion that MWs have a negative impact 
+on employment is not straightforward, citing sev­
+eral theoretical and analytical challenges. This 
+study examines one such issue – the various pro­
+blems inherent in a non-competitive labour market 
+with friction. In the context of an imperfectly com­
+petitive labour market, Manning (2021) posits that 
+the impact of a MW increase on employment 
+remains a priori unknown. Card and Krueger 
+(1995) and Manning (2003) conclude that imper­
+fectly competitive labour markets do not necessa­
+rily reduce labour demand, and if this is the case, 
+MWs could contribute to improved welfare levels.
+From the perspective of imperfectly competitive 
+markets, the respective reactions of labour supply 
+and demand to MWs must be differentiated. 
+Portugal and Rute Cardoso (2006), Brochu and 
+Green (2013), and Dube, William Lester, and Reich 
+(2016) analyse the impact of MWs on labour flows 
+rather than on the size of the employees. Although 
+they consider changes in employer and worker beha­
+viour to some extent by distinguishing between leav­
+ing employment (outflow) and entering employment 
+(inflow), they could not capture employer and worker 
+behaviour separately. While we cannot observe the 
+response of workers, we can consider the impact of 
+MWs on employers by observing the number of job 
+offers. If MWs reduce the number of job offers, even if 
+labour supply increases, it should have a negative 
+impact on the volume of labour demand. Thus, we 
+consider the number of job offers to be a more sig­
+nificant indicator of the employment market than the 
+volume of employment.1
+The data utilized in this study, provided by job 
+advertising Company A, allow for categorizing the 
+number of jobs by hourly wage range. This enables 
+an examination of the impact of changes in the MWs 
+on specific wage ranges2; how did the number of job 
+openings near the minimum wage and the number of 
+high-paying job openings change after the minimum 
+wage was raised? From the same perspective as our 
+research, Cengiz et al. (2019) analysed the impact of 
+the MWs by focusing on changes in the wage 
+distribution rather than total employment levels. 
+They created bins by dividing the wage distribution 
+for each period into increments of $0.25 and used 
+Difference-in-Difference (DID) to estimate how the 
+employment contained in each bin changed over time 
+before and after the MW change. According to their 
+analysis, employment levels declined significantly 
+among workers whose wages fell below the MWs 
+while exhibiting an increase in employment for 
+those whose wages were slightly above the MWs. 
+However, the influence is constrained to a specific 
+wage range, with no discernible employment shifts 
+observed among those at the upper end of the wage 
+distribution. In the following analysis, we also aggre­
+gate job offers by wage bin, similar to them, and 
+estimate the increase or decrease in job offers for 
+each wage bin before and after the MWs change 
+using DID. This allows us to observe which wage 
+levels’ job offers are affected and how long the impact 
+persists.
+Furthermore, as the competitive state of the 
+labour market varies by region, we attempt to 
+examine how the effects of the MWs differ 
+across regions. Our data can be analysed by 
+region, enabling an examination of the discre­
+pancies in the impact of MWs across disparate 
+labour–market 
+conditions 
+and 
+regions. 
+Significant regional differences exist in wage 
+levels, and part of this is attributable to regional 
+variations in the characteristics of the labour 
+force. However, the offering wages used in this 
+study are for part-time workers. Therefore, 
+worker characteristics have minimum influence 
+on 
+regional 
+differences 
+in 
+wage 
+levels. 
+Nonetheless, regional labour–market character­
+istics may exert an influence on the impact of 
+changes in the MW. In a competitive labour 
+market with numerous recruiting firms and job 
+seekers, an increase in MWs may potentially 
+lead to a reduction in the number of job offers. 
+As an alternative possibility, if the labour mar­
+ket is characterized by a tight supply–demand 
+balance or if firms have a significant number of 
+unfilled positions, they may attempt to increase 
+1Employers cannot easily fire workers in the Japanese labour market, even if they are part-time workers with fixed-term employment; thus, the sum of the 
+volume of employment and the number of job offers approximates the volume of labour demand.
+2Clemens and Strain (2021) and Butschek (2022) have found that minimum wage changes have led to employers seeking higher quality workers and point out 
+that changes in the minimum wage may have caused substitution among workers. If this is correct, the degree of impact of the minimum wage should vary 
+by job.
+2
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 4 ===
+the number of applicants by raising the offered 
+wage during an MW change. Azar, Marinescu, 
+and Steinbaum (2019) observed that the elasti­
+city of firm-level job applications was zero up to 
+the 80th percentile population density region – 
+many workers were in a monopolistic market. 
+In the light of these considerations, this study 
+aims to ascertain whether discrepancies in 
+regional labour–market characteristics influence 
+the impact of MWs. As this phenomenon is 
+similarly observed at the occupational level, the 
+analysis will also be conducted at this level.
+Preliminary estimates suggest that the num­
+ber of jobs offering wages above the MWs will 
+increase following a MW change, while that 
+below the MWs will decline, resulting in an 
+overall net increase in job opportunities. 
+Concurrently, evidence suggests that increases 
+in the MWs result in a concomitant rise in 
+jobs at higher wage levels. However, this effect 
+is mitigated at the higher end of the wage dis­
+tribution. Analysis of samples segmented by 
+region revealed that alterations in MW regula­
+tions tend to reduce employment opportunities 
+in regions characterized by intense competition 
+for applicants. Conversely, such changes have 
+been found to result in an increase in employ­
+ment opportunities in areas exhibiting low- 
+population density and monopsonic characteris­
+tics. Furthermore, an increase in MW can result 
+in a decline in the number of job openings in 
+occupations that face significant competition for 
+applicants. Consequently, our estimates corro­
+borate the theoretical prediction that an increase 
+in the MWs leads to a decrease in job openings 
+in competitive markets and an increase in job 
+openings in monopsonic markets.
+The rest of this paper is organized as follows: 
+Section II elaborates the details of the data, meth­
+ods of analysis, and empirical model. Section III 
+presents the results, and Section IV discusses and 
+concludes the study.
+II. Data and empirical models
+Data
+In this study, we utilize job advertisement data pro­
+vided 
+by 
+Japanese 
+Company 
+A. 
+The 
+job 
+advertisements published by Company A encompass 
+part- and full-time positions; however, the data we 
+employ are exclusively for part-time positions. Most 
+extant studies have focused on analysing minimum 
+wage-sensitive workers (see Allegretto et al. 2017; 
+Card 1992a, 1992b; Card and Krueger, 1994; Dube 
+et al. 2010; Katz and Krueger 1992; Neumark and 
+Wascher 1992; Neumark et al. 2014). Our analysis 
+aligns with their approaches. A secondary rationale 
+for constraining our analysis to part-time employ­
+ment is that all recruiters specify the advertised wage 
+for part-time positions as an hourly wage. Moreover, 
+the posted wage is typically implemented at the time 
+of hire.
+Our dataset comprises information on approxi­
+mately 28.26 million job advertisements from 
+October 2018 to February 2024 across the three 
+major economic zones: the Tokyo, Kansai, and 
+Chukyo metropolitan areas. Revisions occur each 
+October, as described in detail in the next section. 
+Accordingly, we focus on annual changes in the 
+MWs from 2019 to 2023. Notably, during the 2020 
+revision, when the pandemic was at its peak, there 
+was almost no change in the MWs. The dataset 
+includes the publication date, the location of the 
+recruiting establishment, industry, occupation, and 
+the recruiting wage.
+Figure 1 compares our dataset from Company 
+A and the contemporaneous number of new vacan­
+cies of part-time jobs posted on the Public 
+Employment Security Offices across the country. 
+This assesses the data’s alignment with Japanese 
+labour market trends. The trend itself remains rela­
+tively consistent until 2019, although there are 
+some notable discrepancies. Company A’s postings 
+were slightly below public‑agency listings and 
+exhibited month‑to‑month volatility. To mitigate 
+this, our empirical analysis compares two‑month 
+windows before and after each MW revision rather 
+than single months. Both sources saw a sharp 
+decline in 2020 because of the COVID-19 pan­
+demic; however, from 2021 onward, Company A’s 
+postings have grown much faster and now exceed 
+those of public agencies. Company A’s data serve as 
+a reliable proxy for total Japanese job offers and are 
+being used by the government to publish more 
+timely wage trend statistics (Nikkei Shinbun, 
+a 
+major 
+Japanese 
+economics 
+newspaper, 
+6 April 2021).
+APPLIED ECONOMICS
+3
+
+
+=== PDF PAGE 5 ===
+Figure 2 illustrates the number of job advertise­
+ments posted by Company A by region. The num­
+ber of job advertisements in Tokyo was the highest 
+in all periods, representing 20–40% of the total. 
+The second largest number of job advertisements 
+is observed in Osaka, followed by Aichi and 
+Kanagawa. The Tokyo metropolitan area, which 
+encompasses 
+Tokyo, 
+Chiba, 
+Saitama, 
+and 
+Kanagawa, accounts for approximately half of the 
+total number of advertised positions. Therefore, 
+although the quantity of job advertisements differs 
+across regions, the observed trends exhibit no sig­
+nificant discrepancies.
+Figure 3 illustrates the variation in job offer wages 
+(expressed in hourly terms) across different regions. 
+In all periods, the highest offer wages are observed in 
+Figure 1. Number of part-time job recruitment on the public employment security offices and Company A.
+Figure 2. Number of job advertisements posted by Company A (October 2018 ~ February 2024).
+4
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 6 ===
+Tokyo, followed by Kanagawa and Osaka. While the 
+four prefectures in the Tokyo economic zone occupy 
+the top wages, the lowest wages are observed in 
+Wakayama, Mie, and Nara, where the regional popu­
+lation is relatively small. Figure 3 also includes the 
+nationally weighted average MWs trend across all 
+prefectures, including those outside the Tokyo, 
+Kansai, and Tokai zones. Offer wages have risen in 
+all regions in line with MW increases.
+Japanese MW system
+Table 1 shows the MWs of each prefecture from 
+2018 to 2023. In Japan, the MW is determined by 
+the Minimum Wage Act, and employers must pay 
+employees an amount greater than the MW. There 
+are two types of MWs: the regional MW, applicable 
+to all employees and employers living in a specific 
+prefecture, and the specific MW for employers and 
+employees in specific industries. Regional and spe­
+cific MWs are modified simultaneously, and the 
+higher one is enforced. This study uses the regional 
+MW because this type of MW is greater than the 
+specific MW in the three major economic zones 
+that we investigated. This system contrasts with 
+that of the US, where states and localities can set 
+their MWs higher than the federal standard. 
+Returning to the Japanese case, the MW was set 
+Figure 3. Trends in recruiting wages. MW denotes the nationally weighted average minimum wage across all prefectures, including 
+those outside the Tokyo, Kansai, and Tokai economic zones. The MW axis is displayed on the right.
+Table 1: Minimum Wage by Prefecture (per hour)
+2018
+2019
+2020
+2021
+2022
+2023
+Tokyo economic zone
+Saitama
+898
+926
+928
+956
+987
+1028
+Chiba
+895
+923
+925
+953
+984
+1026
+Tokyo
+985
+1013
+1013
+1041
+1072
+1113
+Kanagawa
+983
+1011
+1012
+1040
+1071
+1112
+Tokai economic zone
+Gifu
+825
+851
+853
+880
+910
+950
+Shizuoka
+858
+885
+885
+913
+944
+984
+Aichi
+898
+926
+927
+955
+986
+1027
+Mie
+846
+873
+874
+902
+933
+973
+Kansai economic zone
+Shiga
+839
+866
+868
+896
+927
+967
+Kyoto
+882
+909
+909
+937
+968
+1008
+Osaka
+936
+964
+964
+992
+1023
+1064
+Hyogo
+871
+899
+900
+928
+960
+1001
+Nara
+811
+837
+838
+866
+896
+936
+Wakayama
+803
+830
+831
+859
+889
+929
+Currency:Yen
+APPLIED ECONOMICS
+5
+
+
+=== PDF PAGE 7 ===
+up according to the following process every year. 
+First, the Central Minimum Wage Council ranks 
+all prefectures from A to D, determines the guide 
+level of MWs for the next year, and proposes it to 
+each prefectural local MW council. This process 
+lasts until the end of July; by late August, local 
+MW councils set regional rates based on the 
+guide level, and after the objection period, the 
+new rates take effect around October 1.
+Major newspapers such as Asahi Shimbun 
+and Nikkei Shimbun 
+reported 
+the 
+Central 
+Minimum Wage Council’s guide levels in late 
+July and the local councils’ decisions in early 
+August – the public was aware of the impending 
+October increases. Figure 3 shows that recruiting 
+wages began rising before the October 1 imple­
+mentation, a trend especially pronounced in 
+2019, 2022, and 2023 following substantial mini­
+mum‑wage hikes.
+Effect of MW changes on the number of job offers: 
+a conceptual framework
+To clarify the identification strategy used in our 
+empirical analysis, we first provide a conceptual 
+explanation of how changes in MWs may affect job 
+offers. The following discussion outlines the key idea 
+behind our approach using the structure of Japan’s 
+MW system and the heterogeneity in wage distribu­
+tions, particularly the differences between jobs close 
+to the MW and those further above it.
+In accordance with the Japanese MW system, 
+changes in MWs are implemented concurrently 
+throughout the country, although the magnitude 
+of the increase differs across regions. Thus, 
+a comparison between regions cannot be made 
+where there has been a change in the MWs and 
+regions where there has been no change. However, 
+as our data provide information on recruiting 
+wages for jobs on a precise yen-by-yen basis, we 
+can compare the impact of jobs situated close to the 
+MWs with those situated further away. By employ­
+ing these disparities in wage levels, we can ascertain 
+the influence of the MW on the number of open­
+ings at each wage range by utilizing the DID esti­
+mation methodology proposed by Cengiz et al. 
+(2019).
+Figure 4 is a theoretical graph showing the effect 
+of a change in MWs on the number of job offers. The 
+hypothetical frequency distribution of wages offered 
+before and after the change in MWs is shown by the 
+red and blue dashed lines in this figure. When the 
+changed MWs is set to MW in the figure, all job 
+offers in the red-dashed area should disappear if the 
+labour market is perfectly competitive, as previously 
+legal jobs in this area have become illegal. 
+Conversely, if the labour market is a monopsony, 
+jobs where marginal productivity exceeds the MW 
+may shift from the red-dashed area to the blue- 
+dashed area. In this case, the impact of MW on the 
+quantity of jobs can be calculated as the sum of the 
+jobs that remain because of marginal productivity 
+Figure 4. The impact of minimum wages on the frequency distribution of the recruiting wage.
+6
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 8 ===
+exceeding the MW (Δa) and the jobs that are dis­
+placed because of marginal productivity falling 
+below the MW (Δb)3.
+The impact of the MW change on the number of 
+job offers is anticipated to decline at a specific 
+threshold (W in Figure 4) because the jobs in 
+these areas existed prior to the MW change and 
+possess considerably higher marginal productivity. 
+In such a case, a shift in the MW may not impact 
+the volume of job offers or wages for a particular 
+occupation if there are labour–market frictions that 
+diminish the substitutability between high- and 
+low-wage occupations or create a mismatch 
+between job seekers and job offers. As the scope 
+of our analysis is limited to data on part-time 
+employment, job seekers and employers are unli­
+kely to search different segments of the labour 
+market because of high substitutability between 
+occupations. Nevertheless, we also examine the 
+extent to which MW effects affect wage levels.
+Furthermore, we are interested in evaluating 
+whether regional labour–market conditions influence 
+the impact of a change in MWs. Competitive condi­
+tions in the labour market may exhibit regional var­
+iation, which could give rise to disparate MW 
+impacts. Competitive conditions may be more severe 
+in regions with a greater number of firms and work­
+ers. Consequently, an increase in MW may result in 
+a reduction in the job offer rate. Conversely, in a tight 
+labour market or one with numerous unfilled vacan­
+cies, firms may respond to an increase in MWs by 
+raising wages to incentivize job seekers. Therefore, the 
+size of a region’s population and the accumulation of 
+human capital may influence the availability of MWs 
+and the volume of job offers. Additionally, we look at 
+differences in the effect of MWs by job type, as we 
+expect competition to vary by job type even within 
+the same region; firms’ response to an MW increase 
+and job seekers’ entry behaviours are likely to differ 
+by the nature of the job type.
+Empirical model
+Base model
+As explained in the previous section, we cannot 
+compare regions that had a change in the MWs 
+with those that did not, as Cengiz et al. (2019) have 
+done. Instead, as we can capture jobs on a yen-by- 
+yen basis, we can observe the difference between 
+the impact on jobs near to and far from, respec­
+tively, the MW level before and after the MW 
+change. We verify the impact of MWs using the 
+DID approach employed by Cengiz et al. (2019). 
+The specific estimation formula is as follows. 
+Here, the treatment dummy variable Iτk
+sjot equals 1 if 
+the recruiting wage bin j is between k and k + 50 
+yen corresponding to the new MW after τ months 
+since the MW was increased in month t. For exam­
+ple, τ = 0 is the first month after the MW was 
+increased, and τ = −1 is the month prior. We com­
+puted the influence on recruitment for a 25-yen 
+(approximately a quarter of the dollar) interval 
+recruiting wage bins.
+The treatment variable I is controlled by wage bin, 
+location (municipality), and time. For example, k = 0 
+refers to the two wage bins between the MW and 
+MW + 50 yen, whereas k = −1 refers to the two MW 
+bins, MW-1 yen to MW-50 yen. The MW depends 
+on the prefecture in which the municipality s is 
+located. Therefore, a certain wage level is determined 
+as k = 0 in one prefecture; however, even if the wage 
+level is the same, it is classified in the other wage bin 
+in the other prefecture. Thus, a certain wage level is 
+affected by the change in the MW in one prefecture, 
+but the same wage level is not influenced when the 
+MW changes countrywide.
+Additionally, this study controls for prefecture- 
+by-wage-bin, μsj, period-by-wage-bin effects, ρjt, 
+and occupation dummy, φo. usjt, is the error term. 
+A parallel trend is assumed in the DID analysis. If 
+the MW does not change, the distribution of 
+recruiting wages for the treatment and control 
+groups should change parallelly. Although this 
+assumption cannot be confirmed directly, there is 
+no major difference among prefectures regarding 
+the change in recruiting wage before the change in 
+the MW, as shown in Figure 3, nor in the coeffi­
+cient of variation.
+3Job opening below the MW continues even after the change in Figure 4; however, this reflects illegal behaviour by some firms or miscalculations.
+APPLIED ECONOMICS
+7
+
+
+=== PDF PAGE 9 ===
+For the left-hand side of Equation (1), we use the 
+number of job offers in each wage bin, normalized 
+by the total number of job offers in the municipal­
+ity and month. Specifically, Esjot is the number of 
+job offers in the municipality s in month t in the 
+occupation o in recruiting wage j, while Nst is the 
+total number of job offers of municipality s in 
+month t.
+We can calculate the change in the number of 
+job offers because of an MW increase using the 
+estimate coefficient, ατk, from Equation (1). For 
+the change in the quantity of job offers that has 
+recruiting wages below the MW with a lower limit 
+of ‘MW–100 yen’ from the month when the MW 
+changed 
+until 
+τ 
+months, 
+it 
+is 
+P  1
+k¼  2 ατk   P  1
+k¼  2 α  1k. As Equation (1) is 
+a DID estimation model, the difference is equiva­
+lent to the change excluding the change in the 
+counterfactual distribution. Similarly, the change 
+in the quantity of job offers between the recruiting 
+wage, W, and the minimum wage, MW, is calcu­
+lated as PW  MW
+k¼0
+ατk   PW  MW
+k¼0
+α  1k. W = MW +  
+50 yen serves as the baseline estimate.
+Furthermore, the quantity of job offers above the 
+MW is determined by Δaτ ¼
+PW  MW
+k¼0
+ατk  PW  MW
+k¼0
+α  1k
+EPOP  1
+, 
+whereas job offers below the MW are determined by 
+Δbτ ¼
+P  1
+k¼  2 ατk  P  1
+k¼  2 α  1k
+EPOP  1
+. EPOP−1 is the ratio of 
+job offers to the population and the sample average 
+taken from a 7-month period before the estimations. 
+We divide by EPOP−1 to normalize the untreated 
+total job offers. Δa+Δb is the change in total job 
+offers after an increase in the MW. To calculate 
+Δaτ and Δbτ, we determine that July and August of 
+each year as the period before the MW changes and 
+September and October as the periods after the 
+change. The new MW takes effect in October, but 
+the regional MWs are announced in early August, as 
+mentioned above, and the recruiting wages react.
+Exploring the regional differences
+To address the different impacts of the change 
+in the MWs on the regional labour market, we 
+hypothesize that many company are offering 
+jobs, and many seek jobs in regions with high- 
+population density. Thus, the local labour mar­
+ket is relatively competitive; contrarily, the 
+labour market tends to be monopsony in the 
+low-population density region. If the local 
+labour market in the low-population density 
+region is nearly monopsony, company in 
+those areas rent or afford to increase their 
+wages when the MW increases. Conversely, in 
+the high-population density region, the local 
+labour market is competitive, job offers below 
+the new MW disappear, and the number of job 
+offers decreases when the MW changes. 
+Therefore, we add the cross-term between the 
+treatment variable I and the population density 
+in the Equation (1) and estimate the following: 
+pop represents the municipal population den­
+sity in 2019, which is the first year of our 
+estimation 
+period. 
+In 
+areas 
+with 
+high- 
+population density, the labour market is more 
+competitive, and company are less able to raise 
+wages relative to those in municipalities with 
+lower population density when the MW 
+increases. Therefore, we expect β to be nega­
+tive. If the MW is raised, the increase in the 
+offered wage should be even larger, and the 
+effect of the MW may vary depending on the 
+supply–demand balance in the local labour 
+market. Furthermore, this study conducts ana­
+lyses by occupation. The impact of the MW 
+varies by occupation, even within the same 
+region.
+Table 2 presents descriptive statistics. The 
+average wages and MWs of job postings 
+increase across all three economic zones. The 
+average wage is highest in the Tokyo economic 
+zone, followed by the Kansai economic zone. 
+Regarding the population density in Table 2, 
+the population density in the Chukyo eco­
+nomic zone is approximately half of that in 
+the Tokyo and Kansai economic zones. 
+Additionally, the standard deviation of the 
+Tokyo economic zone is the largest. The aver­
+age number of job postings categorized by 
+wage bin, year, and month is approximately 
+1000 to 3000 across three economic zones.
+8
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 10 ===
+Table 2. Descriptive statistics.
+Tokyo Economic Zone
+Kansai Economic Zone
+Chukyo Economic Zone
+Variable
+Obs
+Mean
+Std. dev.
+Min
+Max
+Obs
+Mean
+Std. dev.
+Min
+Max
+Obs
+Mean
+Std. dev.
+Min
+Max
+wage(yen)
+2019
+196,981
+1123.037
+192.000
+762
+4000
+119,723
+1055.827
+180.237
+762
+4000
+85,459
+1030.061
+169.655
+770
+4000
+2020
+211,310
+1132.502
+190.916
+792
+4000
+117,655
+1071.407
+184.305
+800
+3900
+88,332
+1035.709
+164.526
+800
+3800
+2021
+238,485
+1146.440
+200.145
+793
+4000
+129,892
+1085.140
+187.136
+800
+4000
+106,857
+1044.816
+168.200
+825
+3800
+2022
+293,881
+1170.905
+192.874
+821
+4000
+168,097
+1113.363
+182.913
+821
+3600
+131,461
+1073.017
+173.441
+825
+3785
+2023
+302,759
+1217.912
+192.881
+853
+3700
+173,045
+1161.265
+189.036
+880
+4000
+126,111
+1113.278
+172.970
+872
+3800
+Population
+density(peopl
+e/km2)
+1,243,416
+9977.788
+5582.859
+360.2345
+22,252.73
+708,412
+8449.530
+4678.912
+354.3391
+20,284.72
+538,220
+3709.117
+2864.901
+318.9407
+10,098.18
+The number of Job Postings by Wage Bin, Year, and Month*
+MW + up to 25 yen bin
+MW + 25–50 yen bin
+MW + up to 25 yen bin
+MW + 25–50 yen bin
+MW + up to 25 yen bin
+MW + 25–50 yen bin
+year
+2019
+2023
+2019
+2023
+2019
+2023
+2019
+2023
+2019
+2023
+2019
+2023
+May
+3347
+3497
+2342
+1977
+2375
+2161
+1922
+1789
+2047
+2308
+852
+595
+Jun.
+1718
+1960
+1724
+1596
+1503
+1081
+1549
+1553
+1396
+1590
+588
+489
+Jul.
+1586
+1853
+1890
+1625
+1470
+815
+1753
+1632
+1528
+1600
+713
+532
+Aug.
+1536
+1745
+1862
+1537
+1471
+756
+1701
+1515
+1396
+1503
+452
+474
+Sep.
+1681
+1904
+1889
+1636
+1509
+799
+1685
+1609
+1459
+1597
+676
+524
+Oct.
+3648
+4371
+2155
+2246
+2478
+2770
+1881
+2131
+2067
+2678
+828
+781
+Nov.
+3620
+4114
+2118
+2100
+2432
+2508
+1770
+1905
+2064
+2430
+819
+689
+Dec.
+3402
+3797
+2000
+1915
+2236
+2249
+1618
+1687
+1922
+2255
+786
+613
+Jan.(20/24)
+3636
+4123
+2284
+2107
+2424
+2480
+1787
+1877
+2089
+2283
+788
+644
+Feb.
+3789
+3964
+2342
+2133
+2572
+2283
+1841
+1727
+2112
+2240
+865
+664
+MW – up to 25 yen bin
+MW − 25–50 yen bin
+MW – up to 25 yen bin
+MW − 25–50 yen bin
+MW – up to 25 yen bin
+MW − 25–50 yen bin
+year
+2019
+2023
+2019
+2023
+2019
+2023
+2019
+2023
+2019
+2023
+2019
+2023
+May
+2504
+1830
+1561
+2738
+1635
+1260
+739
+1542
+823
+634
+962
+1646
+Jun.
+2712
+2194
+1740
+3289
+1855
+1637
+842
+1874
+966
+821
+1025
+2003
+Jul.
+3113
+2624
+2104
+3733
+2158
+1971
+1052
+2189
+1170
+967
+1245
+2281
+Aug.
+3111
+2458
+2157
+3648
+2103
+1840
+1068
+2186
+931
+880
+1150
+2206
+Sep.
+3163
+2627
+2200
+3985
+2248
+1991
+1092
+2312
+1171
+976
+1293
+2449
+Oct.
+312
+346
+103
+197
+110
+166
+38
+152
+21
+84
+74
+197
+Nov.
+312
+255
+106
+106
+94
+79
+54
+55
+26
+24
+63
+56
+Dec.
+263
+211
+97
+70
+49
+58
+54
+47
+14
+23
+41
+45
+Jan.(20/24)
+288
+223
+95
+94
+72
+82
+50
+38
+12
+24
+62
+58
+Feb.
+286
+229
+89
+94
+91
+78
+56
+37
+12
+14
+82
+73
+*Data for 2020, 2021, and 2022 were also estimated, but only 2019 and 2023 are shown in the table. Similarly, while we have wage bins that go beyond the ±50 yen range of the minimum wage (MW), we only present the 
+bins for up to 25 yen and 25–50 yen above and below the MW.
+APPLIED ECONOMICS
+9
+
+
+=== PDF PAGE 11 ===
+III. Results
+Effects on the three major economic zones
+We estimate Equation (1) using data from the three 
+major economic zones and calculate Δaτ and Δbτ, 
+which represent the quantity of job offers above 
+and below the new MW, respectively. Figure 5 
+indicates the Δaτ and Δbτ at increments of 50 yen 
+below and above the new MW for the three major 
+economic zones: Tokyo, Kansai (the second lar­
+gest), and Chukyo (the third largest) economic 
+zones. The total change in the number of job offers 
+above and below the MW by 50 yen (Δaτ+Δbτ) 
+corresponds to approximately a 2%. However, 
+Figure 5 shows that the impact of MWs extends 
+to the upper wage ranges but diminishes in the 
+higher ranges. This result is consistent with those 
+of Cengiz et al. (2019) and Lee (1999). When we 
+sum the effects of the increase in the number of job 
+offers up to the wage category 250 yen above the 
+MW, the total change in the number of job offers in 
+the net wage range (from 50 yen below to 250 yen 
+Figure 5. The impact of the minimum wage on the three major economic zones. Bars show the estimated values of job offers by wage 
+bins relative to the MW (in ¥50 increments): Δb for bins below the MW and Δa for bins above the MW.
+Figure 6. Impact of the change in minimum wage on job offers by year. Bars show the estimated values of job offers by wage bins 
+relative to the MW (in ¥50 increments): Δb for bins below the MW and Δa for bins above the MW.
+10
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 12 ===
+above the MW) is approximately a 21% increase. At 
+the few wage ranges on the left end in Figure 5, 
+some increases in the job offers exist, but this is 
+caused by slow action. The reaction of job offers 
+whose recruiting wage is below the MW appears 
+later than that of job offers whose recruiting wage is 
+above the MW.4
+As indicated in Table 1, the magnitude of 
+changes in the MW varies across years. Therefore, 
+Figure 6 presents the estimation results of Equation 
+(1) by year. From each tick mark on the horizontal 
+axis, the estimated results for each year from 2019 
+(light blue-green) to 2023 (dark blue) consecutively 
+move to the right. Figure 6 shows that in the wage 
+categories 50 yen above the MW, as well as in those 
+further above, the bar heights are higher in 2019 
+(light blue-green) and 2023 (dark blue), when the 
+increase in the MW is larger. Conversely, in 2020, 
+when there was almost no revision to the MW (see 
+Table 1), there was hardly any decrease in job offers 
+below the MW by 50 yen, nor any increase in job 
+offers above the MW by 50 yen, as shown by the 
+bars in Figure 6.
+Furthermore, Figure 7 presents the results by the 
+three major economic zones and by year. The 
+results are similar across the three zones, but the 
+magnitude of the effect and the range of impact 
+from the change in MW differ. According to 
+Figure 7, in the Tokyo economic zone, the increase 
+in the MW led to a rise in job offers above the MW 
+by 50 yen, particularly in 2019 and 2023, and 
+a decline in offers below the MW by 50 yen, espe­
+cially in 2023. The total change in the number of 
+jobs 50 yen above and below the MW, increased by 
+approximately 12.1% and 7.6%, respectively, in 
+2019 and 2023. The impact of the change in MW 
+extended to wages approximately up to 100 yen 
+above the MW. Figure 7 omits wage categories 
+that are more than 250 yen above the MW.
+The Kansai economic zone shows similar results. 
+The total change in the number of jobs 50 yen 
+above and below the MW increased by approxi­
+mately 6.0% and 9.1%, respectively, in 2019 and 
+2023. The impact has been more widespread in the 
+Kansai economic zone than in the Tokyo economic 
+zone, reaching wage categories approximately 150 
+Figure 7. Impact of changes in minimum wages on job offers by zone and year. The interval from the ‘plus50’ mark to just before the 
+next ‘plus100’ mark represents the wage bin at the minimum wage plus 50 yen.
+4As explained earlier, September and October are estimated as the periods after the MW change, but the law came into effect in October. Consequently, some 
+job offers below the MW remain.
+APPLIED ECONOMICS
+11
+
+
+=== PDF PAGE 13 ===
+yen above the MW. Figure 7 also illustrates a net 
+growth in job offers in the Chukyo zone in 2019. 
+Although the decline in job offers below the MW 
+by 50 yen in 2022 and 2023 is significant, and the 
+total changes in job offers above and below the 
+MW by 50 yen are negative in these years, the 
+number of job offers above the MW by 100 yen 
+and 150 yen has increased in the Chukyo zone, 
+similar to other economic zones.
+While the overall effects of MW increases appear 
+broadly similar across the three major economic 
+zones, these aggregate outcomes may conceal signif­
+icant heterogeneity in labour–market conditions 
+within and between regions. In particular, variations 
+in the degree of labour–market competition and 
+occupational composition could produce region – 
+specific responses to changes in the MW. In the next 
+section, we investigate these potential sources of 
+variation by examining the intra–regional differ­
+ences in population density and monopsony power.
+Analysing the different impacts by local labour 
+market
+Figure 8 indicates the estimated coefficient β0k (τ =  
+0), which is the coefficient of the cross-term 
+between the treatment variable I and population 
+density in Equation (2), for the Tokyo, Kansai, and 
+Chukyo economic zones. τ = 0 represents the first 
+month after the MW increase – October. In 
+Figure 8, the estimated coefficients for wage ranges 
+above the MW by 50 yen or more are almost 
+negative, as expected – labor markets in higher 
+population density areas are more competitive 
+and cannot increase job offers when the MW is 
+raised. The negative effects were particularly pro­
+nounced in the Chukyo economic zone and the 
+Tokyo economic zone in 2019. Comparing 
+Chukyo (the third-largest economic zone) and 
+Tokyo in 2019, the negative magnitude is larger 
+in Chukyo. In 2023, these effects are even more 
+pronounced. When comparing Chukyo and Tokyo 
+in 2023, Chukyo shows a more substantial negative 
+impact – even at similar levels of population den­
+sity, competition tends to intensify in more rural 
+areas within the three major economic zones. 
+Additionally, since the 2021 revisions, MW 
+increases have been higher in rural areas compared 
+to urban centres.
+Different impacts among occupations
+In Sections 3.1 and 3.2, we demonstrate the impacts 
+of rising MWs on the entire economy within the 
+Figure 8. The impact of population density on the effect. 
+Note: The ‘19’ or ‘23’ following the names of the economic zones indicates that the estimation results are based on data from 2019 or 
+2023, respectively.
+12
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 14 ===
+three major economic zones. However, the average 
+recruiting wage, labour shortages, and labour–mar­
+ket competitiveness differ across occupations. 
+Therefore, we conduct an estimation similar to 
+that in Section 3.2, this time by occupation. Using 
+data from the Tokyo economic zone in 2023, we 
+estimate Equation (2) by major occupational 
+categories.
+Figure 9 indicates Δaτ and Δbτ at increments of 
+50 yen below and above the new MW by 
+occupation. This trend is the same as the results 
+for the entire economy in Section 3.1, but the 
+volumes vary among occupations. For clerical 
+jobs, the decrease in the number of job offers 50 
+yen below the MW exceeds the increase 50 yen 
+above the MW. Additionally, for professional 
+jobs, neither the decrease in the number of job 
+offers in the wage range from the MW to 50 yen 
+below nor the increase in those of MW to 50 yen 
+above is significant.
+Figure 9. Tokyo: breakdown by occupation.
+Figure 10. Tokyo: the impact of population density on the effect by Occupation.
+APPLIED ECONOMICS
+13
+
+
+=== PDF PAGE 15 ===
+Figure 10 shows the estimated coefficient of the 
+cross-term between the treatment variable I and 
+population density by occupation. As expected, 
+the impact of population density on the effects of 
+changes in the MWs is greater for clerical jobs and 
+jobs in manufacturing, logistics, and cleaning, 
+where 
+competition 
+is 
+particularly 
+intense. 
+Nevertheless, the results for food-related jobs do 
+not align with expectations. Considering the post- 
+COVID impact – the recovery in demand for res­
+taurants in densely populated areas and the result­
+ing increase in job offers – we also conducted an 
+estimation using 2019 data. Although the results 
+are not presented, the cross-term for food-related 
+jobs is negative. Similar to the 2023 results, the 
+negative effect of population density is more pro­
+nounced in food-related jobs, clerical jobs, and jobs 
+in manufacturing, logistics, and cleaning, while it is 
+less significant in professional jobs.
+IV. Discussions and conclusions
+We consider the impact of MW on labour demand 
+by observing the number of job listings. A growing 
+body of research on changes in MW has been 
+conducted. Nonetheless, the impact of MW is elu­
+sive because it depends on labour–market condi­
+tions and has various theoretical and analytical 
+difficulties. Therefore, we treat the number of job 
+listings as a superior indicator of labour demand, as 
+it captures employers’ hiring intentions indepen­
+dently of supply shifts, enabling a clear distinction 
+between demand- and supply-side responses to 
+MW adjustments. Simultaneously, this study ana­
+lyzes how different local labour–market conditions 
+affect the impact of a change in the MW. Previous 
+studies divide the regions based on how high or low 
+the MW is and do not investigate the factors for 
+disparities. Additionally, based on prior findings, 
+while a MW change affects employment with 
+wages close to and above the MW, regional differ­
+ences have not been examined.
+First, the increase in the number of jobs offered 
+above the MW by 50 yen exceeds the decrease 
+below the MW by 50 yen. Total changes are 
+approximately 10–16% of monthly number of job 
+offers in the prior estimation period. The change in 
+the MW influences the upper wage ranges; how­
+ever, the influence diminishes as the wage range 
+increases. Second, we use population density as 
+a measure of competitiveness in the local labour 
+market. We empirically demonstrated that the 
+high-population density and highly competitive 
+local 
+labour 
+market 
+decrease 
+job 
+offers. 
+Conversely, 
+low-population 
+density 
+and 
+a monopsony labour market increase job offers 
+when the MW increases. Consequently, company 
+such as chain stores are the sole place of work in 
+low-population density regions, and the wage level 
+may stick to the MW. Finally, we examine the effect 
+of the MW rise by occupation. As expected, in 
+occupations where competition is likely to be 
+intense, the following theoretical prediction holds: 
+‘In competitive markets, raising the MW reduces 
+job offers, while in monopsony markets, it 
+increases them’.
+Labour–market heterogeneity is not unique to 
+Japan. Numerous studies have documented mono­
+psony power; consequently, developed economies 
+are characterized by labour–market heterogeneity. 
+Therefore, the insights from this study have rele­
+vance – and offer guidance – for policymakers and 
+researchers in other advanced countries.
+This study has some limitations. As our data­
+set does not include information on the recruit­
+ing company, even if the amount of recruitment 
+remains unchanged when the MW changes, we 
+cannot determine whether the reaction resulting 
+from the same company or the observation 
+through 
+the 
+recruiting 
+company 
+are 
+exchanged.5 Additionally, with more informa­
+tion about the company, we can analyse why 
+the changes in the MW affect the wages of 
+those with pay already above the MW or 
+whether the decrease in the effect of the change 
+over time is a part of the adjustment process. 
+Moreover, this study does not analyse the long- 
+term effects, considering the change in the sup­
+ply behaviour of individuals, including migra­
+tion. Although we demonstrated the different 
+impacts of MWs across occupations, a more 
+detailed analysis of the supply side would also 
+enable us to examine how the impact of MWs 
+differs by gender, as occupational choices often 
+5For example, Dustmann et al. (2022) investigate the reallocation.
+14
+S. KAZEKAMI AND M. ABE
+
+
+=== PDF PAGE 16 ===
+vary between men and women. These are impli­
+cations for further research in the future.
+In Japan, the current administration has com­
+mitted to increasing the MWs to at least ¥1,500 by 
+2030, which is equivalent to a 7% annual increase. 
+Since the end of the pandemic in 2021, the MWs 
+has increased annually by 3.7%. Leaving aside the 
+debate over what the optimal level should be, 
+according to our findings, even if the MWs 
+increase, the likelihood of a net decrease in job 
+offers is low. Instead, the effect of an average 
+increase in wages offered in job offers is significant. 
+However, owing to the heterogeneity of labour 
+markets across regions, the effects of MWs 
+increases may vary. Our findings suggest that pol­
+icymakers should place greater emphasis on 
+labour–market heterogeneity when setting regional 
+MWs, rather than seeking to avoid being desig­
+nated as the lowest MW region nationwide or to 
+prevent setting a wage lower than that of neigh­
+bouring regions, and rather than responding to 
+governors’ concerns about their public image 
+among local residents.
+Acknowledgements
+The data from Company A were provided by Recruit Works 
+Institute, Recruit Co., Ltd. The contact information is below. 
+The authors are thankful to all affiliated parties. The authors 
+would like to thank the three anonymous referees for their 
+constructive feedback.
+Recruit Works Institute, Recruit Co., Ltd.
+E-mail: works@r.recruit.co.jp
+https://www.works-i.com/.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+Funding
+The author is also grateful for the financial support provided 
+by the Japan Society for the Promotion of Science [JSPS 
+KAKENHI, Grant Numbers 21H00713 and 25K05150] and 
+Keio University Academic Development Funds.
+ORCID
+Sachiko Kazekami 
+http://orcid.org/0000-0001-8524-5485
+Masahiro Abe 
+http://orcid.org/0000-0003-1475-1385
+References
+Allegretto, S., A. Dube, M. Reich, and B. Zipperer. 2017. 
+“Credible Research Designs for Minimum Wage Studies: 
+A Response to Neumark, Salas, and Wascher.” ILR Review 
+70 (3): 559–592.
+Azar, J., I. Marinescu, and M. Steinbaum. 2019. “Measuring 
+Labor Market Power Two Ways.” AEA Papers & 
+Proceedings 109:317–321. https://doi.org/10.1257/pandp. 
+20191068  .
+Brochu, P., and D. A. Green. 2013. “The Impact of Minimum 
+Wages on Labour Market Transitions.” Economic Journal 
+123 (573): 1203–1235. https://doi.org/10.1111/ecoj.12032  .
+Butschek, S. 2022. “Raising the Bar: Minimum Wages and 
+Employers’ Hiring Standards.” American Economic 
+Journal, Economic Policy 14 (2): 91–124. https://doi.org/ 
+10.1257/pol.20190534  .
+Card, D. 1992a. “Using Regional Variation in Wages to 
+Measure the Effects of the Federal Minimum Wage.” ILR 
+Review 46 (1): 22–37. https://doi.org/10.2307/2524736 .
+Card, D. 1992b. “Do Minimum Wages Reduce Employment? 
+A Case Study of California, 1987-89.” ILR Review 46 (1): 
+38–54. https://doi.org/10.2307/2524737 .
+Card, D., and A. B. Krueger. 1994. “Minimum Wages and 
+Employment: A Case Study of the Fast-Food Industry in 
+New Jersey and Pennsylvania.” The American Economic 
+Review 84 (4): 772–793.
+Card, D., and A. B. Krueger. 1995. Myth and Measurement: 
+The New Economics of the Minimum Wage. Princeton 
+University Press.
+Cengiz, D., A. Dube, A. Lindner, and B. Zipperer. 2019. “The 
+Effect of Minimum Wages on Low-Wage Jobs.” Quarterly 
+Journal of Economics 134 (3): 1405–1454. https://doi.org/ 
+10.1093/qje/qjz014  .
+Clemens, J., and M. R. Strain. 2021. “The Heterogeneous 
+Effects of Large and Small Minimum Wage Changes: 
+Evidence Over the Short and Medium Run Using a 
+Pre-Analysis Plan.” NBER Working Paper 29264.
+Dube, A., T. W. Lester, and M. Reich. 2010. “Minimum Wage 
+Effects Across State Borders: Estimates Using Contiguous 
+Counties.” Review of Economics and Statistics 92 (4): 945– 
+964.
+Dube, A., T. William Lester, and M. Reich. 2016. “Minimum 
+Wage Shocks, Employment Flows, and Labor Market 
+Frictions.” Journal of Labor Economics 34 (3): 663–704.  
+https://doi.org/10.1086/685449  .
+Dustmann, C., A. Lindner, U. Schönberg, M. Umkehrer, and 
+P. Vom Berge. 2022. “Reallocation Effects of the Minimum 
+Wage.” Quarterly Journal of Economics 137 (1): 267–328.  
+https://doi.org/10.1093/qje/qjab028  .
+Katz, L. F., and A. B. Krueger. 1992. “The Effect of the 
+Minimum Wage on the Fast-Food Industry.” ILR Review 
+46 (1): 6–21. https://doi.org/10.2307/2524735 .
+Kudlyak, M., M. Tasci, and D. Tüzemen. 2022. “Minimum 
+Wage Increases and Vacancies.” In IZA DP No. 15254, IZA 
+Institute of Labor Economics. https://www.iza.org/publica 
+tions/dp/15254/minimum-wage-increases-and-vacancies .
+APPLIED ECONOMICS
+15
+
+
+=== PDF PAGE 17 ===
+Lee, D. S. 1999. “Wage Inequality in the United States During 
+the 1980s: Rising Dispersion or Falling Minimum Wage?” 
+Quarterly Journal of Economics 114 (3): 977–1023. https:// 
+doi.org/10.1162/003355399556197  .
+Manning, Alan. 2003. Monopsony in Motion: Imperfect 
+Competition in Labor Markets. Princeton University Press, 
+Princeton, NJ.
+Manning, A. 2021. “The Elusive Employment Effect of the 
+Minimum Wage.” Journal of Economic Perspectives 35 (1): 
+3–26. https://doi.org/10.1257/jep.35.1.3  .
+Neumark, D., J. M. I. Salas, and W. Wascher. 2014. “Revisiting 
+the Minimum wage–Employment Debate: Throwing Out 
+the Baby with the Bathwater?” ILR Review 67:608–648.
+Neumark, 
+D., 
+and 
+P. 
+Shirley. 
+2022. 
+“Myth 
+or 
+Measurement: What Does the New Minimum Wage 
+Research Say About Minimum Wages and Job Loss in 
+the United States?” Industrial Relations: A Journal of 
+Economy & Society 61 (4): 384–417. https://doi.org/10. 
+1111/irel.12306  .
+Neumark, D., and W. Wascher. 1992. “Employment Effects of 
+Minimum and Subminimum Wages: Panel Data on State 
+Minimum Wage Laws.” ILR Review 46 (1): 55–81. https:// 
+doi.org/10.2307/2524738 .
+Portugal, P., and A. Rute Cardoso. 2006. “Disentangling the 
+Minimum Wage Puzzle: An Analysis of Worker Accessions 
+and Separations.” Journal of the European Economic 
+Association 4 (5): 988–1013. https://doi.org/10.1162/JEEA. 
+2006.4.5.988  .
+Wage Disclosure upon Job Change Accelerates (Tenshoku-ji 
+no Chingin Kohyo Subayaku). 2021. Nikkei.
+16
+S. KAZEKAMI AND M. ABE
