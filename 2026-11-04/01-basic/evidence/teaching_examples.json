@@ -1,0 +1,79 @@
+{
+  "illustrative_only": true,
+  "parameters_not_estimated": {
+    "p": 3200000.0,
+    "A": 1.0,
+    "K": 1.0,
+    "alpha": 0.3,
+    "beta": 0.5,
+    "hours": 160.0
+  },
+  "wages_yen_per_hour": [
+    1000.0,
+    1100.0
+  ],
+  "desired_employment_people": [
+    100.0,
+    82.64462809917357
+  ],
+  "employment_change_percent": -17.355371900826423,
+  "replacement_example": {
+    "target": 100,
+    "previous": 100,
+    "fill": 1,
+    "channel": 1,
+    "separations": [
+      0.1,
+      0.05
+    ],
+    "vacancies": [
+      10.0,
+      5.0
+    ]
+  },
+  "tokyo_actual": {
+    "pre_yoy": -1.635580262201191,
+    "nov_yoy": -8.258787314594151,
+    "d": -6.62320705239296
+  },
+  "primary_actual": {
+    "delta": -1.5554104519904133,
+    "ci_low": -7.933877955930516,
+    "ci_high": 4.823057051949689,
+    "p_one_sided_negative": 0.3100821928228598
+  },
+  "todo_pages": {
+    "1_data_and_comparability": [
+      2,
+      3
+    ],
+    "2_prior_work_and_increment": [
+      4
+    ],
+    "3_micro_model_and_derivation": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "4_hypothesis_and_calculable_test": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "5_results_and_theory_reality": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "6_conclusion_implications_limits": [
+      19
+    ]
+  }
+}

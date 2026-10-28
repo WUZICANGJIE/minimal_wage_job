@@ -1,0 +1,8 @@
+{
+  "county_changes.csv": true,
+  "panel.csv": true,
+  "policy.csv": true,
+  "group_summary.csv": true,
+  "monthly_means.csv": true,
+  "estimates.csv": true
+}

@@ -149,18 +149,81 @@
       }
     ]
   },
+  "fresh_analysis_reproduction": {
+    "csv_byte_identity": {
+      "county_changes.csv": true,
+      "panel.csv": true,
+      "policy.csv": true,
+      "group_summary.csv": true,
+      "monthly_means.csv": true,
+      "estimates.csv": true
+    },
+    "data_and_model_report_identical": true
+  },
+  "frozen_inputs": {
+    "unchanged": true,
+    "sha256": {
+      "2026-11-04/01-basic/analysis.py": "ddca9dc621fc7911e8de6dd270678945dc5105378eed76a0d83ef665a7aa7168",
+      "2026-11-04/01-basic/results/county_changes.csv": "9608e28c19773eb0bdb624982236c80abb7bd68fa138159102486b47125a6a14",
+      "2026-11-04/01-basic/results/estimates.csv": "7cecc895f867945167bb04266e1650f080f6b92e334790e8218fa12fbdc18189",
+      "2026-11-04/01-basic/results/group_summary.csv": "a117249abdf0c0cd5eb189114a0a25000ca1604fddd50361ccf067a6935f9366",
+      "2026-11-04/01-basic/results/monthly_means.csv": "08f82514bd4917f798b28baf9a2c454aa7ba5690d037aae8a6093203677dea03",
+      "2026-11-04/01-basic/results/panel.csv": "276e5831cf1d0c240d82f30d8089a22bed704a48160f86d5470e7afcef365846",
+      "2026-11-04/01-basic/results/policy.csv": "f84eb8b9de2f0035a7a79cf56cf5369fe1719cd6f3d0032a37c0198d62eb1cdb",
+      "data/raw/estat_shokugyo_t12_shinki_kyujin.xlsx": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5",
+      "data/raw/mhlw_saitei_chingin_kaitei.xlsx": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+    },
+    "includes": "analysis.py, six empirical CSVs, two raw workbooks"
+  },
   "notebook": {
+    "existing_executed_notebook_preserved": true,
     "all_code_cells_executed": true,
     "code_cells": 7,
     "image_outputs": 3,
-    "error_outputs": 0,
-    "primary_numeric_output_checked": true
+    "error_outputs": 0
   },
   "slides": {
-    "pdf_pages": 10,
-    "max_pages": 10,
+    "pdf_pages": 20,
+    "expected_pages": 20,
+    "speaker_notes": 20,
+    "todo_pages": {
+      "1_data_and_comparability": [
+        2,
+        3
+      ],
+      "2_prior_work_and_increment": [
+        4
+      ],
+      "3_micro_model_and_derivation": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "4_hypothesis_and_calculable_test": [
+        12,
+        13,
+        14,
+        17
+      ],
+      "5_results_and_theory_reality": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "6_conclusion_implications_limits": [
+        19
+      ]
+    },
     "pdf_text_numeric_checks": true,
-    "html_sections": 10,
+    "html_sections": 20,
+    "katex_errors": 0,
+    "raw_tex_leaks": [],
     "font_loaded": true,
     "browser_page_errors": [],
     "html_layout": [
@@ -168,8 +231,12 @@
         "page": 1,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 533.25,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 530.25,
         "sourceTop": null,
+        "contentOutside": [],
+        "displayMath": [],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -177,8 +244,12 @@
         "page": 2,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 563.171875,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 582.140625,
         "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -186,8 +257,17 @@
         "page": 3,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 558.15625,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 539.65625,
         "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 378.578125
+          }
+        ],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -195,8 +275,12 @@
         "page": 4,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 533.609375,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 590.171875,
         "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -204,8 +288,17 @@
         "page": 5,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 515.921875,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 543.90625,
         "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 222.09375
+          }
+        ],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -213,17 +306,39 @@
         "page": 6,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 651.796875,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 545.90625,
         "sourceTop": 681.75,
-        "imageCount": 1,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 482.34375
+          }
+        ],
+        "imageCount": 0,
         "brokenImages": 0
       },
       {
         "page": 7,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 582.78125,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 490.71875,
         "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 414.859375
+          },
+          {
+            "fontSize": "30px",
+            "width": 437.984375
+          }
+        ],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -231,17 +346,39 @@
         "page": 8,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 649.859375,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 489.90625,
         "sourceTop": 681.75,
-        "imageCount": 1,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 325.65625
+          },
+          {
+            "fontSize": "30px",
+            "width": 305.515625
+          }
+        ],
+        "imageCount": 0,
         "brokenImages": 0
       },
       {
         "page": 9,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 590.1875,
-        "sourceTop": null,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 575.609375,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 310.046875
+          }
+        ],
         "imageCount": 0,
         "brokenImages": 0
       },
@@ -249,8 +386,166 @@
         "page": 10,
         "scrollHeight": 720,
         "clientHeight": 720,
-        "bodyBottom": 576.5,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 565.671875,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 411.515625
+          },
+          {
+            "fontSize": "30px",
+            "width": 168.1875
+          }
+        ],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 11,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 606.4375,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 12,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 571.515625,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 13,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 571.3125,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 480.4375
+          }
+        ],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 14,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 566.34375,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 713.375
+          }
+        ],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 15,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 632.71875,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
+        "imageCount": 1,
+        "brokenImages": 0
+      },
+      {
+        "page": 16,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 628.71875,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
+        "imageCount": 1,
+        "brokenImages": 0
+      },
+      {
+        "page": 17,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 554.3125,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [
+          {
+            "fontSize": "30px",
+            "width": 318.34375
+          }
+        ],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 18,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 632.71875,
+        "sourceTop": 681.75,
+        "contentOutside": [],
+        "displayMath": [],
+        "imageCount": 1,
+        "brokenImages": 0
+      },
+      {
+        "page": 19,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 585.984375,
         "sourceTop": null,
+        "contentOutside": [],
+        "displayMath": [],
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 20,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyBottom": 560.65625,
+        "sourceTop": null,
+        "contentOutside": [],
+        "displayMath": [],
         "imageCount": 0,
         "brokenImages": 0
       }
@@ -272,24 +567,28 @@
       "sha256": "fc3af09d4826eac05dbcbddefb88f43077a939d1efa67a5bda70cc97175cd656"
     },
     "build_materials.py": {
-      "bytes": 19920,
-      "sha256": "bc5b645b21a0f2653ff26a93856ce65ceb8d7cb2ea5d9021ea5396aa2bb2785b"
+      "bytes": 4467,
+      "sha256": "3d00ace0367aac35fffa49fa76370fa27c65a026fa15430a14b18513ea4c7bee"
     },
     "verify_artifacts.py": {
-      "bytes": 5191,
-      "sha256": "ab3b10600186f97ad4aac40e9c245c854a96b59b19baa75007b6ed099c72088f"
+      "bytes": 8562,
+      "sha256": "86a092907ad41fff83e10de8574cccf23e006c69a9962cfff9f3beca3ab88c7d"
     },
     "slides.md": {
-      "bytes": 10929,
-      "sha256": "46f7cd51194bf8e7980026d3645b0073da30e24b94f80021ba28028ea992c480"
+      "bytes": 28788,
+      "sha256": "bb94e359e94a42ee97550e4848e77bb29ff6fdd42a3e8eba10bccb3152c0e8d1"
     },
     "slides.pdf": {
-      "bytes": 393055,
-      "sha256": "35d11a1de4d09ddac85a11737dd7105fd2663d7e09a199e7839028e9c0346bb9"
+      "bytes": 508855,
+      "sha256": "b3787dc1d09ee73b491af41e8d98e1f9077cf223ddf41cd8e0cf3c25c746f665"
     },
     "slides.html": {
-      "bytes": 277869,
-      "sha256": "cbb93ade68d8c79787449bfb94aad426a0eccf12df06f52cc238eecf668444d5"
+      "bytes": 395061,
+      "sha256": "ac0bc6a7834903903eb560042cdd80747a0a0a51a0dbc994f6e13919d1f9f844"
+    },
+    "speaker_notes.md": {
+      "bytes": 10632,
+      "sha256": "e2cb0ee6b4b70fb40eaca75c28c0cf72ef963ed8a774932e0da6b9bb68b3fc7a"
     },
     "methods.md": {
       "bytes": 8800,
@@ -300,8 +599,8 @@
       "sha256": "d52a455901ded40a515195d84f216eda6d1e303839e0a688a7788b2be2b6fe9f"
     },
     "README.md": {
-      "bytes": 8196,
-      "sha256": "ef2edb8eaa9b9beedf99c00e98144215ed08929d28463cbf6ec2ee9e829e9c05"
+      "bytes": 4076,
+      "sha256": "add4c1d2760060cd8492e3bdd5f26f94df3f77c6dcd07ec10a7b88d07dce42bd"
     },
     "requirements.txt": {
       "bytes": 216,

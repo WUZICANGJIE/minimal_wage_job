@@ -1,0 +1,149 @@
+{
+  "seed": 20261104,
+  "all_checks_passed": true,
+  "raw_sha256": {
+    "estat_shokugyo_t12_shinki_kyujin.xlsx": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5",
+    "mhlw_saitei_chingin_kaitei.xlsx": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+  },
+  "raw_files_unchanged": true,
+  "workbook_year_headers": {
+    "2024": {
+      "label": "令和６年度",
+      "excel_wage_column_1based": 46,
+      "excel_date_column_1based": 47,
+      "excel_rows_1based": [
+        3,
+        49
+      ]
+    },
+    "2025": {
+      "label": "令和７年度",
+      "excel_wage_column_1based": 48,
+      "excel_date_column_1based": 49,
+      "excel_rows_1based": [
+        3,
+        49
+      ]
+    }
+  },
+  "raw_first_month": "2013-01",
+  "raw_last_month": "2026-08",
+  "raw_months": 164,
+  "prefectures": 47,
+  "sheets_validated": [
+    "第１２表－１（パート含む一般）",
+    "第１２表ー２（パート除く一般）",
+    "第１２表－３（一般パート）",
+    "第１２表ー４（パート含む常用）",
+    "第１２表ー５（パート除く常用）",
+    "第１２表ー６（常用的パート）"
+  ],
+  "monthly_continuity": true,
+  "national_equal_sum_all_six_sheets": true,
+  "part_plus_nonpart_equal_total_general_and_regular": true,
+  "panel_observations": 2068,
+  "group_counts": {
+    "10月発効": 20,
+    "12月以降発効": 14,
+    "11月発効": 13
+  },
+  "primary_policy_units": 34,
+  "comparison_month": "2025-11",
+  "welch_checked_against_scipy": true,
+  "mean_difference_checked_against_OLS": true,
+  "scalar_log_yoy_checked": true,
+  "model": {
+    "grid_cases": 9,
+    "max_relative_optimizer_error": 4.879424203574345e-07,
+    "checked": [
+      "FOC optimum",
+      "wage elasticity",
+      "zero recruitment corner",
+      "replacement case",
+      "separation/fill/channel sensitivity",
+      "invalid boundary rejection"
+    ],
+    "illustrative_only": true
+  },
+  "limitations": [
+    "Descriptive contrast, not a causal estimate",
+    "Prefecture independence is an inference assumption",
+    "Year-on-year changes subtract prior-year policy effects",
+    "Receipt location is not work location",
+    "January-July baseline need not be free of anticipation"
+  ],
+  "software": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "estimates": [
+    {
+      "n_early": 20,
+      "n_late": 14,
+      "d_early": -7.808655628356742,
+      "d_late": -6.253245176366328,
+      "delta": -1.5554104519904133,
+      "se": 3.1001154640938107,
+      "df": 25.49982686308949,
+      "t": -0.501726619542241,
+      "ci_low": -7.933877955930516,
+      "ci_high": 4.823057051949689,
+      "p_one_sided_negative": 0.3100821928228598,
+      "p_two_sided": 0.6201643856457196,
+      "ols_delta": -1.5554104519904135,
+      "baseline": "2025-01..09",
+      "pre_early": -4.181736291088345,
+      "pre_late": -5.803555563011544,
+      "nov_early": -11.990391919445086,
+      "nov_late": -12.056800739377877,
+      "pre_gap": 1.621819271923199,
+      "nov_gap": 0.06640881993279102
+    },
+    {
+      "n_early": 20,
+      "n_late": 14,
+      "d_early": -8.647881314553402,
+      "d_late": -6.468060461554996,
+      "delta": -2.1798208529984056,
+      "se": 3.231558563589603,
+      "df": 24.12101820145429,
+      "t": -0.6745416523032368,
+      "ci_low": -8.847659583025631,
+      "ci_high": 4.48801787702882,
+      "p_one_sided_negative": 0.2531906267336378,
+      "p_two_sided": 0.5063812534672754,
+      "ols_delta": -2.1798208529984042,
+      "baseline": "2025-01..07",
+      "pre_early": -3.342510604891686,
+      "pre_late": -5.588740277822877,
+      "nov_early": -11.990391919445086,
+      "nov_late": -12.056800739377877,
+      "pre_gap": 2.2462296729311912,
+      "nov_gap": 0.06640881993279102
+    },
+    {
+      "n_early": 20,
+      "n_late": 14,
+      "d_early": -8.047136166577792,
+      "d_late": -6.99855592104904,
+      "delta": -1.0485802455287514,
+      "se": 3.0473955566838975,
+      "df": 25.87256768835934,
+      "t": -0.344090626249318,
+      "ci_low": -7.314093459673624,
+      "ci_high": 5.216932968616121,
+      "p_one_sided_negative": 0.3667795560494788,
+      "p_two_sided": 0.7335591120989576,
+      "ols_delta": -1.0485802455287534,
+      "baseline": "2025-04..09",
+      "pre_early": -3.9432557528672945,
+      "pre_late": -5.058244818328832,
+      "nov_early": -11.990391919445086,
+      "nov_late": -12.056800739377877,
+      "pre_gap": 1.114989065461538,
+      "nov_gap": 0.06640881993279102
+    }
+  ]
+}

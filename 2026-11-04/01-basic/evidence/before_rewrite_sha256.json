@@ -1,0 +1,11 @@
+{
+  "2026-11-04/01-basic/analysis.py": "ddca9dc621fc7911e8de6dd270678945dc5105378eed76a0d83ef665a7aa7168",
+  "2026-11-04/01-basic/results/county_changes.csv": "9608e28c19773eb0bdb624982236c80abb7bd68fa138159102486b47125a6a14",
+  "2026-11-04/01-basic/results/estimates.csv": "7cecc895f867945167bb04266e1650f080f6b92e334790e8218fa12fbdc18189",
+  "2026-11-04/01-basic/results/group_summary.csv": "a117249abdf0c0cd5eb189114a0a25000ca1604fddd50361ccf067a6935f9366",
+  "2026-11-04/01-basic/results/monthly_means.csv": "08f82514bd4917f798b28baf9a2c454aa7ba5690d037aae8a6093203677dea03",
+  "2026-11-04/01-basic/results/panel.csv": "276e5831cf1d0c240d82f30d8089a22bed704a48160f86d5470e7afcef365846",
+  "2026-11-04/01-basic/results/policy.csv": "f84eb8b9de2f0035a7a79cf56cf5369fe1719cd6f3d0032a37c0198d62eb1cdb",
+  "data/raw/estat_shokugyo_t12_shinki_kyujin.xlsx": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5",
+  "data/raw/mhlw_saitei_chingin_kaitei.xlsx": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+}
