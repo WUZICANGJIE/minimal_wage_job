@@ -2,10 +2,18 @@
 // Usage: node render_frames.mjs   (run from this directory)
 import { createRequire } from 'node:module';
 import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { join, resolve } from 'node:path';
+import { execSync } from 'node:child_process';
 
-// playwright is preinstalled globally, which ESM imports cannot see
-const { chromium } = createRequire(import.meta.url)('playwright');
+// Use a local playwright if installed, otherwise the global one
+// (ESM imports and plain require ignore npm's global node_modules).
+function loadPlaywright() {
+  const req = createRequire(import.meta.url);
+  try { return req('playwright'); } catch {}
+  const globalRoot = execSync('npm root -g', { encoding: 'utf8' }).trim();
+  return createRequire(join(globalRoot, 'noop.js'))('playwright');
+}
+const { chromium } = loadPlaywright();
 
 const frames = JSON.parse(readFileSync('build/frames.json', 'utf8'));
 const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});

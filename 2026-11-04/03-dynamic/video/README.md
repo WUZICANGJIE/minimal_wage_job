@@ -1,6 +1,6 @@
 # 动学版讲解视频
 
-`dynamic_explainer.mp4`：日文旁白、约11分钟的讲解视频，面向有本科经济学基础的组员。内容跟随 `../slides.md`：两期招聘模型（人数流动 → 收入/募集费用 → 目标函数 → 两期一阶条件 → 比较静态 → 假定值例子）和11月早晚组比较（−1.56，Welch 95% [−7.93, 4.82]，后续路径仅描述）。公式保留，逐步出现并高亮当前讲到的部分，底部有日文字幕。
+`dynamic_explainer.mp4`：日文旁白、约12分钟的讲解视频，面向有本科经济学基础的组员。内容跟随 `../slides.md`：两期招聘模型（人数流动 → 收入/募集费用 → 目标函数 → 两期一阶条件 → 比较静态 → 假定值例子）和11月早晚组比较（−1.56，Welch 95% [−7.93, 4.82]，后续路径仅描述）。公式保留，逐步出现并高亮当前讲到的部分，底部有日文字幕。
 
 不是新的分析：图表直接读取 `../results/` 的CSV，数字与slides一致；第13页的假定参数例子同样只是检查数学，不是估计。
 
@@ -21,7 +21,7 @@ python -m venv .venv && .venv/bin/pip install kokoro-onnx "misaki[ja]" soundfile
 npm install                       # KaTeX
 mkdir -p models && for f in kokoro-v1.0.onnx voices-v1.0.bin; do
   curl -L -o models/$f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
-.venv/bin/python build_video.py   # 需要 ffmpeg 和全局安装的 playwright(Chromium)
+.venv/bin/python build_video.py   # 需要 ffmpeg；playwright 用本目录或全局安装（npm i -g playwright && npx playwright install chromium）
 ```
 
 语音是离线的 Kokoro v1.0（声音 `jf_alpha`，速度1.1），机器合成，个别读音和语调可能不自然；如需替换为真人录音，可按 `script.md` 逐场景录音。修改旁白只需编辑 `scenes.py` 后重跑，已合成的句子按内容缓存在 `build/audio/`。
