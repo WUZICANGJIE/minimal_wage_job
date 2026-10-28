@@ -2,6 +2,10 @@
 
 `slides.pdf` / `slides.html` / `slides.md` 均为20页；`speaker_notes.md` 是对应20页的自然日文讲稿，亦已放入每页Marp非显示comment。未实测演讲时长。
 
+## 解说视频
+
+`video/basic_explainer_ja.mp4`：约11分钟的日语讲解视频（保留公式、逐项解释，带字幕），面向组员。台本与重建方法见 `video/README.md`。
+
 ## 这次改了什么
 
 主线改为：企业选择人数 → 利润目标 → FOC → 劳动需求 → 补充招聘 → 条件性假说 → 县内差分 → 早晚差及不确定性。不用讲稿代替正文解释。
