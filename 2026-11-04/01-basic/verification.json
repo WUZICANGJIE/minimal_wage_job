@@ -1,0 +1,316 @@
+{
+  "status": "passed",
+  "data_and_model": {
+    "seed": 20261104,
+    "all_checks_passed": true,
+    "raw_sha256": {
+      "estat_shokugyo_t12_shinki_kyujin.xlsx": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5",
+      "mhlw_saitei_chingin_kaitei.xlsx": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+    },
+    "raw_files_unchanged": true,
+    "workbook_year_headers": {
+      "2024": {
+        "label": "令和６年度",
+        "excel_wage_column_1based": 46,
+        "excel_date_column_1based": 47,
+        "excel_rows_1based": [
+          3,
+          49
+        ]
+      },
+      "2025": {
+        "label": "令和７年度",
+        "excel_wage_column_1based": 48,
+        "excel_date_column_1based": 49,
+        "excel_rows_1based": [
+          3,
+          49
+        ]
+      }
+    },
+    "raw_first_month": "2013-01",
+    "raw_last_month": "2026-08",
+    "raw_months": 164,
+    "prefectures": 47,
+    "sheets_validated": [
+      "第１２表－１（パート含む一般）",
+      "第１２表ー２（パート除く一般）",
+      "第１２表－３（一般パート）",
+      "第１２表ー４（パート含む常用）",
+      "第１２表ー５（パート除く常用）",
+      "第１２表ー６（常用的パート）"
+    ],
+    "monthly_continuity": true,
+    "national_equal_sum_all_six_sheets": true,
+    "part_plus_nonpart_equal_total_general_and_regular": true,
+    "panel_observations": 2068,
+    "group_counts": {
+      "10月発効": 20,
+      "12月以降発効": 14,
+      "11月発効": 13
+    },
+    "primary_policy_units": 34,
+    "comparison_month": "2025-11",
+    "welch_checked_against_scipy": true,
+    "mean_difference_checked_against_OLS": true,
+    "scalar_log_yoy_checked": true,
+    "model": {
+      "grid_cases": 9,
+      "max_relative_optimizer_error": 4.879424203574345e-07,
+      "checked": [
+        "FOC optimum",
+        "wage elasticity",
+        "zero recruitment corner",
+        "replacement case",
+        "separation/fill/channel sensitivity",
+        "invalid boundary rejection"
+      ],
+      "illustrative_only": true
+    },
+    "limitations": [
+      "Descriptive contrast, not a causal estimate",
+      "Prefecture independence is an inference assumption",
+      "Year-on-year changes subtract prior-year policy effects",
+      "Receipt location is not work location",
+      "January-July baseline need not be free of anticipation"
+    ],
+    "software": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2"
+    },
+    "estimates": [
+      {
+        "n_early": 20,
+        "n_late": 14,
+        "d_early": -7.808655628356742,
+        "d_late": -6.253245176366328,
+        "delta": -1.5554104519904133,
+        "se": 3.1001154640938107,
+        "df": 25.49982686308949,
+        "t": -0.501726619542241,
+        "ci_low": -7.933877955930516,
+        "ci_high": 4.823057051949689,
+        "p_one_sided_negative": 0.3100821928228598,
+        "p_two_sided": 0.6201643856457196,
+        "ols_delta": -1.5554104519904135,
+        "baseline": "2025-01..09",
+        "pre_early": -4.181736291088345,
+        "pre_late": -5.803555563011544,
+        "nov_early": -11.990391919445086,
+        "nov_late": -12.056800739377877,
+        "pre_gap": 1.621819271923199,
+        "nov_gap": 0.06640881993279102
+      },
+      {
+        "n_early": 20,
+        "n_late": 14,
+        "d_early": -8.647881314553402,
+        "d_late": -6.468060461554996,
+        "delta": -2.1798208529984056,
+        "se": 3.231558563589603,
+        "df": 24.12101820145429,
+        "t": -0.6745416523032368,
+        "ci_low": -8.847659583025631,
+        "ci_high": 4.48801787702882,
+        "p_one_sided_negative": 0.2531906267336378,
+        "p_two_sided": 0.5063812534672754,
+        "ols_delta": -2.1798208529984042,
+        "baseline": "2025-01..07",
+        "pre_early": -3.342510604891686,
+        "pre_late": -5.588740277822877,
+        "nov_early": -11.990391919445086,
+        "nov_late": -12.056800739377877,
+        "pre_gap": 2.2462296729311912,
+        "nov_gap": 0.06640881993279102
+      },
+      {
+        "n_early": 20,
+        "n_late": 14,
+        "d_early": -8.047136166577792,
+        "d_late": -6.99855592104904,
+        "delta": -1.0485802455287514,
+        "se": 3.0473955566838975,
+        "df": 25.87256768835934,
+        "t": -0.344090626249318,
+        "ci_low": -7.314093459673624,
+        "ci_high": 5.216932968616121,
+        "p_one_sided_negative": 0.3667795560494788,
+        "p_two_sided": 0.7335591120989576,
+        "ols_delta": -1.0485802455287534,
+        "baseline": "2025-04..09",
+        "pre_early": -3.9432557528672945,
+        "pre_late": -5.058244818328832,
+        "nov_early": -11.990391919445086,
+        "nov_late": -12.056800739377877,
+        "pre_gap": 1.114989065461538,
+        "nov_gap": 0.06640881993279102
+      }
+    ]
+  },
+  "notebook": {
+    "all_code_cells_executed": true,
+    "code_cells": 7,
+    "image_outputs": 3,
+    "error_outputs": 0,
+    "primary_numeric_output_checked": true
+  },
+  "slides": {
+    "pdf_pages": 10,
+    "max_pages": 10,
+    "pdf_text_numeric_checks": true,
+    "html_sections": 10,
+    "font_loaded": true,
+    "browser_page_errors": [],
+    "html_layout": [
+      {
+        "page": 1,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 533.25,
+        "sourceTop": null,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 2,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 563.171875,
+        "sourceTop": 681.75,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 3,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 558.15625,
+        "sourceTop": 681.75,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 4,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 533.609375,
+        "sourceTop": 681.75,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 5,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 515.921875,
+        "sourceTop": 681.75,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 6,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 651.796875,
+        "sourceTop": 681.75,
+        "imageCount": 1,
+        "brokenImages": 0
+      },
+      {
+        "page": 7,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 582.78125,
+        "sourceTop": 681.75,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 8,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 649.859375,
+        "sourceTop": 681.75,
+        "imageCount": 1,
+        "brokenImages": 0
+      },
+      {
+        "page": 9,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 590.1875,
+        "sourceTop": null,
+        "imageCount": 0,
+        "brokenImages": 0
+      },
+      {
+        "page": 10,
+        "scrollHeight": 720,
+        "clientHeight": 720,
+        "bodyBottom": 576.5,
+        "sourceTop": null,
+        "imageCount": 0,
+        "brokenImages": 0
+      }
+    ],
+    "visual_preview": "results/preview/contact_sheet.png"
+  },
+  "tests": {
+    "returncode": 0,
+    "count": 6,
+    "log": "results/test.log"
+  },
+  "files": {
+    "analysis.py": {
+      "bytes": 15974,
+      "sha256": "ddca9dc621fc7911e8de6dd270678945dc5105378eed76a0d83ef665a7aa7168"
+    },
+    "analysis.ipynb": {
+      "bytes": 345478,
+      "sha256": "fc3af09d4826eac05dbcbddefb88f43077a939d1efa67a5bda70cc97175cd656"
+    },
+    "build_materials.py": {
+      "bytes": 19920,
+      "sha256": "bc5b645b21a0f2653ff26a93856ce65ceb8d7cb2ea5d9021ea5396aa2bb2785b"
+    },
+    "verify_artifacts.py": {
+      "bytes": 5191,
+      "sha256": "ab3b10600186f97ad4aac40e9c245c854a96b59b19baa75007b6ed099c72088f"
+    },
+    "slides.md": {
+      "bytes": 10929,
+      "sha256": "46f7cd51194bf8e7980026d3645b0073da30e24b94f80021ba28028ea992c480"
+    },
+    "slides.pdf": {
+      "bytes": 393055,
+      "sha256": "35d11a1de4d09ddac85a11737dd7105fd2663d7e09a199e7839028e9c0346bb9"
+    },
+    "slides.html": {
+      "bytes": 277869,
+      "sha256": "cbb93ade68d8c79787449bfb94aad426a0eccf12df06f52cc238eecf668444d5"
+    },
+    "methods.md": {
+      "bytes": 8800,
+      "sha256": "729269431abc0c16a539bea58b36f4236c8e10a434d50cf001e988004ca3cb37"
+    },
+    "sources.md": {
+      "bytes": 6069,
+      "sha256": "d52a455901ded40a515195d84f216eda6d1e303839e0a688a7788b2be2b6fe9f"
+    },
+    "README.md": {
+      "bytes": 8196,
+      "sha256": "ef2edb8eaa9b9beedf99c00e98144215ed08929d28463cbf6ec2ee9e829e9c05"
+    },
+    "requirements.txt": {
+      "bytes": 216,
+      "sha256": "0f5cbcd611205867d4658d57f18bb0b80dfa2d878f1bf9e6761d18213a96c18a"
+    },
+    "citation-ledger.json": {
+      "bytes": 3526,
+      "sha256": "f3dcc3714f38886dfade96479853e2dedca411a3c5be6d7ed5edceeafa098734"
+    }
+  },
+  "scope": "Only this 01-basic directory was written; no commit/push. Verify via git status."
+}

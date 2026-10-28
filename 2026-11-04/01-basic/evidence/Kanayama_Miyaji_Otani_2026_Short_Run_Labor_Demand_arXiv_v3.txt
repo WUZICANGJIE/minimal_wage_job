@@ -1,0 +1,2132 @@
+===PDF PAGE 1===
+Just After Minimum Wage Hikes:
+Short-Run Labor-Demand Response and Reallocation
+Hayato Kanayama∗, Sho Miyaji†, Suguru Otani‡
+First version: May 7, 2025
+Current version: March 17, 2026
+Abstract
+How labor markets adjust immediately after minimum wage hikes remains an open, policy-
+relevant question. This paper studies short-run minimum-wage effects in Japan’s spot labor
+market using Timee data and a wage-bin difference-in-differences design.
+We find a 2%
+employment decline in affected bins, driven by reduced vacancy creation rather than worker
+supply. Effects are more negative where the minimum-wage bite is higher and in low-wage oc-
+cupations. Using job descriptions and amenity information, we document reallocation across
+job types: postings shift toward greater amenity provision and experienced-worker targeting,
+while female-targeted descriptions become less common, suggesting short-run labor-demand
+adjustments may foreshadow longer-run reallocation.
+Keywords: minimum wage, employment, job amenities, gig workers, spot work, difference-
+in-differences
+JEL codes: J21, J23, J38, J88
+∗ha13yato@toki.waseda.jp, Graduate School of Economics, Waseda University.
+†sho.miyaji@yale.edu, Graduate School of Economics, Yale University
+‡suguru.otani@e.u-tokyo.ac.jp, Market Design Center, Department of Economics, The University of Tokyo
+We thank Yu Awaya, Jun Goto, Takuya Hasebe, Yuichiro Kamada, Ryo Kambayashi, Michihiro Kandori, Daiji
+Kawaguchi, Keisuke Kawata, Kohei Kawaguchi, Fuhito Kojima, Ayako Kondo, Seongman Moon, Yuko Mori, Shunya
+Noda, Hiroko Okudaira, Hideo Owan, Shinpei Sano, Hitoshi Shigeoka, Uta Sch¨onberg, Mari Tanaka, and Ken
+Yamada for their valuable advice. We also thank seminar and conference participants at the University of Tokyo,
+Kochi University of Technology, Sophia University, Doshisha University, the 100th Annual Conference of the Western
+Economic Association International, the 20th Applied Econometrics Conference, the Workshop on the Economics
+of Human Resource Allocation, and the Kansai and Tokyo Labor Study Group for their useful comments. An
+earlier version of this paper was titled “Who Bears the Cost? High-Frequency Evidence on Minimum Wage Effects
+and Non-wage Amenity Adjustment in Spot Labor Markets.” We are grateful to Kazuki Takaishi and Takahide
+Kimura for sharing the data and for their technical and institutional knowledge of the Timee platform. This work
+was supported by JST ERATO Grant Number JPMJER2301 and JSPS KAKENHI Grant Number 25K16620.
+1
+arXiv:2505.04555v3  [econ.GN]  16 Mar 2026
+
+===PDF PAGE 2===
+1
+Introduction
+The gig economy—comprising temporary, contract-based, and freelance online work—has ex-
+panded rapidly (Boeri et al. 2020). An increasing share of freelance workers is now matched with
+customers through online platforms.1 Because gigs range from on-demand shifts to project-based
+contracts, gig work represents one of the most adjustable forms of labor demand. Yet, evidence
+on minimum-wage effects in this setting remains limited, with a few notable exceptions (Glasner
+2023). In particular, for alternative work arrangements (Mas and Pallais 2020)—and especially for
+spot labor markets in which posted jobs require minimal skills and worker turnover is high—we
+still know little about the extent of employment declines, how quickly they occur, and which jobs
+contract in the short run. Clarifying the magnitude, timing, and composition of these short-run
+employment changes and the resulting reallocation is essential for designing timely, well-targeted
+policy support and for linking immediate adjustments to longer-run reallocation (Dustmann et al.
+2022).
+We address these questions using confidential job-posting and contract-level data from Timee,
+a leading Japanese on-site spot-work platform. Spot work platforms have expanded worldwide,
+reflecting a broader shift toward flexible, on-demand labor markets.2 We exploit the platform’s
+data to disentangle labor demand from employment by studying vacancies and matches side by
+side and to trace short-run dynamics around minimum-wage changes at daily, weekly, and monthly
+frequencies. We further use non-wage amenities and job-description content to characterize job
+types, allowing us to document reallocation across them. These features provide a high-frequency
+view of how labor demand and job composition adjust in the immediate aftermath of a wage-floor
+increase.
+Spot labor markets exhibit three features that make them ideal for studying short-run minimum-
+wage effects: limited labor heterogeneity, short-term employment contracts, and wage posting.
+First, they attract workers seeking jobs that require minimal skills and are therefore especially
+exposed to minimum-wage changes. The resulting matches are relatively homogeneous, making
+these markets close to the textbook homogeneous-labor benchmark. Second, short-term contracts
+allow labor demand to adjust rapidly. Firms hire for discrete, temporary tasks rather than per-
+manent positions, so demand in the spot market is likely to be more elastic than in standard
+labor markets. Our spot-work data capture an extreme case of short-term labor-demand adjust-
+ment, a phenomenon rarely observed in the empirical literature, which often focuses instead on
+1For instance, K¨assi and Lehdonvirta (2018) report that the demand for online gig work grew by approximately
+21% between 2016 and 2018, based on an analysis of open projects and tasks on various platforms.
+2Examples include Taskmo (India), TROOPERS (Singapore), Geupgu (South Korea), QuikShift (Australia),
+Coople (Switzerland/UK), and Instawork (United States). Related on-demand platforms also include TaskRabbit
+(United States; task-based on-site services), Wonolo (United States), and GigSmart (United States).
+2
+
+===PDF PAGE 3===
+the labor supply of taxi and Uber drivers (Angrist et al. 2021, Buchholz et al. 2023, Kuroda and
+Onishi 2023). Finally, wage posting precludes bargaining—a central element in traditional models
+of long-term employment contracts—allowing us to focus on models grounded in monopsonistic
+or oligopsonistic labor-market structures. Because adjustment costs are exceptionally low in this
+setting, our estimated demand elasticities should be interpreted as an upper bound for standard
+employment elasticities in traditional labor markets. These short-run responses are complementary
+to, rather than in conflict with, longer-run evidence on minimum-wage elasticities, reallocation,
+and firm exit, and they clarify the earliest and most flexible margin through which minimum-wage
+shocks propagate (Dube and Lindner 2024).
+Our data offer three advantages for studying short-run adjustments in spot labor markets.
+First, the data are recorded at the event level with associated click logs, allowing us to track
+employers’ job-posting activity and workers’ application activity immediately before and after
+the implementation of the new minimum wage. This granularity is substantially finer than the
+month–by-state level used in Sabia (2009a,b), Brochu et al. (2025) and Melo et al. (2025) or
+the quarter–by-state level in Addison et al. (2009) and Cengiz et al. (2019), enabling a more
+detailed view of temporal adjustments. Second, because establishments can readily modify job
+descriptions at the time of posting and the data provide clearly observable information on fixed-
+amount transportation reimbursements as adjustable non-wage amenities, we can use this amenity
+and description information to characterize job types and trace detailed reallocation across job
+types in the short run.
+Third, since spot labor demand is not tied to long-term employment
+relationships, it is less affected by reputation concerns or switching costs, making this an ideal
+setting for identifying immediate behavioral responses to policy changes.
+From a macro perspective, Timee’s role in part-time spot employment has grown markedly in
+recent years. While the number of active users has increased gradually, the number of vacancies has
+grown sharply, especially since 2022, leading to a rise in labor-market tightness on the platform.
+Hiring counts show a substantial upward trend beginning in 2020, reflecting a pronounced increase
+in successful matches. The job-finding rate has risen above 1.0, indicating that each active worker
+matches with multiple spot vacancies per month. Meanwhile, the worker-finding rate has remained
+stable at approximately 0.8, suggesting that about 80% of posted jobs are filled. These trends
+highlight the platform’s growing role in facilitating spot employment matching.
+As an illustrative example, we first use granular platform data from Tokyo to examine how the
+2023 statutory minimum-wage increase reshaped employment patterns at the intensive margin of
+job characteristics. This uniquely detailed dataset allows us to track daily, weekly, and monthly
+shifts in the employment distribution across wage levels, posted working hours, and transportation
+reimbursements. Descriptive evidence reveals a clear upward shift in the wage distribution around
+the new minimum-wage threshold, consistent with firms adjusting wages to comply with the policy.
+3
+
+===PDF PAGE 4===
+By contrast, working hours and transportation reimbursements remain largely stable, suggesting
+limited adjustment in other job characteristics. These fine-grained patterns highlight the value of
+high-frequency, contract-level data in capturing immediate and heterogeneous responses to labor-
+market regulation, and they motivate a causal analysis that isolates the impact of the minimum-
+wage change from broader trends.
+Given these patterns, we employ a difference-in-differences (DID) framework inspired by Cengiz
+et al. (2019) and Dustmann et al. (2022), which leverages variation in exposure to the minimum
+wage increase across wage bins. Rather than identifying treated workers based on demographic or
+job characteristics, we exploit the wage distribution itself, comparing outcomes in bins near the
+new minimum wage threshold with those in the upper tail of the distribution, which are assumed
+to be unaffected. We define treatment and control groups based on their relative position to the
+minimum wage in each prefecture, enabling a consistent bin-level comparison over time. This
+granular approach is well suited to our setting, as it fully utilizes the spot-work platform data
+aggregated at the prefecture-by-month-by-wage-bin level. By estimating dynamic effects through
+interactions of relative time and exposure group indicators, we trace the evolution of treatment
+effects before and after the policy change. To summarize these effects across the distribution, we
+implement the “excess jobs minus missing jobs” decomposition following Cengiz et al. (2019) and
+compute employment elasticities and changes in the average wage for affected workers.
+Our findings show that the minimum wage increase reduces employment at the lower end of the
+wage distribution. The increase yields an approximately 2% decline in total employment among
+wage bins directly affected by the policy, with a 3% reduction in jobs below the new minimum
+wage and a 1% increase just above it. Consistent with this pattern, the employment elasticity with
+respect to the minimum wage, computed following Cengiz et al. (2019), is −0.388. Given that
+spot work represents the most flexible adjustment margin, we interpret this estimate as an upper
+bound for standard employment elasticities, complementing rather than contradicting longer-run
+evidence. These effects materialize immediately after the policy takes effect and remain stable
+throughout the post-minimum-wage-hike period.
+Unlike evidence from broader labor markets
+where excess jobs offset missing jobs (Cengiz et al. 2019), our setting shows that missing jobs
+consistently exceed excess jobs—at least in the very short run, when adjustment through capital
+deepening or substitution toward long-term employment relationships is difficult—resulting in a
+net negative employment effect. These results indicate that the spot labor market adjusts quickly
+to minimum-wage hikes, primarily through employment reductions.
+We further show that these employment effects operate primarily through labor demand rather
+than labor supply. Vacancy postings decline sharply below the new minimum wage, while modest
+gains appear just above it, indicating that firms adjust mainly by reducing vacancy creation. By
+contrast, total working hours decline much less than vacancy counts, as missing and excess hours
+4
+
+===PDF PAGE 5===
+largely offset each other in the months following the reform. Because total hours fall much less than
+vacancy counts, hours per vacancy rise modestly: firms post fewer jobs but offer slightly longer
+shifts. On the worker side, the high-frequency platform data reveal no evidence of a contraction in
+labor supply around the policy change or toward the end of the fiscal year, and employment trends
+remain similar across gender and worker-status groups (e.g., students and stay-at-home spouses).
+This evidence points to labor-demand responses as the primary driver of the observed employment
+decline. Using weekly and daily data, we also find that these effects appear immediately after
+implementation and stabilize quickly.
+Next, we use our distributional DID approach to characterize heterogeneity in minimum-wage
+effects across prefectures, occupations, time-of-day categories, and job attributes.
+Exploiting
+prefecture-level variation in the minimum-wage bite, we show that employment losses are more
+pronounced in prefectures with higher Kaitz indices, indicating stronger contractions where the
+wage floor is more binding. We then document substantial occupational heterogeneity: the largest
+reductions in low-wage employment are concentrated in restaurants, retail, and event staffing, while
+logistics, customer service, and light work display more balanced patterns with partial offsetting
+gains above the new minimum. Modest increases in higher wage bins appear in some occupations,
+including office work. Across time-of-day categories, effects are similar, indicating little within-day
+substitution.
+Moving beyond broad occupational shifts, we demonstrate that minimum-wage hikes also trig-
+ger significant changes in the internal composition of job postings within the same categories.
+Specifically, employment reweights toward postings that offer transportation reimbursement and
+toward descriptions targeting experienced workers, while female-targeted descriptions become less
+common. Taken together, these results indicate that minimum-wage increases generate not only
+net employment effects but also systematic short-run reallocation in job characteristics and recruit-
+ment language. Consistent with the long-run reallocation mechanisms highlighted by Dustmann
+et al. (2022), our evidence suggests that such reallocation manifests immediately along the most
+flexible margin—spot labor demand—where adjustments occur first through the entry, exit, and re-
+shaping of postings before propagating to longer-run changes in firm composition and employment
+structure.
+1.1
+Related Literature
+Our paper contributes to three related literatures: minimum wage effects in platform-mediated
+spot labor markets, the reallocation of labor across job types in response to minimum-wage hikes,
+and the short-run dynamics of job destruction and creation around the wage floor.
+First, we contribute to the emerging literature on alternative work arrangements and online
+5
+
+===PDF PAGE 6===
+labor markets (Mas and Pallais 2020, Katz and Krueger 2019) by studying the employment effects
+of minimum wage increases in spot labor markets. Existing studies on platform-mediated work
+largely focus on remote gig work involving relatively high-skill tasks, such as programming or design
+(Glasner 2023). In contrast, we study on-site spot work—short-term, low-skill jobs that require
+physical presence and are accessible to a broad segment of the workforce—which has expanded
+rapidly worldwide as part of a broader shift toward flexible, on-demand labor arrangements.
+These features imply that spot labor markets differ fundamentally in their exposure to minimum-
+wage policies. Jobs are frequently posted at or near the minimum wage, and both workers and
+employers are directly affected by statutory wage floors, leaving limited scope for spillover effects
+to higher wages. Using comprehensive platform data, we find clear negative employment effects fol-
+lowing minimum-wage increases, accompanied by minimal spillovers across the wage distribution.3
+In this respect, our finding of a clear negative employment effect contrasts with the limited employ-
+ment effects documented for the broader labor market in Lee (1999), Autor et al. (2016), Cengiz
+et al. (2019), and highlights how the nature of work—on-site, low-skill, and short-term—shapes
+the incidence of minimum-wage policies.4
+Second, our paper contributes to the literature on minimum-wage-induced reallocation by doc-
+umenting how a wage floor reshapes the composition of jobs within a rapidly adjusting spot labor
+market (Cengiz et al. 2019, Dustmann et al. 2022). While much of the minimum-wage literature
+emphasizes net employment effects, an equally important question is which jobs contract, which
+expand, and how employment is reallocated across locations, occupations, and job types. Using
+a distributional DID design on prefecture-by-month-by-wage-bin cells, we quantify missing and
+excess jobs and decompose these changes in three ways: by prefecture exposure to the minimum
+wage hike (measured by the Kaitz index), by occupation, and by posting-based job characteristics.
+The results reveal systematic reallocation patterns: employment losses are concentrated in heav-
+ily exposed regions and low-wage occupations, while the composition of surviving postings shifts
+toward certain job types.
+In this reallocation perspective, posting characteristics such as transportation reimbursement
+(non-wage amenities) and description-based targeting (gender and skill) serve as markers of job
+3A large literature examines the employment effects of minimum wages, documenting substantial heterogeneity
+across settings, demographic groups, and sectors. While many studies focus on specific age groups, such as teenagers
+or young workers (Card 1992, Neumark and Wascher 1992, Allegretto et al. 2011, Neumark et al. 2014, Allegretto
+et al. 2017), others examine employment effects within particular industries, most notably low-wage sectors such
+as restaurants (Katz and Krueger 1992, Card and Krueger 1994, Dube et al. 2010). More recent work emphasizes
+cases in which employment effects are small or statistically insignificant (Clemens 2021, Manning 2021, Neumark
+and Shirley 2022). Methodological debates and evidence on sectoral heterogeneity and spillovers are surveyed in
+Dube and Lindner (2024).
+4Related platform-based studies examine minimum-wage effects on vacancies rather than employment outcomes,
+including evidence from online and flexible labor platforms (Adams-Prassl et al. 2020, Melo et al. 2025).
+6
+
+===PDF PAGE 7===
+type rather than merely adjustment margins.5 We show that minimum wage hikes are followed
+by compositional shifts away from low-amenity postings and toward postings targeting more ex-
+perienced workers, indicating that reallocation occurs not only across wage bins but also across
+economically meaningful job types. These results complement findings on reallocation in stan-
+dard employment settings (Dustmann et al. 2022) by highlighting that, in on-site spot markets,
+reallocation occurs more rapidly through the entry and exit of narrowly defined postings.
+Third, we provide evidence on the very short-run speed and composition of job losses and job
+creation following minimum wage hikes. Building on the distributional approach of Cengiz et al.
+(2019) and the wage-bin design in Dustmann et al. (2022), we track month-by-month (and, in
+robustness checks, higher-frequency) movements in missing and excess jobs around the new wage
+floor.6
+This design allows us to identify which postings disappear immediately below the new
+minimum, which reappear just above it, and how these patterns vary across regions, occupations,
+and advertised job characteristics.
+Studying the short run is policy-relevant because firms may face liquidity constraints and
+adjustment frictions at the time of implementation; consequently, immediate job destruction may
+reflect temporary financial stress rather than long-run inefficiency (Doh et al. 2024).
+Despite
+the significance of these immediate responses, there is limited evidence on firm adjustments at
+daily, weekly, or monthly frequencies, with only a few exceptions (Sabia 2009a,b, Brochu et al.
+2025, Melo et al. 2025).
+By revealing the near-immediate sorting of postings around the new
+wage floor—where compliance is rapid and spillovers to higher wage bins are limited—we clarify
+how minimum wage policy reshapes the spot job distribution in the months following a reform.
+This perspective complements the long-run literature on capital–labor substitution, firm exit, and
+reallocation (Neumark and Wascher 2008, Dustmann et al. 2022) by identifying the initial margins
+and job types through which longer-run adjustments unfold.
+The rest of the paper is organized as follows. Section 2 outlines the spot-work context and the
+Japanese minimum-wage system. Section 3 introduces the data and presents motivating patterns.
+Section 4 describes the identification strategy. Section 5 reports the main results. Section 6 exam-
+ines heterogeneity across prefectures, occupations, and posting attributes. Section 7 concludes.
+5Recently, a growing body of literature has investigated various margins of adjustment for employers, such as
+price pass-through (Aaronson and French 2007, Harasztosi and Lindner 2019, Leung 2021), reductions in non-wage
+compensation (Simon and Kaestner 2004, Clemens et al. 2018), decreases in firm revenue (Draca et al. 2011, Bell and
+Machin 2018), and firm entry and exit (Draca et al. 2011, Mayneris et al. 2018, Aaronson et al. 2018, Harasztosi and
+Lindner 2019, Luca and Luca 2019, Dustmann et al. 2022, Chava et al. 2023). See Clemens (2021) and Dube and
+Lindner (2024) for comprehensive reviews. Job advertisement content has also been shown to shape labor-market
+segmentation and self-selection: titles and descriptions predict wages and applications (Marinescu and Wolthoff
+2020) and often carry explicit or implicit gender or skill signals (Brenˇciˇc 2010, Kuhn and Shen 2013, Kuhn et al.
+2020, Helleseter et al. 2020).
+6Related applications of this wage-bin approach include Gopalan et al. (2021) and Brochu et al. (2025).
+7
+
+===PDF PAGE 8===
+2
+Background
+2.1
+Non-regular Work and Spot Work in Japan
+Figure 1 shows that both non-regular work and the importance of spot labor markets have grown
+substantially in Japan between 2013 and 2024. Panel (a) documents the rising prevalence of non-
+regular workers. Using platform data, Panel (b) shows that spot-work hiring spans a wide range
+of job categories, with Entertainment, Food Industry, and Office Work accounting for large shares,
+and Event Staff, Light Work, and Professional jobs also contributing meaningfully. Together, these
+patterns suggest a growing reliance on spot-work platforms for flexible employment opportunities
+and broader acceptance of on-demand work arrangements in Japan.
+2.2
+Spot Work Platform
+We use the term “spot work platform” to refer to the non-regular labor market provided by
+Timee.7 Timee is the leading online platform in Japan’s spot-work market, given its scale relative to
+comparable platforms.8 As of 2024, more than 7 million workers were registered on the platform—
+more than 10% of Japan’s labor force of roughly 70 million—illustrating its significant reach in the
+country’s labor market. The platform connects businesses with temporary workers for short-term
+jobs through a mobile app.
+Labor Demand
+On the labor-demand side, businesses must first undergo a screening and veri-
+fication process before being allowed to post jobs. Once registered, they can easily create postings
+through a user-friendly interface by specifying job details such as tasks, wages, and shift times.
+The platform makes these listings immediately visible to workers and facilitates the matching and
+contracting process.
+7According to the Japan Spot Work Association (JASWA), “spot work” refers to employment contracts for
+short-hour, one-off work engagements that are facilitated through digital platforms. These platforms serve as inter-
+mediaries that match job offers with available workers—often on a same-day or near-term basis—and rely on digital
+technologies to streamline matching, contracting, and compensation. JASWA plays a central role in promoting
+sound practices in the sector by issuing guidelines for legal compliance, offering interpretations of labor laws, and
+supporting proper labor management. In particular, it emphasizes the use of digital infrastructure to reduce the
+administrative burden traditionally associated with employment, including time tracking, wage calculation, and per-
+formance evaluation. This description draws on information provided by the association’s official overview and pub-
+lished guidelines (https://www.jaswa.or.jp/about/; https://jaswa.or.jp/pdf/spotwork_gudeline_v2.pdf).
+8As of 2024, major spot-work platforms exhibit the following scale: Timee (approximately 230,000 registered
+establishments; PR TIMES https://prtimes.jp/main/html/rd/p/000000222.000036375.html ), Sharefull (ap-
+proximately 55,000 corporate registrations; Sharefull Info https://sharefull.com/information/6602/ ), and
+Mercari Hallo (approximately 50,000 registered stores; HRog https://hrog.net/knowledge/122159/).
+8
+
+===PDF PAGE 9===
+(a) Hires, Labor force survey
+(b) Hires, Spot work platform
+Figure 1: Employment Changes: National vs. Spot Work Platform
+Note: Panel (a) depicts the time series of job changes in Japan, standardized to January 2013. The colored areas in-
+dicate changes within specific worker groups. This graph is based on data from the Economic Survey by the Japanese
+Cabinet Office (see details at https://www5.cao.go.jp/keizai3/2024/0802wp-keizai/setsumei-e2024.pdf,
+accessed September 19, 2024).
+Panel (b) reports the platform-side hires by job category over time; the exact
+unit and normalization follow the axis label in the figure panel. See the survey of Miyamoto (2025) for an overview
+of labor markets in Japan.
+Labor Supply
+On the labor-supply side, the primary users of the platform are individuals
+seeking flexible, task-based employment rather than long-term positions, while establishments
+9
+
+===PDF PAGE 10===
+use the platform to seek short-term workers. Workers can register on the platform for free and
+immediately gain access to job offers from various companies, with the platform streamlining
+the process of matching workers with available shifts across industries such as food, retail, and
+logistics, without the need for a traditional hiring process such as formal applications, interviews,
+or long-term employment contracts.
+Certain qualifications (nurses, caregivers, childcare workers, etc.) are required for some jobs,
+but these jobs are a minority of the total, and most are jobs that any worker can do. Workers in
+this market can apply for jobs and perform their duties without having any special human capital.
+Therefore, we treat this labor market as one requiring minimal skills.
+Platform Objective
+The platform’s objective is to maximize revenue from successful matches
+between workers and businesses. Unlike digital platforms that rely on advertising, registration fees,
+or subscriptions, Timee does not charge either side for access. Instead, it collects a 30% commission
+on each contracted payment between a business and a worker. Payments are remitted only when
+the worker actually completes the shift, so platform revenue is tied to realized matches rather
+than postings alone. This design aligns the platform’s incentives with the volume of completed
+matches. This arrangement benefits both companies and workers by offering flexible, short-term
+employment opportunities while avoiding the formalities and commitments of long-term contracts.
+At the same time, the platform allows workers to take repeated jobs from the same estab-
+lishment, and businesses may extend longer-term employment offers if they wish. In this sense,
+the platform does not preclude transitions into regular part-time employment and can serve as a
+trial channel through which businesses and workers explore longer-term arrangements. Its sim-
+plicity and immediacy are especially attractive to workers seeking to fit employment around their
+schedules.
+Transfers from Companies to Workers
+On this platform, workers may receive not only
+wage income based on hourly pay and hours worked but also transportation reimbursement. This
+reimbursement is intended to cover travel to and from the workplace, but firms are not legally
+required to provide it. Because the amount must be set when a job is posted, firms often lack precise
+information about workers’ realized commuting costs, and workers are not required to reconcile
+differences ex post. Transportation reimbursement is therefore a salient non-wage margin along
+which firms could, in principle, adjust to higher labor costs following a minimum-wage increase.
+10
+
+===PDF PAGE 11===
+(a) User U, Vacancy V , and Tightness ( V
+U )
+(b) Hire H
+(c) Job and Worker Finding Rate (H
+U ,H
+V )
+Figure 2: Trends of Macro Variables: Hello Work Part-time (left) vs. Platform (right), 2019–2023
+Note: Details are in Kanayama and Otani (2024). For the left panels, we use the Report on Employment Service
+(Shokugyo Antei Gyomu Tokei) for the month-level aggregate data from December 2019 to December 2023 to capture
+trends in matching between unemployed workers and vacancies via a conventional platform. These datasets include
+the number of job openings, job seekers, and successful job placements, primarily sourced from the Ministry of
+Health, Labour and Welfare (MHLW) of Japan, which publishes monthly reports and statistical data on the Public
+Employment Security Office, commonly known as Hello Work. Hello Work is a government-operated institution in
+Japan and a conventional platform that provides job seekers with employment counseling, job placement services,
+and vocational training, playing a critical role in Japan’s labor market.
+11
+
+===PDF PAGE 12===
+2.3
+Institutional vs. Platform-Based Matching: Hello Work and Spot
+Work
+Figure 2 provides a comparative analysis of labor market dynamics between the Hello Work public
+employment platform (left panel) and a private spot work platform (right panel) from December
+2019 to December 2023. Hello Work is a government-operated institution in Japan and a conven-
+tional platform that provides job seekers with part-time and full-time employment counseling, job
+placement services, and vocational training, playing a critical role in Japan’s labor market.
+First, in Figure 2, we discuss the left panels for Hello Work, which cover part-time workers
+and jobs.9 In Panel (a), the number of unemployed individuals remains stable over the observed
+period, hovering around 0.8 million. Vacancies and tightness (V/U) show stable trends. Panel
+(b) shows that the hiring count through Hello Work remains low, with a small oscillating pattern
+throughout the period. This stable but limited hiring activity suggests that the platform may face
+constraints or inefficiencies in increasing the job match rate for part-time workers. In Panel (c),
+the job and worker finding rates (H/U and H/V ) exhibit a gradual decline over time, suggesting
+reduced effectiveness in matching job seekers with available vacancies via Hello Work. Here, H/V
+is interpreted as hires per vacancy posting in aggregate data. This decline might reflect a growing
+preference for alternative job search methods such as the spot-work platform.
+In contrast, the right panels in Figure 2 reflect the dynamics of the private platform, where
+a distinctive pattern emerges. Unlike Hello Work’s part-time flow from unemployed to employed,
+workers on this platform do not automatically leave after securing a match, which retains a larger
+pool of active users. The number of registered users increases gradually, while the number of
+vacancies rises sharply, especially post-2022, leading to a notable rise in labor market tightness
+(V/U). This reflects an expanding demand for spot employment opportunities. The hiring count
+in Panel (b) shows a rapid upward trajectory starting around 2022, underscoring a marked increase
+in successful matches.
+In Figure 2, Panel (c) illustrates the job and worker finding rates (H/U and H/V ), highlighting
+significant differences compared to Hello Work. The job finding rate (H/U) continues to rise,
+reaching values close to 1.3, indicating that each worker matches with multiple vacancies per
+month. On the other hand, the worker finding ratio (H/V ) remains stable around 0.8. Because V
+is the number of postings, this reflects hires per posting rather than a position-level fill probability.
+This pattern demonstrates the platform’s increasing efficiency in matching workers to vacancies.
+It indicates a maturing spot labor market that still exhibits strong growth.
+9For full-time jobs on the public and private job matching platforms, Otani (2025) estimates trends of matching
+efficiency and elasticity between 2014 and 2024. Otani (2024) also provides the long-term trends of full-time and
+part-time job matching in Hello Work between 1972 and 2024.
+12
+
+===PDF PAGE 13===
+Figure 3: Dynamics of Regional Minimum Wage Changes
+Note: The figure plots monthly regional minimum wages across prefectures. Until 2022, each prefecture was assigned
+to one of four categories based on workers’ average income, and each category was given a guideline minimum wage.
+Many prefectures set their regional minimum wage close to that guideline. The shaded period is our focus.
+2.4
+Minimum Wages in Japan
+This section introduces the regional minimum wages set in each of the 47 prefectures in Japan,
+which we define as “regional minimum wages.” The introduction of regional minimum wages follows
+the framework described by Tamada (2009), Tamada (2011), and Kawaguchi and Mori (2021). The
+Ministry of Health, Labor and Welfare established the Central Minimum Wage Council, which
+operates under the tripartite principle and consists of representatives from labor, management,
+and public interest groups.
+The Council divides the 47 prefectures into three regional blocks based on regional welfare
+levels. It sets guidelines (“Meyasu”) for the recommended increase in the hourly minimum wage
+for each group.10 These recommendations primarily reference the average annual wage increase
+rate for workers at workplaces with fewer than 30 regular employees, as reported in the Minimum
+Wage Survey. The Council typically holds its first meeting in June and finalizes the guidelines by
+the end of July. Based on these guidelines, the Local Minimum Wage Councils in each prefecture
+determine the specific minimum wage increases in August, with the revised wages coming into
+10The Council had divided the 47 prefectures into four regional blocks before 2022.
+13
+
+===PDF PAGE 14===
+effect during the first week of October. This two-stage process has been implemented annually
+since 1978, with a few exceptions, ensuring regular increases in the local minimum wage.
+The Regional Minimum Wage Act applies to nearly all workers in Japan, regardless of industry,
+age, or gender. However, exceptions exist where the director of the labor bureau in each prefecture
+deems it appropriate to pay less than the regional minimum wage.11
+Figure 3 illustrates the changes in regional minimum wages over time, showing minimum wage
+variations across prefectures from 2020 to 2023. In October 2020, due to the negative employment
+shock caused by COVID-19, the minimum wage increased only slightly, by an average of 0.2%.
+However, from 2021 onwards, the minimum wage increased consistently each year, with an average
+increase of 4.7% in 2023. Notably, except for the period of economic stagnation during the COVID-
+19 pandemic, substantial minimum wage increases have occurred in October across all prefectures.
+While minimum wage hikes in Japan are effective at raising wages (Aoyagi et al. 2016), they are
+also associated with negative employment effects. Numerous studies have examined the impact of
+minimum wage policies on employment in Japan (Yugami 2005, Tachibanaki and Urakawa 2006,
+Kawaguchi and Mori 2009, Higuchi 2013, Kambayashi et al. 2013, Akesaka et al. 2017, Okudaira
+et al. 2019, Izumi et al. 2020, Kawaguchi and Mori 2021, Izumi et al. 2022). Many of these studies
+report negative employment effects for certain demographic groups (Kawaguchi and Yamada 2007,
+Kawaguchi and Mori 2009, Kambayashi et al. 2013, Akesaka et al. 2017, Okudaira et al. 2019,
+Kawaguchi and Mori 2021, Izumi et al. 2022, Mori and Okudaira 2025). For example, Kawaguchi
+and Mori (2021) examines the employment effects of minimum wages by leveraging the 2007 reform
+of Japan’s Minimum Wage Act.12 They find that the employment elasticity of the minimum wage
+for less-educated young men is -1.2. This implies that although the minimum wage in Japan affects
+only certain demographic groups, the magnitude of its impact can be larger than what is observed
+in other countries.
+11Examples where it is considered appropriate to pay less than the minimum wage include: 1) individuals with
+significant mental or physical disabilities, 2) employees in trial periods, 3) participants in certified basic vocational
+training programs, 4) workers engaged in light work, and 5) those performing intermittent work.
+12This reform mandated that monthly minimum wage earnings must meet or exceed monthly public assistance
+levels. Prefectures where minimum wages fell below public assistance thresholds experienced substantial increases.
+Using the difference between public assistance levels and monthly minimum wage earnings in 2006 as an instrumental
+variable, they estimate the causal effect of the minimum wage on employment during the years following the reform.
+This approach has since been applied in several studies (Okudaira et al. 2019, Mizushima and Noguchi 2021,
+Yamagishi 2021, Izumi et al. 2022, Mori and Okudaira 2025, Yamanouchi et al. 2025).
+14
+
+===PDF PAGE 15===
+3
+Data
+3.1
+Data Source and Construction
+We base our analysis on contract- and posting-level records from Timee, a privately operated
+Japanese platform that matches spot workers and employers. As the oldest and largest player in
+Japan’s spot labor market, Timee provides highly representative data for this setting. We focus
+on April 2023 through March 2024 in order to study the October 2023 minimum-wage revision,
+the most recent reform for which a full post-treatment window is available in our data.
+We aggregate the contract-level data to calculate key metrics at the prefecture-month-wage-
+bin and prefecture-month levels, including the number of job postings (vacancies, measured at the
+posting level) and matches (employment). Unlike Dustmann et al. (2022), there is no difference
+between actual and contractual working hours, which is an advantage of our data. The dataset also
+includes not only detailed employer characteristics (industry, occupation, and location—prefecture,
+municipality, longitude, latitude) but also precise timestamps for vacancy posting and filling (and
+shift start), as well as the full job-description text. Measuring vacancy duration as the elapsed
+time a posting remains advertised—from appearance on the platform until it is filled, rather than
+until work begins—has the advantage of focusing on the time to find candidates, as in Bassier
+et al. (2025). Job descriptions set by employers provide rich textual signals—implicitly conveying
+skill requirements (e.g., “experience required,” heavy-lifting, certification cues), task intensity and
+shift constraints, and preferred worker attributes. These signals influence applicant self-selection,
+as shown in Kuhn et al. (2020), even when they are not binding screening criteria. This rich
+dataset enables comprehensive heterogeneity analysis of how minimum wage changes impact the
+short-term dynamics of spot labor markets.
+Table 1 reports summary statistics at the contract, prefecture–month–wage-bin, and prefec-
+ture–month levels. At the contract level, hourly pay averages 1,086 JPY (median 1,100), with
+typical shifts of 4.79 hours. Employers commonly offer transportation reimbursement (mean 405
+JPY; median 500), but the wide range underscores substantial heterogeneity by location and pol-
+icy. About 81% of contracts include any reimbursement. For timing, vacancy duration is measured
+as the elapsed time from posting availability to fill; the posting-to-start lag (start lead time) is the
+elapsed time from posting availability to the shift start. Among fully filled vacancies, the mean
+duration is 3.28 days and the mean posting-to-start lag is 9.07 days. Job-description targeting flags
+indicate that beginner-targeted, experienced-worker-targeted, female-targeted, and male-targeted
+postings account for roughly 1%, 30%, 3%, and 3% of contracts, respectively.
+At the prefecture–month–wage-bin level, employment and vacancies average 191.50 and 235.06
+per bin, respectively; the mean transportation reimbursement is 111.72 JPY per contract in the cell,
+with a 21% reimbursement incidence and about 1% staff-meal incidence. At the prefecture–month
+15
+
+===PDF PAGE 16===
+Table 1: Summary Statistics
+(a) Contract Level
+N
+mean
+median
+sd
+min
+max
+Hourly wage
+8673942
+1086.01
+1100.00
+123.12
+853.00
+2000.00
+Working hour
+8673942
+4.79
+4.50
+1.84
+1.00
+16.00
+Num of positions
+8673942
+1.67
+1.00
+4.60
+1.00
+8961.00
+Transportation reimbursement (JPY)
+8673942
+404.65
+500.00
+255.19
+0.00
+1500.00
+Transportation reimbursement dummy
+8673942
+0.81
+1.00
+0.39
+0.00
+1.00
+Vacancy duration (Day)
+6710362
+3.26
+0.25
+6.73
+0.00
+99.34
+Posting-to-start lag (Day)
+6710362
+9.04
+5.85
+9.69
+0.00
+99.99
+Beginer-targeted job
+8673942
+0.01
+0.00
+0.10
+0.00
+1.00
+Experienced-targeted job
+8673942
+0.30
+0.00
+0.46
+0.00
+1.00
+Female-targeted job
+8673942
+0.03
+0.00
+0.17
+0.00
+1.00
+Male-targeted job
+8673942
+0.03
+0.00
+0.17
+0.00
+1.00
+(b) Prefecture-month-wage-bin Level
+N
+mean
+median
+sd
+min
+max
+Employment
+61584
+191.45
+0.00
+1789.29
+0.00
+83124.00
+Vacancy
+61584
+234.98
+0.00
+2171.39
+0.00
+111887.00
+Mean transportation reimbursement (JPY)
+61584
+111.73
+0.00
+222.09
+0.00
+1500.00
+Mean transportation reimbursement dummy
+61584
+0.21
+0.00
+0.38
+0.00
+1.00
+(c) Prefecture-month Level
+N
+mean
+median
+sd
+min
+max
+Employment
+564
+20904.55
+7150.00
+34822.35
+505.00
+262937.00
+Vacancy
+564
+25657.84
+9240.50
+42700.28
+633.00
+350673.00
+Note: This table reports the mean, median, standard deviation, and minimum and maximum values of each outcome
+variable during the period of analysis, April 2023 through March 2024. 150 JPY is about 1 USD at the exchange
+rate in 2025. Vacancy duration and posting-to-start lag are defined only for vacancies that are filled.
+16
+
+===PDF PAGE 17===
+level, spot employment averages 20,910 and vacancies 25,666, revealing substantial time-series and
+cross-prefecture variation and a persistent gap consistent with unfilled positions.
+3.2
+Preliminary Evidence Before and After the Minimum Wage Change
+Leveraging the strengths of granular spot work platform data, we focus on Tokyo to illustrate how
+the minimum wage adjustment reshaped employment patterns, allowing for a detailed examination
+of wage shifts while revealing the stability of working hours and transportation reimbursement.
+The Hourly Wage Distribution
+Figure 4 illustrates the transition in employment distribution
+across hourly wage bins at both the daily and weekly levels before and after the minimum wage
+adjustment. The ability to observe such granular, high-frequency adjustments is a unique strength
+of our spot labor platform data, enabling us to capture firms’ real-time responses to policy changes
+with day-to-day resolution. Panel (a) shows the daily evolution of the employment distribution
+in Tokyo, revealing a sharp and immediate decline in employment below the new minimum wage
+threshold (1,113 JPY) just one day after the policy took effect. Jobs previously offered at lower
+wages either disappeared or were adjusted upward, with a clear clustering of employment around
+the new minimum wage floor. Complementarily, Panel (b) aggregates these patterns at the weekly
+level, confirming the persistence of this shift over the course of a month. Panel (c) shows that the
+effect persists over a six-month period.
+(a) Daily
+(b) Weekly
+(c) Monthly
+Figure 4: Transition of Employment Distribution by Week and Day Before and After the Minimum
+Wage Change
+Note: The x-axis represents the wage bins, while the y-axis indicates the total count of spot employment. The
+colored bars represent different months, allowing for a clear comparison of employment pattern shifts over time.
+Adjustments in Working Hours and Transportation Reimbursement
+Panel (a) in Fig-
+ure 5 shows that the employment distribution across working-hour bins remains broadly stable.
+17
+
+===PDF PAGE 18===
+Common shift lengths, such as four and eight hours, remain prominent, with at most modest
+changes in shorter shifts. Panel (b) shows a similarly stable distribution of transportation reim-
+bursement, concentrated in the 500 JPY bin. Overall, the descriptive evidence suggests that firms
+mainly adjusted posted wages rather than other job attributes.
+(a) Posted Working Hour
+(b) Transportation Reimbursement
+Figure 5: Transition of Employment Distribution Before and After the Minimum Wage Change
+Note: The x-axis represents working-hour bins (Panel (a)) and transportation reimbursement bins (Panel (b)), while
+the y-axis indicates the total count of spot employment. The colored bars represent different months, allowing for
+a clear comparison of employment pattern shifts over time.
+A natural question is whether the wage increase resulting from the minimum wage adjustment
+led to adjustments in working hours and transportation reimbursement, or whether firms primarily
+confined their response to wage adjustments. Figure 6 demonstrates that the minimum wage ad-
+justment primarily impacted the distribution of employment across wage bins, while working hours
+and transportation reimbursement remained largely unaffected. In Panel (a), employment previ-
+ously concentrated in wage bins below the new minimum wage threshold shifted upward, clustering
+around the new minimum wage level, indicating compliance-driven wage adjustments. However,
+changes in the distribution of working hours are minimal, suggesting that firms maintained their
+established job structures despite increased labor costs. Similarly, transportation reimbursement
+patterns in Panel (b) exhibit stability, with no significant redistribution, reinforcing the notion that
+firms adjusted wages in response to the policy change without altering other compensation com-
+ponents. This pattern is further supported by Panel (c), which shows that even among jobs with
+short working hours—where transportation costs make up a larger share of compensation—there
+was little adjustment in reimbursement levels. These patterns highlight that the primary response
+to the minimum wage hike was wage compliance, rather than broader changes in job design or
+additional benefits.
+18
+
+===PDF PAGE 19===
+(a) Working Hour and Wage
+(b)
+Transportation
+Reimburse-
+ment and Wage
+(c) Transportation Reimbursement
+and Working Hour
+Figure 6: Change in Employment Distribution Before and After the Minimum Wage Change
+Note: The color intensity reflects the change in spot employment between September and October, with red
+indicating an increase and blue indicating a decrease. The red dashed line denotes Tokyo’s 2023 October minimum
+wage, i.e., 1,113 JPY.
+Summary
+These illustrative data patterns motivate us to move beyond descriptive analysis
+and investigate the causal impact of the minimum wage adjustment on employment outcomes.
+While the observed shifts in wage distribution suggest strong compliance effects and limited ad-
+justment on other job attributes, such as working hours and transportation reimbursement, these
+patterns alone do not establish causality. In particular, they cannot account for concurrent plat-
+form growth or heterogeneous trends across prefectures, which may confound observed changes.
+To rigorously evaluate whether and to what extent the policy change affected employment dynam-
+ics—particularly in terms of spot hiring behavior—we turn to a difference-in-differences (DID)
+framework. This approach allows us to isolate the effect of the minimum wage hike by compar-
+ing changes in outcomes between treated and control groups over time, accounting for underlying
+trends and potential confounders.
+4
+Empirical Strategy
+4.1
+Prefecture-month–wage-bin DID Estimates
+The key challenge in estimating the effect of a minimum wage increase on the outcome is that we
+cannot observe the counterfactual wage distribution in the absence of the policy shock. To address
+this issue, following Dustmann et al. (2022), we employ a difference-in-differences strategy that
+compares outcomes before and after the minimum wage increase between observations near the
+minimum wage threshold and those in the upper part of the wage distribution, which are unlikely
+to be affected by the policy change.
+19
+
+===PDF PAGE 20===
+Specifically, we first decompose the wage distribution in each prefecture into wage bins, where
+each bin j has a width of 10 yen. We then partition each wage bin j in prefecture p into mutually
+exclusive groups Ej(p) = e for e ∈{−1, . . . , 3, ∞}, based on its relative distance from the increased
+minimum wage MWp13. Specifically, if wage bin j in prefecture p falls within the interval [MWp +
+e× 100, MWp +e×100+99], it is assigned to group e. We define the threshold ¯Wp = MWp +400,
+and assign Ej(p) = ∞if wage bin j falls within [ ¯Wp, ∞]. We assume that wage bins in group ∞
+are unaffected by the minimum wage increase, an assumption we refer to as the limited spillover
+effect assumption. Under this assumption, we refer to group ∞as the control group. Finally, for
+each group e, we compare the evolution of the outcome between group e and group ∞before and
+after the minimum wage increase.
+We implement this DID identification strategy by running the following regression:
+Yj(p),t
+Np,t
+=
+X
+l̸=−1
+X
+e̸=∞
+µl,e1{t −7 = l}1{Ej(p) = e} + αe + λt + ϵj,t,
+(1)
+where t ∈{1, . . . , 12} denotes the calendar month, and l ∈{−6, . . . , 5} denotes the relative time
+period before or after the minimum wage increase at time t = 7.14 Yj(p),t is employment for each
+bin j in prefecture p at time t, Np,t is employment in prefecture p at time t, αe is the group
+fixed effect, and λt is the time fixed effect.15 In additional analyses, we replace the left-hand-side
+outcome with corresponding measures such as vacancies or total hours. Note that this regression
+is saturated and each coefficient µl,e is the difference-in-differences estimand:
+µl,e = E
+Yj(p),7+l
+Np,7+l
+−Yj(p),6
+Np,6
+Ej(p) = e
+
+−E
+Yj(p),7+l
+Np,7+l
+−Yj(p),6
+Np,6
+Ej(p) = ∞
+
+,
+where the pre-treatment period is t = 6 and the control group is group ∞.
+Under the DID identification strategy, each coefficient µl,e captures the dynamic effect of the
+minimum wage increase on the outcome in group e at a given relative period l. Formally, we
+assume the three identifying assumptions below:
+13In all prefectures, the increase in the minimum wage from 2022 to 2023 is less than 100 JPY. Therefore, any
+nominal wage bin that is 200 JPY or more below the new 2023 minimum wage would necessarily lie at least 100
+JPY below the pre-revision (2022) minimum wage. In our setting, such bins are essentially never observed in posted
+wages and, in any case, lie outside our analysis window. Accordingly, we define “missing jobs” using the 100 JPY
+window immediately below the new minimum wage (the e = −1 group) and do not include bins further below
+(which would correspond to e < −1).
+14t = 1 corresponds to April 2023, and t = 12 corresponds to March 2024.
+15The notation j(p) indicates that the wage bin j belongs to prefecture p. We adopt this notation because the
+regression in (1) exploits variation only at the group e and time t levels.
+20
+
+===PDF PAGE 21===
+Limited Spillover Effect Assumption
+This assumption requires that the effect of the
+minimum wage increase on the outcome vanishes at a certain point ¯Wp in the wage distribution in
+each prefecture p. It ensures that group ∞(the upper part of the wage distribution) serves as a
+valid control group. We will assess the validity of this assumption by examining the impact of the
+minimum wage increase on groups near ¯Wp such as e = 2, 3.16
+Parallel Trends Assumption
+This assumption requires that for each group e, the outcome
+evolves similarly over time between group e and the control group ∞. This assumption is also
+not directly testable, but we assess the plausibility of this assumption by checking the pre-trend
+differences for the outcome. To assess the sensitivity of our estimates to potential heterogeneity
+in underlying trends between treated and control wage bins, we additionally estimate (i) an aug-
+mented version of our main specification that includes wage-bin fixed effects and wage-bin-by-time
+fixed effects, and (ii) a difference-in-difference-in-differences specification that removes wage-bin-
+specific seasonal trends, and report the corresponding results in the Appendix A.4.
+No Anticipation Assumption
+This assumption rules out the anticipation effect of the
+minimum wage increase on the outcome at a given period l = −1, i.e., before exposure to the
+policy shock.
+4.2
+Excess Jobs–Missing Jobs Approach
+Next, following Cengiz et al. (2019), we estimate the effect of the minimum wage increase on the
+outcome throughout the wage distribution by aggregating each µl,e from the prefecture-month-
+wage-bin DID estimates. Let K denote the pre-treatment outcome of the treated wage-bin group
+in September 2023. We denote ∆al =
+P3
+e=0 µl,e
+K
+and ∆bl = µl,−1
+K
+as the excess jobs and the missing
+jobs at a given relative period l, respectively, which normalizes the excess and missing jobs by
+the pre-treatment outcome.17 Let ∆a = 1
+6
+P5
+l=0 ∆al and ∆b = 1
+6
+P5
+l=0 ∆bl denote the total excess
+jobs and missing jobs after the minimum wage increase, respectively. Also, let ∆ae = 1
+6
+P5
+l=0 µl,e
+and ∆b−1 = 1
+6
+P5
+l=0 µl,−1 define the excess jobs and the missing jobs at a given relative group e,
+respectively. We compute the overall employment effect at a given relative period l, denoted as
+∆el, by summing the excess and missing jobs at that period: ∆el = ∆al + ∆bl.18 Furthermore,
+16As an additional robustness check, we report in the Appendix A.4 the results obtained when redefining the
+control group as wage bins at least 300 yen above the new minimum wage (MWp + 300) and, alternatively, at least
+500 yen above the new minimum wage (MWp + 500).
+17In the same spirit, Cengiz et al. (2019) use the sample-average employment-to-population ratio in treated states
+during the year (four quarters) prior to treatment, denoted by EPOP−1, as a normalization benchmark.
+18Following Cengiz et al. (2019), we normalize the excess and missing jobs by the pretreatment total employment.
+21
+
+===PDF PAGE 22===
+we calculate the total employment effect after the minimum wage increase, denoted as ∆e, by
+summing ∆el over all relevant periods: ∆e = P5
+l=0 ∆el.
+5
+Results
+5.1
+Prefecture-month–wage-bin DID Estimates on Employment
+We begin by presenting the impact of minimum wage increases on wage bins below and above the
+minimum wage in the wage distribution. Panel (a) in Figure 7 presents the estimated excess jobs
+and missing jobs for each month before and after the minimum wage increase. Panel (b) in Figure
+7 presents the estimated impact of the minimum wage increase on employment for each group e
+in the wage distribution, reflecting the cumulative effect across all months following the increase.
+(a) Missing and Excess Jobs over Time
+(b) Wage Distribution
+Figure 7: Impact of Minimum Wages on Employment
+Note: Panel (a) shows the estimated excess jobs and missing jobs for each month before and after the minimum
+wage increase. Panel (b) shows the estimated impact of the minimum wage increase on employment for each group
+e in the wage distribution.
+Three key findings emerge from Figure 7. First, immediately after the minimum wage increase,
+we observe clear job losses (missing jobs) below the minimum wage and job creation (excess jobs)
+above it. Second, these missing and excess jobs remain stable across the post-treatment months in
+our sample. Consistent with the longer-run persistence documented by Cengiz et al. (2019), this
+pattern suggests that distributional effects need not dissipate quickly. Finally, whereas Cengiz et al.
+(2019) find that excess jobs and missing jobs are approximately offsetting in the broader U.S. labor
+market, our spot-market analysis shows that missing jobs (−3.0%) exceed excess jobs (1.2%).19
+19The elasticity with respect to minimum wages computed from the formula of Cengiz et al. (2019) is −0.388
+22
+
+===PDF PAGE 23===
+This pattern is consistent with employers’ greater ability to reduce spot hiring in response to wage
+increases than to adjust standard employment relationships.
+Note that Panels (a) and (b) in Figure 7 also confirm the validity of the assumptions underlying
+our identification strategy. From Panel (a), we observe that the estimated excess jobs and missing
+jobs are close to zero in the period before the minimum wage increase. This supports the plausibility
+of the parallel trends assumption. From Panel (b), we observe that excess jobs are hardly generated
+in the upper distribution, far from the minimum wage. This supports the plausibility of the limited
+spillover effect assumption.20
+Shorter Time Window
+We exploit the granularity of our platform data to probe the time
+dimension more directly than in the baseline monthly analysis. Specifically, we re-estimate the
+wage-bin DID at weekly and daily frequencies for three purposes: (i) to assess robustness to the
+choice of the time window, (ii) to provide a stricter pre-trend check by examining higher-frequency
+dynamics immediately before the minimum-wage implementation, and (iii) to measure the speed
+of adjustment by tracing how quickly missing and excess jobs emerge and stabilize after the policy
+takes effect. Because spot work can adjust rapidly, these higher-frequency estimates may reveal
+short-run dynamics that are smoothed out at the monthly level.
+(a) Missing and Excess Jobs over Time per Week(b) Missing and Excess Jobs over Time per Day
+Figure 8: Impact of Minimum Wages on Employment
+Note: Panel (a) shows the estimated excess jobs and missing jobs for each week before and after the minimum wage
+increase. Panel (b) shows the estimated excess jobs and missing jobs for each day before and after the minimum
+wage increase. In Panel (b), we restrict the analysis to the period from 60 days before to 60 days after the treatment
+in order to focus on changes around the treatment, and report the results.
+(0.132), where the parenthetical value is the standard error. See Appendix A.1 for details.
+20Similar to our findings, Autor et al. (2016) and Cengiz et al. (2019) also show that the spillover effects of the
+minimum wage on higher wages are limited.
+23
+
+===PDF PAGE 24===
+Panel (a) in Figure 8 reports weekly estimates of missing and excess jobs. The pre-treatment
+coefficients fluctuate but remain close to zero, reinforcing the plausibility of parallel trends. Im-
+mediately after implementation, missing and excess jobs appear and then remain stable, with
+magnitudes comparable to the baseline monthly estimates in Figure 7. Panel (b) reports daily es-
+timates, restricting attention to a symmetric window of 60 days before and after the policy change
+to focus on near-term dynamics. As in the weekly analysis, the pre-treatment series stays near zero
+and the post-treatment effects materialize quickly and persist, indicating rapid adjustment in this
+market. Overall, the weekly and daily results corroborate the baseline findings, strengthen the pre-
+trend evidence, and show that most of the adjustment occurs immediately after the minimum-wage
+change rather than gradually over subsequent months.
+5.2
+Impact on Spot Labor Demand: Vacancy Counts and Total Work-
+ing Hours
+The employment effects documented above naturally raise the question of whether adjustments to
+minimum wage increases operate primarily through labor demand or labor supply in spot labor
+markets. Unlike standard employment settings, spot work allows firms to adjust hiring margins
+flexibly along multiple dimensions, including the number of vacancies posted and the total hours
+offered. To disentangle these channels, we separately examine the responses of vacancy counts and
+total working hours using the same DID framework.
+(a) Missing and Excess Posted Vacancies over
+Time
+(b) Wage Distribution
+Figure 9: Impact of Minimum Wages on Vacancies
+Note: Panel (a) shows the estimated excess and missing posted vacancies for each month before and after the
+minimum wage increase. Panel (b) shows the estimated impact of the minimum wage increase on vacancies for each
+group e in the wage distribution.
+24
+
+===PDF PAGE 25===
+Vacancy Counts
+Figure 9 shows that employment changes are largely driven by adjustments in
+vacancy postings, that is, spot labor demand. Panel (a) documents clear missing posted vacancies
+below the minimum wage and excess vacancies just above it, with effects that persist over time.
+Panel (b) confirms that these changes are concentrated around the minimum wage threshold,
+with little evidence of spillovers to higher wage bins. These patterns indicate that the decline
+in employment below the minimum wage primarily reflects reduced vacancy creation rather than
+increased job-filling frictions, while modest gains above the threshold arise from expanded postings
+at slightly higher wages. Vacancy creation thus emerges as the central margin of adjustment on
+the demand side.
+(a) Missing and Excess Working Hours over Time
+(b) Wage Distribution
+Figure 10: Impact of Minimum Wages on Total Working Hours
+Note: Panel (a) shows the estimated excess and missing working hours for each month before and after the minimum
+wage increase. Panel (b) shows the estimated impact of the minimum wage increase on total working hours for each
+group e in the wage distribution.
+Total Working Hours
+Figure 10 examines adjustments in total working hours following the
+minimum wage increase. Panels (a) and (b) show that, unlike vacancy counts, the net change in
+total working hours is relatively small, as excess and missing working hours largely offset each other
+in the months after the reform. This pattern implies that while the number of posted vacancies
+declines, the reduction in aggregate working hours is limited. Taken together with the vacancy
+results, these findings suggest a modest increase in hours per vacancy: firms post fewer jobs but
+offer slightly longer hours per posting. Thus, minimum wage increases primarily affect spot labor
+demand through the extensive margin of vacancy creation, accompanied by a limited compensating
+adjustment along the intensive margin.21
+21In Appendix A.3, we examine the platform revenue.
+25
+
+===PDF PAGE 26===
+Figure 11: Employment Dynamics by Worker Status
+Note: The figure plots the temporal dynamics of the log number of workers by worker status.
+5.3
+Discussion of the Impact on Spot Labor Supply
+A natural concern is whether minimum wage increases affect spot labor supply (Godøy et al.
+2024), particularly in the Japanese context where labor supply often exhibits seasonal adjustment
+toward the end of the fiscal year (Akabayashi 2006, Takahashi et al. 2009, Bessho and Hayashi
+2014, Yokoyama and Kodama 2016, Yokoyama 2018). In principle, workers may respond to higher
+minimum wages by reducing participation or reallocating effort across jobs (Kodama and Mo-
+mota 2024, Mori and Okudaira 2025). In standard employment relationships, however, tracking
+short-run labor supply adjustments at daily or weekly frequencies is challenging, as hours and par-
+ticipation are typically observed only at coarse intervals. In contrast, while spot work platforms
+capture worker behavior only within the platform, they offer a unique advantage: high-frequency
+observation of worker-side actions throughout the fiscal year. This allows us to examine whether
+workers reduce engagement with spot work as the year-end approaches.
+The left panel of Figure 11 reports the log number of employed female workers by worker
+status, while the right panel reports the corresponding series for males. Across all gender–status
+groups, employment displays a similar upward trend, with no evidence of a differential slowdown
+for groups that are more likely to face tax-related work disincentives toward the end of the fiscal
+year. Although temporary female workers and stay-at-home spouses are more likely to qualify for
+spousal tax deductions in Japan, employment continues to rise through November and December
+26
+
+===PDF PAGE 27===
+2023 for both women and men. The absence of gender- or status-specific divergence indirectly
+suggests that the observed decline in spot employment following the minimum wage increase is
+unlikely to be driven by labor supply adjustments. Instead, the evidence points to labor demand
+responses by firms as the primary driver. Moreover, the steady growth in spot employment toward
+year-end indicates that spot work contributes to income gains outside the immediate vicinity of
+institutional thresholds such as the spousal tax deduction, highlighting its role in expanding earning
+opportunities rather than amplifying year-end labor supply constraints.
+6
+Heterogeneous Job-Posting Responses to the Minimum
+Wage
+This section investigates heterogeneity in firms’ responses to minimum wage increases, motivated
+by the idea that adjustment costs and bindingness vary systematically across locations, occupa-
+tions, and job attributes, leading employers to reallocate employment and modify postings along
+margins that are cheapest to adjust in the short run.22
+6.1
+Prefecture-month and Occupation-month Level DID Estimates
+In Section 5.1, we estimate the effect of the minimum wage increase on the outcome by aggregating
+policy events across prefectures. However, the minimum-wage bite varies across prefectures, and
+the relationship between the employment effect and the Kaitz index (the ratio of the minimum
+wage to the median wage) is of independent interest. We therefore implement the DID strategy
+separately for each prefecture p and show that estimated employment effects are more negative in
+prefectures with a higher Kaitz index.
+Specifically, we first construct a separate dataset for each prefecture p and wage bin j and run
+the following regression within each dataset:
+Y p
+j,t =
+X
+l̸=−1
+X
+e̸=∞
+µp
+l,e1{t −7 = l}1{Ep
+j = e} + αp
+e + λp
+t + ϵp
+j,t.
+(2)
+Here, the superscript p indicates that this regression is estimated separately for each prefecture
+p. As in Equation (1), each coefficient µp
+l,e is the DID estimand, capturing the dynamic effect of
+the minimum wage increase on the outcome at a given period l in prefecture p under the DID
+22Additional heterogeneity analysis is provided in the Appendix.
+27
+
+===PDF PAGE 28===
+identifying assumptions:
+µp
+l,e = E[Y p
+j,7+l −Y p
+j,6|Ep
+j = e] −E[Y p
+j,7+l −Y p
+j,6|Ep
+j = ∞],
+where the pre-treatment period is l = −1 and the control group is group ∞in prefecture p.
+Next, as in Section 4.2, we compute the missing jobs, excess jobs, and the overall employment
+effect for each prefecture p by aggregating µp
+l,e in the first step:
+∆ap =
+5
+X
+l=0
+∆ap
+l , ∆bp =
+5
+X
+l=0
+∆bp
+l , ∆ep =
+5
+X
+l=0
+∆ep
+l ,
+where the superscript p indicates that each quantity is defined within prefecture p.
+6.2
+Prefecture-month Level Results
+Figure 12 illustrates the relationship between the Kaitz index and employment outcomes across
+prefectures. The Kaitz index is calculated for each prefecture as the ratio of the October 2023
+minimum wage to the median wage. Panel (a) plots the estimated numbers of missing and excess
+jobs against the Kaitz index. It shows a positive association between the Kaitz index and excess
+jobs, and a negative association with missing jobs.
+When the minimum wage is high relative
+to the median wage, minimum wage hikes tend to have a stronger impact. Panel (b) presents
+the relationship between the Kaitz index and the overall employment effect, revealing a negative
+correlation. These findings suggest that, in Japan’s spot work market, minimum wage increases
+have already begun to produce modest negative employment effects, in contrast to the United
+States, where such effects remain limited (Cengiz et al. 2019).
+6.3
+Occupation-month Level Results
+While prior studies have often concentrated on sectors like restaurants—where the minimum wage
+is most binding and effects are more easily detected—we adopt a distributional approach that cap-
+tures wage and employment responses even in industries with limited direct exposure. This enables
+a more comprehensive evaluation of the policy’s impact across a broader range of occupations.23
+Figure 13 illustrates heterogeneous occupation-level responses to minimum wage hikes, reveal-
+ing distinct patterns across job categories. The most pronounced employment losses below the
+23Lordan and Neumark (2018) and Aaronson and Phelan (2019) find that the minimum wage reduces the employ-
+ment of the lowest-wage workers in routine automatable occupations. Dustmann et al. (2022) find that minimum
+wages could also affect productivity by improving the composition of jobs in the economy; in response to minimum
+wage increases, small, inefficient firms exited the market, and workers at these firms found employment at more
+productive firms. Also, Forsythe (2023) finds that there is no heterogeneity across occupations.
+28
+
+===PDF PAGE 29===
+(a) Missing and Excess Jobs
+(b) Employment Change
+Figure 12: Relationship between Excess Jobs, Missing Jobs, Employment Change, and the Kaitz
+Index (Minimum-to-Median Wage Ratio) across Prefectures
+Note: Figure 12 shows the binned scatter plots for missing and excess jobs in Panel (a), and total employment
+changes in Panel (b) by the value of the minimum-to-median wage ratio (Kaitz index) for the 47 prefecture-specific
+estimates. The Kaitz index is calculated for each prefecture as the ratio of the October 2023 minimum wage to the
+median wage.
+new minimum wage occur in Restaurant, Retail, and Event Staff, where a substantial number of
+low-wage jobs disappear. In contrast, occupations such as Logistics, Customer Service, and Light
+Work exhibit relatively balanced patterns, with moderate excess job creation at or just above
+the new minimum that partially offsets missing jobs. Professional and Entertainment roles show
+smaller overall impacts, suggesting limited exposure to the minimum wage threshold. We also
+observe modest increases in higher wage bins for some occupations, including office work. Overall,
+these findings suggest that minimum wage increases lead not only to occupational reallocation but
+also to shifts across the wage distribution within occupations.
+6.4
+Heterogeneity Across Job Attributes
+Beyond aggregate employment and vacancy responses, minimum wage increases may alter the
+composition of jobs posted on the platform. We therefore examine heterogeneity across time slot
+and job attributes inferred from posting descriptions, which capture salient characteristics such as
+amenity provision and gender or skill targeting. These attributes allow us to classify postings into
+economically meaningful groups and to assess which types of jobs expand or contract following
+the minimum wage increase. By tracking changes in employment across these description-based
+categories, we study how the composition of spot jobs adjusts in the short run, complementing
+evidence on longer-run reallocation documented in Dustmann et al. (2022).
+29
+
+===PDF PAGE 30===
+(a) Restaurant
+(b) Light Work
+(c) Retail
+(d) Customer Service
+(e) Professional
+(f) Logistics
+(g) Entertainment
+(h) Office Work
+(i) Event Staff
+Figure 13: Impact of Minimum Wages on Employment by Occupation
+Note: Figure 13 shows the estimated impact of the minimum wage increase on employment for each group e in the
+wage distribution for each occupation in the platform.
+Time-of-Day Reallocation
+We examine whether minimum wage hikes induce within-day real-
+location by shift timing, a salient non-wage attribute of spot jobs. Specifically, we classify postings
+into four time-of-day categories—morning (6:00–12:00), evening (12:00–18:00), night (18:00–24:00),
+and midnight (24:00–6:00)—and estimate the distributional DID effects separately for each cate-
+gory. This time-of-day granularity allows us to test whether establishments shift demand toward
+particular (potentially less desirable) hours when labor costs rise. Figure 14 shows that the em-
+ployment effects are broadly similar across time-of-day categories, suggesting little within-day
+substitution across shift times.
+30
+
+===PDF PAGE 31===
+(a) Morning
+(b) Evening
+(c) Night
+(d) Midnight
+Figure 14: Impact of Minimum Wages on Employment by Time-of-Day Category
+Note:
+We divide the 24-hour day into four periods—morning (6:00–12:00), evening (12:00–18:00), night
+(18:00–24:00), and midnight (24:00–6:00).
+Transportation Reimbursement Provision
+Figure 15 examines how minimum wage in-
+creases affect employment dynamics by whether a job posting offers transportation reimbursement.
+We find that postings that do not offer transportation reimbursement experience a modest but
+systematic decline after the reform, indicating that these jobs are more likely to disappear when
+labor costs rise. In contrast, postings that provide transportation reimbursement are relatively
+more resilient, with a small increase in excess employment.
+This pattern should be interpreted as a compositional change rather than as evidence that
+firms actively raise reimbursement levels in response to the policy.24 Jobs lacking transportation
+24Conditioning on surviving postings, average transportation reimbursement increases slightly after the reform,
+shown in Figure 18 in Appendix A.2.
+31
+
+===PDF PAGE 32===
+benefits are more likely to exit, mechanically increasing the average amenity level among remain-
+ing postings. Overall, these results suggest that minimum wage increases are accompanied by a
+reallocation of spot jobs toward positions offering higher non-wage amenities.
+(a) Amenity Provision: Missing and Excess Jobs
+over Time
+(b) Amenity Provision: Wage Distribution
+(c) No Amenity Provision: Missing and Excess
+Jobs over Time
+(d) No Amenity Provision: Wage Distribution
+Figure 15: Impact of Minimum Wages on Employment Separated by Transportation Reimburse-
+ment Provision
+Note: Panels (a) and (c) show the estimated excess and missing jobs before and after the minimum wage increase for
+postings with and without transportation reimbursement, respectively. Panels (b) and (d) show the corresponding
+wage-distribution effects for each group e.
+Job Description and Composition: Gender and Skill Targeting
+We next examine how
+the composition of job postings changes along dimensions related to worker targeting, as revealed
+by job descriptions. Although firms cannot screen or reject applicants on this platform, descriptions
+32
+
+===PDF PAGE 33===
+(a) Female-Targeted: Missing and Excess Jobs
+over Time
+(b) Female-Targeted: Wage Distribution
+(c) Male-Targeted: Missing and Excess Jobs over
+Time
+(d) Male-Targeted: Wage Distribution
+Figure 16: Impact of Minimum Wages on Employment Separated by Gender
+Note: Panel (a) plots the changes in female-targeted jobs before and after the minimum wage increase. Panel (b)
+plots the estimated effects of minimum wage increases on female-targeted jobs for each group e ∈{0, . . . , 3}. Panels
+(c) and (d) provide the corresponding results for male-targeted jobs.
+convey information about desired worker attributes and task requirements, shaping which workers
+are more likely to apply (Kuhn et al. 2020). We therefore interpret changes across description-
+based categories as reflecting shifts in the types of jobs being posted, rather than changes in hiring
+33
+
+===PDF PAGE 34===
+standards per se.2526
+Figure 16 shows that postings explicitly targeting female applicants decline more sharply after
+the minimum wage increase than those targeting male applicants. This asymmetric contraction
+leads to a post-hike reweighting of employment toward male-targeted postings, indicating a change
+in posting composition along the gender-targeting dimension. We interpret this pattern as evidence
+of compositional reallocation in recruitment language, not as evidence about workers’ underlying
+productivity.
+Figure 17 documents a similar compositional shift along the skill-targeting dimension. While
+the volume of missing jobs is comparable across beginner- and experienced-worker-targeted post-
+ings, excess job creation is concentrated among experienced-targeted postings and remains positive
+after the minimum wage increase. As a result, the composition of posted jobs tilts toward positions
+targeting more experienced workers. Taken together, these findings indicate that minimum wage
+increases are associated with systematic changes in job composition, favoring postings that target
+worker attributes more closely matched to task-specific productivity.
+6.5
+Limitations
+While our contract-level data allow us to examine the immediate responses of employers to mini-
+mum wage hikes in spot labor markets, several limitations remain.
+First, our data are limited to labor demand and supply within a single job-matching platform,
+which restricts the external validity of our findings.
+This limitation is shared by many stud-
+ies relying on platform data (Horton 2025, Melo et al. 2025, Stanton and Thomas 2021). Spot
+work platforms are rapidly expanding worldwide, so future research using alternative data from
+such platforms will be valuable for assessing external validity and mapping how minimum-wage
+adjustments generalize across settings.
+Second, firm-level exposure designs are informative in other settings (Card and Krueger 1994,
+Machin et al. 2003, Draca et al. 2011, Harasztosi and Lindner 2019) and are useful for understanding
+firms’ margins of adjustment, but they are difficult to implement here because the set of affected
+firms cannot be tracked consistently over time. Platform usage is highly seasonal, many firms do
+25Our targeting measures are based on keyword mentions in the job description. Specifically, we set a female-
+targeted (male-targeted) dummy equal to one if the description contains an explicit reference to women (men)—for
+example, language indicating that women are active in the workplace (e.g., “many women are actively em-
+ployed”)—and equal to zero otherwise. These indicators are not mutually exclusive: postings that mention both
+women and men are coded as one for both dummies. Importantly, a “female-targeted” posting in our definition does
+not imply that the job is restricted to women or that male applicants are excluded; rather, it captures descriptive
+language that may influence worker self-selection.
+26For text variables, we observe the recorded description for each posting instance but do not observe complete
+within-ID version histories.
+Hence, we cannot separately identify within-posting text edits from compositional
+entry/exit of postings.
+34
+
+===PDF PAGE 35===
+(a) Beginner-Targeted: Missing and Excess Jobs
+over Time
+(b) Beginner-Targeted: Wage Distribution
+(c) Experienced-Worker-Targeted: Missing and
+Excess Jobs over Time
+(d) Experienced-Worker-Targeted: Wage Distri-
+bution
+Figure 17: Impact of Minimum Wages on Employment Separated by Skill Targeting
+Note: Panel (a) plots the changes in beginner-targeted jobs before and after the minimum wage increase. Panel
+(b) plots the estimated effects of minimum wage increases on beginner-targeted jobs for each group e ∈{0, . . . , 3}.
+Panels (c) and (d) provide the corresponding results for experienced-worker-targeted jobs.
+not post continuously, and it is hard to distinguish permanent exit from temporary inactivity. As a
+result, firm-month panels constructed from continuous posters are likely to be non-representative,
+making firm-level analysis difficult to interpret.
+Third, our data are well suited to measuring short-run adjustments within the spot mar-
+ket—such as vacancy creation, wages, and selected posting attributes—but they do not allow us
+to trace substitution across broader production margins or to quantify the timing and sequence of
+such substitution. In particular, we cannot observe whether establishments substitute away from
+spot hiring toward capital investment or toward long-term contract workers, nor can we determine
+35
+
+===PDF PAGE 36===
+how rapidly these substitutions occur. Prior work suggests that capital–labor substitution may
+arise following minimum wage hikes (Harasztosi and Lindner 2019), but such investment responses
+typically unfold over longer horizons. Labor–labor substitution may operate more quickly—for
+example, establishments may reduce spot postings and reallocate tasks to incumbent workers, po-
+tentially alongside shifts in skill requirements (Clemens et al. 2021).27 More broadly, reallocating
+long-term workers can act as a form of wage retrenchment (Dube and Lindner 2024). Identifying
+which margin adjusts first and how fast substitution propagates across inputs requires linked data
+that connect spot hiring to establishments’ broader staffing and investment decisions.
+Taken together, our findings provide valuable evidence on short-term spot-market adjustments
+to minimum wage hikes, but a fuller account of firm behavior—especially substitution across inputs
+and the dynamics of adjustment—remains an important direction for future research using richer
+linked employer–worker and investment data.
+7
+Conclusion
+This paper studies short-run minimum-wage effects in a spot labor market using high-frequency
+posting- and contract-level data from Timee. Using a wage-bin DID design, we find that missing
+jobs below the new minimum wage exceed excess jobs just above it, yielding a net employment
+decline of about 2% in affected bins and an elasticity of about −0.388.
+These effects appear
+immediately after implementation and remain stable over the post-reform window. Comparing
+vacancies and matches shows that the decline is driven primarily by reduced vacancy creation
+rather than by worker-side contraction in platform activity. Because spot work is an unusually
+flexible adjustment margin, we interpret these short-run elasticities as upper bounds in absolute
+value for standard employment elasticities in traditional labor markets.
+We also document systematic reallocation across prefectures, occupations, and posting types.
+Employment losses are larger in prefectures with a higher minimum-wage bite and in low-wage
+occupations such as restaurants and retail. At the same time, surviving postings reweight toward
+jobs offering transportation reimbursement and toward descriptions targeting more experienced
+workers, while female-targeted descriptions become less common.
+Taken together, our results
+provide a high-frequency picture of how minimum-wage hikes reshape employment and vacancy
+distributions in the short run and offer a foundation for linking immediate adjustments to longer-
+run reallocation dynamics.
+27In Appendix B, we examine substitution across hiring channels (Timee vs. Hello Work) using staggered platform
+entry. We do not find prefecture-month evidence that Timee expansion reduces public-office vacancies. This does
+not directly test substitution toward incumbent workers within firms.
+36
+
+===PDF PAGE 37===
+References
+Aaronson, D. and French, E. (2007). Product market evidence on the employment effects of
+the minimum wage. Journal of Labor Economics, 25 (1), 167–200.
+—, —, Sorkin, I. and To, T. (2018). Industry dynamics and the minimum wage: a putty-clay
+approach. International Economic Review, 59 (1), 51–84.
+— and Phelan, B. J. (2019). Wage shocks and the technological substitution of low-wage jobs.
+The Economic Journal, 129 (617), 1–34.
+Adams-Prassl, A., Balgova, M. and Qian, M. (2020). Flexible work arrangements in low
+wage jobs: Evidence from job vacancy data. Tech. rep., IZA Discussion Papers.
+Addison, J. T., Blackburn, M. L. and Cotti, C. D. (2009). Do minimum wages raise
+employment? evidence from the us retail-trade sector. Labour Economics, 16 (4), 397–408.
+Akabayashi, H. (2006). The labor supply of married women and spousal tax deductions in
+japan—a structural estimation. Review of Economics of the Household, 4, 349–378.
+Akesaka, M., Ito, Y. and Ohtake, F. (2017). Impact of Change in Minimum Wage on Em-
+ployment and Poverty in Japan (in Japanese). Tech. rep., Institute of Social and Economic
+Research, Osaka University.
+Allegretto, S., Dube, A., Reich, M. and Zipperer, B. (2017). Credible research designs
+for minimum wage studies: A response to neumark, salas, and wascher. ILR Review, 70 (3),
+559–592.
+Allegretto, S. A., Dube, A. and Reich, M. (2011). Do minimum wages really reduce teen
+employment? accounting for heterogeneity and selectivity in state panel data. Industrial Rela-
+tions: A Journal of Economy and Society, 50 (2), 205–240.
+Angrist, J. D., Caldwell, S. and Hall, J. V. (2021). Uber versus taxi: A driver’s eye view.
+American Economic Journal: Applied Economics, 13 (3), 272–308.
+Aoyagi, C., Ganelli, G. and Tawk, N. (2016). Minimum wage as a wage policy tool in japan.
+The Japanese Political Economy, 42 (1-4), 72–88.
+Autor, D. H., Manning, A. and Smith, C. L. (2016). The contribution of the minimum wage
+to us wage inequality over three decades: A reassessment. American Economic Journal: Applied
+Economics, 8 (1), 58–99.
+37
+
+===PDF PAGE 38===
+Bassier, I., Manning, A. and Petrongolo, B. (2025). Vacancy duration and wages. Review
+of Economics and Statistics, pp. 1–28.
+Bell, B. and Machin, S. (2018). Minimum wages and firm value. Journal of Labor Economics,
+36 (1), 159–195.
+Bessho, S.-i. and Hayashi, M. (2014). Intensive margins, extensive margins, and spousal al-
+lowances in the japanese system of personal income taxes: A discrete choice analysis. Journal
+of the Japanese and International Economies, 34, 162–178.
+Boeri, T., Giupponi, G., Krueger, A. B. and Machin, S. (2020). Solo self-employment
+and alternative work arrangements: A cross-country perspective on the changing composition
+of jobs. Journal of Economic Perspectives, 34 (1), 170–195.
+Brenˇciˇc, V. (2010). Do employers respond to the costs of continued search? Oxford Bulletin of
+Economics and Statistics, 72 (2), 221–245.
+Brenˇciˇc, V. (2016). The impact of craigslist’s entry on competing employment websites. IZA
+Journal of Labor Economics, 5 (1), 7.
+Brochu, P. R., Green, D. A., Lemieux, T. and Townsend, J. H. (2025). The minimum
+wage, turnover, and the shape of the wage distribution. Tech. rep., National Bureau of Economic
+Research.
+Buchholz, N., Shum, M. and Xu, H. (2023). Rethinking reference dependence: Wage dynamics
+and optimal taxi labor supply. Tech. rep., working paper, Princeton University Economics Dept.
+Callaway, B. and Sant’Anna, P. H. (2021). Difference-in-differences with multiple time peri-
+ods. Journal of econometrics, 225 (2), 200–230.
+Card, D. (1992). Do minimum wages reduce employment? a case study of california, 1987–89.
+ILR Review, 46 (1), 38–54.
+— and Krueger, A. B. (1994). Minimum wages and employment: A case study of the fast-food
+industry in new jersey and pennsylvania. The American Economic Review, 84 (4), 772–793.
+Cengiz, D., Dube, A., Lindner, A. and Zipperer, B. (2019). The effect of minimum wages
+on low-wage jobs. The Quarterly Journal of Economics, 134 (3), 1405–1454.
+Chava, S., Oettl, A. and Singh, M. (2023). Does a one-size-fits-all minimum wage cause
+financial stress for small businesses? Management Science, 69 (11), 7095–7117.
+38
+
+===PDF PAGE 39===
+Clemens, J. (2021). How do firms respond to minimum wage increases?
+understanding the
+relevance of non-employment margins. Journal of Economic Perspectives, 35 (1), 51–72.
+—, Kahn, L. B. and Meer, J. (2018). The minimum wage, fringe benefits, and worker welfare.
+Tech. rep., National Bureau of Economic Research.
+—, — and — (2021). Dropouts need not apply? the minimum wage and skill upgrading. Journal
+of Labor Economics, 39 (S1), S107–S149.
+Cullen, Z. and Farronato, C. (2021). Outsourcing tasks online: Matching supply and demand
+on peer-to-peer internet platforms. Management Science, 67 (7), 3985–4003.
+Cunningham, S., DeAngelo, G. and Tripp, J. (2024). Did craigslist’s erotic services reduce
+female homicide and rape? Journal of Human Resources, 59 (1), 280–315.
+Djourelova, M., Durante, R. and Martin, G. J. (2025). The impact of online competition
+on local newspapers: Evidence from the introduction of craigslist. Review of Economic Studies,
+92 (3), 1738–1772.
+Doh, T., Kim, S., Lee, H., Song, K. et al. (2024). The economic effects of a rapid increase in
+the minimum wage: Evidence from south korea experiments. Federal Reserve Bank of Kansas
+City Working Paper, (22-13).
+Draca, M., Machin, S. and Van Reenen, J. (2011). Minimum wages and firm profitability.
+American Economic Journal: Applied Economics, 3 (1), 129–151.
+Dube, A., Lester, T. W. and Reich, M. (2010). Minimum wage effects across state borders:
+Estimates using contiguous counties. Review of Economics and Statistics, 92 (4), 945–964.
+— and Lindner, A. S. (2024). Minimum wages in the 21st century. Tech. rep., National Bureau
+of Economic Research.
+— and Zipperer, B. (2024). Own-Wage Elasticity: Quantifying the Impact of Minimum Wages
+on Employment. Tech. rep., National Bureau of Economic Research.
+Dustmann, C., Lindner, A., Sch¨onberg, U., Umkehrer, M. and Vom Berge, P. (2022).
+Reallocation effects of the minimum wage. The Quarterly Journal of Economics, 137 (1), 267–
+328.
+Forsythe, E. (2023). The effect of minimum wage policies on the wage and occupational structure
+of establishments. Journal of Labor Economics, 41 (S1), S291–S324.
+39
+
+===PDF PAGE 40===
+Glasner, B. (2023). The minimum wage, self-employment, and the online gig economy. Journal
+of Labor Economics, 41 (1), 103–127.
+Godøy, A., Reich, M., Wursten, J. and Allegretto, S. (2024). Parental labor supply:
+Evidence from minimum wage changes. Journal of Human Resources, 59 (2), 416–442.
+Goldfarb, A. and Tucker, C. (2019). Digital economics. Journal of economic literature, 57 (1),
+3–43.
+Gopalan, R., Hamilton, B. H., Kalda, A. and Sovich, D. (2021). State minimum wages,
+employment, and wage spillovers: Evidence from administrative payroll data. Journal of Labor
+Economics, 39 (3), 673–707.
+Harasztosi, P. and Lindner, A. (2019). Who pays for the minimum wage? American Economic
+Review, 109 (8), 2693–2727.
+Helleseter, M. D., Kuhn, P. and Shen, K. (2020). The age twist in employers’ gender
+requests: Evidence from four job boards. Journal of Human Resources, 55 (2), 428–469.
+Higuchi, Y. (2013). The dynamics of poverty and the promotion of transition from non-regular
+to regular employment in japan: Economic effects of minimum wage revision and job training
+support. Japanese Economic Review, 64 (2), 147–200.
+Horton, J. J. (2025). Price floors and employer preferences: Evidence from a minimum wage
+experiment. American Economic Review, 115 (1), 117–46.
+Izumi, A., Kawaguchi, D. and Okudaira, H. (2022). Minimum Wage and Hiring Behavior
+(in Japanese). Crepe working paper, Center for Research and Education in Program Evaluation
+,University of Tokyo.
+—, Kodama, N. and Kwon, H. U. (2020). Labor Market Concentration on Wage, Employment,
+and Exit of Plants: Empirical Evidence with Minimum Wage Hike. Tech. rep., Japan Fair Trade
+Commission.
+Kambayashi, R., Kawaguchi, D. and Yamada, K. (2013). Minimum wage in a deflationary
+economy: The japanese experience, 1994–2003. Labour Economics, 24, 264–276.
+Kanayama, H. and Otani, S. (2024). Nonparametric estimation of matching efficiency and
+elasticity in a spot gig work platform: 2019-2023. arXiv preprint arXiv:2412.19024.
+K¨assi, O. and Lehdonvirta, V. (2018). Online labour index: Measuring the online gig economy
+for policy and research. Technological forecasting and social change, 137, 241–248.
+40
+
+===PDF PAGE 41===
+Katz, L. F. and Krueger, A. B. (1992). The effect of the minimum wage on the fast-food
+industry. ILR Review, 46 (1), 6–21.
+— and — (2019). The rise and nature of alternative work arrangements in the united states,
+1995–2015. ILR Review, 72 (2), 382–416.
+Kawaguchi, D. and Mori, Y. (2009). Is minimum wage an effective anti-poverty policy in japan?
+Pacific Economic Review, 14 (4), 532–554.
+— and — (2021). Estimating the effects of the minimum wage using the introduction of indexation.
+Journal of Economic Behavior & Organization, 184, 388–408.
+— and Yamada, K. (2007). The impact of the minimum wage on female employment in japan.
+Contemporary Economic Policy, 25 (1), 107–118.
+Kodama, N. and Momota, S. (2024). Do minimum wage increases reduce working hours?
+Japanese Journal of Labour Studies, 66 (10), 84–100, in Japanese.
+Kroft, K. and Pope, D. G. (2014). Does online search crowd out traditional search and improve
+matching efficiency? evidence from craigslist. Journal of Labor Economics, 32 (2), 259–303.
+Kuhn, P. and Mansour, H. (2014). Is internet job search still ineffective?
+The Economic
+Journal, 124 (581), 1213–1233.
+— and Shen, K. (2013). Gender discrimination in job ads: Evidence from china. The Quarterly
+Journal of Economics, 128 (1), 287–336.
+—, — and Zhang, S. (2020). Gender-targeted job ads in the recruitment process: Facts from a
+chinese job board. Journal of Development Economics, 147, 102531.
+Kuroda, S. and Onishi, K. (2023). Exploring the gig economy in japan: a bank data-driven
+analysis of food delivery gig workers. RIETI Discussion Paper Series 23-E-025.
+Lee, D. S. (1999). Wage inequality in the united states. The Quarterly Journal of Economics,
+114 (3), 977–1023.
+Leung, J. H. (2021). Minimum wage and real wage inequality: Evidence from pass-through to
+retail prices. Review of Economics and Statistics, 103 (4), 754–769.
+Lordan, G. and Neumark, D. (2018). People versus machines: The impact of minimum wages
+on automatable jobs. Labour Economics, 52, 40–53.
+41
+
+===PDF PAGE 42===
+Luca, D. L. and Luca, M. (2019). Survival of the fittest: The impact of the minimum wage on
+firm exit. Tech. rep., National Bureau of Economic Research.
+Machin, S., Manning, A. and Rahman, L. (2003). Where the minimum wage bites hard: Intro-
+duction of minimum wages to a low wage sector. Journal of the European Economic Association,
+1 (1), 154–180.
+Manning, A. (2021). The elusive employment effect of the minimum wage. Journal of Economic
+Perspectives, 35 (1), 3–26.
+Maria Balgova, I. (2024). The death of distance in hiring. Job Market Paper.
+Marinescu, I. and Wolthoff, R. (2020). Opening the black box of the matching function:
+The power of words. Journal of Labor Economics, 38 (2), 535–568.
+Mas, A. and Pallais, A. (2020). Alternative work arrangements. Annual Review of Economics,
+12 (1), 631–658.
+Mayneris, F., Poncet, S. and Zhang, T. (2018). Improving or disappearing: Firm-level
+adjustments to minimum wages in china. Journal of Development Economics, 135, 20–42.
+Melo, V. C., Kaiser, C., Neumark, D., Palagashvili, L. and Farren, M. D. (2025).
+Minimum Wage Laws and Job Search. Tech. rep., National Bureau of Economic Research.
+Miyamoto, H. (2025). Macroeconomic facts in the japanese labor market: survey. The Japanese
+Economic Review, pp. 1–46.
+Mizushima, Y. and Noguchi, H. (2021). Spillover effects of minimum wages on suicide mortal-
+ity: Evidence from Japan. Waseda INstitute of Political EConomy, Waseda University.
+Mori, Y. and Okudaira, H. (2025). Higher minimum wage, stagnant income?
+the case of
+women’s work hours in japan. Research Institute of Economy, Trade and Industry (RIETI).
+Neumark,
+D.,
+Salas,
+J.
+I.
+and
+Wascher,
+W.
+(2014).
+Revisiting
+the
+minimum
+wage—employment debate:
+Throwing out the baby with the bathwater?
+ILR Review,
+67 (3 suppl), 608–648.
+— and Shirley, P. (2022). Myth or measurement: What does the new minimum wage research
+say about minimum wages and job loss in the united states? Industrial Relations: A Journal of
+Economy and Society, 61 (4), 384–417.
+— and Wascher, W. (1992). Employment effects of minimum and subminimum wages: panel
+data on state minimum wage laws. ILR Review, 46 (1), 55–81.
+42
+
+===PDF PAGE 43===
+— and Wascher, W. L. (2008). Minimum wages. Cambridge, Mass:
+MIT Press, oCLC:
+ocn216938374.
+Okudaira, H., Takizawa, M. and Yamanouchi, K. (2019). Minimum wage effects across
+heterogeneous markets. Labour Economics, 59, 110–122.
+Otani, S. (2024). Nonparametric estimation of matching efficiency and mismatch in labor markets
+via public employment security offices in japan, 1972-2024. arXiv preprint arXiv:2407.20931.
+— (2025). Nonparametric estimation of matching efficiency and elasticity on a private on-the-job
+search platform: Evidence from japan, 2014-2024. Journal of the Japanese and International
+Economies, p. 101394.
+Sabia, J. J. (2009a). The effects of minimum wage increases on retail employment and hours:
+New evidence from monthly cps data. Journal of Labor Research, 30, 75–97.
+— (2009b). Identifying minimum wage effects: New evidence from monthly cps data. Industrial
+Relations: A Journal of Economy and Society, 48 (2), 311–328.
+Simon, K. I. and Kaestner, R. (2004). Do minimum wages affect non-wage job attributes?
+evidence on fringe benefits. ILR Review, 58 (1), 52–70.
+Stanton, C. T. and Thomas, C. (2021). Who Benefits from Online Gig Economy Platforms?
+Tech. rep., National Bureau of Economic Research.
+Tachibanaki, T. and Urakawa, K. (2006). Poverty Study in Japan (in Japanese). University
+of Tokyo Press.
+Takahashi, S., Kawade, M. and Kato, R. R. (2009). Labor supply of japanese married women,
+sensitivity analysis and a new estimate. Economic analysis & policy series, 9, 1–43.
+Tamada, K. (2009). How is minimum wage determined?
+Jpn. J. Labor.stud, 593, 16–28, in
+Japanese.
+— (2011). Analysis of the determinants of minimum wages in japan.
+Yamagishi, A. (2021). Minimum wages and housing rents: Theory and evidence. Regional Science
+and Urban Economics, 87, 103649.
+Yamanouchi, K., Okudaira, H., Takizawa, M. and Hosono, K. (2025). Who pays for the
+minimum wage in the japanese manufacturing sector? Research Institute of Economy, Trade
+and Industry (RIETI).
+43
+
+===PDF PAGE 44===
+Yokoyama, I. (2018). How the tax reform on the special exemption for spouse affected the
+work-hour distribution. Journal of the Japanese and International Economies, 49, 69–84.
+— and Kodama, N. (2016). Women’s labor and taxes: A data-based analysis of the current
+situation. Financial Review/Institute for Financial Policy Studies, Ministry of Finance, ed.,
+2016 (2), 49–76, japanese.
+Yugami, K. (2005). Analysis of local labor markets using prefecture-level data - on the regional
+differences of unemployment and non-employment (in Japanese). Tech. rep., The Japan Institute
+of Labour Policy and Training.
+44
+
+===PDF PAGE 45===
+A
+Additional Analysis
+A.1
+Elasticities Related to Minimum Wages
+Following the method of Cengiz et al. (2019), we estimate (i) the elasticity of employment with
+respect to minimum wages and (ii) the employment elasticity with respect to the affected wages.
+Table 2: Impact of Minimum Wages on Employment and Wages
+Estimate (SE)
+Missing jobs below new MW
+-0.03
+(0.006)
+Excess jobs above new MW
+0.012
+(0.002)
+Affected wages
+0.366
+(0.171)
+Affected employment
+-0.268
+(0.091)
+Employment elasticity w.r.t MW
+-0.388
+(0.132)
+Emp. elasticity w.r.t affected wage
+-0.732
+(0.091)
+Job below new MW
+0.068
+% MW changes
+0.047
+Note: The table reports the effects of a minimum wage increase based on the event study analysis exploiting 47
+prefecture-level minimum wage changes in 2023 (i.e., about 4% minimum wage increase). The table reports six-
+month averaged post-treatment estimates on missing jobs up to 100 JPY below the new minimum wage, excess
+jobs at and up to 300 JPY above it, employment, and wages. Robust standard errors in parentheses are clustered
+by wage bins separated by 10 JPY.
+Table 2 reports six-month–averaged post-treatment effects for the baseline specification de-
+picted in Figure 7. The magnitude of missing jobs below new minimum wages exceeds the mag-
+nitude of excess jobs above new minimum wages in the six-month window. The estimated em-
+ployment elasticity with respect to the minimum wage is -0.388, which is consistent with Figure
+7. Unlike the findings of Cengiz et al. (2019) and Dube and Zipperer (2024), our own-wage em-
+ployment elasticity is -0.732, indicating a larger (absolute) employment response to affected wages
+than the median estimate (-0.13) reported by Dube and Lindner (2024).
+A.2
+Other Measured Outcome
+Amenity as Outcome
+We estimate the impact of minimum wage increases on transportation
+reimbursement offered by firms as an amenity. The estimation method follows that of Section 4,
+45
+
+===PDF PAGE 46===
+with the outcome variable being transportation reimbursement linked to employment (set to zero if
+no transportation reimbursement is provided) and the probability of providing any transportation
+reimbursement. Since employment in group e = −1 disappears after the minimum wage revision,
+we focus on estimating and aggregating the effects on transportation reimbursement for groups
+with e ≥0.
+(a) Amenity Amount over Time
+(b) Amenity Provision Probability over Time
+Figure 18: Impact of Minimum Wages on Amount and Provision of Transportation Reimbursement
+as Amenities
+Note: Panel (a) plots changes in transportation reimbursement across excess wage bins before and after the minimum
+wage increase. Panel (b) provides the corresponding probabilities of providing transportation reimbursement.
+Panel (a) in Figure 18 displays the estimated changes in transportation reimbursement, mea-
+sured relative to the timing of the minimum wage increase. The estimates fluctuate around zero
+in the pre-treatment period and show no systematic trend following the policy change, suggesting
+that transportation reimbursement as an amenity remained largely stable over time. While some
+estimates are statistically significant at conventional levels—peaking around a 0.6% increase—they
+are economically negligible in the post-treatment period. This indicates that the minimum-wage
+impact via the intensive margin did not meaningfully extend to changes in transportation reim-
+bursement practices.
+Panel (b) in Figure 18 presents the dynamic effects of the minimum wage increase on the
+provision probability of transportation reimbursement. The estimates gradually increase in the
+post-treatment period, peaking around 0.7%, suggesting a statistically significant but economically
+modest increase in the likelihood that firms offer this amenity. This pattern suggests that although
+there is some statistically detectable response at the extensive margin—whether or not the amenity
+is offered—the degree of adjustment remains limited. Thus, even when considering the amenity
+provision decision itself, the minimum-wage effect on amenities appears minimal.
+46
+
+===PDF PAGE 47===
+Figure 19: Estimated Week Fixed Effects in Contracted Total Earnings
+Note: The figure plots week fixed effects with confidence intervals from a regression of total earnings at the
+prefecture-week level on prefecture and week indicators. Total earnings are calculated as hourly wages multiplied
+by working hours.
+A.3
+Platform Revenue
+A key advantage of using platform data is the ability to observe not only posted wages but also
+actual matching outcomes—namely, the contracted payments—on a daily basis. Even if employ-
+ment volume declined as shown above, rising wages due to the minimum wage hike would still
+raise total earnings. Since 30% of contracted payments are paid by businesses to the platform as
+revenue, this indicator is directly linked to platform earnings.
+Figure 19 illustrates the temporal dynamics of weekly fixed effects from a regression of total
+earnings at the prefecture-week level on prefecture and week dummy variables. We observe no
+decline in total earnings after the October revision; if anything, there is a modest level increase.
+Given the platform’s proportional commission rule, this implies that platform revenue is at least
+stable in the short run. Combined with the employment and hours results, the evidence is consis-
+tent with compositional adjustment toward higher hourly wages with limited movement in total
+transaction volume.
+A.4
+Addressing Potential Issues
+The Definition of Control Group
+Our baseline event-study DID design defines treatment
+status based on each wage bin’s distance to the new prefecture-level minimum wage and uses
+47
+
+===PDF PAGE 48===
+(a) Missing and Excess Jobs over Time
+(b) Wage Distribution
+(c) Missing and Excess Jobs over Time
+(d) Wage Distribution
+Figure 20: Impact of Minimum Wages on Employment: Alternative Definition of the Control
+Group
+Note: This figure presents robustness checks using alternative definitions of the control wage bin in the event-study
+DID design. Panels (a) and (b) report the results when the control group is defined as wage bins with wages
+≥MWp + 300. Panels (c) and (d) report the results when the control group is defined as wage bins with wages
+≥MWp + 500. Panels (a) and (c) plot the event-study coefficients for missing jobs (employment below the new
+minimum wage), while Panels (b) and (d) plot the event-study coefficients for excess jobs (employment at and above
+the new minimum wage within the treated range).
+the upper part of the wage distribution as the control group.
+Concretely, we set a threshold
+W p = MWp + 400 and assign all wage bins at or above W p to the control group (group ∞). This
+choice is motivated by the “limited spillover” assumption: minimum-wage effects should vanish
+sufficiently far above the new wage floor so that higher-wage bins provide a valid counterfactual
+trend for bins near the threshold. Under this assumption, the identifying variation comes from
+comparing changes in outcomes for bins near the minimum wage to changes for bins in group ∞
+around the timing of the reform.
+48
+
+===PDF PAGE 49===
+A natural concern is that the estimated effects could be sensitive to where the control region
+begins. If spillovers extend further up the wage distribution than assumed, defining the control
+group too close to the minimum wage (e.g., MWp + 300) could contaminate the control bins and
+mechanically attenuate the estimated treatment effects. Conversely, defining the control group
+farther away (e.g., MWp + 500) reduces the risk of contamination but may change precision by
+shifting the composition of the control region. To assess this sensitivity, we re-estimate our baseline
+specification under two alternative thresholds for W p: MWp + 300 and MWp + 500.
+Figure 20 reports the corresponding event-study paths for missing and excess jobs and the
+associated wage-distribution patterns under alternative control-threshold definitions. Across both
+alternative control definitions, the main qualitative patterns remain intact. First, pre-treatment
+coefficients stay close to zero, supporting the plausibility of the parallel-trends assumption under
+each control threshold. Second, the post-reform dynamics continue to show a sharp contraction of
+employment below the new minimum wage (missing jobs) and an expansion just above it (excess
+jobs), with the net effect remaining negative because missing jobs exceed excess jobs. Finally,
+the distributional profile of the effects remains concentrated near the wage floor, consistent with
+limited spillovers to higher wage bins—the key condition needed for group ∞to serve as a valid
+control. Overall, our conclusions about immediate job losses below the new minimum wage and
+incomplete offsetting gains above it are not driven by the baseline choice of W p = MWp + 400.
+Main Specification with Wage-bin Specific Trends
+A potential concern with our baseline
+event-study DID design is that wage bins far above the minimum wage (which form the control
+group) may follow different underlying time patterns than wage bins close to the minimum wage.
+In particular, if high-wage and low-wage bins exhibit systematically different trends even absent the
+policy change, the standard parallel-trends assumption may be violated, and our baseline estimates
+could partly reflect differential underlying dynamics rather than the minimum-wage revision.
+To address this concern, we estimate an augmented specification that flexibly absorbs wage-bin-
+specific heterogeneity. Specifically, we re-estimate our main event-study regression while including
+wage-bin fixed effects, Jj, and wage-bin-by-time fixed effects, Ωj,t, in addition to the baseline set
+of controls:
+Yj(p),t
+Np,t
+=
+X
+l̸=−1
+X
+e̸=∞
+µl,e1{t −7 = l}1{Ej(p) = e} + αe + λt + Jj + Ωj,t + ϵj,t.
+(3)
+The inclusion of Jj controls for time-invariant differences across wage bins, while Ωj,t allows
+each wage bin to have its own time trends, thereby relaxing the requirement that high-wage and
+low-wage bins must share common trends.
+49
+
+===PDF PAGE 50===
+Because the mapping from a nominal wage bin j to an exposure group Ej(p) depends on
+prefecture-specific minimum wages, the same bin j can belong to different exposure groups across
+prefectures.
+As a result, even after absorbing wage-bin-by-time shocks via Ωj,t, there remains
+within-(j, t) cross-prefecture variation in 1{Ej(p) = e}. Hence the event-study interaction 1{t−7 =
+l}1{Ej(p) = e} is not perfectly collinear with Ωj,t, and the coefficients µl,e are identified from this
+residual variation.
+This specification compares changes around the minimum-wage revision within wage bins after
+netting out wage-bin-specific time variation, and thus provides a stringent robustness check against
+confounding differential trends across the wage distribution.
+(a) Missing and Excess Jobs over Time
+(b) Wage Distribution
+Figure 21: Impact of Minimum Wages on Employment: Controlling Wage-bin Specific Trends
+Note: Panel (a) shows the estimated excess jobs and missing jobs for each month before and after the minimum
+wage increase. Panel (b) shows the estimated impact of the minimum wage increase on employment for each group
+e in the wage distribution.
+Figure 21 reports the resulting estimates. Reassuringly, the qualitative patterns remain consis-
+tent with our baseline findings: the estimated effects remain concentrated near the new minimum
+wage, with the most pronounced adjustments occurring in wage bins at and below the wage floor
+and substantially smaller changes farther above it. Moreover, the absence of meaningful move-
+ments in the pre-revision period is preserved, suggesting that our main conclusions are not driven
+by spurious differences in underlying trends between low- and high-wage bins. Overall, allowing
+for wage-bin fixed effects Jj and wage-bin-by-time fixed effects Ωj,t does not materially alter the
+core result that the minimum-wage increase induces an immediate redistribution of activity away
+from the lowest wage bins.
+50
+
+===PDF PAGE 51===
+Difference-in-Difference-in-Differences Approach
+We introduce a difference-in-difference-
+in-differences (DDD) approach as a sensitivity check for our identification strategy. Our baseline
+difference-in-differences (DID) specification relies on the assumption that, absent the policy change,
+the treated and control wage bins would have followed parallel trends. However, in practice, it
+is plausible that employment proportions in wage bins close to the minimum wage threshold and
+those in higher-wage bins exhibit different underlying trends even before the policy change. Such
+wage-bin-specific trends may arise from differential demand conditions, compositional changes, or
+other factors that are correlated with wage levels.
+To mitigate concerns about differential wage-bin trends, we propose a DDD specification that
+uses two-years differences in outcomes—i.e., the difference between outcomes in 2023 and those
+in the corresponding month in 2021. The key idea is to net out wage-bin-specific seasonal and
+persistent components by comparing each month’s outcome to the same calendar month two years
+earlier. We then estimate an event-study regression identical to our main specification, except that
+the outcome is the two-year change in the employment rate in each wage bin. The DDD regression
+is given by:
+Yj(p),t
+Np,t
+−Yj(p),t−24
+Np,t−24
+=
+X
+l̸=−1
+X
+e̸=∞
+eµl,e1{t −7 = l}1{Ej(p) = e} + αe + λt + ϵj,t,
+(4)
+This specification is identical to our main event-study DID regression, except that the outcome
+is defined as a two-year difference. Specifically, the outcome is the change in the employment rate
+in wage bin j of prefecture p between month t and the corresponding month two years earlier
+(t −24).
+The parameters of interest are the set of eµl,e:
+eµl,e = E
+Yj(p),7+l
+Np,7+l
+−Yj(p),7+l−24
+Np,7+l−24
+
+−
+Yj(p),6
+Np,6
+−Yj(p),6−24
+Np,6−24
+Ej(p) = e
+
+−E
+Yj(p),7+l
+Np,7+l
+−Yj(p),7+l−24
+Np,7+l−24
+
+−
+Yj(p),6
+Np,6
+−Yj(p),6−24
+Np,6−24
+Ej(p) = ∞
+
+= µl,e −µ2021
+l,e ,
+where µ2021
+l,e
+denotes E
+
+Yj(p),7+l−24
+Np,7+l−24 −
+Yj(p),6−24
+Np,6−24
+Ej(p) = e
+
+−E
+
+Yj(p),7+l−24
+Np,7+l−24 −
+Yj(p),6−24
+Np,6−24
+Ej(p) = ∞
+
+.
+The term µ2021
+l,e
+can be interpreted as a placebo DID parameter evaluated two years earlier: it
+captures the treated–control differential change between months 6 −24 and 7 + l −24, i.e., in the
+pre-policy year (e.g., in 2021 when the policy change of interest occurs in 2023). In an ideal setting
+with no anticipation and no spurious differential dynamics, this placebo effect should be close to
+51
+
+===PDF PAGE 52===
+zero. More importantly, if treated and control groups are subject to different seasonal patterns,
+µ2021
+l,e
+may be non-zero even in the absence of the policy. In that case, subtracting this placebo
+component from the baseline DID estimand yields eµl,e = µl,e −µ2021
+l,e
+, which removes differential
+seasonality and provides a more robust estimate of the event-time treatment effect.
+Note that this identification strategy implicitly requires that the 2021 minimum-wage revision
+does not affect postings that fall into wage bin j. In practice, however, this assumption cannot be
+satisfied. In our data, wage bins j are constructed based on the wage distribution of postings (or
+realized matches) observed between April 2023 and March 2024. Consequently, over the period
+April 2023–September 2023, postings can mechanically fall into the wage range above the 2021
+minimum wage but below the higher minimum wage introduced in 2023. Therefore, if the 2021
+minimum-wage increase affected postings in this wage range, the parameter identified by our
+DDD specification, eµ2021
+l,e , should be interpreted as removing not a “clean” placebo effect but a
+contaminated placebo term, µ2021
+l,e , which captures the impact of the 2021 minimum-wage revision.28
+This contamination potentially matters for our interpretation. Because the DDD holds nominal
+wage bins j fixed across years, the bins just below MWp in 2023—which define the 2023 “missing-
+jobs” region—may overlap with the 2021 “excess” interval in nominal terms: these bins can be
+at or above MWp in 2021 and thus fall into our broad excess range relative to MWp in 2021 (up
+to MWp + 300 in 2021). This is an overlap in nominal-bin definitions, not a statement that the
+2023 missing range coincides with the peak bunching bin in 2021. If the 2021 minimum-wage hike
+generated excess postings in that range, the DDD procedure would net out those excess jobs when
+forming the placebo difference, thereby mechanically boosting the estimated missing-job effect. As
+a result, the coefficient estimates for missing jobs may be biased to be more negative, even under
+an otherwise valid DDD design.
+Panel (a) in Figure 22 shows the estimated excess jobs and missing jobs for each month before
+and after the minimum wage increase in our DDD specification. Panel (b) presents the estimated
+impact of the minimum wage increase on employment for each group e in the wage distribution.
+Three important findings emerge from Panels (a) and (b) of Figure 22. First, the estimated
+excess and missing jobs are close to zero in the pre-treatment period, prior to the minimum-wage
+increase. Second, although the magnitude of the estimates is larger than in our baseline DID
+specification (Equation 1), the time patterns of the point estimates are similar. Finally, we find no
+evidence of spillover effects to higher wage tiers for e ≥1. Taken together, these findings suggest
+that our baseline results are potentially robust to allowing for heterogeneous time trends across
+wage bins.
+28We do not use the 2022 data as the comparison period when constructing the differenced outcome because the
+resulting bias could be substantial.
+52
+
+===PDF PAGE 53===
+(a) Missing and Excess Jobs over Time
+(b) Wage Distribution
+Figure 22: Impact of Minimum Wages on Employment: DDD Specification
+Note: Panel (a) shows the estimated excess jobs and missing jobs for each month before and after the minimum
+wage increase. Panel (b) shows the estimated impact of the minimum wage increase on employment for each group
+e in the wage distribution.
+B
+Hiring Channel Substitution and Timee Rollout
+In this section, we examine whether app-based spot work platforms substitute for or complement
+traditional hiring channels such as public employment offices. Using confidential contract-level data
+from Timee and public vacancy records, we exploit the platform’s staggered regional rollout from
+2018 to 2024. We conduct difference-in-differences analysis to assess whether Timee’s expansion
+affected vacancy postings on the public system. We find flat pre-trends and no post-entry effect.
+The evidence suggests that spot work provides rapid surge capacity to absorb temporary labor
+demand, rather than displacing conventional, public-channel hiring.
+Understanding how employers and job seekers choose between standard hiring channels (e.g.,
+public employment offices) and digital labor platforms is central to modern labor-market design
+(Kroft and Pope 2014, Kuhn and Mansour 2014, Goldfarb and Tucker 2019). As platform adop-
+tion accelerates while conventional systems persist, questions about hiring–channel substitution—
+between app-based and public-office vacancies—have become increasingly salient. Existing studies
+show that digital postings on platforms like Craigslist, CareerBuilder, and Indeed can shift local
+outcomes: unemployment, vacancy rates, and rental markets (Kroft and Pope 2014), crime (Cun-
+ningham et al. 2024), media and political behavior (Djourelova et al. 2025), substitution across
+job boards (Brenˇciˇc 2016), and migration (Maria Balgova 2024). In contrast, little is known about
+substitution between spot gig work and standard employment. At its core, this raises a fundamen-
+tal choice for employers: whether to fill labor needs via standard hiring (stable contracts) or via
+app-based spot work (short-term, demand-responsive).
+53
+
+===PDF PAGE 54===
+We fill the gap with a 2018–2024 prefecture–month panel covering Japan, combining (i) confi-
+dential Timee data for short, on-site spot shifts and (ii) public Hello Work records on conventional
+vacancies, registered unemployed, and successful matches. Timee rolled out heterogeneously across
+prefectures and expanded rapidly. We exploit this staggered timing and intensity variation to test
+whether platform entry and growth reduced public-office vacancies.
+Two features of the Timee data are central. First, we observe confidential contract-level matches
+linking each vacancy to a realized hire with full job detail. This labor-demand granularity allows
+us to study a substitution margin distinct from prior Craigslist-type studies (Kroft and Pope 2014,
+Brenˇciˇc 2016): whether firms meet needs via fast, flexible spot contracts or slower standard hires,
+with an explicit cost–flexibility tradeoff (e.g., Timee charges 30% commission per contract). These
+logs also allow us to construct a prefecture-specific Platform Popularity Index (posts per 1,000 res-
+idents) a la Kroft and Pope (2014), and track substitution on both the posting (vacancies) and
+matching (employment) margins over time. Second, unlike household-service apps (e.g., TaskRab-
+bit in Cullen and Farronato (2021)), Timee spans a wide range of on-site, shift-based jobs—retail,
+food service, logistics, events, and light manufacturing—providing broad labor-market coverage.
+Using the prefecture–month panel and staggered rollout, we estimate dynamic difference-in-
+differences models testing whether Timee entry and growth affect Hello Work vacancies. Results
+show flat pre-trends and no post-entry effect on public vacancies. This indicates that conventional
+jobs are not replaced by spot work. Instead, Timee acts as a buffer for temporary labor demand,
+absorbing workload spikes that would otherwise trigger overtime or leave tasks unfilled. It operates
+alongside, not in place of, public systems—offering short-notice hiring capacity without reducing
+standard vacancies. We also confirm robustness via a two-way fixed effects model using Platform
+Popularity as a continuous regressor.
+B.1
+Prefecture-month-level Timee Introduction and Expansion
+To exploit prefecture-month variation in Timee’s expansion, we focus on the calendar month in
+which job postings first appear in a given prefecture (the rollout month). This is defined as the
+first month that Timee postings are recorded in platform logs for that prefecture and serves as the
+binary treatment in our difference-in-differences design.
+Figure 23 summarizes Timee’s spatial rollout and intensity patterns. Panel (a) shows that
+the platform first launched in major metropolitan prefectures like Tokyo, Osaka, and Aichi, then
+expanded to less urban areas—reflecting a core-to-periphery diffusion strategy typical of digital
+platforms. Panel (b) orders prefectures by 2018 population and shows that higher-population areas
+generally adopted earlier. While this pattern holds overall, some lower-ranked prefectures, such as
+Nagano, received the rollout earlier than more populous regions, suggesting that other factors also
+54
+
+===PDF PAGE 55===
+shaped the rollout sequence.
+B.2
+Empirical Exercise: Staggered Rollout of Timee
+B.2.1
+Binary Treatment Staggered DID
+Our main identification strategy for estimating the impact of Timee’s rollout on Hello Work vacancy
+counts exploits the expansion of Timee across Japanese prefectures during our sample period.
+As discussed in Section B.1, the timing of Timee’s entry varies across prefectures and is not
+systematically related to stronger past or predicted economic conditions at the prefecture level.
+Accordingly, we identify the treatment effect on traditional vacancies using difference-in-differences
+by comparing prefecture–month outcomes between treated and not-yet-treated prefectures while
+accounting for the staggered timing of Timee’s entry.
+To align notation with the staggered-adoption framework, we write the event-time parameter-
+ization below, but estimation is conducted using the Callaway and Sant’Anna (2021) group-time
+ATT procedure rather than OLS on this equation:
+Yp(g),t = αp(g) + βt +
+X
+g∈G
+X
+j̸=g−1
+δg,jDg,j
+p(g) + εp(g),t,
+(5)
+where Yp(g),t is the log of the Hello Work vacancy outcome for prefecture p(g) in month t; αp(g)
+and βt denote prefecture and month fixed effects; and Dg,j
+p(g) is an event–time indicator equal to one
+for prefecture p(g) when t is j months relative to its first Timee entry month g (with j = g −1 as
+the reference period).
+The parameters of interest are event-time average treatment effects across adoption cohorts. We
+estimate group-time ATT(g, t) using not-yet-treated prefectures as comparisons and then aggregate
+to event time following Callaway and Sant’Anna (2021).
+Figure 24 plots event-time average treatment effects on the treated (ATT) for log Hello Work
+vacancies around Timee entry. The pre-entry coefficients are tightly centered near zero, supporting
+parallel trends. Following entry, point estimates remain close to zero for roughly the first year
+and, while some later coefficients turn mildly negative, their confidence intervals overlap zero
+throughout. Overall, we find no statistically meaningful reduction in public-office vacancies after
+Timee’s rollout. This suggests that spot gig jobs are not substituting for conventional employment
+but rather serving as a buffer for temporary labor-demand shocks. The spot work platform absorbs
+sudden increases in workload that might otherwise lead to overtime for existing staff or unfilled
+tasks. In this sense, Timee complements rather than displaces the public vacancy channel, offering
+firms rapid, short-notice staffing capacity without diminishing the pool of standard job openings.
+55
+
+===PDF PAGE 56===
+(a) Geographical Variation of Timee Rollout
+(b) Timee Rollout Timing (ordered by Resident Counts (2018))
+Figure 23: Timee Rollout Across Prefectures
+56
+
+===PDF PAGE 57===
+Figure 24: Staggered Timee Entry and log of Hello Work Vacancy
+Notes: The figure reports ATT(g, t) from a difference-in-differences design with staggered adoption. Not-yet-treated
+prefectures form the comparison set. Vertical lines denote 95% confidence intervals (standard errors are calculated
+using the multiplier bootstrap in Callaway and Sant’Anna (2021)).
+B.3
+Timee Popularity Index and Continuous-Intensity Estimates
+To complement the binary rollout treatment, we construct a time-varying prefecture-month Timee
+Popularity Index that captures relative platform penetration. Specifically, Poppt is the number of
+posted spot jobs in prefecture p and month t per 1,000 residents, where the denominator is fixed
+at prefecture population from the 2018 Basic Resident Registration. This construction mirrors the
+Craigslist penetration measure used by Kroft and Pope (2014), who define platform popularity as
+the number of online job advertisements per 1,000 people in each Metropolitan Statistical Area
+(MSA). In their study, this index is used to exploit cross-sectional variation in online job search
+intensity and to study substitution between online and offline job ads. Similarly, our index captures
+cross-prefecture and over-time variation in Timee adoption. For robustness, we also construct an
+alternative version based on realized contracts (spot employment matches per 1,000 residents),
+using detailed contract-level data linked to administrative identifiers.
+Figure 25 summarizes the spatial rollout and intensity patterns. Panel (a) illustrates heteroge-
+neous popularity trajectories, with several prefectures experiencing pronounced surges after 2022,
+while Panel (b) plots a modest, noisy correlation between 2024 popularity and population size.
+57
+
+===PDF PAGE 58===
+(a) Timee Popularity
+(b) Timee Popularity (2024) vs Resident Counts
+Figure 25: Timee Popularity Trajectories and Scale
+Note: Timee’s popularity index is defined monthly as the number of spot-job posts per 1,000 residents, with 2018
+resident counts used as the fixed denominator.
+58
+
+===PDF PAGE 59===
+As an intensity-based robustness check, we estimate a two–way fixed effects model that treats
+Timee popularity as a continuous regressor:
+Ypt = αp + βt + γ Poppt + εpt,
+(6)
+where Poppt denotes the Timee Popularity Index in prefecture p and month t, and γ captures the
+within-prefecture association between popularity and Hello Work vacancies after accounting for
+prefecture and month shocks. Because popularity and vacancies are observed contemporaneously
+at the prefecture-month level, we interpret γ as a descriptive association rather than a causal
+parameter.
+As robustness checks, we (i) include month fixed effects interacted with baseline
+covariates, (ii) examine alternative normalizations of Poppt, and (iii) verify that popularity is only
+weakly related to event time within rollout cohorts.
+Table 3 shows that Timee popularity has no detectable association with Hello Work vacancy
+counts. Overall, we find no statistically meaningful reduction in Hello Work vacancies after Timee’s
+rollout.
+Table 3: Impact of Timee Popularity Index on Hello Work Vacancy Counts
+(1)
+(2)
+Timee vacancy counts per 1000 residents
+0.002
+(0.003)
+Timee matching counts per 1000 residents
+0.002
+(0.004)
+FE (Month)
+Y
+Y
+FE (Prefecture)
+Y
+Y
+Num.Obs.
+3572
+3572
+R2
+0.996
+0.996
+R2 Adj.
+0.996
+0.996
+Note: Standard errors are in parentheses, clustered at prefecture level.
+In conclusion, this section evaluates whether app-based spot-work platforms crowd out the stock
+of standard vacancies recorded by public employment offices or instead operate alongside them.
+Using a prefecture–month panel and the platform’s staggered rollout, dynamic DID estimates show
+flat pre-trends and no post-entry effect of Timee on Hello Work vacancy counts. Thus, Timee’s
+expansion does not crowd out standard vacancies; rather, the spot market functions as a rapid
+surge capacity that buffers transitory labor-demand shocks without replacing conventional hiring.
+59

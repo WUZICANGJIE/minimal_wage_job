@@ -1,0 +1,15 @@
+Source: https://openstax.org/books/principles-microeconomics-3e/pages/14-1-the-theory-of-labor-markets
+Retrieved section: 14.1 The Theory of Labor Markets (web_extract, full section read).
+Authors: David Shapiro, Daniel MacDonald, Steven A. Greenlaw
+Book: Principles of Microeconomics 3e, OpenStax, Dec 14, 2022.
+
+Verbatim excerpts:
+Figure 14.2 Marginal Product of Labor Because of fixed capital, the marginal product of labor declines as the employer hires additional workers.
+
+### Demand for Labor in Perfectly Competitive Output Markets
+Given the market wage, profit maximizing firms hire workers up to the point where: Wmkt = VMPL
+
+### Derived Demand
+Economists describe the demand for inputs like labor as a derived demand. Since the demand for labor is MPL*P, it is dependent on the demand for the product the firm is producing.
+
+Scope: This source supports the marginal-product condition, not our exact power function, hiring mapping, early/late grouping or causal identification.
