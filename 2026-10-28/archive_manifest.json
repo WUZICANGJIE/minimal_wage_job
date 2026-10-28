@@ -1,0 +1,70 @@
+{
+  "presentation_date": "2026-10-28",
+  "status": "user-provided materials reported as already presented; archived without substantive revision",
+  "originals": [
+    {
+      "provided_filename": "課題2 データと仮説.pdf",
+      "archived_filename": "slides.pdf",
+      "bytes": 1154510,
+      "sha256": "0bb1cf1fa60e24627cee2014ac27486dbb9ae34022de34283ea3b1f1c651fa67"
+    },
+    {
+      "provided_filename": "task2_speech_8min.html",
+      "archived_filename": "speech.html",
+      "bytes": 13678,
+      "sha256": "d87466b7a1e4f9737c94d4dcb3a26e3a908bdd8e66c97a55318c0345956c8b2b"
+    }
+  ],
+  "derived": [
+    {
+      "filename": "speech_reference.md",
+      "method": "stdlib HTMLParser, all h1/h2/p text in body order",
+      "source": "speech.html",
+      "block_count": 102,
+      "slide_section_count": 15,
+      "bytes": 13023,
+      "sha256": "f0217a5a35d52b68bd318f5893533e1d615ad9643a223b23ee53699945305204"
+    },
+    {
+      "filename": "reference_images/slide_09.png",
+      "method": "PyMuPDF rasterization at 108 dpi, complete original page, no cropping or redrawing",
+      "source": "slides.pdf",
+      "page": 9,
+      "bytes": 92180,
+      "sha256": "c5749f089e1457c6fedbf7a9e76d05d12587560e8c75bf322cdfe5e60860909c"
+    },
+    {
+      "filename": "reference_images/slide_10.png",
+      "method": "PyMuPDF rasterization at 108 dpi, complete original page, no cropping or redrawing",
+      "source": "slides.pdf",
+      "page": 10,
+      "bytes": 130016,
+      "sha256": "c7d1eab1ae7e0ae6a5315752f5c5946cf4cefbf14bd9721fbcf172aeef38e052"
+    },
+    {
+      "filename": "reference_images/slide_13.png",
+      "method": "PyMuPDF rasterization at 108 dpi, complete original page, no cropping or redrawing",
+      "source": "slides.pdf",
+      "page": 13,
+      "bytes": 139156,
+      "sha256": "40c87b1a84d5449f4f1cf33f828008779f3fca2de4129e6faf04539994e4fdee"
+    },
+    {
+      "filename": "slides_reference.md",
+      "method": "page-aligned transcription with Markdown tables; original chart pages retained as PNG; no substantive revision",
+      "source": "slides.pdf",
+      "page_section_count": 15,
+      "bytes": 9856,
+      "sha256": "fc05fa86aae3f7e01b77c086784db8d4d680bbb41dd3701673e890fb6730f4fd"
+    }
+  ],
+  "pdf_page_count": 15,
+  "verification": {
+    "originals_byte_identical": true,
+    "pdf_pages": 15,
+    "reference_page_sections": 15,
+    "speech_page_sections": 15,
+    "speech_all_html_text_blocks_preserved": true,
+    "figure_links_resolved": true
+  }
+}
