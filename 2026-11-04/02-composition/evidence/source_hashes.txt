@@ -1,0 +1,4 @@
+8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5  ../../data/raw/estat_shokugyo_t12_shinki_kyujin.xlsx
+5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986  ../../data/raw/mhlw_saitei_chingin_kaitei.xlsx
+Acemoglu_Autor_2011.pdf 5d860e4e0eb2c0dfc2dab588243683384be86f6d9cb8d6bcc26b81e70680772f
+MHLW_2025_wages.pdf ce45876d2ad29c59f1f930849a069e7e68ecb512a6770fa9fb0b48680dbd01ea

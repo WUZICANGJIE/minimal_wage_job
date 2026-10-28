@@ -1,0 +1,4 @@
+# Machine-specific kernels and temporary connections
+assets/kernels/
+assets/jupyter/
+kernel-*

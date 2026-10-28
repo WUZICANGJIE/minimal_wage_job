@@ -1,0 +1,170 @@
+{
+  "checks": [
+    {
+      "name": "unit tests",
+      "ok": true,
+      "detail": "OK"
+    },
+    {
+      "name": "analysis.py exit 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "analysis status",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "inputs unchanged",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "part+nonpart identity residual 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "47 prefectures x 164 months",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "policy 20/13/14",
+      "ok": true,
+      "detail": "{'early': 20, 'late': 14, 'excluded': 13}"
+    },
+    {
+      "name": "independent policy PDF 47/47",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "model parameters not estimated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "model relative error < 1e-12",
+      "ok": true,
+      "detail": "9.992007221626409e-16"
+    },
+    {
+      "name": "model derivative error < 1e-5",
+      "ok": true,
+      "detail": "2.809180492224783e-06"
+    },
+    {
+      "name": "main relative estimate -2.23",
+      "ok": true,
+      "detail": "-2.227016829165919"
+    },
+    {
+      "name": "relative identity with part-nonpart",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all main CIs include zero (null reported honestly)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook executed (no error outputs)",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "notebook has stored outputs",
+      "ok": true,
+      "detail": "11/11"
+    },
+    {
+      "name": "notebook has no fake Colab link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides.pdf <= 10 pages",
+      "ok": true,
+      "detail": "10"
+    },
+    {
+      "name": "slides contain −1.56",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides contain −2.23",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides contain パート以外",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides contain 無処理の対照",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides contain Acemoglu",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides disclaim causality",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides do not call nonpart an untreated control affirmatively",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML exists and references local assets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "figures exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "README.md exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "methods.md exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.md exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "verification.json exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides.md exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "results CSVs",
+      "ok": true,
+      "detail": "12"
+    }
+  ],
+  "passed": true
+}
