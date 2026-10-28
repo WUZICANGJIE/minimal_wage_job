@@ -7,6 +7,7 @@ commands=[
     [P,str(H/'analysis.py')],
     [P,'-m','unittest','discover','-s',str(H/'tests'),'-v'],
     [P,str(H/'build_notebook.py')],
+    [P,str(H/'build_teaching.py')],
     ['npx','--yes','@marp-team/marp-cli@4.5.1',str(H/'slides.md'),'--no-config','--html','--allow-local-files','-o',str(H/'slides.html')],
     ['npx','--yes','@marp-team/marp-cli@4.5.1',str(H/'slides.md'),'--no-config','--html','--pdf','--allow-local-files','-o',str(H/'slides.pdf')],
     [P,str(H/'verify_delivery.py')],

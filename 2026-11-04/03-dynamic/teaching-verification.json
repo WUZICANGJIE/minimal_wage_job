@@ -1,0 +1,93 @@
+{
+  "pages": 20,
+  "speaker_notes": 20,
+  "todo_page_map": {
+    "1_data_comparability": [
+      3,
+      4,
+      15,
+      17,
+      18
+    ],
+    "2_prior_work_increment": [
+      2,
+      8
+    ],
+    "3_micro_model": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "4_hypothesis_test_mapping": [
+      11,
+      12,
+      14,
+      15,
+      16
+    ],
+    "5_results_and_model_reality": [
+      13,
+      15,
+      16,
+      17,
+      18
+    ],
+    "6_conclusion_implications_limits": [
+      18,
+      19
+    ]
+  },
+  "assumed_scenarios_recomputed": [
+    {
+      "scenario": "no_hike",
+      "v": [
+        1.5660829340822733,
+        0.8568808855113166
+      ],
+      "L": [
+        3.652866347265819,
+        3.6077977862217088
+      ]
+    },
+    {
+      "scenario": "late_anticipated",
+      "v": [
+        1.4876094498595736,
+        0.720584833966628
+      ],
+      "L": [
+        3.5900875598876594,
+        3.4485379150834303
+      ]
+    },
+    {
+      "scenario": "early_anticipated",
+      "v": [
+        1.3513133983148848,
+        0.7470180075995372
+      ],
+      "L": [
+        3.4810507186519084,
+        3.382454981001157
+      ]
+    },
+    {
+      "scenario": "larger_future_hike",
+      "v": [
+        1.409135965636874,
+        0.5842887824219394
+      ],
+      "L": [
+        3.5273087725094996,
+        3.2892780439451514
+      ]
+    }
+  ],
+  "preserved_hashes_match": true
+}
