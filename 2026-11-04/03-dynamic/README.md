@@ -5,6 +5,7 @@
 ## 文件
 
 - `slides.md` / `slides.pdf` / `slides.html`：唯一正式稿；白底黑字、KaTeX公式。MD为手写单一源稿，没有会覆盖它的生成器。
+- `video/dynamic_explainer.mp4`：约11分钟日文讲解视频（保留公式、逐步讲解，附字幕与旁白稿）；生成方法见 `video/README.md`。
 - `speaker_notes.md`：20页自然日文逐页讲稿，与MD的Marp隐藏notes对应；不承诺未经排练的时长。
 - `build_teaching.py`：只生成教学用区间/路径图、提取notes，调用原求解器核对假定参数示例；不写统计CSV。
 - `analysis.py` / `analysis.ipynb` / `results/`：原统计与模型计算、已执行notebook、原CSV/JSON。

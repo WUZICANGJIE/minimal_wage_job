@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/katex/dist/katex.min.css">
+<script src="node_modules/katex/dist/katex.min.js"></script>
+<script src="node_modules/katex/dist/contrib/auto-render.min.js"></script>
+<script src="build/scenes.js"></script>
+<style>
+  @font-face { font-family: 'JP'; src: url('../assets/NotoSansJP-Regular.otf'); }
+  :root { --ink:#111; --muted:#55534f; --line:#d8d6d0; --early:#2a78d6; --late:#eb6834; --hl:#fff3cf; --hlb:#e2a400; --band:#f2f1ee; }
+  html, body { margin:0; width:1920px; height:1080px; overflow:hidden; background:#fff; color:var(--ink); font-family:'JP', sans-serif; }
+  #frame { position:relative; width:1920px; height:1080px; }
+  #progress { position:absolute; top:0; left:0; height:8px; background:var(--early); }
+  #head { position:absolute; top:44px; left:90px; right:90px; display:flex; align-items:center; gap:24px; }
+  #tag { font-size:26px; padding:6px 18px; border:2px solid var(--ink); border-radius:999px; white-space:nowrap; }
+  #tag:empty { display:none; }
+  #title { font-size:50px; line-height:1.2; letter-spacing:.01em; }
+  #body { position:absolute; top:150px; left:100px; right:100px; bottom:190px; font-size:36px; line-height:1.5; display:flex; flex-direction:column; justify-content:center; }
+  #sub { position:absolute; left:0; right:0; bottom:0; height:170px; background:var(--band); display:flex; align-items:center; justify-content:center; padding:0 110px; box-sizing:border-box; }
+  #subtext { font-size:36px; line-height:1.45; text-align:center; text-wrap:balance; }
+  [data-s] { transition:none; }
+  .hide { visibility:hidden !important; }
+  tr.hide { display:none; }
+  .now { background:var(--hl); box-shadow:0 0 0 3px var(--hlb); border-radius:10px; }
+  .katex .now { box-shadow:0 0 0 2px var(--hlb); border-radius:6px; }
+  .eq { margin:6px 0; }
+  .eq .katex-display { margin:8px 0; }
+  .eq .katex { font-size:1.35em; }
+  .eq.big .katex { font-size:1.55em; }
+  .card .eq .katex { font-size:1.25em; }
+  .two { display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+  .two.wide { grid-template-columns:1fr 1fr; align-items:center; }
+  .card { border:2px solid var(--line); border-radius:14px; padding:20px 28px; }
+  .card.slim { padding:12px 22px; }
+  .card h3 { margin:0 0 10px; font-size:38px; font-weight:normal; }
+  .card p { margin:8px 0; }
+  .plus::first-letter { color:var(--early); }
+  .minus::first-letter { color:var(--late); }
+  .note { color:var(--muted); font-size:30px; margin:10px 0; padding:4px 10px; }
+  .center { text-align:center; }
+  .callout { margin:26px 0 0; padding:16px 28px; border-left:8px solid var(--ink); background:#f7f7f5; font-size:38px; }
+  .legend { display:grid; gap:10px; margin:14px 0; }
+  .legend > div { padding:4px 12px; }
+  .sym { display:inline-block; min-width:190px; font-weight:bold; }
+  .tagE, .tagL { display:inline-block; color:#fff; border-radius:8px; padding:0 12px; margin-right:8px; font-size:.85em; }
+  .tagE { background:var(--early); } .tagL { background:var(--late); }
+  .tbl { border-collapse:collapse; font-size:33px; width:100%; }
+  .tbl.big { font-size:40px; }
+  .tbl th, .tbl td { border:1px solid #999; padding:10px 16px; }
+  .tbl th { font-weight:normal; background:#f3f3f1; }
+  .tbl td:not(:first-child) { text-align:right; font-variant-numeric:tabular-nums; }
+  img.chart { width:100%; display:block; }
+  img.chart.wide { width:1600px; margin:0 auto; }
+  svg.mini { width:100%; height:190px; }
+  svg .ax { stroke:#777; stroke-width:2; } svg .ln1 { stroke:var(--early); stroke-width:5; } svg .ln2 { stroke:var(--late); stroke-width:5; }
+  svg .axl { font-size:16px; fill:#555; font-family:'JP'; }
+  .sumlist { display:grid; gap:24px; }
+  .sumlist .card h3 { display:inline; margin-right:16px; }
+  /* cover */
+  #body:has(.cover) { justify-content:flex-start; }
+  .cover { position:absolute; inset:-110px 0 0 0; display:flex; flex-direction:column; justify-content:center; padding-left:40px; }
+  .cover-kicker { font-size:32px; color:var(--muted); }
+  .cover-title { font-size:84px; font-weight:normal; margin:18px 0 10px; }
+  .cover-sub { font-size:50px; }
+  .cover-meta { font-size:30px; color:var(--muted); margin-top:48px; line-height:1.6; }
+  /* timeline */
+  .timeline { position:relative; height:200px; margin-top:20px; }
+  .tl-line { position:absolute; top:30px; left:2%; right:2%; height:4px; background:#999; }
+  .tl-item { position:absolute; top:12px; width:18%; text-align:center; transform:translateX(-10%); font-size:28px; line-height:1.4; }
+  .tl-dot { width:34px; height:34px; border-radius:50%; background:#999; margin:0 auto 12px; }
+  .tl-item.early .tl-dot { background:var(--early); } .tl-item.late .tl-dot { background:var(--late); }
+  .tl-item.focus .tl-dot { background:#fff; border:6px solid var(--ink); box-sizing:border-box; }
+</style>
+</head>
+<body>
+<div id="frame">
+  <div id="progress"></div>
+  <div id="head"><div id="tag"></div><div id="title"></div></div>
+  <div id="body"></div>
+  <div id="sub"><div id="subtext"></div></div>
+</div>
+<script>
+let current = -1;
+async function show(sceneIdx, step, subtitle, progress) {
+  const sc = SCENES[sceneIdx];
+  if (sceneIdx !== current) {
+    document.getElementById('tag').textContent = sc.tag;
+    document.getElementById('title').textContent = sc.title;
+    const body = document.getElementById('body');
+    body.innerHTML = sc.body;
+    renderMathInElement(body, {
+      delimiters: [{left:'$$', right:'$$', display:true}, {left:'$', right:'$', display:false}],
+      trust: true, strict: false, throwOnError: true,
+    });
+    await Promise.all([...body.querySelectorAll('img')].map(i => i.complete ? null : new Promise(r => { i.onload = r; i.onerror = r; })));
+    current = sceneIdx;
+  }
+  document.querySelectorAll('#body [data-s]').forEach(el => {
+    const s = parseInt(el.dataset.s, 10);
+    el.classList.toggle('hide', s > step);
+    el.classList.toggle('now', s === step && sc.steps.length > 1);
+  });
+  // a highlighted parent already marks its children
+  document.querySelectorAll('#body .now .now').forEach(el => el.classList.remove('now'));
+  document.getElementById('progress').style.width = (progress * 100).toFixed(2) + '%';
+  const st = document.getElementById('subtext');
+  st.textContent = subtitle;
+  st.style.fontSize = '36px';
+  for (let fs = 36; st.scrollHeight > 160 && fs > 24; fs -= 2) st.style.fontSize = fs + 'px';
+  await document.fonts.ready;
+  const body = document.getElementById('body');
+  return { overflow: body.scrollHeight > body.clientHeight + 2 || body.scrollWidth > body.clientWidth + 2 };
+}
+</script>
+</body>
+</html>
