@@ -222,7 +222,7 @@ SCENES = [
         chapter="2 モデル", title="企業は、二種類を何人ずつ採用するか選ぶ",
         steps=[
             dict(html=r"""
-<div class="eq">$$\max_{H_P,\,H_N\ge 0}\ \Pi=\underbrace{\htmlClass{hl2}{\frac{B}{\beta}Z^{\beta}}}_{\text{収入}}-\underbrace{\htmlClass{hl3}{c_PH_P-c_NH_N}}_{\text{費用}}$$</div>""",
+<div class="eq">$$\max_{H_P,\,H_N\ge 0}\ \Pi=\underbrace{\htmlClass{hl1}{\frac{B}{\beta}Z^{\beta}}}_{\text{収入}}-\underbrace{\htmlClass{hl2}{(c_PH_P+c_NH_N)}}_{\text{費用}}$$</div>""",
                  lines=["ここからがモデルです。新しい売場を作る企業が、パートを何人、パート以外を何人採るかを決める、と考えます。",
                         "採用人数をH_P、H_Nと書きます。既存の従業員はいない、という強い単純化を置いています。"]),
             dict(html=S(1, r"""<div class="exp" data-hl="1">$Z$：二種類の人を組み合わせて生むサービス量　／　$0<\beta<1$：$Z$ を増やすほど追加収入は小さくなる</div>"""),
