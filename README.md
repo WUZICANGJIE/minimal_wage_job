@@ -8,11 +8,12 @@
 - [2026-10-21/](2026-10-21/README.md)：选题发表，含日文 slides、PDF 和 HTML。
 - [data/](data/README.md)：ハローワーク求人数与地域別最低賃金的原始数据。
 - [2026-10-28/](2026-10-28/README.md)：第二回已发表的slides与讲稿原件、逐页Markdown参考版，以及記述統計notebook（日文，可在Colab运行）。
-- [2026-11-04/](2026-11-04/02-composition/README.md)：課題3，选用构成版；本周讲模型、假说与统计方法，不展示数值计算。
-- [2026-11-11/](2026-11-11/02-composition/README.md)：課題4，承接本周方法；模型数值例、实际计算、结果解释及分析文件。
-- [archive/](archive/README.md)：超出当时计划、暂时保留的分析。
+- [2026-11-04/](2026-11-04/README.md)：課題3，当前15页发表稿、讲稿与模型和统计方法说明。
+- [2026-11-11/](2026-11-11/README.md)：課題4，当前月度DID分析、结果与下周准备事项。
+- [archive/](archive/README.md)：旧两期DID稿、模型数值例、配套视频及早期试算。
+- [scripts/](scripts/README.md)：讲稿提取与交付检查脚本。
 
-以后每次课新建 `YYYY-MM-DD/` 文件夹；共用资料统一放在 `materials/`，数据放在 `data/`。
+以后每次课新建 `YYYY-MM-DD/` 文件夹，当前发表材料直接放在日期目录；分析代码与输出放在该日期的 `analysis/`。被替代的方案移入 `archive/`，共用文献放在 `materials/`，原始数据放在 `data/`。
 
 ## 第一次使用
 
