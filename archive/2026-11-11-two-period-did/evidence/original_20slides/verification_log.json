@@ -1,0 +1,464 @@
+{
+  "checks": [
+    {
+      "name": "analysis.py and all original CSV hashes unchanged",
+      "ok": true,
+      "detail": "13"
+    },
+    {
+      "name": "unit tests",
+      "ok": true,
+      "detail": "OK"
+    },
+    {
+      "name": "raw hash estat_shokugyo_t12_shinki_kyujin.xlsx",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "raw hash mhlw_saitei_chingin_kaitei.xlsx",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "47 prefectures x 164 months, no gaps, sums consistent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "policy 20/13/14",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all contrasts/intervals/p values 2025-09",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all group means 2025-09",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all contrasts/intervals/p values 2025-07",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all group means 2025-07",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "teaching example matches existing model 0.2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "teaching example matches existing model 0.7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "existing executed notebook has outputs and no errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Markdown exactly 20 pages",
+      "ok": true,
+      "detail": "20"
+    },
+    {
+      "name": "one Japanese speaker note on every page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "speaker_notes.md has 20 page headings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no unsupported aligned[t] or Japanese math subscripts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no Chinese terms in visible body",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF exactly 20 pages",
+      "ok": true,
+      "detail": "20"
+    },
+    {
+      "name": "PDF contains −1.56",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contains −2.23",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contains パート以外",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contains 無処理の対照",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contains Acemoglu",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contains 規模縮小も排除できない",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no PDF missing-glyph markers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides.md present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides.pdf present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slides.html present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "speaker_notes.md present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "README.md present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "methods.md present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.md present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML 20 sections",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no vertical overflow",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no footer collision",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no math/figure/table outside slide",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "display math uniformly 30px",
+      "ok": true,
+      "detail": "17"
+    },
+    {
+      "name": "no KaTeX errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no literal dollar/TeX leakage in HTML",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all HTML images loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "local Japanese font loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "final protected hashes unchanged",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "passed": true,
+  "todo_pages": {
+    "1_data_comparison": [
+      3,
+      4,
+      13,
+      14,
+      15,
+      18
+    ],
+    "2_literature_increment": [
+      2
+    ],
+    "3_micro_model": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "4_hypothesis_test": [
+      12,
+      13,
+      14
+    ],
+    "5_results_theory_reality": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "6_conclusion_implications_limits": [
+      19
+    ]
+  },
+  "html_geometry": [
+    {
+      "page": 1,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": null,
+      "contentBottom": 505.0625,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 2,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 106.234375,
+      "contentBottom": 579.578125,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 3,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 90.015625,
+      "contentBottom": 595.796875,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 4,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 86.796875,
+      "contentBottom": 599.015625,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 5,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 106,
+      "contentBottom": 579.8125,
+      "beyond": [],
+      "mathSizes": [
+        "30px",
+        "30px"
+      ]
+    },
+    {
+      "page": 6,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 146.546875,
+      "contentBottom": 539.265625,
+      "beyond": [],
+      "mathSizes": [
+        "30px"
+      ]
+    },
+    {
+      "page": 7,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 111.59375,
+      "contentBottom": 574.21875,
+      "beyond": [],
+      "mathSizes": [
+        "30px",
+        "30px"
+      ]
+    },
+    {
+      "page": 8,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 104.984375,
+      "contentBottom": 580.828125,
+      "beyond": [],
+      "mathSizes": [
+        "30px",
+        "30px"
+      ]
+    },
+    {
+      "page": 9,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 86.265625,
+      "contentBottom": 599.546875,
+      "beyond": [],
+      "mathSizes": [
+        "30px",
+        "30px",
+        "30px"
+      ]
+    },
+    {
+      "page": 10,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": null,
+      "contentBottom": 641.6875,
+      "beyond": [],
+      "mathSizes": [
+        "30px",
+        "30px"
+      ]
+    },
+    {
+      "page": 11,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 88.5625,
+      "contentBottom": 597.25,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 12,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": null,
+      "contentBottom": 621.625,
+      "beyond": [],
+      "mathSizes": [
+        "30px"
+      ]
+    },
+    {
+      "page": 13,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": null,
+      "contentBottom": 635.640625,
+      "beyond": [],
+      "mathSizes": [
+        "30px",
+        "30px",
+        "30px"
+      ]
+    },
+    {
+      "page": 14,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 48.734375,
+      "contentBottom": 637.078125,
+      "beyond": [],
+      "mathSizes": [
+        "30px"
+      ]
+    },
+    {
+      "page": 15,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 25.78125,
+      "contentBottom": 660.03125,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 16,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 103.15625,
+      "contentBottom": 582.65625,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 17,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 70.828125,
+      "contentBottom": 614.984375,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 18,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": 88.109375,
+      "contentBottom": 597.703125,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 19,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": null,
+      "contentBottom": 608.3125,
+      "beyond": [],
+      "mathSizes": []
+    },
+    {
+      "page": 20,
+      "scrollHeight": 720,
+      "clientHeight": 720,
+      "footerGap": null,
+      "contentBottom": 541.90625,
+      "beyond": [],
+      "mathSizes": []
+    }
+  ]
+}

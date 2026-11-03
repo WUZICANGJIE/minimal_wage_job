@@ -1,0 +1,22 @@
+{
+  "figures": [
+    {
+      "file": "assets/monthly_did_all.png",
+      "width": 2376,
+      "height": 1548
+    },
+    {
+      "file": "assets/monthly_did_part.png",
+      "width": 2070,
+      "height": 1044
+    },
+    {
+      "file": "assets/monthly_trends.png",
+      "width": 2376,
+      "height": 1458
+    }
+  ],
+  "visual_review": "All three PNGs inspected: Japanese text, axes, error bars, reference month and transition-month shading legible; no clipping.",
+  "syntax_and_local_links": "passed",
+  "image_metadata_check": "PNG IHDR headers checked with the Python standard library"
+}

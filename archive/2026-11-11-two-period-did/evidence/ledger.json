@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://economics.mit.edu/sites/default/files/publications/Skills%2C%20Tasks%20and%20Technologies%20-%20Implications%20for%20.pdf",
+      "title": "Acemoglu and Autor (2011), Skills, Tasks and Technologies",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": 2,
+      "url": "https://ies.keio.ac.jp/upload/DPEN_7694_202203091453351.pdf",
+      "title": "Ohta and Komae (2022), DP2022-004",
+      "accessed": "2026-10-28"
+    }
+  ]
+}

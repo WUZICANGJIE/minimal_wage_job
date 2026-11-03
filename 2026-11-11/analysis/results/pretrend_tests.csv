@@ -1,0 +1,11 @@
+metric,baseline_end,reference_month,f_statistic,df_num,df_denom,p_value,n_obs,n_clusters,null_hypothesis
+part,2025-09,2025-09,1.1231796117877764,8,33,0.3737381446004285,340,34,All pre-period early-by-month coefficients equal zero
+nonpart,2025-09,2025-09,1.6216098121029656,8,33,0.15640552686699088,340,34,All pre-period early-by-month coefficients equal zero
+total,2025-09,2025-09,0.8340001536165322,8,33,0.5794894787731648,340,34,All pre-period early-by-month coefficients equal zero
+relative,2025-09,2025-09,2.071490366490814,8,33,0.06785859524732137,340,34,All pre-period early-by-month coefficients equal zero
+share_pp,2025-09,2025-09,2.053637952048111,8,33,0.07016458008430686,340,34,All pre-period early-by-month coefficients equal zero
+part,2025-07,2025-07,0.15310544198331946,6,33,0.9870896789976816,272,34,All pre-period early-by-month coefficients equal zero
+nonpart,2025-07,2025-07,1.760705083328518,6,33,0.13800195014802144,272,34,All pre-period early-by-month coefficients equal zero
+total,2025-07,2025-07,1.0090070910793185,6,33,0.43628527798335953,272,34,All pre-period early-by-month coefficients equal zero
+relative,2025-07,2025-07,0.735026038338145,6,33,0.6250195335235323,272,34,All pre-period early-by-month coefficients equal zero
+share_pp,2025-07,2025-07,0.7442736577030105,6,33,0.6180836544071071,272,34,All pre-period early-by-month coefficients equal zero

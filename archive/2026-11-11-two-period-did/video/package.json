@@ -1,0 +1,8 @@
+{
+  "name": "composition-explainer-video",
+  "private": true,
+  "description": "KaTeX for rendering formula frames of the explainer video",
+  "dependencies": {
+    "katex": "0.16.22"
+  }
+}

@@ -1,0 +1,8 @@
+# 解说视频构建用（与分析本体的 requirements.txt 分开）
+kokoro-onnx==0.6.1
+misaki[ja]==0.7.4
+pyopenjtalk-plus==0.4.1.post10
+unidic-lite==1.0.8
+soundfile==0.14.0
+numpy==2.5.4
+playwright==1.64.1

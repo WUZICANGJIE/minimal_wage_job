@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "raw_metric_values_checked": 2585,
+  "regression_input_values_checked": 1700,
+  "raw_months": 164,
+  "raw_prefectures": 47,
+  "policy_rows_matched": 47,
+  "monthly_observations": 340,
+  "prefecture_clusters": 34,
+  "independent_did_and_cluster_se_checks": 10,
+  "independent_pretrend_checks": 10,
+  "max_metric_error": 2.708944180085382e-13,
+  "max_cluster_se_error": 6.661338147750939e-15,
+  "max_pretrend_f_error": 4.8405723873656825e-14,
+  "preexisting_tracked_files_unchanged": null,
+  "raw_source_sha256": {
+    "data/raw/estat_shokugyo_t12_shinki_kyujin.xlsx": "8b7e5d360b2c6b887f819c35efef2d4096ce7d077e38e8c73ef2c56eed1438c5",
+    "data/raw/mhlw_saitei_chingin_kaitei.xlsx": "5745e93632b6221aa44712d9bab1ff2d790d713ae5e1d5cca62c77c76d3d1986"
+  }
+}

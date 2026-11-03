@@ -1,0 +1,182 @@
+{
+  "scope": "current monthly DID methods and separately preserved two-period results",
+  "numerical_estimation_executed": false,
+  "checks": [
+    {
+      "name": "2026-11-04 Markdown page count",
+      "ok": true,
+      "detail": "15"
+    },
+    {
+      "name": "2026-11-04 one note per slide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 notes match source",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 Q&A separated and preserved in notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 local assets exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 HTML page count",
+      "ok": true,
+      "detail": "15"
+    },
+    {
+      "name": "2026-11-04 no KaTeX errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 PDF page count",
+      "ok": true,
+      "detail": "15"
+    },
+    {
+      "name": "2026-11-04 PDF Japanese text present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 PDF has no missing-glyph markers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 PDF has no literal TeX",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 Q&A kept off presentation pages",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 correct cover date",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 no empirical results or numerical illustration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 model and monthly fixed-effects regression present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 monthly observations and fixed comparison window",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 brief parallel-trends assumption on page 14",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 detailed pretrend material moved to next week",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-04 ends with references without supplemental slide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 Markdown page count",
+      "ok": true,
+      "detail": "13"
+    },
+    {
+      "name": "2026-11-11 one note per slide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 notes match source",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 Q&A separated and preserved in notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 local assets exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 HTML page count",
+      "ok": true,
+      "detail": "13"
+    },
+    {
+      "name": "2026-11-11 no KaTeX errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 PDF page count",
+      "ok": true,
+      "detail": "13"
+    },
+    {
+      "name": "2026-11-11 PDF Japanese text present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 PDF has no missing-glyph markers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 PDF has no literal TeX",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 Q&A kept off presentation pages",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 correct cover date",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 legacy two-period regression preserved separately",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2026-11-11 deferred results retained",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "analysis, notebook, CSVs, original figures, video and raw data unchanged",
+      "ok": true,
+      "detail": "22 files"
+    }
+  ],
+  "passed": true
+}
